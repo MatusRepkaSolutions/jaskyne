@@ -134,7 +134,7 @@ body{
 }
 
 /* click effect */
-.index-button:active .index-button-img{
+.index-button:active{
     transform: scale(0.8);
 }
 
