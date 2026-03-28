@@ -10,3 +10,44 @@ body{
     flex-direction: column;
     overflow: hidden;
 }
+
+/* language switch buttons */
+
+.map-lang-switches{
+    position: absolute;
+    top: 3vh;
+    right: 3vw;
+    display: flex;
+    gap: 1vw;
+    z-index: 20;
+}
+
+.map-lang-btn{
+    width: 2.8vw;
+    height: 2.8vw;
+    min-width: 36px;
+    min-height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    opacity: 0.5;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.map-lang-btn:hover{
+    transform: scale(1.06);
+}
+
+.map-lang-btn.is-active{
+    opacity: 1;
+}
+
+.map-lang-btn img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

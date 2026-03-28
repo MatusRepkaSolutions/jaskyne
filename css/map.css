@@ -10,31 +10,6 @@ body{
     box-sizing: border-box;
 }
 
-.map-lang-switches{
-    position: absolute;
-    top: 3vh;
-    right: 3vw;
-    display: flex;
-    gap: 1vw;
-}
-
-.map-lang-btn{
-    width: 2.8vw;
-    height: 2.8vw;
-    min-width: 36px;
-    min-height: 36px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: block;
-}
-
-.map-lang-btn img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
 .map-title{
     text-align: center;
     font-size: 6vh;
@@ -47,19 +22,42 @@ body{
     display: flex;
     align-items: center;
     gap: 4vw;
-    margin-top: 10vh;
     margin: 10vh auto;
+    justify-content: center;
 }
 
 .map-left,
 .map-right{
-    width: 48%;
+    width: 40%;
+}
+
+.map-left{
+    position: relative;
 }
 
 .map-image{
     width: 100%;
     height: auto;
     display: block;
+}
+
+.map-text-svk,
+.map-text-hun{
+    position: absolute;
+    color: #2B241E;
+    font-size: 2.1vh;
+    letter-spacing: 0.08em;
+}
+
+/* adjust these as needed */
+.map-text-svk{
+    top: 48%;
+    left: 34%;
+}
+
+.map-text-hun{
+    top: 79%;
+    left: 50%;
 }
 
 .map-right{
@@ -71,7 +69,7 @@ body{
 .map-paragraph{
     display: block;
     color: rgba(237, 227, 211, 0.65);
-    font-size: 2vh;
+    font-size: 2.5vh;
     line-height: 1.6;
 }
 
@@ -89,45 +87,109 @@ body{
     min-width: 14vw;
     padding: 1.1vh 1.8vw;
     border-radius: 999px;
-    background-color: rgba(255,255,255,0.2);
+    background-color: #4F4B45;
     color: #D5AB68;
     text-decoration: none;
     font-weight: 700;
     font-size: 1.2vw;
 }
 
-@media (max-width: 1050px){
-    .map-title{
-        font-size: 2.5rem;
-    }
+/* animations */
 
-    .map-content{
-        flex-direction: column;
-        margin-top: 6vh;
-    }
+.map-animate-title{
+    opacity: 0;
+    transform: translateY(4vh);
+    animation: mapTitleReveal 0.9s ease-out forwards;
+}
 
-    .map-left,
-    .map-right{
-        width: 100%;
-    }
+.map-animate-map{
+    opacity: 0;
+    animation: mapFadeIn 1s ease-out forwards;
+    animation-delay: 0.35s;
+}
 
-    .map-paragraph{
-        font-size: 1rem;
-    }
+.map-animate-label{
+    opacity: 0;
+    animation: mapLabelFade 0.8s ease-out forwards;
+    animation-delay: 0.9s;
+}
 
-    .map-bottom-buttons{
-        flex-direction: column;
-        align-items: center;
-    }
+.map-animate-text{
+    opacity: 0;
+    transform: translateY(3vh);
+    animation: mapTextReveal 0.9s ease-out forwards;
+}
 
-    .map-nav-btn{
-        width: 100%;
-        max-width: 420px;
-        font-size: 1rem;
-    }
+.map-animate-text:nth-child(1){
+    animation-delay: 0.55s;
+}
 
-    .map-lang-btn{
-        width: 42px;
-        height: 42px;
+.map-animate-text:nth-child(2){
+    animation-delay: 0.8s;
+}
+
+.map-animate-text:nth-child(3){
+    animation-delay: 1.05s;
+}
+
+.map-bottom-buttons .map-nav-btn{
+    opacity: 0;
+    transform: translateY(2vh);
+    animation: mapButtonsReveal 0.8s ease-out forwards;
+    animation-delay: 1.3s;
+}
+
+.map-bottom-buttons .map-nav-btn:nth-child(2){
+    animation-delay: 1.45s;
+}
+
+@keyframes mapTitleReveal{
+    from{
+        opacity: 0;
+        transform: translateY(4vh);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes mapFadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes mapLabelFade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes mapTextReveal{
+    from{
+        opacity: 0;
+        transform: translateY(3vh);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes mapButtonsReveal{
+    from{
+        opacity: 0;
+        transform: translateY(2vh);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
     }
 }

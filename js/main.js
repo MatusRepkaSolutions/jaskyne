@@ -3,17 +3,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     const defaultLanguage = "svk";
     const cookieName = "lang";
 
-    function getUrlLanguage() {
-        const params = new URLSearchParams(window.location.search);
-        const lang = params.get("lang");
-
-        if (lang && supportedLanguages.includes(lang)) {
-            return lang;
-        }
-
-        return null;
-    }
-
     function setCookie(name, value, days = 365) {
         const date = new Date();
         date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
@@ -36,13 +25,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     function getCurrentLanguage() {
-        const urlLanguage = getUrlLanguage();
-        if (urlLanguage) {
-            setCookie(cookieName, urlLanguage);
-            return urlLanguage;
-        }
-
         const cookieLanguage = getCookie(cookieName);
+
         if (cookieLanguage && supportedLanguages.includes(cookieLanguage)) {
             return cookieLanguage;
         }
@@ -67,33 +51,55 @@ document.addEventListener("DOMContentLoaded", async () => {
         elements.forEach((element) => {
             const key = element.dataset.txt;
 
-            if (
-                translations[key] &&
-                translations[key][lang] !== undefined
-            ) {
+            if (translations[key] && translations[key][lang] !== undefined) {
                 element.textContent = translations[key][lang];
             }
         });
     }
 
-    function updateLanguageLinks(lang) {
-        const languageLinks = document.querySelectorAll("[data-lang-switch]");
+    function updateLanguageButtons(lang) {
+        const buttons = document.querySelectorAll("[data-lang-switch]");
 
-        languageLinks.forEach((link) => {
-            const targetLang = link.dataset.langSwitch;
-            const url = new URL(link.getAttribute("href"), window.location.origin);
+        buttons.forEach((button) => {
+            if (button.dataset.langSwitch === lang) {
+                button.classList.add("is-active");
+            } else {
+                button.classList.remove("is-active");
+            }
+        });
+    }
 
-            url.searchParams.set("lang", targetLang);
-            link.setAttribute("href", url.pathname + url.search);
+    function bindLanguageSwitching(translations) {
+        const buttons = document.querySelectorAll("[data-lang-switch]");
+
+        buttons.forEach((button) => {
+            button.addEventListener("click", (event) => {
+                event.preventDefault();
+
+                const selectedLanguage = button.dataset.langSwitch;
+
+                if (!supportedLanguages.includes(selectedLanguage)) {
+                    return;
+                }
+
+                setCookie(cookieName, selectedLanguage);
+                applyTranslations(translations, selectedLanguage);
+                updateLanguageButtons(selectedLanguage);
+
+                document.documentElement.setAttribute("lang", selectedLanguage);
+                document.body.setAttribute("data-current-lang", selectedLanguage);
+                window.appLanguage = selectedLanguage;
+            });
         });
     }
 
     try {
-        const currentLanguage = getCurrentLanguage();
         const translations = await loadTranslations();
+        const currentLanguage = getCurrentLanguage();
 
         applyTranslations(translations, currentLanguage);
-        updateLanguageLinks(currentLanguage);
+        updateLanguageButtons(currentLanguage);
+        bindLanguageSwitching(translations);
 
         document.documentElement.setAttribute("lang", currentLanguage);
         document.body.setAttribute("data-current-lang", currentLanguage);

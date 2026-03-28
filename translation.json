@@ -28,5 +28,16 @@
     "svk": "Jaskyne Aggteleckého krasu",
     "hun": "Aggteleki-karszt barlangjai",
     "eng": "Caves of the Aggtelek Karst"
+  },
+  "slovensko": {
+    "svk": "Slovensko",
+    "hun": "Szlovákia",
+    "eng": "Slovakia"
+  },
+  "madarsko": {
+    "svk": "Maďarsko",
+    "hun": "Magyarország",
+    "eng": "Hungary"
   }
+
 }

@@ -1,29 +1,29 @@
 document.addEventListener("DOMContentLoaded", () => {
     const buttons = document.querySelectorAll(".index-button");
+    const cookieName = "lang";
+
+    function setCookie(name, value, days = 365) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        document.cookie = `${name}=${value}; expires=${date.toUTCString()}; path=/; SameSite=Lax`;
+    }
 
     buttons.forEach((button) => {
-        button.addEventListener("animationend", (event) => {
-            if (event.animationName === "buttonReveal") {
-                button.classList.add("is-ready");
-            }
-        });
-
         button.addEventListener("click", (event) => {
             event.preventDefault();
 
             const targetUrl = button.getAttribute("href");
+            const selectedLanguage = button.dataset.setLang;
 
-            if (!targetUrl || button.classList.contains("is-animating")) {
+            if (!targetUrl || !selectedLanguage || button.classList.contains("is-animating")) {
                 return;
             }
 
             button.classList.add("is-animating");
-
-            if (!button.classList.contains("is-ready")) {
-                button.classList.add("is-ready");
-            }
-
+            button.classList.add("is-ready");
             button.classList.add("is-pressed");
+
+            setCookie(cookieName, selectedLanguage);
 
             setTimeout(() => {
                 button.classList.remove("is-pressed");
