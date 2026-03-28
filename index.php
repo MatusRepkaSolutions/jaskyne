@@ -6,10 +6,11 @@
 
     <!-- Global files -->
     <link rel="stylesheet" href="css/global.css">
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
 
     <!-- Local files -->
     <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
 
 </head>
 <body>
