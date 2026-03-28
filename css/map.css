@@ -45,10 +45,10 @@ body{
 
 .map-content{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 4vw;
     margin-top: 10vh;
+    margin: 10vh auto;
 }
 
 .map-left,
@@ -71,7 +71,7 @@ body{
 .map-paragraph{
     display: block;
     color: rgba(237, 227, 211, 0.65);
-    font-size: 3vh;
+    font-size: 2vh;
     line-height: 1.6;
 }
 
