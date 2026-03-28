@@ -28,17 +28,17 @@
 
 <div class="index-button-wrapper">
 
-    <button class="index-button">
+    <a href="mapa.php?lang=svk" class="index-button">
         <img class="index-button-img" src="img/index/slovakia.jpg">
-    </button>
+    </a>
 
-    <button class="index-button">
+    <a href="mapa.php?lang=hun" class="index-button">
         <img class="index-button-img" src="img/index/hungary.png">
-    </button>
+    </a>
 
-    <button class="index-button">
+    <a href="mapa.php?lang=eng" class="index-button">
         <img class="index-button-img" src="img/index/england.png">
-    </button>
+    </a>
 
 </div>
 
