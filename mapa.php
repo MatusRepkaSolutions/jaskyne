@@ -34,7 +34,7 @@
     <div class="map-content">
 
         <div class="map-left">
-            <img class="map-image" src="img/map/slovakia-map.png" alt="Mapa krasu">
+            <img class="map-image" src="img/mapa/mapa.png" alt="Mapa krasu">
         </div>
 
         <div class="map-right">
