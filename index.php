@@ -21,7 +21,7 @@
     <div class="index-text">
     A Szlovák és Aggteleki-karszt barlangjai
     </div>
-    <div class="index-text">
+    <div class="index-italic-text">
     Caves of the Slovak and Aggtelek Karst
     </div>
 </div>

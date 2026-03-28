@@ -1,3 +1,30 @@
 body{
     background-color: #C19E6A;
 }
+
+.index-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 15vh auto;
+    gap: 2vh;
+}
+
+.index-bold-text{
+    color: #EDE3D3;
+    font-weight: 900;
+    font-size: 5vh;
+    margin: 0 auto;
+}
+.index-italic-text{
+    color: #EDE3D3;
+    font-weight: 400;
+    font-size: 5vh;
+    font-style: italic;
+    margin: 0 auto;
+}
+.index-text{
+    color: #EDE3D3;
+    font-weight: 400;
+    font-size: 5vh;
+    margin: 0 auto;
+}
