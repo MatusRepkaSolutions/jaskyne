@@ -2,6 +2,8 @@ body{
     background-color: #C19E6A;
 }
 
+/*################## titles ################*/
+
 .index-text-wrapper{
     display: flex;
     flex-direction: column;
@@ -27,4 +29,28 @@ body{
     font-weight: 400;
     font-size: 6vh;
     margin: 0 auto;
+}
+
+/*################## unesco ################*/
+
+.index-unesco{
+    color: #EDE3D3;
+    font-weight: 400;
+    font-size: 3vh;
+    margin: auto;
+}
+
+/*################## buttons ################*/
+
+.index-button-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.index-button{
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    outline: 20% solid rgba(255, 231, 165, 0.1);
 }

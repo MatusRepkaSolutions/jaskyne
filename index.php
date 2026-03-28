@@ -28,6 +28,18 @@
 
 <div class="index-button-wrapper">
 
+    <button class="index-button">
+        <img class="index-button-img" src="img/index/slovakia.png">
+    </button>
+
+    <button class="index-button">
+        <img class="index-button-img" src="img/index/hungary.png">
+    </button>
+
+    <button class="index-button">
+        <img class="index-button-img" src="img/index/england.png">
+    </button>
+
 </div>
 
 <div class="index-unesco">
