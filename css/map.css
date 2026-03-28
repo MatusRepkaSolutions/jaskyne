@@ -41,10 +41,16 @@ body{
     display: block;
 }
 
-.map-text-svk,
-.map-text-hun{
+.map-text-svk{
     position: absolute;
     color: #2B241E;
+    font-size: 2.1vh;
+    letter-spacing: 0.08em;
+}
+
+.map-text-hun{
+    position: absolute;
+    color: #EDE3D3;
     font-size: 2.1vh;
     letter-spacing: 0.08em;
 }
