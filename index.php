@@ -30,15 +30,15 @@
 <div class="index-button-wrapper">
 
     <a href="mapa.php?lang=svk" class="index-button">
-        <img class="index-button-img" src="img/index/slovakia.jpg">
+        <img class="index-button-img" src="img/index/slovakia.jpg" alt="Slovak language">
     </a>
 
     <a href="mapa.php?lang=hun" class="index-button">
-        <img class="index-button-img" src="img/index/hungary.png">
+        <img class="index-button-img" src="img/index/hungary.png" alt="Hungarian language">
     </a>
 
     <a href="mapa.php?lang=eng" class="index-button">
-        <img class="index-button-img" src="img/index/england.png">
+        <img class="index-button-img" src="img/index/england.png" alt="English language">
     </a>
 
 </div>
