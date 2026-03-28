@@ -12,19 +12,19 @@ body{
 .index-bold-text{
     color: #EDE3D3;
     font-weight: 900;
-    font-size: 5vh;
+    font-size: 6vh;
     margin: 0 auto;
 }
 .index-italic-text{
     color: #EDE3D3;
     font-weight: 400;
-    font-size: 5vh;
+    font-size: 6vh;
     font-style: italic;
     margin: 0 auto;
 }
 .index-text{
     color: #EDE3D3;
     font-weight: 400;
-    font-size: 5vh;
+    font-size: 6vh;
     margin: 0 auto;
 }
