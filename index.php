@@ -29,7 +29,7 @@
 <div class="index-button-wrapper">
 
     <button class="index-button">
-        <img class="index-button-img" src="img/index/slovakia.png">
+        <img class="index-button-img" src="img/index/slovakia.jpg">
     </button>
 
     <button class="index-button">
