@@ -53,10 +53,15 @@ body{
     display: flex;
     border-radius: 50%;
     overflow: hidden;
-    outline: 20% solid rgba(255, 231, 165, 0.1);
+    align-items: center;
+    border: none;
+    justify-content: center;
+    outline: 1rem solid rgba(255, 231, 165, 0.1);
+    height: 9vh;
+    width: 9vh;
 }
 
 .index-button-img{
-    height: 6vh;
-    width: auto;
+    height: 9.2vh;
+    width: 9.2vh;
 }
