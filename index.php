@@ -1,1 +1,38 @@
-hello world 1234
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Jaskyne</title>
+
+    <!-- Global files -->
+    <link rel="stylesheet" href="css/global.css">
+    <script src="main.js"></script>
+
+    <!-- Local files -->
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+
+<div class="index-text-wrapper">
+    <div class="index-bold-text">
+    Jaskyne Slovenského a Aggteleckého krasu
+    </div>
+    <div class="index-text">
+    A Szlovák és Aggteleki-karszt barlangjai
+    </div>
+    <div class="index-text">
+    Caves of the Slovak and Aggtelek Karst
+    </div>
+</div>
+
+<div class="index-button-wrapper">
+
+</div>
+
+<div class="index-unesco">
+    UNESCO 
+</div>
+
+</body>
+</html>
