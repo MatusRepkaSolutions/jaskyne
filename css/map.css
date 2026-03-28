@@ -1,0 +1,133 @@
+body{
+    background-color: #1E1915;
+    color: #E0B46E;
+}
+
+.map-page{
+    position: relative;
+    min-height: 100vh;
+    padding: 4vh 6vw;
+    box-sizing: border-box;
+}
+
+.map-lang-switches{
+    position: absolute;
+    top: 3vh;
+    right: 3vw;
+    display: flex;
+    gap: 1vw;
+}
+
+.map-lang-btn{
+    width: 2.8vw;
+    height: 2.8vw;
+    min-width: 36px;
+    min-height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+}
+
+.map-lang-btn img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.map-title{
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 900;
+    color: #D5AB68;
+    margin-top: 8vh;
+}
+
+.map-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+    margin-top: 10vh;
+}
+
+.map-left,
+.map-right{
+    width: 48%;
+}
+
+.map-image{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.map-right{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.map-paragraph{
+    display: block;
+    color: rgba(237, 227, 211, 0.65);
+    font-size: 1.6vw;
+    line-height: 1.6;
+}
+
+.map-bottom-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 6vh;
+}
+
+.map-nav-btn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 14vw;
+    padding: 1.1vh 1.8vw;
+    border-radius: 999px;
+    background-color: rgba(255,255,255,0.2);
+    color: #D5AB68;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2vw;
+}
+
+@media (max-width: 1050px){
+    .map-title{
+        font-size: 2.5rem;
+    }
+
+    .map-content{
+        flex-direction: column;
+        margin-top: 6vh;
+    }
+
+    .map-left,
+    .map-right{
+        width: 100%;
+    }
+
+    .map-paragraph{
+        font-size: 1rem;
+    }
+
+    .map-bottom-buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .map-nav-btn{
+        width: 100%;
+        max-width: 420px;
+        font-size: 1rem;
+    }
+
+    .map-lang-btn{
+        width: 42px;
+        height: 42px;
+    }
+}
