@@ -46,6 +46,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 5vw;
+    margin: auto;
 }
 
 .index-button{
