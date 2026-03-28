@@ -54,3 +54,8 @@ body{
     overflow: hidden;
     outline: 20% solid rgba(255, 231, 165, 0.1);
 }
+
+.index-button-img{
+    height: 6vh;
+    width: auto;
+}
