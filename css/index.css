@@ -73,6 +73,7 @@ body{
     background: transparent;
     cursor: pointer;
     outline: 1rem solid rgba(255, 231, 165, 0.1);
+    -webkit-tap-highlight-color: transparent;
 
     height: 9vh;
     width: 9vh;
@@ -80,9 +81,6 @@ body{
     opacity: 0;
     transform: translateX(-80px) scale(0.8);
     animation: buttonReveal 0.9s ease-out forwards;
-
-    transition: transform 0.14s ease;
-    will-change: transform;
 }
 
 .index-button:nth-child(1){
@@ -97,7 +95,15 @@ body{
     animation-delay: 1.3s;
 }
 
-.index-button.is-pressed{
+/* final resting state after intro animation is finished */
+.index-button.is-ready{
+    opacity: 1;
+    transform: translateX(0) scale(1);
+    transition: transform 0.12s ease;
+    animation: none;
+}
+
+.index-button.is-ready.is-pressed{
     transform: translateX(0) scale(0.8);
 }
 
