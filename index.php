@@ -6,7 +6,7 @@
 
     <!-- Global files -->
     <link rel="stylesheet" href="css/global.css">
-    <script src="main.js" defer></script>
+    <script src="js/main.js" defer></script>
 
     <!-- Local files -->
     <link rel="stylesheet" href="css/index.css">
