@@ -13,7 +13,7 @@
 
 <div class="map-page">
 
-    <?php include language-buttons.php ?>
+    <?php include 'language-buttons.php'; ?>
 
     <div class="map-title map-animate-title" data-txt="mapTitle">
         Jaskyne Slovenského a Aggteleckého krasu
