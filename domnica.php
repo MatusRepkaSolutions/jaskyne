@@ -37,6 +37,8 @@
 
     <div class="cave-page-overlay"></div>
 
+    <h1 class="cave-title" data-txt="caveTitle">Domica</h1>
+
     <div class="cave-page-content">
 
         <div class="cave-side-info">
@@ -67,7 +69,6 @@
         </div>
 
         <div class="cave-main">
-            <h1 class="cave-title" data-txt="caveTitle">Domica</h1>
 
             <div class="cave-text-content cave-tab-content active" id="tab-text">
                 <p data-txt="paragraph1">
