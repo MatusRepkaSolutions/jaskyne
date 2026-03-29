@@ -3,13 +3,6 @@ body{
     color: #E0B46E;
 }
 
-.page{
-    position: relative;
-    min-height: 100vh;
-    padding: 4vh 6vw;
-    box-sizing: border-box;
-}
-
 .map-title{
     text-align: center;
     font-size: 6vh;
