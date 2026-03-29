@@ -38,10 +38,33 @@
 
     <a href="#" class="map2-button pos1">
         <div class="map2-button-marker"></div>
-        <div class="map2-button-text" data-txt="ochotnicka">Ochtinská aragnitová jaskyňa</div>
+        <div class="map2-button-text" data-txt="ochotnicka">Ochtinská aragonitová jaskyňa</div>
     </a>
 
+    <a href="#" class="map2-button pos2">
+        <div class="map2-button-marker"></div>
+        <div class="map2-button-text" data-txt="domica">Domica</div>
+    </a>
 
+    <a href="#" class="map2-button pos3">
+        <div class="map2-button-marker"></div>
+        <div class="map2-button-text" data-txt="gombasecka">Gombasecká jaskyňa</div>
+    </a>
+
+    <a href="#" class="map2-button pos4">
+        <div class="map2-button-marker"></div>
+        <div class="map2-button-text" data-txt="jasovska">Jasovská jaskyňa</div>
+    </a>
+
+    <a href="#" class="map2-button pos5">
+        <div class="map2-button-marker"></div>
+        <div class="map2-button-text" data-txt="krasnohorska">Krásnohorská jaskyňa</div>
+    </a>
+
+    <a href="#" class="map2-button pos6">
+        <div class="map2-button-marker"></div>
+        <div class="map2-button-text" data-txt="silicka">Silická ľadnica</div>
+    </a>
 
 </div>
 

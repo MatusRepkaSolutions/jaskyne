@@ -16,6 +16,7 @@ body{
     height: auto;
     width: 100%;
     margin: auto auto 0 auto;
+    position: relative;
 }
 
 .kras-mapa-img{
@@ -29,7 +30,8 @@ body{
     position: absolute;
     flex-direction: column;
     gap: 1vh;
-    max-width: 5vw;
+    max-width: 8vw;
+    text-decoration: none;
 }
 
 .map2-button-marker{
@@ -48,7 +50,33 @@ body{
     text-align: center;
 }
 
+/* Adjust these to match your image exactly */
 .pos1{
     left: 8vw;
     top: 34vh;
+}
+
+.pos2{
+    left: 18vw;
+    top: 43vh;
+}
+
+.pos3{
+    left: 23vw;
+    top: 36vh;
+}
+
+.pos4{
+    left: 12vw;
+    top: 24vh;
+}
+
+.pos5{
+    left: 30vw;
+    top: 28vh;
+}
+
+.pos6{
+    left: 16vw;
+    top: 18vh;
 }

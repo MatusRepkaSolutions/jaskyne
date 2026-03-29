@@ -38,6 +38,47 @@
     "svk": "Maďarsko",
     "hun": "Magyarország",
     "eng": "Hungary"
+  },
+  "ochotnicka": {
+    "svk": "Ochtinská aragonitová jaskyňa",
+    "hun": "Ochtinai aragonitbarlang",
+    "eng": "Ochtinská Aragonite Cave"
+  },
+  "domica": {
+    "svk": "Domica",
+    "hun": "Domica-barlang",
+    "eng": "Domica Cave"
+  },
+  "gombasecka": {
+    "svk": "Gombasecká jaskyňa",
+    "hun": "Gombaszögi-barlang",
+    "eng": "Gombasek Cave"
+  },
+  "jasovska": {
+    "svk": "Jasovská jaskyňa",
+    "hun": "Jászói-barlang",
+    "eng": "Jasov Cave"
+  },
+  "krasnohorska": {
+    "svk": "Krásnohorská jaskyňa",
+    "hun": "Krásnohorská-barlang",
+    "eng": "Krásnohorská Cave"
+  },
+  "silicka": {
+    "svk": "Silická ľadnica",
+    "hun": "Szilicsei-jégbarlang",
+    "eng": "Silica Ice Cave"
+  },
+  "mapTitle": {
+    "svk": "Jaskyne Slovenského krasu",
+    "hun": "A Szlovák-karszt barlangjai",
+    "eng": "Caves of Slovak Karst"
+  },
+  "btnAggtelekKarst": {
+    "svk": "Jaskyne Aggteleckého krasu",
+    "hun": "Az Aggteleki-karszt barlangjai",
+    "eng": "Caves of Aggtelek Karst"
   }
+
 
 }
