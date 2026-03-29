@@ -42,7 +42,7 @@ body{
     -webkit-tap-highlight-color: transparent;
 }
 
-.map-nav-btn{
+.global-nav-btn{
     display: inline-flex;
     justify-content: center;
     align-items: center;
