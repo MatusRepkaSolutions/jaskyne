@@ -62,9 +62,12 @@ body{
 }
 
 .pos3{
-    left: 23vw;
+    left: 13vw;
     top: 60vh;
     flex-direction: row;
+    gap: 0vw;
+    max-width: 13vw;
+    align-items: anchor-center;
 }
 
 .pos4{
