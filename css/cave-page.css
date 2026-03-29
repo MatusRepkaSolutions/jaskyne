@@ -116,6 +116,13 @@ body{
     flex-wrap: wrap;
 }
 
+.cave-button-wrappers{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    z-index: 20;
+}
+
 .cave-tab-btn{
     min-width: 170px;
     padding: 1.35vh 2vw;
