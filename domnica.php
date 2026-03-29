@@ -106,8 +106,9 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="cave-tabs">
+    <div class="cave-button-wrappers">
                 <button class="cave-tab-btn active" type="button" data-tab-target="text" data-txt="tabText">
                     Text
                 </button>
@@ -117,8 +118,6 @@
                 <button class="cave-tab-btn" type="button" data-tab-target="video" data-txt="tabVideo">
                     Video
                 </button>
-        </div>
-
     </div>
 </div>
 
