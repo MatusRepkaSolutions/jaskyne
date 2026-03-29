@@ -116,7 +116,7 @@ body{
     flex-wrap: wrap;
 }
 
-.cave-button-wrappers{
+.cave-button-wrapper{
     width: auto;
     height: 2.8vw;
     margin: auto;
@@ -132,6 +132,7 @@ body{
     background-color: #4F4B45;
     color: #D5AB68;
     text-decoration: none;
+    border: none;
     font-weight: 700;
     font-size: 1.2vw;
 }
