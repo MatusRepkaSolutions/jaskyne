@@ -57,26 +57,29 @@ body{
 }
 
 .pos2{
-    left: 18vw;
-    top: 43vh;
+    left: 26vw;
+    top: 83vh;
 }
 
 .pos3{
     left: 23vw;
-    top: 36vh;
+    top: 60vh;
+    flex-direction: row;
 }
 
 .pos4{
-    left: 12vw;
-    top: 24vh;
+    left: 76vw;
+    top: 31vh;
+    max-width: fit-content;
 }
 
 .pos5{
-    left: 30vw;
-    top: 28vh;
+    left: 36vw;
+    top: 45vh;
 }
 
 .pos6{
-    left: 16vw;
-    top: 18vh;
+    left: 28vw;
+    top: 64vh;
+    max-width: fit-content;
 }

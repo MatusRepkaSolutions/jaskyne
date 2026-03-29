@@ -47,8 +47,8 @@
     </a>
 
     <a href="#" class="map2-button pos3">
-        <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="gombasecka">Gombasecká jaskyňa</div>
+        <div class="map2-button-marker"></div>
     </a>
 
     <a href="#" class="map2-button pos4">
