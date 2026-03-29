@@ -117,7 +117,7 @@ body{
 }
 
 .cave-button-wrappers{
-    width: auto;
+    width: fit-content;
     height: 2.8vw;
     margin: auto;
 }
