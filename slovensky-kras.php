@@ -41,7 +41,7 @@
         <div class="map2-button-text" data-txt="ochotnicka">Ochtinská aragonitová jaskyňa</div>
     </a>
 
-    <a href="#" class="map2-button pos2">
+    <a href="domnica.php" class="map2-button pos2">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="domica">Domica</div>
     </a>
