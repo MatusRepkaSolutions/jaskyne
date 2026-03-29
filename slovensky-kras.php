@@ -36,7 +36,7 @@
         <img src="img/kras-mapa/mapa.png" class="kras-mapa-img">
     </div>
 
-    <a class="map2-button pos1">
+    <a href="#" class="map2-button pos1">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="ochotnicka">Ochtinská aragnitová jaskyňa</div>
     </a>

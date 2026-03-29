@@ -38,6 +38,7 @@ body{
     margin: 0 auto;
     background-color: #C19E6A;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .map2-button-text{
