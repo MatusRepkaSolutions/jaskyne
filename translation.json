@@ -78,7 +78,111 @@
     "svk": "Jaskyne Aggteleckého krasu",
     "hun": "Az Aggteleki-karszt barlangjai",
     "eng": "Caves of Aggtelek Karst"
+  },
+  "btnSlovakKarst": {
+    "svk": "Jaskyne Slovenského krasu",
+    "hun": "A Szlovák-karszt barlangjai",
+    "eng": "Caves of Slovak Karst"
+  },
+  "btnAggtelekKarst": {
+    "svk": "Jaskyne Aggteleckého krasu",
+    "hun": "Az Aggteleki-karszt barlangjai",
+    "eng": "Caves of Aggtelek Karst"
+  },
+  "caveTitle": {
+    "svk": "Domica",
+    "hun": "Domica",
+    "eng": "Domica"
+  },
+  "infoLengthLabel": {
+    "svk": "Celková dĺžka jaskyne",
+    "hun": "A barlang teljes hossza",
+    "eng": "Total cave length"
+  },
+  "infoLengthValue": {
+    "svk": "5 368 m",
+    "hun": "5 368 m",
+    "eng": "5,368 m"
+  },
+  "infoTempLabel": {
+    "svk": "Teplota vzduchu",
+    "hun": "A levegő hőmérséklete",
+    "eng": "Air temperature"
+  },
+  "infoTempValue": {
+    "svk": "10,2 – 11,4 °C",
+    "hun": "10,2 – 11,4 °C",
+    "eng": "10.2 – 11.4 °C"
+  },
+  "infoBoatLabel": {
+    "svk": "Dĺžka plavby po riečke Styx",
+    "hun": "A Styx föld alatti patakon tett csónakázás hossza",
+    "eng": "Boat ride length on the Styx stream"
+  },
+  "infoBoatValue": {
+    "svk": "150 m",
+    "hun": "150 m",
+    "eng": "150 m"
+  },
+  "infoSettlementLabel": {
+    "svk": "Osídlenie pravekým človekom",
+    "hun": "Őskori emberi megtelepedés",
+    "eng": "Prehistoric human settlement"
+  },
+  "infoSettlementValue": {
+    "svk": "pred 5 000 – 6 000 rokmi",
+    "hun": "5 000 – 6 000 évvel ezelőtt",
+    "eng": "5,000 – 6,000 years ago"
+  },
+  "infoBatsLabel": {
+    "svk": "Počet druhov netopierov",
+    "hun": "A denevérfajok száma",
+    "eng": "Number of bat species"
+  },
+  "infoBatsValue": {
+    "svk": "16",
+    "hun": "16",
+    "eng": "16"
+  },
+  "paragraph1": {
+    "svk": "Jeden z najrozsiahlejších a najvýznamnejších jaskynných systémov Slovenského krasu sa nachádza v južnej časti Silickej planiny, v blízkosti štátnej hranice s Maďarskom. Celková dĺžka Domice spolu s jaskyňou Baradla v Aggteleckom krase presahuje 30 km. Vytvorená bola v svetlých wettersteinských vápencoch eróznou činnosťou podzemného toku Styx a jeho prítokov.",
+    "hun": "A Szlovák-karszt egyik legkiterjedtebb és legjelentősebb barlangrendszere a Szilicei-fennsík déli részén, a magyar államhatár közelében található. A Domica-barlang teljes hossza az Aggteleki-karsztban található Baradla-barlanggal együtt meghaladja a 30 km-t. Világos wettersteini mészkőben alakult ki a Styx föld alatti vízfolyásának és mellékágainak eróziós tevékenysége révén.",
+    "eng": "One of the largest and most important cave systems of Slovak Karst is located in the southern part of the Silica Plateau, near the state border with Hungary. The total length of Domica together with the Baradla Cave in the Aggtelek Karst exceeds 30 km. It was formed in light Wetterstein limestones by the erosive activity of the underground Styx stream and its tributaries."
+  },
+  "paragraph2": {
+    "svk": "Domicu objavil Ján Majko v roku 1926, verejnosti je sprístupnená od roku 1932. Mimoriadnu kultúrnu hodnotu tejto jaskyne predstavujú početné archeologické nálezy a nástenné maľby z obdobia praveku, ktoré ostali po zavalení vstupného vchodu zakonzervované až do objavenia jaskyne. Ide o najbohatšie nálezisko predmetov z obdobia bukovohorskej kultúry na území Slovenska.",
+    "hun": "A Domicát Ján Majko fedezte fel 1926-ban, és 1932 óta látogatható a nagyközönség számára. Különleges kulturális értékét a számos őskori régészeti lelet és falfestmény adja, amelyek a bejárat beomlása után konzerválódtak egészen a barlang felfedezéséig. Ez a Bükk-kultúra emlékeinek leggazdagabb lelőhelye Szlovákia területén.",
+    "eng": "Domica was discovered by Ján Majko in 1926 and has been open to the public since 1932. The cave has exceptional cultural value thanks to numerous archaeological finds and prehistoric wall paintings, which remained preserved after the entrance collapsed until the cave was discovered. It is the richest site of artifacts of the Bükk culture in Slovakia."
+  },
+  "paragraph3": {
+    "svk": "Charakteristická je bohatou výzdobou s jedinečnými sintrovými kaskádami, štítmi a bubnami, veľkou početnosťou jazierok druhov živočíchov, zároveň je dôležitým zimoviskom 16 druhov netopierov. Ako jediná z jaskýň svetového dedičstva je zároveň Ramsarskou lokalitou – podzemnou mokraďou medzinárodného významu. Pre návštevníkov je raritou možnosť plavby v člnoch podzemným tokom Styx.",
+    "hun": "A barlangot gazdag cseppkődíszítés, egyedülálló cseppkőkaskádok, pajzsok és dobformák, valamint sok kis tó és változatos élővilág jellemzi, egyben 16 denevérfaj fontos telelőhelye. A világörökségi barlangok közül egyedüliként Ramsari terület is – nemzetközi jelentőségű föld alatti vizes élőhely. A látogatók számára különlegesség a Styx föld alatti ágán történő csónakázás lehetősége.",
+    "eng": "It is characterized by rich decoration with unique sinter cascades, shields and drum-shaped formations, numerous small lakes and diverse cave fauna, while also serving as an important wintering site for 16 bat species. As the only cave on the World Heritage list, it is also a Ramsar site — an underground wetland of international importance. A special attraction for visitors is the possibility of a boat ride on the underground Styx stream."
+  },
+  "tabText": {
+    "svk": "Text",
+    "hun": "Szöveg",
+    "eng": "Text"
+  },
+  "tabGallery": {
+    "svk": "Galéria",
+    "hun": "Galéria",
+    "eng": "Gallery"
+  },
+  "tabVideo": {
+    "svk": "Video",
+    "hun": "Videó",
+    "eng": "Video"
+  },
+  "galleryPlaceholder": {
+    "svk": "Galéria bude doplnená.",
+    "hun": "A galéria hamarosan elérhető lesz.",
+    "eng": "Gallery will be added soon."
+  },
+  "videoPlaceholder": {
+    "svk": "Video bude doplnené.",
+    "hun": "A videó hamarosan elérhető lesz.",
+    "eng": "Video will be added soon."
   }
-
 
 }

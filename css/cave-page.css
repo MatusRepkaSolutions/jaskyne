@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    background-color: #1E1915;
+    color: #EDE3D3;
+}
+
+.cave-page{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('../img/subpage-bg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cave-page-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(20, 14, 10, 0.62);
+    pointer-events: none;
+}
+
+.cave-page-content{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    gap: 4vw;
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 14vh 4vw 5vh 4vw;
+    box-sizing: border-box;
+}
+
+.cave-side-info{
+    width: 23%;
+    min-width: 250px;
+    padding-top: 8vh;
+}
+
+.cave-info-item{
+    padding: 1.8vh 0 1.8vh 0;
+    border-top: 1px solid rgba(213, 171, 104, 0.28);
+}
+
+.cave-info-item:last-child{
+    border-bottom: 1px solid rgba(213, 171, 104, 0.28);
+}
+
+.cave-info-label{
+    color: #C7A164;
+    font-size: 2.05vh;
+    line-height: 1.4;
+    margin-bottom: 1vh;
+}
+
+.cave-info-value{
+    color: #F0E7D9;
+    font-size: 3.2vh;
+    line-height: 1.25;
+    font-weight: 800;
+}
+
+.cave-main{
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cave-title{
+    margin: 0 0 4vh 0;
+    color: #F1E7D7;
+    font-size: 7vh;
+    font-weight: 900;
+    text-align: center;
+}
+
+.cave-tab-content{
+    width: 100%;
+    max-width: 900px;
+    display: none;
+}
+
+.cave-tab-content.active{
+    display: block;
+}
+
+.cave-text-content p{
+    margin: 0 0 3.2vh 0;
+    color: rgba(237, 227, 211, 0.68);
+    font-size: 3.05vh;
+    line-height: 1.42;
+    font-weight: 500;
+}
+
+.cave-placeholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38vh;
+    text-align: center;
+    color: rgba(237, 227, 211, 0.72);
+    font-size: 3vh;
+    border: 1px solid rgba(213, 171, 104, 0.22);
+    border-radius: 2vh;
+    background: rgba(255,255,255,0.03);
+}
+
+.cave-tabs{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 4vh;
+    flex-wrap: wrap;
+}
+
+.cave-tab-btn{
+    min-width: 170px;
+    padding: 1.35vh 2vw;
+    border: none;
+    border-radius: 999px;
+    background-color: rgba(237, 227, 211, 0.32);
+    color: #F5EEE3;
+    font-size: 2.5vh;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.cave-tab-btn:hover{
+    transform: translateY(-1px);
+    background-color: rgba(237, 227, 211, 0.42);
+}
+
+.cave-tab-btn.active{
+    background-color: #C9A466;
+    color: #FFF6E9;
+}
+
+/* optional spacing for existing top buttons/language buttons */
+.global-control-buttons{
+    position: absolute;
+    top: 2.2vh;
+    left: 1.2vw;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    gap: 0.8vw;
+}
+
