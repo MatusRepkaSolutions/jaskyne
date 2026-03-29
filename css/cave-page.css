@@ -117,10 +117,15 @@ body{
 }
 
 .cave-button-wrappers{
-    display: flex;
-    flex-direction: row;
-    gap: 1vw;
-    z-index: 20;
+    width: 2.8vw;
+    height: 2.8vw;
+    min-width: 36px;
+    min-height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .cave-tab-btn{
