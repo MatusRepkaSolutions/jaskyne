@@ -22,3 +22,32 @@ body{
     width: 100%;
     height: auto;
 }
+
+/*################## buttons ################*/
+.map2-button{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 1vh;
+    max-width: 5vw;
+}
+
+.map2-button-marker{
+    width: 1vw;
+    height: 1vw;
+    margin: 0 auto;
+    background-color: #C19E6A;
+    border-radius: 50%;
+}
+
+.map2-button-text{
+    font-size: 2vh;
+    color: #EDE3D3;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pos1{
+    left: 15vw;
+    top: 30vh;
+}
