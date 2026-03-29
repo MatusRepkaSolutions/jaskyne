@@ -1,5 +1,5 @@
 {
-  "mapTitle": {
+  "mapPageTitle": {
     "svk": "Jaskyne Slovenského a Aggteleckého krasu",
     "hun": "A Szlovák és Aggteleki-karszt barlangjai",
     "eng": "Caves of the Slovak and Aggtelek Karst"
@@ -68,26 +68,6 @@
     "svk": "Silická ľadnica",
     "hun": "Szilicsei-jégbarlang",
     "eng": "Silica Ice Cave"
-  },
-  "mapTitle": {
-    "svk": "Jaskyne Slovenského krasu",
-    "hun": "A Szlovák-karszt barlangjai",
-    "eng": "Caves of Slovak Karst"
-  },
-  "btnAggtelekKarst": {
-    "svk": "Jaskyne Aggteleckého krasu",
-    "hun": "Az Aggteleki-karszt barlangjai",
-    "eng": "Caves of Aggtelek Karst"
-  },
-  "btnSlovakKarst": {
-    "svk": "Jaskyne Slovenského krasu",
-    "hun": "A Szlovák-karszt barlangjai",
-    "eng": "Caves of Slovak Karst"
-  },
-  "btnAggtelekKarst": {
-    "svk": "Jaskyne Aggteleckého krasu",
-    "hun": "Az Aggteleki-karszt barlangjai",
-    "eng": "Caves of Aggtelek Karst"
   },
   "caveTitle": {
     "svk": "Domica",
@@ -184,5 +164,4 @@
     "hun": "A videó hamarosan elérhető lesz.",
     "eng": "Video will be added soon."
   }
-
 }
