@@ -11,6 +11,12 @@ body{
     margin-top: 8vh;
 }
 
+.map-animate-title{
+    opacity: 0;
+    transform: translateY(4vh);
+    animation: mapTitleReveal 0.9s ease-out forwards;
+}
+
 .kras-mapa{
     display: flex;
     height: auto;
@@ -41,6 +47,8 @@ body{
     background-color: #C19E6A;
     border-radius: 50%;
     cursor: pointer;
+    animation: mapFadeIn 1s ease-out forwards;
+    animation-delay: 1s;
 }
 
 .map2-button-text{
@@ -48,6 +56,8 @@ body{
     color: #EDE3D3;
     font-weight: 700;
     text-align: center;
+    animation: mapTextReveal 0.9s ease-out forwards;
+    animation-delay: 2.05s;
 }
 
 /* Adjust these to match your image exactly */
@@ -86,3 +96,37 @@ body{
     top: 64vh;
     max-width: fit-content;
 }
+
+/* animations */
+
+@keyframes mapTitleReveal{
+    from{
+        opacity: 0;
+        transform: translateY(4vh);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes mapFadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes mapTextReveal{
+    from{
+        opacity: 0;
+        transform: translateY(3vh);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
