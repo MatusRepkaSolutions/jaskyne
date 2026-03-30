@@ -19,7 +19,7 @@
         <a class="home-button" href="mapa.php">
             <img class="home-button-img" src="img/home-button.svg">
         </a>
-        <a href="aggtelek-kras.php" class="global-nav-btn map-animate-title" data-txt="btnAggtelekKarst">
+        <a href="aggtelek-kras.php" class="global-nav-btn" data-txt="btnAggtelekKarst">
             Jaskyne Aggteleckého krasu
         </a>
     </div>
