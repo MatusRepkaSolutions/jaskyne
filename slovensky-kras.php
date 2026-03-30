@@ -37,7 +37,7 @@
         " class="kras-mapa-img" alt="Mapa jaskýň Slovenského krasu">
     </div>
 
-    <a href="#" class="map2-button pos1" style="--i:0;">
+    <a href="ochtinska.php" class="map2-button pos1" style="--i:0;">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="ochotnicka">Ochtinská aragonitová jaskyňa</div>
     </a>
@@ -52,17 +52,17 @@
         <div class="map2-button-marker"></div>
     </a>
 
-    <a href="#" class="map2-button pos4" style="--i:5;">
+    <a href="jasovska.php" class="map2-button pos4" style="--i:5;">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="jasovska">Jasovská jaskyňa</div>
     </a>
 
-    <a href="#" class="map2-button pos5" style="--i:4;">
+    <a href="krasnohorska.php" class="map2-button pos5" style="--i:4;">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="krasnohorska">Krásnohorská jaskyňa</div>
     </a>
 
-    <a href="#" class="map2-button pos6" style="--i:3;">
+    <a href="silicka.php" class="map2-button pos6" style="--i:3;">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="silicka">Silická ľadnica</div>
     </a>

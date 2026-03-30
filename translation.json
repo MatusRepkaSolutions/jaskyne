@@ -233,6 +233,355 @@
     "svk": "Vyniká mimoriadnou farebnosťou výzdoby, jedinečné sú tenké biele sintrové brčká, ktoré dosahujú dĺžku až 3 m pri hrúbke len 2–3 mm. Unikátom je prítomnosť jaskynného živočícha, mnohonôžky rodu Typhloiulus sp., ktorá je najväčším pravým jaskynným živočíchom žijúcim v slovenských jaskyniach. Vďaka priaznivým účinkom jaskynnej klímy bola od roku 1968 ako prvá jaskyňa na území Slovenska využívaná pri liečbe chorôb dýchacích ciest, pri jaskyni fungovalo aj speleolaboratórium.",
     "hun": "A barlang rendkívüli színgazdagságú képződményeiről híres, különlegesek a vékony fehér szalmacseppkövek, amelyek hossza akár a 3 m-t is elérheti, miközben vastagságuk csupán 2–3 mm. Különlegessége a Typhloiulus nemzetséghez tartozó soklábú jelenléte is, amely a szlovákiai barlangok legnagyobb valódi barlangi állata. A barlangi klíma kedvező hatásai miatt 1968-tól ez volt Szlovákia első barlangja, amelyet légúti betegségek kezelésére használtak, és itt speleolaboratórium is működött.",
     "eng": "It stands out for the extraordinary colorfulness of its decoration; especially unique are the thin white soda-straw formations, reaching up to 3 m in length while being only 2–3 mm thick. Another rarity is the presence of the cave-dwelling millipede of the genus Typhloiulus, the largest true cave animal living in Slovak caves. Thanks to the beneficial effects of the cave climate, from 1968 it became the first cave in Slovakia used for the treatment of respiratory diseases, and a speleolaboratory also operated there."
+  },
+  "jasovskaPageTitle": {
+    "svk": "Jasovská jaskyňa",
+    "hun": "Jászói-barlang",
+    "eng": "Jasov Cave"
+  },
+  "jasovskaInfoLengthLabel": {
+    "svk": "Celková dĺžka jaskyne",
+    "hun": "A barlang teljes hossza",
+    "eng": "Total cave length"
+  },
+  "jasovskaInfoLengthValue": {
+    "svk": "2 811 m",
+    "hun": "2 811 m",
+    "eng": "2,811 m"
+  },
+  "jasovskaInfoTempLabel": {
+    "svk": "Teplota vzduchu",
+    "hun": "A levegő hőmérséklete",
+    "eng": "Air temperature"
+  },
+  "jasovskaInfoTempValue": {
+    "svk": "8,8 – 9,4 °C",
+    "hun": "8,8 – 9,4 °C",
+    "eng": "8.8 – 9.4 °C"
+  },
+  "jasovskaInfoDepthLabel": {
+    "svk": "Hĺbka (vertikálne rozpätie)",
+    "hun": "Mélység (függőleges kiterjedés)",
+    "eng": "Depth (vertical range)"
+  },
+  "jasovskaInfoDepthValue": {
+    "svk": "55 m",
+    "hun": "55 m",
+    "eng": "55 m"
+  },
+  "jasovskaInfoInscriptionLabel": {
+    "svk": "Najstarší nápis v jaskyniach SR",
+    "hun": "A legrégebbi felirat a szlovákiai barlangokban",
+    "eng": "Oldest inscription in Slovak caves"
+  },
+  "jasovskaInfoInscriptionValue": {
+    "svk": "z roku 1452",
+    "hun": "1452-ből",
+    "eng": "from the year 1452"
+  },
+  "jasovskaInfoBatsLabel": {
+    "svk": "Počet druhov netopierov",
+    "hun": "A denevérfajok száma",
+    "eng": "Number of bat species"
+  },
+  "jasovskaInfoBatsValue": {
+    "svk": "19",
+    "hun": "19",
+    "eng": "19"
+  },
+  "jasovskaParagraph1": {
+    "svk": "Rozsiahla viacúrovňová jaskyňa s bohatou kvapľovou výzdobou vytvorená v strednotriasových gutensteinských dolomitoch a svetlých steinalmských vápencoch a dolomitoch. Nachádza sa na okraji obce Jasov v severovýchodnej časti Národného parku Slovenský kras v masíve Jasovskej skaly.",
+    "hun": "Kiterjedt, többszintes barlang gazdag cseppkődíszítéssel, amely középső triász kori gutensteini dolomitokban, valamint világos steinalmi mészkövekben és dolomitokban alakult ki. Jászó község szélén található, a Szlovák-karszt Nemzeti Park északkeleti részén, a Jászói-szikla tömbjében.",
+    "eng": "An extensive multi-level cave with rich dripstone decoration, formed in Middle Triassic Gutenstein dolomites and light Steinalm limestones and dolomites. It is located on the edge of the village of Jasov in the northeastern part of the Slovak Karst National Park, in the Jasov Rock massif."
+  },
+  "jasovskaParagraph2": {
+    "svk": "Početné archeologické nálezy dokazujú jej praveké osídlenie, v jaskyni sa našli okrem pozostatkov bukovohorskej kultúry aj predmety z halštatskej a rímskej doby. V stredoveku a novoveku počas období vojen a povstaní viackrát poslúžila pre okolitých obyvateľov ako úkryt. O dlhodobej prítomnosti človeka svedčí množstvo historických nápisov a kresieb, najstarší datovaný nápis pochádza z roku 1452. Prvýkrát sprístupnená v roku 1846 jasovskými premonštrátmi, opätovné sprístupnenie, podrobnejší výskum a vybudovanie elektrického osvetlenia jaskyne bolo realizované v medzivojnovom období. Z celkovo známej dĺžky jaskyne 2 811 m je v súčasnosti sprístupnených 550 m.",
+    "hun": "Számos régészeti lelet bizonyítja őskori lakottságát; a barlangban a bükki kultúra maradványai mellett hallstatt kori és római kori tárgyakat is találtak. A középkorban és az újkorban háborúk és felkelések idején többször is menedékként szolgált a környék lakói számára. Az ember hosszú távú jelenlétét számos történelmi felirat és rajz bizonyítja, a legrégebbi keltezett felirat 1452-ből származik. Először 1846-ban tették látogathatóvá a jászói premontreiek, az újbóli megnyitás, a részletesebb kutatás és az elektromos világítás kiépítése a két világháború közötti időszakban valósult meg. A barlang teljes ismert hosszából, amely 2 811 m, jelenleg 550 m látogatható.",
+    "eng": "Numerous archaeological finds prove its prehistoric settlement; in addition to remains of the Bükk culture, objects from the Hallstatt and Roman periods were also found in the cave. During the Middle Ages and modern era, in times of wars and uprisings, it repeatedly served as a shelter for local inhabitants. Long-term human presence is evidenced by many historical inscriptions and drawings, the oldest dated inscription coming from the year 1452. It was first opened to the public in 1846 by the Premonstratensians of Jasov; its reopening, more detailed exploration, and installation of electric lighting were carried out in the interwar period. Of the cave’s total known length of 2,811 m, 550 m is currently accessible."
+  },
+  "jasovskaParagraph3": {
+    "svk": "Významné zimovisko netopierov, zistená bola prítomnosť 19 druhov. Nájdené tu boli kostrové pozostatky jaskynného medveďa a jaskynnej hyeny. Okrem turistického využitia je využívaná aj pri speleoterapii.",
+    "hun": "Jelentős denevértelelőhely, ahol 19 faj jelenlétét mutatták ki. Itt találták meg a barlangi medve és a barlangi hiéna csontmaradványait is. A turisztikai hasznosítás mellett speleoterápiára is használják.",
+    "eng": "It is an important wintering site for bats, with the presence of 19 species recorded. Skeletal remains of the cave bear and cave hyena were also found here. Besides tourism, it is also used for speleotherapy."
+  },
+  "krasnohorskaPageTitle": {
+    "svk": "Krásnohorská jaskyňa",
+    "hun": "Krásnohorská-barlang",
+    "eng": "Krásnohorská Cave"
+  },
+  "krasnohorskaInfoLengthLabel": {
+    "svk": "Celková dĺžka jaskyne",
+    "hun": "A barlang teljes hossza",
+    "eng": "Total cave length"
+  },
+  "krasnohorskaInfoLengthValue": {
+    "svk": "1 556 m",
+    "hun": "1 556 m",
+    "eng": "1,556 m"
+  },
+  "krasnohorskaInfoTempLabel": {
+    "svk": "Teplota vzduchu",
+    "hun": "A levegő hőmérséklete",
+    "eng": "Air temperature"
+  },
+  "krasnohorskaInfoTempValue": {
+    "svk": "9 °C",
+    "hun": "9 °C",
+    "eng": "9 °C"
+  },
+  "krasnohorskaInfoDripLabel": {
+    "svk": "Výška kvapľa (najväčší v miernom pásme)",
+    "hun": "A cseppkő magassága (a legnagyobb a mérsékelt égövben)",
+    "eng": "Height of stalagmite (largest in temperate zone)"
+  },
+  "krasnohorskaInfoDripValue": {
+    "svk": "32,6 m",
+    "hun": "32,6 m",
+    "eng": "32.6 m"
+  },
+  "krasnohorskaInfoDomeLabel": {
+    "svk": "Výška dómov v jaskyni",
+    "hun": "A termek magassága a barlangban",
+    "eng": "Height of cave halls"
+  },
+  "krasnohorskaInfoDomeValue": {
+    "svk": "až 45 m",
+    "hun": "akár 45 m",
+    "eng": "up to 45 m"
+  },
+  "krasnohorskaInfoYearLabel": {
+    "svk": "Sprístupnená od roku",
+    "hun": "Látogatható ettől az évtől",
+    "eng": "Open to the public since"
+  },
+  "krasnohorskaInfoYearValue": {
+    "svk": "2004",
+    "hun": "2004",
+    "eng": "2004"
+  },
+  "krasnohorskaParagraph1": {
+    "svk": "Aktívna riečna jaskyňa vytvorená podzemným tokom Buzgó a jeho prítokmi, ktoré odvodňujú severnú časť najrozsiahlejšej planiny Slovenského krasu. Vznikla na mieste výraznej tektonickej poruchy v gutensteinských dolomitoch, sčasti v svetlosivých steinalmských vápencoch, na severnom úpätí Silickej planiny, v blízkosti obce Krásnohorská Dlhá Lúka.",
+    "hun": "Aktív folyóvízi barlang, amelyet a Buzgó patak és mellékágai alakítottak ki, és amelyek a Szlovák-karszt legnagyobb fennsíkjának északi részét víztelenítik. Jelentős tektonikus törés mentén jött létre gutensteini dolomitokban, részben világosszürke steinalmi mészkövekben, a Szilicei-fennsík északi lábánál, Krásnohorská Dlhá Lúka közelében.",
+    "eng": "An active river cave formed by the underground stream Buzgó and its tributaries, which drain the northern part of the largest plateau of the Slovak Karst. It originated along a significant tectonic fault in Gutenstein dolomites, partly in light grey Steinalm limestones, at the northern foot of the Silica Plateau, near the village of Krásnohorská Dlhá Lúka."
+  },
+  "krasnohorskaParagraph2": {
+    "svk": "Jej objav bol ďalším významným úspechom skupiny jaskyniarov z Rožňavy a okolia, ktorí vstúpili do jej priestorov v júni 1964 po znížení vody vo vyvieračke Buzgó a rozšírení vstupnej pukliny. Aj keď bola kvôli uľahčeniu prístupu vyrazená umelá štôlňa, k plánovanému sprístupneniu jaskyne došlo až v roku 2004 turistickou formou. V porovnaní s ostatnými sprístupnenými jaskyňami tu návštevníci značnú časť prehliadkovej trasy s dĺžkou 450 m prekonávajú pri svetle čeloviek nad podzemným tokom po drevených chodníkoch, rebríkoch a lanovom traverze.",
+    "hun": "Felfedezése a rozsnyói és környékbeli barlangkutatók csoportjának újabb jelentős sikere volt, akik 1964 júniusában jutottak be a barlangba a Buzgó forrás vízszintjének csökkentése és a bejárati hasadék kibővítése után. Bár a könnyebb megközelítés érdekében mesterséges tárót vájtak, a barlangot csak 2004-ben nyitották meg turisztikai célokra. Más látogatható barlangokkal összehasonlítva a látogatók a 450 m hosszú útvonal jelentős részét fejlámpával, a föld alatti patak felett fa járdákon, létrákon és kötélpályán teszik meg.",
+    "eng": "Its discovery was another major success of a group of cavers from Rožňava and the surrounding area, who entered its spaces in June 1964 after lowering the water level at the Buzgó spring and widening the entrance fissure. Although an artificial tunnel was created to facilitate access, the cave was only opened to the public in 2004. Compared to other accessible caves, visitors here traverse a significant part of the 450 m tour route by headlamp light above the underground stream using wooden walkways, ladders, and rope traverses."
+  },
+  "krasnohorskaParagraph3": {
+    "svk": "Po úvodnom úseku, bez výraznejšej výzdoby, tvorenom dlhou puklinovou chodbou s názvom Veľký kaňon, nasleduje sústava 8 mohutných dómov. Tieto priestory majú hodnotnú výzdobu, jedinečné sú rozmanité excentrické heliktity a koralovité útvary s mangánovým povlakom. Dominantou jaskyne je Sieň obrov s 34 m vysokým Kvapľom rožňavských jaskyniarov, ktorý zaraďujeme medzi najväčšie sintrové útvary v Európe.",
+    "hun": "A kezdeti, kevésbé díszített szakasz után, amely egy hosszú hasadékfolyosóból áll, Nagy-kanyon néven, 8 hatalmas terem rendszere következik. Ezek a terek értékes díszítéssel rendelkeznek, különlegesek a különféle excentrikus heliktitek és mangánbevonatú korallszerű képződmények. A barlang fő látványossága az Óriások terme a 34 m magas Rozsnyói cseppkővel, amely Európa legnagyobb cseppkőképződményei közé tartozik.",
+    "eng": "After the initial section, without significant decoration and formed by a long fissure corridor called the Great Canyon, a system of eight massive halls follows. These spaces feature valuable decoration, including unique eccentric helictites and coral-like formations with a manganese coating. The dominant feature of the cave is the Hall of Giants with the 34 m high stalagmite of the Rožňava cavers, ranked among the largest sinter formations in Europe."
+  },
+  "ochtinskaPageTitle": {
+    "svk": "Ochtinská aragonitová jaskyňa",
+    "hun": "Ochtinai aragonitbarlang",
+    "eng": "Ochtinská Aragonite Cave"
+  },
+  "ochtinskaInfoLengthLabel": {
+    "svk": "Celková dĺžka jaskyne",
+    "hun": "A barlang teljes hossza",
+    "eng": "Total cave length"
+  },
+  "ochtinskaInfoLengthValue": {
+    "svk": "300 m",
+    "hun": "300 m",
+    "eng": "300 m"
+  },
+  "ochtinskaInfoTempLabel": {
+    "svk": "Teplota vzduchu",
+    "hun": "A levegő hőmérséklete",
+    "eng": "Air temperature"
+  },
+  "ochtinskaInfoTempValue": {
+    "svk": "7,2 – 7,8 °C",
+    "hun": "7,2 – 7,8 °C",
+    "eng": "7.2 – 7.8 °C"
+  },
+  "ochtinskaInfoDepthLabel": {
+    "svk": "Hĺbka (vertikálne rozpätie)",
+    "hun": "Mélység (függőleges kiterjedés)",
+    "eng": "Depth (vertical range)"
+  },
+  "ochtinskaInfoDepthValue": {
+    "svk": "30 m",
+    "hun": "30 m",
+    "eng": "30 m"
+  },
+  "ochtinskaInfoAgeLabel": {
+    "svk": "Vek najstaršieho aragonitu",
+    "hun": "A legrégebbi aragonit kora",
+    "eng": "Age of the oldest aragonite"
+  },
+  "ochtinskaInfoAgeValue": {
+    "svk": "121 000 – 138 000 rokov",
+    "hun": "121 000 – 138 000 év",
+    "eng": "121,000 – 138,000 years"
+  },
+  "ochtinskaInfoCountLabel": {
+    "svk": "Počet sprístupnených aragonitových jaskýň na svete",
+    "hun": "A világon látogatható aragonitbarlangok száma",
+    "eng": "Number of accessible aragonite caves in the world"
+  },
+  "ochtinskaInfoCountValue": {
+    "svk": "16",
+    "hun": "16",
+    "eng": "16"
+  },
+  "ochtinskaParagraph1": {
+    "svk": "Najvýznamnejšia z jaskýň Revúckej vrchoviny zaujme mimoriadne rozmanitou a bohatou výzdobou tvorenou aragonitom. Nachádza sa v severnom svahu vrchu Hrádok medzi Štítnikom a Jelšavou. Jaskyňa vznikla v šošovke kryštalických vápencov a ankeritov z obdobia prvohôr koróznou činnosťou podzemnej vody.",
+    "hun": "A Revúcka-felföld legjelentősebb barlangja rendkívül változatos és gazdag aragonitképződményeivel tűnik ki. A Hrádok-hegy északi lejtőjén található, Csetnek és Jolsva között. A barlang az ősidőkből származó kristályos mészkő és ankerit lencséjében alakult ki a felszín alatti vizek korróziós tevékenysége révén.",
+    "eng": "The most important cave of the Revúca Highlands is notable for its extraordinarily diverse and rich aragonite decoration. It is located on the northern slope of Hrádok Hill between Štítnik and Jelšava. The cave was formed in a lens of crystalline limestones and ankerites from the Paleozoic era by the corrosive activity of underground water."
+  },
+  "ochtinskaParagraph2": {
+    "svk": "Objavili ju koncom roka 1954 náhodne baníci počas razenia štôlne pri geologickom prieskume ložísk železnej rudy v lokalite Horný Hrádok. Pre verejnosť bola otvorená v roku 1972. Prehliadková trasa s dĺžkou 230 m je prístupná umelo vyrazenou štôlňou.",
+    "hun": "1954 végén véletlenül fedezték fel bányászok egy táró hajtása közben, a Horný Hrádok térségében végzett vasérclelőhely-kutatás során. A nyilvánosság számára 1972-ben nyitották meg. A 230 m hosszú látogatói útvonal egy mesterségesen kialakított tárón keresztül érhető el.",
+    "eng": "It was discovered by chance at the end of 1954 by miners while driving an adit during geological exploration of iron ore deposits in the Horný Hrádok area. It was opened to the public in 1972. The 230 m long tour route is accessible through an artificially excavated adit."
+  },
+  "ochtinskaParagraph3": {
+    "svk": "Výzdoba pozostáva z troch generácií aragonitu, najstaršie obličkovité útvary majú vek približne 140-tisíc rokov, najpočetnejšia a vizuálne najatraktívnejšia je druhá generácia datovaná na 14-tisíc rokov, najmladšia sa stále tvorí. Snehobiele aragonitové trsy a kríčky vynikajú na modrosivom mramorovom podklade. Špecifická výzdoba je pravdepodobne výsledkom jedinečnými podmienok v uzavretých podzemných priestoroch jaskyne.",
+    "hun": "A díszítés három aragonitgenerációból áll: a legrégebbi veseszerű képződmények körülbelül 140 ezer évesek, a leggyakoribb és vizuálisan leglátványosabb a második, mintegy 14 ezer éves generáció, míg a legfiatalabb ma is képződik. A hófehér aragonitcsomók és bokorszerű alakzatok különösen jól érvényesülnek a kékesszürke márványos alapkőzeten. Ez a sajátos díszítés valószínűleg a barlang zárt föld alatti tereiben uralkodó egyedi feltételek eredménye.",
+    "eng": "The decoration consists of three generations of aragonite. The oldest kidney-shaped formations are about 140 thousand years old, the most abundant and visually most attractive is the second generation dated to 14 thousand years, and the youngest is still forming. Snow-white aragonite clusters and bush-like forms stand out against the blue-grey marble background. This specific decoration is probably the result of unique conditions in the cave’s enclosed underground spaces."
+  },
+  "dobsinskaPageTitle": {
+    "svk": "Dobšinská ľadová jaskyňa",
+    "hun": "Dobsinai jégbarlang",
+    "eng": "Dobšinská Ice Cave"
+  },
+  "dobsinskaInfoLengthLabel": {
+    "svk": "Celková dĺžka jaskyne",
+    "hun": "A barlang teljes hossza",
+    "eng": "Total cave length"
+  },
+  "dobsinskaInfoLengthValue": {
+    "svk": "1 483 m",
+    "hun": "1 483 m",
+    "eng": "1,483 m"
+  },
+  "dobsinskaInfoTempLabel": {
+    "svk": "Teplota vo Veľkej sieni",
+    "hun": "Hőmérséklet a Nagy-teremben",
+    "eng": "Temperature in the Great Hall"
+  },
+  "dobsinskaInfoTempValue": {
+    "svk": "−3,9 až +0,2 °C",
+    "hun": "−3,9 – +0,2 °C",
+    "eng": "−3.9 to +0.2 °C"
+  },
+  "dobsinskaInfoIceVolumeLabel": {
+    "svk": "Objem ľadu v jaskyni",
+    "hun": "A jég térfogata a barlangban",
+    "eng": "Volume of ice in the cave"
+  },
+  "dobsinskaInfoIceVolumeValue": {
+    "svk": "110 100 m³",
+    "hun": "110 100 m³",
+    "eng": "110,100 m³"
+  },
+  "dobsinskaInfoIceThicknessLabel": {
+    "svk": "Max. hrúbka ľadu",
+    "hun": "Maximális jégvastagság",
+    "eng": "Maximum ice thickness"
+  },
+  "dobsinskaInfoIceThicknessValue": {
+    "svk": "26,5 m",
+    "hun": "26,5 m",
+    "eng": "26.5 m"
+  },
+  "dobsinskaInfoElectricLabel": {
+    "svk": "Prvá elektricky osvetlená jaskyňa v Európe",
+    "hun": "Az első elektromosan megvilágított barlang Európában",
+    "eng": "First electrically lit cave in Europe"
+  },
+  "dobsinskaInfoElectricValue": {
+    "svk": "od roku 1887",
+    "hun": "1887-től",
+    "eng": "since 1887"
+  },
+  "dobsinskaParagraph1": {
+    "svk": "Objemom ľadu viac ako 110 000 m³ jedna z najvýznamnejších ľadových jaskýň sveta. Tvorí súčasť rozsiahlejšieho systému Stratenskej jaskyne. Vytvorená bola v strednotriasových steinalmských a wettersteinských vápencoch podzemnými tokmi rieky Hnilec v juhozápadnej časti Národného parku Slovenský raj.",
+    "hun": "Több mint 110 000 m³ jégtömegével a világ egyik legjelentősebb jégbarlangja. A Stratenai-barlangrendszer része. A középső triász kori steinalmi és wettersteini mészkövekben alakult ki a Hnilec folyó föld alatti vízfolyásai által a Szlovák Paradicsom Nemzeti Park délnyugati részén.",
+    "eng": "With more than 110,000 m³ of ice, it is one of the most important ice caves in the world. It is part of the larger Stratenská Cave system. It was formed in Middle Triassic Steinalm and Wetterstein limestones by underground streams of the Hnilec River in the southwestern part of the Slovak Paradise National Park."
+  },
+  "dobsinskaParagraph2": {
+    "svk": "Jaskyňu objavila v roku 1870 skupina z Dobšinej pod vedením Eugena Ruffinyho. Už o rok neskôr sa ju podarilo sprístupniť a koncom 19. storočia bola jednou z prvých elektricky osvetlených jaskýň na svete. V tomto období bola častým cieľom návštevníkov, vrátane viacerých významných svetových osobností a organizovali sa v nej letné korčuľovania. Súčasťou svetového prírodného dedičstva sa stala v roku 2000 po rozšírení pôvodnej nominácie. Z celkovej dĺžky jaskyne 1 491 m tvorí dĺžka sprístupnenej časti 475 m.",
+    "hun": "A barlangot 1870-ben fedezte fel egy dobsinai csoport Eugen Ruffiny vezetésével. Már egy évvel később megnyitották a látogatók előtt, és a 19. század végén a világ egyik első elektromosan megvilágított barlangja volt. Ebben az időszakban sok látogatót vonzott, köztük jelentős világszemélyiségeket, és nyári korcsolyázásokat is rendeztek benne. 2000-ben, a jelölés bővítése után a világörökség részévé vált. A barlang teljes hossza 1 491 m, ebből 475 m látogatható.",
+    "eng": "The cave was discovered in 1870 by a group from Dobšiná led by Eugen Ruffiny. Just one year later it was opened to the public, and by the end of the 19th century it became one of the first electrically lit caves in the world. During this period it was a popular destination, visited by many notable personalities, and even summer ice skating events were held there. It became part of the World Natural Heritage in 2000 after the original nomination was extended. Of the total length of 1,491 m, 475 m is accessible."
+  },
+  "dobsinskaParagraph3": {
+    "svk": "Mohutná dutina vzniknutá preborením stropov jaskyne bola v období štvrtohôr zaľadnená zamŕzaním presakujúcich zrážkových vôd. Vznikla tak rozsiahla výplň vo forme podlahového ľadu, ľadopádov a ľadových stalagmitov. Významné zimovisko vzácnych druhov netopierov, zistila sa tu prítomnosť až 12 druhov.",
+    "hun": "A hatalmas üreg a barlang mennyezetének beszakadásával jött létre, majd a negyedidőszakban a beszivárgó csapadékvizek megfagyásával jegesedett el. Így alakult ki a kiterjedt jégtakaró, jégzuhatagok és jégsztalagmitok. Jelentős telelőhely ritka denevérfajok számára, ahol akár 12 faj jelenlétét is kimutatták.",
+    "eng": "The massive cavity formed by the collapse of the cave ceiling was filled with ice during the Quaternary period due to the freezing of infiltrating precipitation water. This created extensive ice formations including floor ice, icefalls, and ice stalagmites. It is an important wintering site for rare bat species, with up to 12 species recorded."
+  },
+  "silickaPageTitle": {
+    "svk": "Silická ľadnica",
+    "hun": "Szilicsei-jégbarlang",
+    "eng": "Silica Ice Cave"
+  },
+  "silickaInfoLengthLabel": {
+    "svk": "Celková dĺžka jaskyne",
+    "hun": "A barlang teljes hossza",
+    "eng": "Total cave length"
+  },
+  "silickaInfoLengthValue": {
+    "svk": "1 100 m",
+    "hun": "1 100 m",
+    "eng": "1,100 m"
+  },
+  "silickaInfoDepthLabel": {
+    "svk": "Hĺbka priepasti",
+    "hun": "A szakadék mélysége",
+    "eng": "Depth of the abyss"
+  },
+  "silickaInfoDepthValue": {
+    "svk": "110 m",
+    "hun": "110 m",
+    "eng": "110 m"
+  },
+  "silickaInfoAltitudeLabel": {
+    "svk": "Najnižšie položená ľadová jaskyňa na svete",
+    "hun": "A világ legalacsonyabban fekvő jégbarlangja",
+    "eng": "Lowest-altitude ice cave in the world"
+  },
+  "silickaInfoAltitudeValue": {
+    "svk": "503 m n. m.",
+    "hun": "503 m tengerszint felett",
+    "eng": "503 m above sea level"
+  },
+  "silickaInfoDifferenceLabel": {
+    "svk": "Teplotný rozdiel oproti okoliu v lete",
+    "hun": "Nyári hőmérséklet-különbség a környezethez képest",
+    "eng": "Temperature difference compared to surroundings in summer"
+  },
+  "silickaInfoDifferenceValue": {
+    "svk": "viac ako 30 °C",
+    "hun": "több mint 30 °C",
+    "eng": "more than 30 °C"
+  },
+  "silickaInfoCollapseLabel": {
+    "svk": "Vznik prepadnutím stropu dómu",
+    "hun": "A terem mennyezetének beszakadásával jött létre",
+    "eng": "Formed by collapse of the dome ceiling"
+  },
+  "silickaInfoCollapseValue": {
+    "svk": "pred cca 2 000 rokmi",
+    "hun": "kb. 2 000 évvel ezelőtt",
+    "eng": "about 2,000 years ago"
+  },
+  "silickaParagraph1": {
+    "svk": "Najnižšie položená jaskyňa v miernom klimatickom pásme sa nachádza v centrálnej časti Silickej planiny, približne 1 km západne od obce Silica. Tvorí súčasť rozsiahleho Silicko-gombaseckého jaskynného systému, ktorého väčšia časť je doposiaľ neznáma.",
+    "hun": "A mérsékelt égöv legalacsonyabban fekvő jégbarlangja a Szilicei-fennsík központi részén található, mintegy 1 km-re nyugatra Szilice községtől. A kiterjedt Szilice–gombaszögi barlangrendszer része, amelynek nagyobb része mindmáig ismeretlen.",
+    "eng": "The lowest-altitude ice cave in the temperate climate zone is located in the central part of the Silica Plateau, about 1 km west of the village of Silica. It is part of the extensive Silica–Gombasek cave system, most of which still remains unknown."
+  },
+  "silickaParagraph2": {
+    "svk": "Mohutná vstupná časť, ktorá vznikla prepadnutím stropu je známa oddávna, jej prvé opisy a náčrty pochádzajú z 18. storočia. Ľahko prístupný zaľadnený priestor lákal návštevníkov a slúžil ako prirodzená zásobáreň ľadu. Spodná nezaľadnená časť jaskyne bola objavená po prekopaní závalu na dne Jánom Majkom v roku 1931. Pravá sieň bohatá na archeologické nálezy, Archeologický dóm je významným náleziskom doby kamennej a bronzovej, osídlenie pochádza z doby pred zaľadnením. Niektoré z nájdených predmetov sú prezentované aj v tejto expozícii. Prieskum ďalších priestorov realizovali speleopotápači náročným prekonávaním sifónov podzemného toku.",
+    "hun": "A hatalmas bejárati rész, amely a mennyezet beszakadásával keletkezett, régóta ismert, első leírásai és rajzai a 18. századból származnak. A könnyen megközelíthető eljegesedett tér vonzotta a látogatókat, és természetes jégraktárként szolgált. A barlang alsó, jégmentes részét 1931-ben fedezte fel Ján Majko, miután áttörte az omladékot az alján. A régészeti leletekben gazdag jobb oldali terem, az Archeológiai-dóm, a kő- és bronzkor jelentős lelőhelye, a megtelepedés a jegesedés előtti időből származik. A megtalált tárgyak egy része ebben a kiállításban is látható. A további járatok feltárását barlangi búvárok végezték a föld alatti vízfolyás szifonjainak nehéz leküzdésével.",
+    "eng": "The massive entrance part, formed by the collapse of the dome ceiling, has long been known, with its first descriptions and sketches dating from the 18th century. The easily accessible ice-filled space attracted visitors and served as a natural ice storehouse. The lower, non-iced part of the cave was discovered by Ján Majko in 1931 after digging through the collapse at the bottom. The right hall rich in archaeological finds, the Archaeological Dome, is an important Stone and Bronze Age site, with settlement dating from before the icing period. Some of the discovered objects are also presented in this exhibition. Exploration of further spaces was carried out by cave divers through the difficult crossing of underground stream siphons."
+  },
+  "silickaParagraph3": {
+    "svk": "Následkom zaľadnenia je inverzia fauny a flóry a s ňou súvisiaca prítomnosť chladnomilných druhov. Podzemné priestory Silickej ľadnice nie sú prístupné pre verejnosť, do vstupnej časti s ľadovou výzdobou je možné nahliadnuť z vyhliadkovej terasy.",
+    "hun": "Az eljegesedés következménye a fauna és a flóra inverziója, valamint az ehhez kapcsolódó hidegkedvelő fajok jelenléte. A Szilicsei-jégbarlang föld alatti terei nem látogathatók, az ice-díszítéses bejárati részre kilátóteraszról lehet betekinteni.",
+    "eng": "A consequence of the icing is the inversion of fauna and flora and the related presence of cold-loving species. The underground spaces of Silica Ice Cave are not accessible to the public, but the entrance part with ice decoration can be viewed from an observation terrace."
   }
-
 }
