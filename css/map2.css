@@ -26,7 +26,7 @@ body{
 .kras-mapa{
     display: flex;
     height: auto;
-    width: 100%;
+    width: 84%;
     margin: auto auto 0 auto;
     position: relative;
     opacity: 0;
@@ -76,6 +76,10 @@ body{
 
     animation: textReveal 0.5s ease-out forwards;
     animation-delay: calc(var(--start-delay) + var(--i) * var(--step) + 0.35s);
+}
+
+.special{
+    width: min-content;
 }
 
 /* positions */
