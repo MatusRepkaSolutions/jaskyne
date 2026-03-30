@@ -163,5 +163,76 @@
     "svk": "Video bude doplnené.",
     "hun": "A videó hamarosan elérhető lesz.",
     "eng": "Video will be added soon."
+  },
+  "gombaseckaPageTitle": {
+    "svk": "Gombasecká jaskyňa",
+    "hun": "Gombaszögi-barlang",
+    "eng": "Gombasek Cave"
+  },
+  "gombaseckaInfoLengthLabel": {
+    "svk": "Celková dĺžka jaskyne",
+    "hun": "A barlang teljes hossza",
+    "eng": "Total cave length"
+  },
+  "gombaseckaInfoLengthValue": {
+    "svk": "1 525 m",
+    "hun": "1 525 m",
+    "eng": "1,525 m"
+  },
+  "gombaseckaInfoTempLabel": {
+    "svk": "Teplota vzduchu",
+    "hun": "A levegő hőmérséklete",
+    "eng": "Air temperature"
+  },
+  "gombaseckaInfoTempValue": {
+    "svk": "9 – 9,4 °C",
+    "hun": "9 – 9,4 °C",
+    "eng": "9 – 9.4 °C"
+  },
+  "gombaseckaInfoStrawLabel": {
+    "svk": "Dĺžka sintrových brčiek",
+    "hun": "A szalmacseppkövek hossza",
+    "eng": "Length of soda straws"
+  },
+  "gombaseckaInfoStrawValue": {
+    "svk": "až 3 m",
+    "hun": "akár 3 m",
+    "eng": "up to 3 m"
+  },
+  "gombaseckaInfoYearLabel": {
+    "svk": "Sprístupnená od roku",
+    "hun": "Látogatható ettől az évtől",
+    "eng": "Open to the public since"
+  },
+  "gombaseckaInfoYearValue": {
+    "svk": "1955",
+    "hun": "1955",
+    "eng": "1955"
+  },
+  "gombaseckaInfoDepthLabel": {
+    "svk": "Hĺbka (vertikálne rozpätie)",
+    "hun": "Mélység (függőleges kiterjedés)",
+    "eng": "Depth (vertical range)"
+  },
+  "gombaseckaInfoDepthValue": {
+    "svk": "15 m",
+    "hun": "15 m",
+    "eng": "15 m"
+  },
+  "gombaseckaParagraph1": {
+    "svk": "Nachádza sa v západnej časti Silickej planiny približne 2 km južne od obce Slavec. Vznikla činnosťou Čierneho potoka v druhohorných vápencoch Silickej planiny. Spolu s blízkou Silickou ľadnicou je súčasťou rozsiahleho Silicko-gombaseckého jaskynného systému, ktorého väčšia časť je zatiaľ neznáma.",
+    "hun": "A Szilicei-fennsík nyugati részén található, mintegy 2 km-re délre Szalóc községtől. A Fekete-patak tevékenysége alakította ki a Szilicei-fennsík mészkövében. A közeli Szilicsei-jégbarlanggal együtt a kiterjedt Szilice–gombaszögi barlangrendszer része, amelynek nagyobb része ma még ismeretlen.",
+    "eng": "It is located in the western part of the Silica Plateau, about 2 km south of the village of Slavec. It was formed by the activity of the Čierny Potok stream in the Mesozoic limestones of the Silica Plateau. Together with the nearby Silica Ice Cave, it is part of the extensive Silica–Gombasek cave system, most of which still remains unknown."
+  },
+  "gombaseckaParagraph2": {
+    "svk": "Gombasecká jaskyňa bola prvým významným objavom skupiny dobrovoľných jaskyniarov z Rožňavy. Objavitelia pod vedením Viliama Rozložníka, Ladislava Herényiho st. a Štefana Rodu prehĺbili riečisko Čiernej vyvieračky a po znížení hladiny vody sa 21. novembra 1951 dostali do podzemných priestorov s bohatou výzdobou. Pre návštevníkov je sprístupnená od mája 1955. V lete 2016 došlo k objavu nových priestorov, z aktuálnej celkovej dĺžky 3 027 m je sprístupnených 285 m.",
+    "hun": "A Gombaszögi-barlang a rozsnyói önkéntes barlangkutatók csoportjának első jelentős felfedezése volt. A Viliam Rozložník, id. Ladislav Herényi és Štefan Roda vezette felfedezők kimélyítették a Fekete-forrás medrét, és a vízszint csökkenése után 1951. november 21-én jutottak be a gazdagon díszített föld alatti terekbe. A látogatók számára 1955 májusa óta van megnyitva. 2016 nyarán új járatokat fedeztek fel, a jelenlegi 3 027 m teljes hosszúságból 285 m látogatható.",
+    "eng": "Gombasek Cave was the first major discovery of a group of volunteer cavers from Rožňava. The discoverers, led by Viliam Rozložník, Ladislav Herényi Sr., and Štefan Roda, deepened the bed of the Čierna Vyvieračka spring, and after the water level dropped, they entered richly decorated underground spaces on 21 November 1951. The cave has been open to visitors since May 1955. In the summer of 2016, new spaces were discovered, and of the current total length of 3,027 m, 285 m are accessible to the public."
+  },
+  "gombaseckaParagraph3": {
+    "svk": "Vyniká mimoriadnou farebnosťou výzdoby, jedinečné sú tenké biele sintrové brčká, ktoré dosahujú dĺžku až 3 m pri hrúbke len 2–3 mm. Unikátom je prítomnosť jaskynného živočícha, mnohonôžky rodu Typhloiulus sp., ktorá je najväčším pravým jaskynným živočíchom žijúcim v slovenských jaskyniach. Vďaka priaznivým účinkom jaskynnej klímy bola od roku 1968 ako prvá jaskyňa na území Slovenska využívaná pri liečbe chorôb dýchacích ciest, pri jaskyni fungovalo aj speleolaboratórium.",
+    "hun": "A barlang rendkívüli színgazdagságú képződményeiről híres, különlegesek a vékony fehér szalmacseppkövek, amelyek hossza akár a 3 m-t is elérheti, miközben vastagságuk csupán 2–3 mm. Különlegessége a Typhloiulus nemzetséghez tartozó soklábú jelenléte is, amely a szlovákiai barlangok legnagyobb valódi barlangi állata. A barlangi klíma kedvező hatásai miatt 1968-tól ez volt Szlovákia első barlangja, amelyet légúti betegségek kezelésére használtak, és itt speleolaboratórium is működött.",
+    "eng": "It stands out for the extraordinary colorfulness of its decoration; especially unique are the thin white soda-straw formations, reaching up to 3 m in length while being only 2–3 mm thick. Another rarity is the presence of the cave-dwelling millipede of the genus Typhloiulus, the largest true cave animal living in Slovak caves. Thanks to the beneficial effects of the cave climate, from 1968 it became the first cave in Slovakia used for the treatment of respiratory diseases, and a speleolaboratory also operated there."
   }
+
 }
