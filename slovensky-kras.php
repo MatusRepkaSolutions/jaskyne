@@ -33,7 +33,8 @@
     </div>
 
     <div class="kras-mapa">
-        <img src="img/kras-mapa/mapa.png" class="kras-mapa-img" alt="Mapa jaskýň Slovenského krasu">
+        <img src="img/kras-mapa/mapa.svg
+        " class="kras-mapa-img" alt="Mapa jaskýň Slovenského krasu">
     </div>
 
     <a href="#" class="map2-button pos1" style="--i:0;">
@@ -41,17 +42,17 @@
         <div class="map2-button-text" data-txt="ochotnicka">Ochtinská aragonitová jaskyňa</div>
     </a>
 
-    <a href="domnica.php" class="map2-button pos2" style="--i:1;">
+    <a href="domnica.php" class="map2-button pos2" style="--i:2;">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="domica">Domica</div>
     </a>
 
-    <a href="#" class="map2-button pos3" style="--i:2;">
+    <a href="#" class="map2-button pos3" style="--i:1;">
         <div class="map2-button-text" data-txt="gombasecka">Gombasecká jaskyňa</div>
         <div class="map2-button-marker"></div>
     </a>
 
-    <a href="#" class="map2-button pos4" style="--i:3;">
+    <a href="#" class="map2-button pos4" style="--i:5;">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="jasovska">Jasovská jaskyňa</div>
     </a>
@@ -61,7 +62,7 @@
         <div class="map2-button-text" data-txt="krasnohorska">Krásnohorská jaskyňa</div>
     </a>
 
-    <a href="#" class="map2-button pos6" style="--i:5;">
+    <a href="#" class="map2-button pos6" style="--i:3;">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="silicka">Silická ľadnica</div>
     </a>
