@@ -14,7 +14,7 @@ body{
 .map-animate-title{
     opacity: 0;
     transform: translateY(4vh);
-    animation: mapTitleReveal 0.9s ease-out forwards;
+    animation: TitleReveal 0.9s ease-out forwards;
 }
 
 .kras-mapa{
@@ -47,6 +47,7 @@ body{
     background-color: #C19E6A;
     border-radius: 50%;
     cursor: pointer;
+    opacity: 0;
     animation: mapFadeIn 1s ease-out forwards;
     animation-delay: 1s;
 }
@@ -56,6 +57,7 @@ body{
     color: #EDE3D3;
     font-weight: 700;
     text-align: center;
+    opacity: 0;
     animation: mapTextReveal 0.9s ease-out forwards;
     animation-delay: 2.05s;
 }
@@ -99,7 +101,7 @@ body{
 
 /* animations */
 
-@keyframes mapTitleReveal{
+@keyframes TitleReveal{
     from{
         opacity: 0;
         transform: translateY(4vh);
