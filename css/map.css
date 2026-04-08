@@ -1,5 +1,5 @@
 body{
-    background-color: #1E1915;
+    background-color: #12120D;
     color: #E0B46E;
 }
 
@@ -15,12 +15,12 @@ body{
     display: flex;
     align-items: center;
     gap: 200px;
-    margin: 216px auto;
+    margin: 350px auto;
     justify-content: center;
 }
 
 .map-left{
-    width: 1461px;
+    width: 1561px;
     height: 730px;
 }
 
@@ -70,7 +70,8 @@ body{
     display: block;
     color: rgba(237, 227, 211, 0.65);
     font-size: 48px;
-    line-height: 1.6;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 .map-bottom-buttons{
