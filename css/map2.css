@@ -10,16 +10,16 @@ body{
 
 .map-title{
     text-align: center;
-    font-size: 6vh;
+    font-size: 129.6px;
     font-weight: 900;
     color: #D5AB68;
-    margin-top: 8vh;
+    margin-top: 172.8px;
     z-index: 10;
 }
 
 .map-animate-title{
     opacity: 0;
-    transform: translateY(4vh);
+    transform: translateY(86.4px);
     animation: TitleReveal 1s ease-out forwards;
 }
 
@@ -45,34 +45,34 @@ body{
     display: flex;
     position: absolute;
     flex-direction: column;
-    gap: 1vh;
-    max-width: 8vw;
+    gap: 21.6px;
+    max-width: 307.2px;
     text-decoration: none;
 }
 
 .map2-button-marker{
-    width: 1vw;
-    height: 1vw;
+    width: 38.4px;
+    height: 38.4px;
     margin: 0 auto;
     background-color: #C19E6A;
     border-radius: 50%;
     cursor: pointer;
 
     opacity: 0;
-    transform: translateY(3vh) scale(0.5);
+    transform: translateY(64.8px) scale(0.5);
 
     animation: markerReveal 0.6s ease-out forwards;
     animation-delay: calc(var(--start-delay) + var(--i) * var(--step));
 }
 
 .map2-button-text{
-    font-size: 2vh;
+    font-size: 43.2px;
     color: #EDE3D3;
     font-weight: 700;
     text-align: center;
 
     opacity: 0;
-    transform: translateY(2vh);
+    transform: translateY(43.2px);
 
     animation: textReveal 0.5s ease-out forwards;
     animation-delay: calc(var(--start-delay) + var(--i) * var(--step) + 0.35s);
@@ -84,38 +84,38 @@ body{
 
 /* positions */
 .pos1{
-    left: 8vw;
-    top: 34vh;
+    left: 307.2px;
+    top: 734.4px;
 }
 
 .pos2{
-    left: 26vw;
-    top: 83vh;
+    left: 998.4px;
+    top: 1792.8px;
 }
 
 .pos3{
-    left: 13vw;
-    top: 60vh;
+    left: 499.2px;
+    top: 1296px;
     flex-direction: row;
-    gap: 0vw;
-    max-width: 13vw;
+    gap: 0px;
+    max-width: 499.2px;
     align-items: center;
 }
 
 .pos4{
-    left: 76vw;
-    top: 31vh;
+    left: 2918.4px;
+    top: 669.6px;
     max-width: fit-content;
 }
 
 .pos5{
-    left: 36vw;
-    top: 45vh;
+    left: 1382.4px;
+    top: 972px;
 }
 
 .pos6{
-    left: 28vw;
-    top: 64vh;
+    left: 1075.2px;
+    top: 1382.4px;
     max-width: fit-content;
 }
 
@@ -124,7 +124,7 @@ body{
 @keyframes TitleReveal{
     from{
         opacity: 0;
-        transform: translateY(4vh);
+        transform: translateY(86.4px);
     }
     to{
         opacity: 1;
@@ -144,7 +144,7 @@ body{
 @keyframes markerReveal{
     0%{
         opacity: 0;
-        transform: translateY(3vh) scale(0.5);
+        transform: translateY(64.8px) scale(0.5);
     }
     60%{
         opacity: 1;
@@ -159,7 +159,7 @@ body{
 @keyframes textReveal{
     from{
         opacity: 0;
-        transform: translateY(2vh);
+        transform: translateY(43.2px);
     }
     to{
         opacity: 1;

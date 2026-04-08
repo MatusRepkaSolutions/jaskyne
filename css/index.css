@@ -3,13 +3,11 @@ body{
     overflow: hidden;
 }
 
-/*################## titles ################*/
-
 .index-text-wrapper{
     display: flex;
     flex-direction: column;
-    margin: 15vh auto;
-    gap: 2vh;
+    margin: 324px auto;
+    gap: 43.2px;
 }
 
 .index-bold-text,
@@ -24,29 +22,27 @@ body{
 
 .index-bold-text{
     font-weight: 900;
-    font-size: 6vh;
+    font-size: 129.6px;
     animation-delay: 0.1s;
 }
 
 .index-text{
     font-weight: 400;
-    font-size: 6vh;
+    font-size: 129.6px;
     animation-delay: 0.35s;
 }
 
 .index-italic-text{
     font-weight: 400;
-    font-size: 6vh;
+    font-size: 129.6px;
     font-style: italic;
     animation-delay: 0.6s;
 }
 
-/*################## unesco ################*/
-
 .index-unesco{
     color: #EDE3D3;
     font-weight: 400;
-    font-size: 3vh;
+    font-size: 64.8px;
     margin: auto;
     letter-spacing: 0.3em;
     opacity: 0;
@@ -54,12 +50,10 @@ body{
     animation-delay: 1.7s;
 }
 
-/*################## buttons ################*/
-
 .index-button-wrapper{
     display: flex;
     flex-direction: row;
-    gap: 5vw;
+    gap: 192px;
     margin: auto;
 }
 
@@ -75,8 +69,8 @@ body{
     outline: 1rem solid rgba(255, 231, 165, 0.1);
     -webkit-tap-highlight-color: transparent;
 
-    height: 9vh;
-    width: 9vh;
+    height: 194.4px;
+    width: 194.4px;
 
     opacity: 0;
     transform: translateX(-80px) scale(0.8);
@@ -95,7 +89,6 @@ body{
     animation-delay: 1.3s;
 }
 
-/* final resting state after intro animation is finished */
 .index-button.is-ready{
     opacity: 1;
     transform: translateX(0) scale(1);
@@ -113,8 +106,6 @@ body{
     height: 100%;
     object-fit: cover;
 }
-
-/*################## keyframes ################*/
 
 @keyframes textReveal{
     from{

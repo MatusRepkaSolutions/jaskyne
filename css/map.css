@@ -5,17 +5,17 @@ body{
 
 .map-title{
     text-align: center;
-    font-size: 6vh;
+    font-size: 129.6px;
     font-weight: 900;
     color: #D5AB68;
-    margin-top: 8vh;
+    margin-top: 172.8px;
 }
 
 .map-content{
     display: flex;
     align-items: center;
-    gap: 4vw;
-    margin: 10vh auto;
+    gap: 153.6px;
+    margin: 216px auto;
     justify-content: center;
 }
 
@@ -37,18 +37,17 @@ body{
 .map-text-svk{
     position: absolute;
     color: #2B241E;
-    font-size: 2.1vh;
+    font-size: 45.36px;
     letter-spacing: 0.08em;
 }
 
 .map-text-hun{
     position: absolute;
     color: #EDE3D3;
-    font-size: 2.1vh;
+    font-size: 45.36px;
     letter-spacing: 0.08em;
 }
 
-/* adjust these as needed */
 .map-text-svk{
     top: 48%;
     left: 34%;
@@ -62,42 +61,40 @@ body{
 .map-right{
     display: flex;
     flex-direction: column;
-    gap: 3vh;
+    gap: 64.8px;
 }
 
 .map-paragraph{
     display: block;
     color: rgba(237, 227, 211, 0.65);
-    font-size: 2.5vh;
+    font-size: 54px;
     line-height: 1.6;
 }
 
 .map-bottom-buttons{
     display: flex;
     justify-content: center;
-    gap: 1vw;
-    margin-top: 6vh;
+    gap: 38.4px;
+    margin-top: 129.6px;
 }
 
 .map-nav-btn{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    min-width: 14vw;
-    padding: 1.1vh 1.8vw;
+    min-width: 537.6px;
+    padding: 23.76px 69.12px;
     border-radius: 999px;
     background-color: #4F4B45;
     color: #D5AB68;
     text-decoration: none;
     font-weight: 700;
-    font-size: 1.2vw;
+    font-size: 46.08px;
 }
-
-/* animations */
 
 .map-animate-title{
     opacity: 0;
-    transform: translateY(4vh);
+    transform: translateY(86.4px);
     animation: mapTitleReveal 0.9s ease-out forwards;
 }
 
@@ -115,7 +112,7 @@ body{
 
 .map-animate-text{
     opacity: 0;
-    transform: translateY(3vh);
+    transform: translateY(64.8px);
     animation: mapTextReveal 0.9s ease-out forwards;
 }
 
@@ -133,7 +130,7 @@ body{
 
 .map-bottom-buttons .map-nav-btn{
     opacity: 0;
-    transform: translateY(2vh);
+    transform: translateY(43.2px);
     animation: mapButtonsReveal 0.8s ease-out forwards;
     animation-delay: 1.3s;
 }
@@ -145,7 +142,7 @@ body{
 @keyframes mapTitleReveal{
     from{
         opacity: 0;
-        transform: translateY(4vh);
+        transform: translateY(86.4px);
     }
     to{
         opacity: 1;
@@ -174,7 +171,7 @@ body{
 @keyframes mapTextReveal{
     from{
         opacity: 0;
-        transform: translateY(3vh);
+        transform: translateY(64.8px);
     }
     to{
         opacity: 1;
@@ -185,7 +182,7 @@ body{
 @keyframes mapButtonsReveal{
     from{
         opacity: 0;
-        transform: translateY(2vh);
+        transform: translateY(43.2px);
     }
     to{
         opacity: 1;

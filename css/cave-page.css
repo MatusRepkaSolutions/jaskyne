@@ -6,7 +6,7 @@ body{
 
 .cave-page{
     position: relative;
-    min-height: 100vh;
+    min-height: 2160px;
     width: 100%;
     overflow: hidden;
     background-image: url('../img/subpage-bg.svg');
@@ -25,12 +25,12 @@ body{
     position: relative;
     z-index: 2;
     display: flex;
-    gap: 4vw;
+    gap: 153.6px;
     width: 100%;
-    height: 73vh;
+    height: 1576.8px;
     max-width: 1450px;
     margin: 0 auto;
-    padding: 4vh 4vw 5vh 4vw;
+    padding: 86.4px 153.6px 108px 153.6px;
     box-sizing: border-box;
 }
 
@@ -40,7 +40,7 @@ body{
 }
 
 .cave-info-item{
-    padding: 1.8vh 0 1.8vh 0;
+    padding: 38.88px 0 38.88px 0;
     border-top: 1px solid rgba(213, 171, 104, 0.28);
 }
 
@@ -50,14 +50,14 @@ body{
 
 .cave-info-label{
     color: #C7A164;
-    font-size: 1.5vh;
+    font-size: 32.4px;
     line-height: 1.4;
-    margin-bottom: 1vh;
+    margin-bottom: 21.6px;
 }
 
 .cave-info-value{
     color: #F0E7D9;
-    font-size: 2.5vh;
+    font-size: 54px;
     line-height: 1.25;
     font-weight: 800;
 }
@@ -70,9 +70,9 @@ body{
 }
 
 .cave-title{
-    margin: 10vh 0 0 0;
+    margin: 216px 0 0 0;
     color: #F1E7D7;
-    font-size: 7vh;
+    font-size: 151.2px;
     font-weight: 900;
     text-align: center;
 }
@@ -88,9 +88,9 @@ body{
 }
 
 .cave-text-content p {
-    margin: 0 0 3.2vh 0;
+    margin: 0 0 69.12px 0;
     color: rgba(237, 227, 211, 0.68);
-    font-size: 2.2vh;
+    font-size: 47.52px;
     line-height: 1.42;
     font-weight: 300;
 }
@@ -99,26 +99,26 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 38vh;
+    min-height: 820.8px;
     text-align: center;
     color: rgba(237, 227, 211, 0.72);
-    font-size: 3vh;
+    font-size: 64.8px;
     border: 1px solid rgba(213, 171, 104, 0.22);
-    border-radius: 2vh;
+    border-radius: 43.2px;
     background: rgba(255,255,255,0.03);
 }
 
 .cave-tabs{
     display: flex;
     justify-content: center;
-    gap: 1vw;
-    margin-top: 4vh;
+    gap: 38.4px;
+    margin-top: 86.4px;
     flex-wrap: wrap;
 }
 
 .cave-button-wrappers{
     width: fit-content;
-    height: 2.8vw;
+    height: 107.52px;
     margin: auto;
 }
 
@@ -126,15 +126,15 @@ body{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    min-width: 14vw;
-    padding: 1.1vh 1.8vw;
+    min-width: 537.6px;
+    padding: 23.76px 69.12px;
     border-radius: 999px;
     background-color: #4F4B45;
     color: #D5AB68;
     text-decoration: none;
     border: none;
     font-weight: 700;
-    font-size: 1.2vw;
+    font-size: 46.08px;
 }
 
 .cave-tab-btn:hover{
@@ -147,14 +147,12 @@ body{
     color: #FFF6E9;
 }
 
-/* optional spacing for existing top buttons/language buttons */
 .global-control-buttons{
     position: absolute;
-    top: 2.2vh;
-    left: 1.2vw;
+    top: 47.52px;
+    left: 46.08px;
     z-index: 5;
     display: flex;
     align-items: center;
-    gap: 0.8vw;
+    gap: 30.72px;
 }
-

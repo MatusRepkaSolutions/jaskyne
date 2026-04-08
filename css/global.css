@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body{
     font-family: "Inter", sans-serif;
     font-size: 14px;
@@ -13,23 +14,23 @@ body{
 
 .page{
     position: relative;
-    min-height: 100vh;
-    padding: 4vh 6vw;
+    min-height: 2160px;
+    padding: 86.4px 230.4px;
     box-sizing: border-box;
 }
 
 .global-control-buttons{
     position: absolute;
-    top: 3vh;
-    left: 3vw;
+    top: 64.8px;
+    left: 115.2px;
     display: flex;
-    gap: 1vw;
+    gap: 38.4px;
     z-index: 20;
 }
 
 .home-button{
-    width: 2.8vw;
-    height: 2.8vw;
+    width: 107.52px;
+    height: 107.52px;
     min-width: 36px;
     min-height: 36px;
     border-radius: 50%;
@@ -48,30 +49,30 @@ body{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    min-width: 14vw;
-    padding: 1.1vh 1.8vw;
+    min-width: 537.6px;
+    padding: 23.76px 69.12px;
     border-radius: 999px;
     background-color: #4F4B45;
     color: #D5AB68;
     text-decoration: none;
     font-weight: 700;
-    font-size: 1.2vw;
+    font-size: 46.08px;
 }
 
 /* language switch buttons */
 
 .map-lang-switches{
     position: absolute;
-    top: 3vh;
-    right: 3vw;
+    top: 64.8px;
+    right: 115.2px;
     display: flex;
-    gap: 1vw;
+    gap: 38.4px;
     z-index: 20;
 }
 
 .map-lang-btn{
-    width: 2.8vw;
-    height: 2.8vw;
+    width: 107.52px;
+    height: 107.52px;
     min-width: 36px;
     min-height: 36px;
     border-radius: 50%;
@@ -83,7 +84,6 @@ body{
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
 }
-
 
 .map-lang-btn:hover{
     transform: scale(1.06);
