@@ -21,7 +21,7 @@ body{
 
 .global-control-buttons{
     position: absolute;
-    top: 64.8px;
+    top: 62px;
     left: 115.2px;
     display: flex;
     gap: 38.4px;
@@ -63,7 +63,7 @@ body{
 
 .map-lang-switches{
     position: absolute;
-    top: 40px;
+    top: 62px;
     right: 115.2px;
     display: flex;
     gap: 38.4px;
