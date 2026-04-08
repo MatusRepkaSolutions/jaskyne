@@ -15,7 +15,7 @@ body{
     display: flex;
     align-items: center;
     gap: 300px;
-    margin: 350px auto;
+    margin: 216px auto;
     justify-content: center;
 }
 
@@ -53,12 +53,12 @@ body{
 }
 
 .map-text-svk {
-    top: 1186px;
-    left: 970px;
+    top: 1047px;
+    left: 894px;
 }
 
 .map-text-hun {
-    top: 1565px;
+    top: 1430px;
     left: 1263px;
 }
 
