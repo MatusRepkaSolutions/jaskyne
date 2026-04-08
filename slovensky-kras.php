@@ -11,7 +11,6 @@
 </head>
 <body>
 
-<div class="page">
 
     <!-- ######################## Upper controls ################## -->
 
@@ -67,7 +66,6 @@
         <div class="map2-button-text" data-txt="silicka">Silická ľadnica</div>
     </a>
 
-</div>
 
 </body>
 </html>
