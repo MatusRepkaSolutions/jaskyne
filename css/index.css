@@ -22,19 +22,19 @@ body{
 
 .index-bold-text{
     font-weight: 900;
-    font-size: 129.6px;
+    font-size: 128px;
     animation-delay: 0.1s;
 }
 
 .index-text{
     font-weight: 400;
-    font-size: 129.6px;
+    font-size: 128px;
     animation-delay: 0.35s;
 }
 
 .index-italic-text{
     font-weight: 400;
-    font-size: 129.6px;
+    font-size: 128px;
     font-style: italic;
     animation-delay: 0.6s;
 }
@@ -42,7 +42,7 @@ body{
 .index-unesco{
     color: #EDE3D3;
     font-weight: 400;
-    font-size: 64.8px;
+    font-size: 64px;
     margin: auto;
     letter-spacing: 0.3em;
     opacity: 0;
@@ -69,8 +69,8 @@ body{
     outline: 1rem solid rgba(255, 231, 165, 0.1);
     -webkit-tap-highlight-color: transparent;
 
-    height: 194.4px;
-    width: 194.4px;
+    height: 208px;
+    width: 208px;
 
     opacity: 0;
     transform: translateX(-80px) scale(0.8);
