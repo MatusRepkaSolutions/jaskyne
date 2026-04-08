@@ -14,13 +14,13 @@ body{
 .map-content{
     display: flex;
     align-items: center;
-    gap: 200px;
+    gap: 300px;
     margin: 350px auto;
     justify-content: center;
 }
 
 .map-left{
-    width: 1560px;
+    width: 1650px;
     height: 730px;
 }
 
@@ -39,6 +39,7 @@ body{
 .map-text-svk{
     position: absolute;
     color: #2B241E;
+    font-weight: 500;
     font-size: 40px;
     letter-spacing: 0.08em;
 }
@@ -47,17 +48,18 @@ body{
     position: absolute;
     color: #EDE3D3;
     font-size: 40px;
+    font-weight: 500;
     letter-spacing: 0.08em;
 }
 
-.map-text-svk{
-    top: 986px;
-    left: 723px;
+.map-text-svk {
+    top: 1186px;
+    left: 970px;
 }
 
-.map-text-hun{
-    top: 1342px;
-    left: 996px;
+.map-text-hun {
+    top: 1565px;
+    left: 1263px;
 }
 
 .map-right{
