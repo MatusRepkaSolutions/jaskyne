@@ -5,28 +5,30 @@ body{
 
 .map-title{
     text-align: center;
-    font-size: 129.6px;
+    font-size: 128px;
     font-weight: 900;
     color: #D5AB68;
-    margin-top: 172.8px;
+    margin-top: 240px;
 }
 
 .map-content{
     display: flex;
     align-items: center;
-    gap: 153.6px;
+    gap: 200px;
     margin: 216px auto;
     justify-content: center;
 }
 
-.map-left,
-.map-right{
-    width: 40%;
+.map-left{
+    width: 1461px;
+    height: 730px;
 }
 
-.map-left{
-    position: relative;
+.map-right{
+    width: 1450px;
+    height: 944px;
 }
+
 
 .map-image{
     width: 100%;
@@ -37,44 +39,44 @@ body{
 .map-text-svk{
     position: absolute;
     color: #2B241E;
-    font-size: 45.36px;
+    font-size: 40px;
     letter-spacing: 0.08em;
 }
 
 .map-text-hun{
     position: absolute;
     color: #EDE3D3;
-    font-size: 45.36px;
+    font-size: 40px;
     letter-spacing: 0.08em;
 }
 
 .map-text-svk{
-    top: 48%;
-    left: 34%;
+    top: 986px;
+    left: 723px;
 }
 
 .map-text-hun{
-    top: 79%;
-    left: 50%;
+    top: 1342px;
+    left: 996px;
 }
 
 .map-right{
     display: flex;
     flex-direction: column;
-    gap: 64.8px;
+    gap: 65px;
 }
 
 .map-paragraph{
     display: block;
     color: rgba(237, 227, 211, 0.65);
-    font-size: 54px;
+    font-size: 48px;
     line-height: 1.6;
 }
 
 .map-bottom-buttons{
     display: flex;
     justify-content: center;
-    gap: 38.4px;
+    gap: 50px;
     margin-top: 129.6px;
 }
 
@@ -82,14 +84,15 @@ body{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    min-width: 537.6px;
-    padding: 23.76px 69.12px;
+    width: 806px;
+    padding: 26px 0;
     border-radius: 999px;
     background-color: #4F4B45;
     color: #D5AB68;
     text-decoration: none;
     font-weight: 700;
-    font-size: 46.08px;
+    line-height: 100%;
+    font-size: 48px;
 }
 
 .map-animate-title{
