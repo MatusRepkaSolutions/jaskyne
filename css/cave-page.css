@@ -60,9 +60,10 @@ body{
     font-weight: 800;
 }
 
-.cave-main{
+.cave-main {
     width: 77%;
     display: flex;
+    overflow: auto;
     flex-direction: column;
     align-items: center;
 }
@@ -78,7 +79,6 @@ body{
 
 .cave-tab-content{
     width: 100%;
-    max-width: 900px;
     display: none;
 }
 

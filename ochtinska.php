@@ -64,7 +64,7 @@
             </div>
         </div>
 
-        <div class="cave-main">
+        <div class="cave-main custom-scroll" id="scroll-1">
 
             <div class="cave-text-content cave-tab-content active" id="tab-text">
                 <p data-txt="ochtinskaParagraph1">
