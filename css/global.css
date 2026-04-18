@@ -98,3 +98,44 @@ body{
     display: block;
 }
 
+.custom-scroll {
+    position: relative;
+    overflow: hidden; /* hide default scrollbar */
+}
+
+/* inner scroll container */
+.custom-scroll-inner {
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 20px; /* space for custom scrollbar */
+    box-sizing: content-box;
+}
+
+/* hide native scrollbar */
+.custom-scroll-inner::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+/* scrollbar track */
+.custom-scroll-track {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 3px;
+    height: 100%;
+    background: #4F4B45;
+}
+
+/* scrollbar dot (thumb) */
+.custom-scroll-thumb {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background: #C19E6A;
+    border-radius: 50%;
+    cursor: pointer;
+}
