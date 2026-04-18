@@ -93,12 +93,10 @@
                 class="cave-gallery-content cave-tab-content" 
                 id="tab-gallery"
                 data-gallery-path="img/gallery/ochtinska"
-                data-gallery-count="10"
+                data-gallery-json="data/gallery/ochtinska.json"
             >
                 <div class="gallery-shell">
-                    <button class="gallery-nav gallery-prev" type="button" aria-label="Predošlá fotografia">
-                        &#10094;
-                    </button>
+                    <button class="gallery-nav gallery-prev" type="button" aria-label="Predošlá fotografia">&#10094;</button>
 
                     <div class="gallery-stage">
                         <div class="gallery-side gallery-side-left">
@@ -108,8 +106,8 @@
                         <div class="gallery-center">
                             <img class="gallery-main-img" src="" alt="">
                             <div class="gallery-caption">
-                                <div class="gallery-caption-text">Popisok fotografie</div>
-                                <div class="gallery-caption-author">Foto</div>
+                                <div class="gallery-caption-text"></div>
+                                <div class="gallery-caption-author"></div>
                             </div>
                         </div>
 
@@ -118,9 +116,7 @@
                         </div>
                     </div>
 
-                    <button class="gallery-nav gallery-next" type="button" aria-label="Ďalšia fotografia">
-                        &#10095;
-                    </button>
+                    <button class="gallery-nav gallery-next" type="button" aria-label="Ďalšia fotografia">&#10095;</button>
                 </div>
             </div>
 
