@@ -43,7 +43,7 @@
             </div>
         </div>
 
-        <div class="map-right custom-scroll">
+        <div class="map-right custom-scroll" id="scroll-1">
                 <span class="map-paragraph map-animate-text" data-txt="map1">
                     Slovenský kras je jedinečným príkladom dobre vyvinutého planinového krasu, ktorý v regióne strednej Európe nemá obdoby.
                 </span>
