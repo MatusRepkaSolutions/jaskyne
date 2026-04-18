@@ -109,4 +109,23 @@ document.addEventListener("DOMContentLoaded", async () => {
     } catch (error) {
         console.error("Translation initialization failed:", error);
     }
+
+    const dot = document.getElementById("scrollDot");
+
+    function updateScrollDot() {
+    const scrollTop = window.scrollY;
+    const docHeight = document.body.scrollHeight - window.innerHeight;
+    const scrollPercent = scrollTop / docHeight;
+
+    const lineHeight = window.innerHeight;
+    const dotPosition = scrollPercent * (lineHeight - 20); // padding
+
+    dot.style.transform = `translateY(${dotPosition}px)`;
+    }
+
+    window.addEventListener("scroll", updateScrollDot);
+    window.addEventListener("resize", updateScrollDot);
+
+    // init
+    updateScrollDot();
 });
