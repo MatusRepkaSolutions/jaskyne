@@ -46,7 +46,7 @@ body{
 
 .map-text-hun{
     position: absolute;
-    color: #EDE3D3;
+    color: #D5AB68;
     font-size: 48px;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -57,29 +57,29 @@ body{
     color: #2B241E;
     font-weight: 500;
     font-size: 36px;
-    letter-spacing: 0.08em;
-    top: 950px;
-    left: 1050px;
+    letter-spacing: 0;
+    top: 965px;
+    left: 1347px;
 }
 
 .map-text-Agg{
     position: absolute;
-    color: #EDE3D3;
+    color: #D5AB68;
     font-weight: 500;
     font-size: 36px;
-    letter-spacing: 0.08em;
+    letter-spacing: 0;
     top: 1100px;
     left: 1200px;
 }
 
 .map-text-svk {
     top: 1000px;
-    left: 894px;
+    left: 806px;
 }
 
 .map-text-hun {
-    top: 1400px;
-    left: 1263px;
+    top: 1323px;
+    left: 1053px;
 }
 
 .map-right{
