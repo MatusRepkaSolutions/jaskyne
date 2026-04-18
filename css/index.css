@@ -54,7 +54,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 192px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .index-button{

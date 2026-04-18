@@ -26,8 +26,6 @@
     <div class="map-content">
 
         <div class="map-left">
-            <img class="map-image map-animate-map" src="img/mapa/mapa.svg" alt="Mapa krasu">
-
             <div class="map-text-svk map-animate-label" data-txt="slovensko">
                 Slovensko
             </div>
