@@ -1,5 +1,5 @@
 body{
-    background-color: #12120D;
+    background: url("img/kras-mapa/background.png");
     color: #E0B46E;
 }
 
@@ -74,6 +74,17 @@ body{
     transform: translateY(43.2px);
     animation: textReveal 0.5s ease-out forwards;
     animation-delay: calc(var(--start-delay) + var(--i) * var(--step) + 0.35s);
+}
+
+.map2-button-text {
+    font-size: 48px;
+    position: absolute;
+    bottom: 200px;
+    left: 1160px;
+    color: #C19E6A;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
 }
 
 .special{

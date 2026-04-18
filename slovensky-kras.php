@@ -31,11 +31,6 @@
         Jaskyne Slovenského krasu
     </div>
 
-    <div class="kras-mapa">
-        <img src="img/kras-mapa/mapa.svg
-        " class="kras-mapa-img" alt="Mapa jaskýň Slovenského krasu">
-    </div>
-
     <a href="ochtinska.php" class="map2-button pos1" style="--i:0;">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="ochotnicka">Ochtinská aragonitová jaskyňa</div>
@@ -66,6 +61,7 @@
         <div class="map2-button-text" data-txt="silicka">Silická ľadnica</div>
     </a>
 
+    <div class="map2-bottom-text" data-txt="KlikniNaMapu">Klikni na mapu</div>
 
 </body>
 </html>
