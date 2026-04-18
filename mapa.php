@@ -46,7 +46,6 @@
         <div class="map-right">
             <div class="scroll-line"></div>
             <div class="scroll-dot" id="scrollDot"></div>
-            <div>
                 <span class="map-paragraph map-animate-text" data-txt="map1">
                     Slovenský kras je jedinečným príkladom dobre vyvinutého planinového krasu, ktorý v regióne strednej Európe nemá obdoby.
                 </span>
@@ -58,7 +57,6 @@
                 <span class="map-paragraph map-animate-text" data-txt="map3">
                     Medzinárodné ocenenie jaskýň Slovenského a Aggteleckého krasu nás preto zaväzuje zachovávať, prezentovať a odovzdávať tieto jedinečné prírodné hodnoty ďalším generáciám.
                 </span>
-            </div>
         </div>
 
     </div>
