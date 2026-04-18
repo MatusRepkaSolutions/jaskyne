@@ -76,7 +76,7 @@ body{
     animation-delay: calc(var(--start-delay) + var(--i) * var(--step) + 0.35s);
 }
 
-.map2-button-text {
+.map2-bottom-text {
     font-size: 48px;
     position: absolute;
     bottom: 200px;
