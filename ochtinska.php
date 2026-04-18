@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<div class="cave-page">
+<div class="cave-page" style="background: url('../img/cavebg/ochtinska.png');">
 
     <div class="global-control-buttons">
         <a class="home-button" href="mapa.php">
