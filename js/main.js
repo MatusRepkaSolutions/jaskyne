@@ -72,27 +72,31 @@ document.addEventListener("DOMContentLoaded", async () => {
     function bindLanguageSwitching(translations) {
         const buttons = document.querySelectorAll("[data-lang-switch]");
 
-        button.addEventListener("click", (event) => {
-        event.preventDefault();
+        buttons.forEach((button) => {
+            button.addEventListener("click", (event) => {
+                event.preventDefault();
 
-        const selectedLanguage = button.dataset.langSwitch;
+                const selectedLanguage = button.dataset.langSwitch;
 
-        if (!supportedLanguages.includes(selectedLanguage)) {
-            return;
-        }
+                if (!supportedLanguages.includes(selectedLanguage)) {
+                    return;
+                }
 
-        setCookie(cookieName, selectedLanguage);
-        applyTranslations(translations, selectedLanguage);
-        updateLanguageButtons(selectedLanguage);
+                setCookie(cookieName, selectedLanguage);
+                applyTranslations(translations, selectedLanguage);
+                updateLanguageButtons(selectedLanguage);
 
-        document.documentElement.setAttribute("lang", selectedLanguage);
-        document.body.setAttribute("data-current-lang", selectedLanguage);
-        window.appLanguage = selectedLanguage;
+                document.documentElement.setAttribute("lang", selectedLanguage);
+                document.body.setAttribute("data-current-lang", selectedLanguage);
 
-        if (typeof window.refreshGalleryTranslations === "function") {
-            window.refreshGalleryTranslations();
-        }
-    });
+                window.appLanguage = selectedLanguage;
+                window.appTranslations = translations;
+
+                if (typeof window.refreshGalleryTranslations === "function") {
+                    window.refreshGalleryTranslations();
+                }
+            });
+        });
     }
 
     try {
