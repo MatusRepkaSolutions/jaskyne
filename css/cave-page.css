@@ -63,6 +63,7 @@ body{
 .cave-main {
     width: 77%;
     display: flex;
+    height: 1239px;
     overflow: auto;
     flex-direction: column;
     align-items: center;
