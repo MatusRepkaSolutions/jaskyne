@@ -154,6 +154,14 @@ body{
     animation-delay: 1.05s;
 }
 
+.map-animate-text:nth-child(4){
+    animation-delay: 1.20s;
+}
+
+.map-animate-text:nth-child(5){
+    animation-delay: 1.40s;
+}
+
 .map-bottom-buttons .map-nav-btn{
     opacity: 0;
     transform: translateY(43.2px);
