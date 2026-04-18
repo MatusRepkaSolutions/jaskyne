@@ -50,14 +50,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function initCaveGallery() {
+    async function initCaveGallery() {
         const galleryRoot = document.getElementById("tab-gallery");
         if (!galleryRoot) return;
 
         const basePath = galleryRoot.dataset.galleryPath;
-        const count = parseInt(galleryRoot.dataset.galleryCount || "0", 10);
+        const jsonPath = galleryRoot.dataset.galleryJson;
 
-        if (!basePath || !count || count < 1) return;
+        if (!basePath || !jsonPath) return;
 
         const mainImg = galleryRoot.querySelector(".gallery-main-img");
         const leftImg = galleryRoot.querySelector(".gallery-side-left .gallery-side-img");
@@ -69,18 +69,45 @@ document.addEventListener('DOMContentLoaded', () => {
         const leftSide = galleryRoot.querySelector(".gallery-side-left");
         const rightSide = galleryRoot.querySelector(".gallery-side-right");
 
+        let images = [];
         let currentIndex = 0;
 
-        const images = Array.from({ length: count }, (_, i) => ({
-            src: `${basePath}/${i + 1}.jpg`,
-            caption: `Fotografia ${i + 1}`,
-            author: ""
-        }));
+        try {
+            const response = await fetch(jsonPath, { cache: "no-cache" });
+
+            if (!response.ok) {
+                throw new Error(`Failed to load ${jsonPath}`);
+            }
+
+            const jsonData = await response.json();
+
+            images = jsonData.map(item => ({
+                src: `${basePath}/${item.file}`,
+                captionKey: item.captionKey || "",
+                authorKey: item.authorKey || ""
+            }));
+        } catch (error) {
+            console.error("Gallery JSON load error:", error);
+            return;
+        }
 
         function wrapIndex(index) {
             if (index < 0) return images.length - 1;
             if (index >= images.length) return 0;
             return index;
+        }
+
+        function getTranslatedText(key) {
+            if (!key) return "";
+
+            const translations = window.appTranslations || {};
+            const lang = window.appLanguage || "svk";
+
+            if (translations[key] && translations[key][lang] !== undefined) {
+                return translations[key][lang];
+            }
+
+            return key;
         }
 
         function animateSwap() {
@@ -100,13 +127,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const next = images[wrapIndex(currentIndex + 1)];
 
             mainImg.src = current.src;
-            mainImg.alt = current.caption || `Fotografia ${currentIndex + 1}`;
+            mainImg.alt = getTranslatedText(current.captionKey) || `Image ${currentIndex + 1}`;
 
             if (images.length > 1) {
                 leftImg.src = prev.src;
                 rightImg.src = next.src;
-                leftImg.alt = prev.caption || "";
-                rightImg.alt = next.caption || "";
+
+                leftImg.alt = getTranslatedText(prev.captionKey) || "";
+                rightImg.alt = getTranslatedText(next.captionKey) || "";
 
                 leftSide.classList.remove("empty");
                 rightSide.classList.remove("empty");
@@ -122,11 +150,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (captionText) {
-                captionText.textContent = current.caption || "";
+                captionText.textContent = getTranslatedText(current.captionKey);
             }
 
             if (captionAuthor) {
-                captionAuthor.textContent = current.author || "";
+                captionAuthor.textContent = getTranslatedText(current.authorKey);
             }
 
             if (withAnimation) {
@@ -144,33 +172,24 @@ document.addEventListener('DOMContentLoaded', () => {
             updateGallery(true);
         }
 
-        if (nextBtn) {
-            nextBtn.addEventListener("click", goNext);
-        }
-
-        if (prevBtn) {
-            prevBtn.addEventListener("click", goPrev);
-        }
+        prevBtn?.addEventListener("click", goPrev);
+        nextBtn?.addEventListener("click", goNext);
 
         galleryRoot.addEventListener("click", (e) => {
-            const left = e.target.closest(".gallery-side-left");
-            const right = e.target.closest(".gallery-side-right");
+            if (e.target.closest(".gallery-side-left") && images.length > 1) {
+                goPrev();
+            }
 
-            if (left && images.length > 1) goPrev();
-            if (right && images.length > 1) goNext();
+            if (e.target.closest(".gallery-side-right") && images.length > 1) {
+                goNext();
+            }
         });
 
         document.addEventListener("keydown", (e) => {
-            const galleryTabActive = galleryRoot.classList.contains("active");
-            if (!galleryTabActive) return;
+            if (!galleryRoot.classList.contains("active")) return;
 
-            if (e.key === "ArrowRight") {
-                goNext();
-            }
-
-            if (e.key === "ArrowLeft") {
-                goPrev();
-            }
+            if (e.key === "ArrowLeft") goPrev();
+            if (e.key === "ArrowRight") goNext();
         });
 
         let startX = 0;
@@ -186,8 +205,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (Math.abs(diff) < 40) return;
 
-            if (diff < 0) goNext();
             if (diff > 0) goPrev();
+            if (diff < 0) goNext();
         }, { passive: true });
 
         updateGallery(false);
@@ -196,5 +215,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (activeBtn) {
             galleryRoot.classList.add("gallery-ready");
         }
+
+        window.refreshGalleryTranslations = function () {
+            updateGallery(false);
+        };
     }
 });

@@ -1,0 +1,53 @@
+[
+    {
+        "file": "1.jpg",
+        "captionKey": "ochtinskaGalleryCaption1",
+        "authorKey": "ochtinskaGalleryAuthor1"
+    },
+    {
+        "file": "2.jpg",
+        "captionKey": "ochtinskaGalleryCaption2",
+        "authorKey": "ochtinskaGalleryAuthor2"
+    },
+    {
+        "file": "3.jpg",
+        "captionKey": "ochtinskaGalleryCaption3",
+        "authorKey": "ochtinskaGalleryAuthor3"
+    },
+    {
+        "file": "4.jpg",
+        "captionKey": "ochtinskaGalleryCaption4",
+        "authorKey": "ochtinskaGalleryAuthor4"
+    },
+    {
+        "file": "5.jpg",
+        "captionKey": "ochtinskaGalleryCaption5",
+        "authorKey": "ochtinskaGalleryAuthor5"
+    },
+    {
+        "file": "6.jpg",
+        "captionKey": "ochtinskaGalleryCaption6",
+        "authorKey": "ochtinskaGalleryAuthor6"
+    },
+    {
+        "file": "7.jpg",
+        "captionKey": "ochtinskaGalleryCaption7",
+        "authorKey": "ochtinskaGalleryAuthor7"
+    },
+    {
+        "file": "8.jpg",
+        "captionKey": "ochtinskaGalleryCaption8",
+        "authorKey": "ochtinskaGalleryAuthor8"
+    },
+    {
+        "file": "9.jpg",
+        "captionKey": "ochtinskaGalleryCaption9",
+        "authorKey": "ochtinskaGalleryAuthor9"
+    },
+    {
+        "file": "10.jpg",
+        "captionKey": "ochtinskaGalleryCaption10",
+        "authorKey": "ochtinskaGalleryAuthor10"
+    }
+    
+]
