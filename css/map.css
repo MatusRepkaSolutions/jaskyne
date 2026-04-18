@@ -25,11 +25,11 @@ body {
 }
 
 .map-right {
-    width: 1450px;
+    width: 1500px;
     height: 500px;
     position: relative;
     overflow-y: auto;
-    padding-right: 10px;
+    padding-right: 30px;
 }
 
 
