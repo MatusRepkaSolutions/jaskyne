@@ -60,9 +60,9 @@ function initCaveGallery() {
         const prev = wrap(index - 1);
         const next = wrap(index + 1);
 
-        mainImg.src = `${basePath}/${index + 1}.png`;
-        leftImg.src = `${basePath}/${prev + 1}.png`;
-        rightImg.src = `${basePath}/${next + 1}.png`;
+        mainImg.src = `${basePath}/${index + 1}.jpg`;
+        leftImg.src = `${basePath}/${prev + 1}.jpg`;
+        rightImg.src = `${basePath}/${next + 1}.jpg`;
 
         // captions
         captions.forEach(c => c.classList.remove("active"));
