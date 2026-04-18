@@ -4,6 +4,10 @@ body{
     color: #EDE3D3;
 }
 
+/* =========================
+   PAGE BASE
+========================= */
+
 .cave-page{
     position: relative;
     min-height: 2160px;
@@ -20,17 +24,55 @@ body{
     pointer-events: none;
 }
 
+.cave-title{
+    margin: 216px 0 0 0;
+    color: #F1E7D7;
+    font-size: 128px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* =========================
+   MAIN CONTENT / TABS
+========================= */
+
 .cave-page-content {
     position: relative;
     z-index: 2;
-    display: flex;
-    gap: 153.6px;
     width: 100%;
-    height: 1511.8px;
+    min-height: 1511.8px;
     margin: 0 auto;
     padding: 86.4px 153.6px 108px 153.6px;
     box-sizing: border-box;
 }
+
+/* each tab = full layout */
+.cave-tab-panel {
+    display: none;
+    width: 100%;
+    min-height: 1239px;
+}
+
+.cave-tab-panel.active {
+    display: flex;
+}
+
+/* TEXT TAB = 2 column layout */
+#tab-text.active {
+    display: flex;
+    gap: 153.6px;
+    align-items: flex-start;
+}
+
+/* GALLERY + VIDEO = full width */
+#tab-gallery.active,
+#tab-video.active {
+    display: block;
+}
+
+/* =========================
+   SIDE INFO (TEXT TAB)
+========================= */
 
 .cave-side-info{
     width: 23%;
@@ -38,7 +80,7 @@ body{
 }
 
 .cave-info-item{
-    padding: 38.88px 0 38.88px 0;
+    padding: 38.88px 0;
     border-top: 1px solid rgba(213, 171, 104, 0.28);
 }
 
@@ -60,6 +102,10 @@ body{
     font-weight: 800;
 }
 
+/* =========================
+   TEXT CONTENT
+========================= */
+
 .cave-main {
     width: 77%;
     display: flex;
@@ -69,22 +115,8 @@ body{
     align-items: center;
 }
 
-.cave-title{
-    margin: 216px 0 0 0;
-    color: #F1E7D7;
-    font-size: 128px;
-    letter-spacing: 0;
-    font-weight: 700;
-    text-align: center;
-}
-
-.cave-tab-content{
+.cave-text-content {
     width: 100%;
-    display: none;
-}
-
-.cave-tab-content.active{
-    display: block;
 }
 
 .cave-text-content p {
@@ -95,26 +127,9 @@ body{
     font-weight: 300;
 }
 
-.cave-placeholder{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 820.8px;
-    text-align: center;
-    color: rgba(237, 227, 211, 0.72);
-    font-size: 64.8px;
-    border: 1px solid rgba(213, 171, 104, 0.22);
-    border-radius: 43.2px;
-    background: rgba(255,255,255,0.03);
-}
-
-.cave-tabs{
-    display: flex;
-    justify-content: center;
-    gap: 38.4px;
-    margin-top: 86.4px;
-    flex-wrap: wrap;
-}
+/* =========================
+   BUTTONS
+========================= */
 
 .cave-button-wrappers{
     width: fit-content;
@@ -131,10 +146,10 @@ body{
     border-radius: 999px;
     background-color: #4F4B45;
     color: #D5AB68;
-    text-decoration: none;
     border: none;
     font-weight: 700;
     font-size: 46.08px;
+    cursor: pointer;
 }
 
 .cave-tab-btn:hover{
@@ -147,6 +162,10 @@ body{
     color: #FFF6E9;
 }
 
+/* =========================
+   GLOBAL NAV
+========================= */
+
 .global-control-buttons{
     position: absolute;
     top: 47.52px;
@@ -158,18 +177,35 @@ body{
 }
 
 /* =========================
+   PLACEHOLDER
+========================= */
+
+.cave-placeholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 820.8px;
+    text-align: center;
+    color: rgba(237, 227, 211, 0.72);
+    font-size: 64.8px;
+    border: 1px solid rgba(213, 171, 104, 0.22);
+    border-radius: 43.2px;
+    background: rgba(255,255,255,0.03);
+}
+
+/* =========================
    GALLERY
 ========================= */
 
-.cave-gallery-content {
+.cave-gallery-panel {
     width: 100%;
-    height: 100%;
+    min-height: 1239px;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.35s ease, transform 0.35s ease;
 }
 
-.cave-gallery-content.gallery-ready {
+.cave-gallery-panel.gallery-ready {
     opacity: 1;
     transform: translateY(0);
 }
@@ -192,13 +228,11 @@ body{
     align-items: center;
     justify-content: center;
     gap: 38px;
-    min-width: 0;
 }
 
 .gallery-center {
     width: 920px;
     max-width: 100%;
-    flex-shrink: 0;
     text-align: center;
     animation: galleryCenterIn 0.45s ease;
 }
@@ -210,19 +244,15 @@ body{
     display: block;
     border: 10px solid rgba(236, 226, 205, 0.95);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
-    background: rgba(255,255,255,0.08);
 }
 
 .gallery-caption {
     margin-top: 16px;
     color: #D8CCB6;
-    text-align: center;
-    line-height: 1.35;
 }
 
 .gallery-caption-text {
     font-size: 20px;
-    font-weight: 400;
     margin-bottom: 4px;
 }
 
@@ -234,98 +264,44 @@ body{
 .gallery-side {
     width: 240px;
     height: 340px;
-    opacity: 0.28;
+    opacity: 0.25;
     overflow: hidden;
-    position: relative;
-    flex-shrink: 0;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.gallery-side::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(22, 16, 10, 0.28);
 }
 
 .gallery-side-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
-    filter: grayscale(20%);
-    transform: scale(1.03);
-}
-
-.gallery-side-left {
-    transform: translateX(-10px);
-}
-
-.gallery-side-right {
-    transform: translateX(10px);
 }
 
 .gallery-nav {
     width: 72px;
     height: 72px;
-    border: none;
     border-radius: 50%;
     background: rgba(201, 165, 105, 0.18);
     color: #E8D4AE;
     font-size: 34px;
-    line-height: 1;
     cursor: pointer;
-    transition: transform 0.2s ease, background 0.2s ease, opacity 0.2s ease;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
 }
 
 .gallery-nav:hover {
     background: rgba(201, 165, 105, 0.34);
-    transform: scale(1.06);
 }
 
-.gallery-nav:active {
-    transform: scale(0.97);
-}
-
-.gallery-nav.hidden {
-    opacity: 0;
-    pointer-events: none;
-}
-
-.gallery-main-img.is-changing,
-.gallery-side-img.is-changing,
-.gallery-caption.is-changing {
-    animation: gallerySwap 0.35s ease;
-}
-
-@keyframes gallerySwap {
-    0% {
-        opacity: 0.45;
-        transform: scale(0.98);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
+/* =========================
+   ANIMATIONS
+========================= */
 
 @keyframes galleryCenterIn {
-    0% {
+    from {
         opacity: 0;
         transform: translateY(24px);
     }
-    100% {
+    to {
         opacity: 1;
         transform: translateY(0);
     }
 }
-
-/* optional nicer placeholder if only 1 image */
-.gallery-side.empty {
-    visibility: hidden;
-}
-

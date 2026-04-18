@@ -37,6 +37,7 @@
 
     <div class="cave-page-content">
 
+    <div class="cave-tab-panel active" id="tab-text">
         <div class="cave-side-info">
             <div class="cave-info-item">
                 <div class="cave-info-label" data-txt="ochtinskaInfoLengthLabel">Celková dĺžka jaskyne</div>
@@ -65,8 +66,7 @@
         </div>
 
         <div class="cave-main custom-scroll" id="scroll-1">
-
-            <div class="cave-text-content cave-tab-content active" id="tab-text">
+            <div class="cave-text-content">
                 <p data-txt="ochtinskaParagraph1">
                     Najvýznamnejšia z jaskýň Revúckej vrchoviny zaujme mimoriadne rozmanitou a bohatou výzdobou
                     tvorenou aragonitom. Nachádza sa v severnom svahu vrchu Hrádok medzi Štítnikom a Jelšavou.
@@ -88,57 +88,46 @@
                     podzemných priestoroch jaskyne.
                 </p>
             </div>
-
-            <div 
-                class="cave-gallery-content cave-tab-content" 
-                id="tab-gallery"
-                data-gallery-path="img/gallery/ochtinska"
-                data-gallery-json="data/gallery/ochtinska.json"
-            >
-                <div class="gallery-shell">
-                    <button class="gallery-nav gallery-prev" type="button" aria-label="Predošlá fotografia">&#10094;</button>
-
-                    <div class="gallery-stage">
-                        <div class="gallery-side gallery-side-left">
-                            <img class="gallery-side-img" src="" alt="">
-                        </div>
-
-                        <div class="gallery-center">
-                            <img class="gallery-main-img" src="" alt="">
-                            <div class="gallery-caption">
-                                <div class="gallery-caption-text"></div>
-                                <div class="gallery-caption-author"></div>
-                            </div>
-                        </div>
-
-                        <div class="gallery-side gallery-side-right">
-                            <img class="gallery-side-img" src="" alt="">
-                        </div>
-                    </div>
-
-                    <button class="gallery-nav gallery-next" type="button" aria-label="Ďalšia fotografia">&#10095;</button>
-                </div>
-            </div>
-
-            <div class="cave-video-content cave-tab-content" id="tab-video">
-                <div class="cave-placeholder" data-txt="videoPlaceholder">
-                    Video bude doplnené.
-                </div>
-            </div>
         </div>
     </div>
 
-    <div class="cave-button-wrappers">
-        <button class="cave-tab-btn active" type="button" data-tab-target="text" data-txt="tabText">
-            Text
-        </button>
-        <button class="cave-tab-btn" type="button" data-tab-target="gallery" data-txt="tabGallery">
-            Galéria
-        </button>
-        <button class="cave-tab-btn" type="button" data-tab-target="video" data-txt="tabVideo">
-            Video
-        </button>
+    <div 
+        class="cave-tab-panel cave-gallery-panel" 
+        id="tab-gallery"
+        data-gallery-path="img/gallery/ochtinska"
+        data-gallery-json="data/gallery/ochtinska.json"
+    >
+        <div class="gallery-shell">
+            <button class="gallery-nav gallery-prev" type="button" aria-label="Predošlá fotografia">&#10094;</button>
+
+            <div class="gallery-stage">
+                <div class="gallery-side gallery-side-left">
+                    <img class="gallery-side-img" src="" alt="">
+                </div>
+
+                <div class="gallery-center">
+                    <img class="gallery-main-img" src="" alt="">
+                    <div class="gallery-caption">
+                        <div class="gallery-caption-text"></div>
+                        <div class="gallery-caption-author"></div>
+                    </div>
+                </div>
+
+                <div class="gallery-side gallery-side-right">
+                    <img class="gallery-side-img" src="" alt="">
+                </div>
+            </div>
+
+            <button class="gallery-nav gallery-next" type="button" aria-label="Ďalšia fotografia">&#10095;</button>
+        </div>
     </div>
+
+    <div class="cave-tab-panel cave-video-panel" id="tab-video">
+        <div class="cave-placeholder" data-txt="videoPlaceholder">
+            Video bude doplnené.
+        </div>
+    </div>
+
 </div>
 
 </body>
