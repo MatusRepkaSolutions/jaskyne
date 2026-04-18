@@ -110,22 +110,29 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.error("Translation initialization failed:", error);
     }
 
-    const dot = document.getElementById("scrollDot");
+        const box = document.getElementById("customScrollBox");
+        const dot = document.getElementById("scrollDot");
 
-    function updateScrollDot() {
-    const scrollTop = window.scrollY;
-    const docHeight = document.body.scrollHeight - window.innerHeight;
-    const scrollPercent = scrollTop / docHeight;
+        function updateScrollDot() {
+            const scrollTop = box.scrollTop;
+            const scrollHeight = box.scrollHeight - box.clientHeight;
 
-    const lineHeight = window.innerHeight;
-    const dotPosition = scrollPercent * (lineHeight - 20); // padding
+            if (scrollHeight <= 0) {
+                dot.style.display = "none";
+                return;
+            } else {
+                dot.style.display = "block";
+            }
 
-    dot.style.transform = `translateY(${dotPosition}px)`;
-    }
+            const dotSize = dot.offsetHeight;
+            const maxMove = box.clientHeight - dotSize;
+            const scrollPercent = scrollTop / scrollHeight;
+            const dotPosition = scrollPercent * maxMove;
 
-    window.addEventListener("scroll", updateScrollDot);
-    window.addEventListener("resize", updateScrollDot);
+            dot.style.transform = `translateY(${dotPosition}px)`;
+        }
 
-    // init
-    updateScrollDot();
+        box.addEventListener("scroll", updateScrollDot);
+        window.addEventListener("resize", updateScrollDot);
+        updateScrollDot();
 });

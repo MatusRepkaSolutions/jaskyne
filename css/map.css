@@ -1,9 +1,9 @@
-body{
+body {
     background-image: url("../img/mapa/background.png");
     color: #E0B46E;
 }
 
-.map-title{
+.map-title {
     text-align: center;
     font-size: 128px;
     font-weight: 900;
@@ -11,7 +11,7 @@ body{
     margin-top: 240px;
 }
 
-.map-content{
+.map-content {
     display: flex;
     align-items: center;
     gap: 300px;
@@ -19,25 +19,56 @@ body{
     justify-content: center;
 }
 
-.map-left{
+.map-left {
     width: 1650px;
     height: 730px;
 }
 
-.map-right{
+.map-right {
     width: 1450px;
     height: 500px;
-    overflow: scroll;
+    overflow-y: auto;
+    padding-right: 30px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.map-right::-webkit-scrollbar {
+    display: none;
+}
+
+.map-right .scroll-line {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    width: 2px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    pointer-events: none;
+    z-index: 5;
+}
+
+.map-right .scroll-dot {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    width: 16px;
+    height: 16px;
+    background: #caa56b;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 6;
+    transform: translateY(0);
 }
 
 
-.map-image{
+.map-image {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.map-text-svk{
+.map-text-svk {
     position: absolute;
     color: #2B241E;
     font-weight: 700;
@@ -45,7 +76,7 @@ body{
     letter-spacing: 0.08em;
 }
 
-.map-text-hun{
+.map-text-hun {
     position: absolute;
     color: #D5AB68;
     font-size: 48px;
@@ -53,7 +84,7 @@ body{
     letter-spacing: 0.08em;
 }
 
-.map-text-kras{
+.map-text-kras {
     position: absolute;
     color: #2B241E;
     font-weight: 500;
@@ -63,7 +94,7 @@ body{
     left: 1347px;
 }
 
-.map-text-Agg{
+.map-text-Agg {
     position: absolute;
     color: #D5AB68;
     font-weight: 500;
@@ -83,13 +114,13 @@ body{
     left: 1053px;
 }
 
-.map-right{
+.map-right {
     display: flex;
     flex-direction: column;
     gap: 65px;
 }
 
-.map-paragraph{
+.map-paragraph {
     display: block;
     color: rgba(237, 227, 211, 0.65);
     font-size: 48px;
@@ -97,14 +128,14 @@ body{
     line-height: 1.5;
 }
 
-.map-bottom-buttons{
+.map-bottom-buttons {
     display: flex;
     justify-content: center;
     gap: 50px;
     margin-top: 129.6px;
 }
 
-.map-nav-btn{
+.map-nav-btn {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -119,107 +150,114 @@ body{
     font-size: 48px;
 }
 
-.map-animate-title{
+.map-animate-title {
     opacity: 0;
     transform: translateY(86.4px);
     animation: mapTitleReveal 0.9s ease-out forwards;
 }
 
-.map-animate-map{
+.map-animate-map {
     opacity: 0;
     animation: mapFadeIn 1s ease-out forwards;
     animation-delay: 0.35s;
 }
 
-.map-animate-label{
+.map-animate-label {
     opacity: 0;
     animation: mapLabelFade 0.8s ease-out forwards;
     animation-delay: 0.9s;
 }
 
-.map-animate-text{
+.map-animate-text {
     opacity: 0;
     transform: translateY(64.8px);
     animation: mapTextReveal 0.9s ease-out forwards;
 }
 
-.map-animate-text:nth-child(1){
+.map-animate-text:nth-child(1) {
     animation-delay: 0.55s;
 }
 
-.map-animate-text:nth-child(2){
+.map-animate-text:nth-child(2) {
     animation-delay: 0.8s;
 }
 
-.map-animate-text:nth-child(3){
+.map-animate-text:nth-child(3) {
     animation-delay: 1.05s;
 }
 
-.map-animate-text:nth-child(4){
+.map-animate-text:nth-child(4) {
     animation-delay: 1.20s;
 }
 
-.map-animate-text:nth-child(5){
+.map-animate-text:nth-child(5) {
     animation-delay: 1.40s;
 }
 
-.map-bottom-buttons .map-nav-btn{
+.map-bottom-buttons .map-nav-btn {
     opacity: 0;
     transform: translateY(43.2px);
     animation: mapButtonsReveal 0.8s ease-out forwards;
     animation-delay: 1.3s;
 }
 
-.map-bottom-buttons .map-nav-btn:nth-child(2){
+.map-bottom-buttons .map-nav-btn:nth-child(2) {
     animation-delay: 1.45s;
 }
 
-@keyframes mapTitleReveal{
-    from{
+
+
+@keyframes mapTitleReveal {
+    from {
         opacity: 0;
         transform: translateY(86.4px);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-@keyframes mapFadeIn{
-    from{
+@keyframes mapFadeIn {
+    from {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
 
-@keyframes mapLabelFade{
-    from{
+@keyframes mapLabelFade {
+    from {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
 
-@keyframes mapTextReveal{
-    from{
+@keyframes mapTextReveal {
+    from {
         opacity: 0;
         transform: translateY(64.8px);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-@keyframes mapButtonsReveal{
-    from{
+@keyframes mapButtonsReveal {
+    from {
         opacity: 0;
         transform: translateY(43.2px);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translateY(0);
     }
