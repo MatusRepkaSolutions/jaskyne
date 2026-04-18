@@ -39,26 +39,46 @@ body{
 .map-text-svk{
     position: absolute;
     color: #2B241E;
-    font-weight: 500;
-    font-size: 40px;
+    font-weight: 700;
+    font-size: 48px;
     letter-spacing: 0.08em;
 }
 
 .map-text-hun{
     position: absolute;
     color: #EDE3D3;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 48px;
+    font-weight: 700;
     letter-spacing: 0.08em;
 }
 
+.map-text-kras{
+    position: absolute;
+    color: #2B241E;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0.08em;
+    top: 950px;
+    left: 1050px;
+}
+
+.map-text-Agg{
+    position: absolute;
+    color: #EDE3D3;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0.08em;
+    top: 1100px;
+    left: 1200px;
+}
+
 .map-text-svk {
-    top: 1047px;
+    top: 1000px;
     left: 894px;
 }
 
 .map-text-hun {
-    top: 1430px;
+    top: 1400px;
     left: 1263px;
 }
 

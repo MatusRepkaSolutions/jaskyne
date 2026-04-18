@@ -33,6 +33,14 @@
             <div class="map-text-hun map-animate-label" data-txt="madarsko">
                 Maďarsko
             </div>
+
+            <div class="map-text-kras map-animate-label" data-txt="SlovenskyKras">
+                Slovenský kras
+            </div>
+
+            <div class="map-text-Agg map-animate-label" data-txt="AggteleckyKras">
+                Aggtelecký kras
+            </div>
         </div>
 
         <div class="map-right">
