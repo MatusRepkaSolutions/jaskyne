@@ -43,7 +43,7 @@
             </div>
         </div>
 
-        <div class="map-right">
+        <div class="map-right" id="customScrollBox">
             <div class="scroll-line"></div>
             <div class="scroll-dot" id="scrollDot"></div>
                 <span class="map-paragraph map-animate-text" data-txt="map1">
