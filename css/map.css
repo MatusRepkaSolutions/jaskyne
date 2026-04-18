@@ -30,26 +30,6 @@ body {
     position: relative;
     overflow-y: auto;
     padding-right: 10px;
-    scrollbar-width: thin;
-    scrollbar-color: #caa56b rgba(255,255,255,0.18);
-}
-
-.map-right::-webkit-scrollbar {
-    width: 8px;
-}
-
-.map-right::-webkit-scrollbar-track {
-    background: rgba(255,255,255,0.18);
-    border-radius: 999px;
-}
-
-.map-right::-webkit-scrollbar-thumb {
-    background: #caa56b;
-    border-radius: 999px;
-}
-
-.map-right::-webkit-scrollbar-thumb:hover {
-    background: #d4b07a;
 }
 
 
