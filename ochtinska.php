@@ -129,6 +129,16 @@
     </div>
 
 </div>
-
+<div class="cave-button-wrappers">
+        <button class="cave-tab-btn active" type="button" data-tab-target="text" data-txt="tabText">
+            Text
+        </button>
+        <button class="cave-tab-btn" type="button" data-tab-target="gallery" data-txt="tabGallery">
+            Galéria
+        </button>
+        <button class="cave-tab-btn" type="button" data-tab-target="video" data-txt="tabVideo">
+            Video
+        </button>
+    </div>
 </body>
 </html>
