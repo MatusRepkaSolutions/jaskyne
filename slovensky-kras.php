@@ -61,7 +61,7 @@
         <div class="map2-button-text" data-txt="silicka">Silická ľadnica</div>
     </a>
 
-    <div class="map2-bottom-text" data-txt="KlikniNaMapu">Klikni na mapu</div>
+    <div class="map2-bottom-text" data-txt="VyberSiJaskynu">Vyber si jaskyňu</div>
 
 </body>
 </html>

@@ -46,16 +46,17 @@ body{
     display: flex;
     position: absolute;
     flex-direction: column;
-    gap: 21.6px;
+    gap: 33.6px;
     max-width: 307.2px;
     text-decoration: none;
 }
 
 .map2-button-marker {
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     margin: 0 auto;
     background-color: #C19E6A;
+    outline: 25px solid #C19E6A80;
     border-radius: 50%;
     cursor: pointer;
     opacity: 0;
@@ -93,18 +94,18 @@ body{
 
 /* positions */
 .pos1 {
-    left: 530.2px;
-    top: 802.4px;
+    left: 523.2px;
+    top: 692.4px;
 }
 
 .pos2 {
-    left: 1178.4px;
-    top: 1848.8px;
+    left: 1163.4px;
+    top: 1746.8px;
 }
 
 .pos3 {
-    left: 886.2px;
-    top: 1321px;
+    left: 882.2px;
+    top: 1246px;
     flex-direction: row;
     gap: 40px;
     max-width: 499.2px;
@@ -112,19 +113,19 @@ body{
 }
 
 .pos4 {
-    left: 2852.4px;
-    top: 778.6px;
+    left: 2899.4px;
+    top: 615.6px;
     max-width: fit-content;
 }
 
 .pos5 {
-    left: 1514.4px;
-    top: 1070px;
+    left: 1507.4px;
+    top: 947px;
 }
 
 .pos6 {
-    left: 1250.2px;
-    top: 1460.4px;
+    left: 1225.2px;
+    top: 1337.4px;
     max-width: fit-content;
 }
 
