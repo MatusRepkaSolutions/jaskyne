@@ -95,30 +95,76 @@
         class="cave-tab-panel cave-gallery-panel" 
         id="tab-gallery"
         data-gallery-path="img/gallery/ochtinska"
-        data-gallery-json="data/gallery/ochtinska.json"
+        data-gallery-count="9"
     >
         <div class="gallery-shell">
-            <button class="gallery-nav gallery-prev" type="button" aria-label="Predošlá fotografia">&#10094;</button>
 
             <div class="gallery-stage">
+
                 <div class="gallery-side gallery-side-left">
-                    <img class="gallery-side-img" src="" alt="">
+                    <img class="gallery-side-img" src="">
                 </div>
 
                 <div class="gallery-center">
-                    <img class="gallery-main-img" src="" alt="">
-                    <div class="gallery-caption">
-                        <div class="gallery-caption-text"></div>
-                        <div class="gallery-caption-author"></div>
+                    <img class="gallery-main-img" src="">
+
+                    <div class="gallery-captions">
+                        <div class="gallery-caption-item" data-index="0">
+                            <div class="gallery-caption-text">Caption 1</div>
+                            <div class="gallery-caption-author">Author 1</div>
+                        </div>
+
+                        <div class="gallery-caption-item" data-index="1">
+                            <div class="gallery-caption-text">Caption 2</div>
+                            <div class="gallery-caption-author">Author 2</div>
+                        </div>
+
+                        <div class="gallery-caption-item" data-index="2">
+                            <div class="gallery-caption-text">Caption 3</div>
+                            <div class="gallery-caption-author">Author 3</div>
+                        </div>
+
+                        <div class="gallery-caption-item" data-index="3">
+                            <div class="gallery-caption-text">Caption 4</div>
+                            <div class="gallery-caption-author">Author 4</div>
+                        </div>
+
+                        <div class="gallery-caption-item" data-index="4">
+                            <div class="gallery-caption-text">Caption 5</div>
+                            <div class="gallery-caption-author">Author 5</div>
+                        </div>
+
+                        <div class="gallery-caption-item" data-index="5">
+                            <div class="gallery-caption-text">Caption 6</div>
+                            <div class="gallery-caption-author">Author 6</div>
+                        </div>
+
+                        <div class="gallery-caption-item" data-index="6">
+                            <div class="gallery-caption-text">Caption 7</div>
+                            <div class="gallery-caption-author">Author 7</div>
+                        </div>
+
+                        <div class="gallery-caption-item" data-index="7">
+                            <div class="gallery-caption-text">Caption 8</div>
+                            <div class="gallery-caption-author">Author 8</div>
+                        </div>
+
+                        <div class="gallery-caption-item" data-index="8">
+                            <div class="gallery-caption-text">Caption 9</div>
+                            <div class="gallery-caption-author">Author 9</div>
+                        </div>
+
+
                     </div>
+
                 </div>
 
                 <div class="gallery-side gallery-side-right">
-                    <img class="gallery-side-img" src="" alt="">
+                    <img class="gallery-side-img" src="">
                 </div>
+
             </div>
 
-            <button class="gallery-nav gallery-next" type="button" aria-label="Ďalšia fotografia">&#10095;</button>
         </div>
     </div>
 
