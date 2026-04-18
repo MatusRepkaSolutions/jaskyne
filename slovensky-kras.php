@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/map2.css">
 
     <script src="js/main.js" defer></script>
+    <script src="js/kras-mapa.js" defer></script>
 </head>
 <body>
 
@@ -31,32 +32,32 @@
         Jaskyne Slovenského krasu
     </div>
 
-    <a href="ochtinska.php" class="map2-button pos1" style="--i:0;">
+    <a href="ochtinska.php" class="map2-button pos1" style="--i:0;" data-cave="ochtinska">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="ochotnicka">Ochtinská aragonitová jaskyňa</div>
     </a>
 
-    <a href="domnica.php" class="map2-button pos2" style="--i:2;">
+    <a href="domnica.php" class="map2-button pos2" style="--i:2;" data-cave="domnica">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="domica">Domica</div>
     </a>
 
-    <a href="gombasecka.php" class="map2-button pos3" style="--i:1;">
+    <a href="gombasecka.php" class="map2-button pos3" style="--i:1;" data-cave="gombasecka">
         <div class="map2-button-text special" data-txt="gombasecka">Gombasecká jaskyňa</div>
         <div class="map2-button-marker"></div>
     </a>
 
-    <a href="jasovska.php" class="map2-button pos4" style="--i:5;">
+    <a href="jasovska.php" class="map2-button pos4" style="--i:5;" data-cave="jasovska">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="jasovska">Jasovská jaskyňa</div>
     </a>
 
-    <a href="krasnohorska.php" class="map2-button pos5" style="--i:4;">
+    <a href="krasnohorska.php" class="map2-button pos5" style="--i:4;" data-cave="krasnohorska">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="krasnohorska">Krásnohorská jaskyňa</div>
     </a>
 
-    <a href="silicka.php" class="map2-button pos6" style="--i:3;">
+    <a href="silicka.php" class="map2-button pos6" style="--i:3;" data-cave="silicka">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="silicka">Silická ľadnica</div>
     </a>
