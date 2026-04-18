@@ -29,38 +29,29 @@ body {
     height: 500px;
     position: relative;
     overflow-y: auto;
-    padding-right: 30px;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+    padding-right: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #caa56b rgba(255,255,255,0.18);
 }
 
 .map-right::-webkit-scrollbar {
-    display: none;
+    width: 8px;
 }
 
-.map-right .scroll-line {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    width: 3px;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.2);
-    pointer-events: none;
-    z-index: 5;
+.map-right::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.18);
+    border-radius: 999px;
 }
 
-.map-right .scroll-dot {
-    position: absolute;
-    top: 0;
-    right: 1px;
-    width: 50px;
-    height: 50px;
+.map-right::-webkit-scrollbar-thumb {
     background: #caa56b;
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 6;
-    transform: translateY(0);
+    border-radius: 999px;
 }
+
+.map-right::-webkit-scrollbar-thumb:hover {
+    background: #d4b07a;
+}
+
 
 
 .map-image {
