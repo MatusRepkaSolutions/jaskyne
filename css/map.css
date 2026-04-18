@@ -41,8 +41,8 @@ body {
 .map-right .scroll-line {
     position: absolute;
     top: 0;
-    right: 8px;
-    width: 2px;
+    right: 25px;
+    width: 3px;
     height: 100%;
     background: rgba(255, 255, 255, 0.2);
     pointer-events: none;
