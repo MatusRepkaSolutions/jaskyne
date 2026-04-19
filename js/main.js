@@ -120,28 +120,29 @@ document.addEventListener("DOMContentLoaded", async () => {
         button.classList.add("button-anim-global-active");
     }
 
-    function bindRedirectButtons() {
-        const redirectButtons = document.querySelectorAll(".map-bottom-buttons .button-anim-global");
+    function initRedirectButtons() {
+    const redirectButtons = document.querySelectorAll(".map-bottom-buttons .map-nav-btn");
 
-        redirectButtons.forEach((button) => {
-            button.addEventListener("click", (event) => {
-                const targetUrl = button.getAttribute("href");
+    redirectButtons.forEach((button) => {
+        button.addEventListener("click", (event) => {
+            const targetUrl = button.getAttribute("href");
+            if (!targetUrl) return;
 
-                if (!targetUrl || button.classList.contains("is-animating")) {
-                    return;
-                }
+            event.preventDefault();
 
-                event.preventDefault();
-                button.classList.add("is-animating");
-
-                activateButtonInGroup(button, ".map-bottom-buttons");
-
-                setTimeout(() => {
-                    window.location.href = targetUrl;
-                }, 900); // same as animation duration
+            redirectButtons.forEach((btn) => {
+                btn.classList.remove("button-anim-global-active");
             });
+
+            void button.offsetWidth;
+            button.classList.add("button-anim-global-active");
+
+            setTimeout(() => {
+                window.location.href = targetUrl;
+            }, 900);
         });
-    }
+    });
+}
 
     try {
         const translations = await loadTranslations();
@@ -160,7 +161,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.error("Translation initialization failed:", error);
     }
 
-    bindRedirectButtons();
+    initRedirectButtons();
     initCustomScrollbars();
 });
 
