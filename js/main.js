@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                 setTimeout(() => {
                     window.location.href = targetUrl;
-                }, 900);
+                }, 450);
             });
         });
     }
