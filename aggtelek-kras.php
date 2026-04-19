@@ -48,8 +48,8 @@
     </a>
 
     <a href="kossuthova.php" class="map2-button pos10" style="--i:3;" data-cave="kossuthova">
+        <div class="map2-button-text special" data-txt="kossuthova">Kossuthova jaskyňa</div>    
         <div class="map2-button-marker"></div>
-        <div class="map2-button-text" data-txt="kossuthova">Kossuthova jaskyňa</div>
     </a>
 
     <a href="meteor.php" class="map2-button pos11" style="--i:4;" data-cave="meteor">
