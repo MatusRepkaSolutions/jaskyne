@@ -10,7 +10,7 @@
     <script src="js/main.js" defer></script>
     <script src="js/kras-mapa.js" defer></script>
 </head>
-<body data-translation-page="slovensky-kras" style="background: url('img/kras-mapa/background.png');">
+<body data-translation-page="mapa" style="background: url('img/kras-mapa/background.png');">
 
 
     <!-- ######################## Upper controls ################## -->
