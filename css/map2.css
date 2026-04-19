@@ -3,7 +3,7 @@ body{
 }
 
 :root{
-    --start-delay: 2.2s;
+    --start-delay: 1s;
     --step: 0.5s;
 }
 
