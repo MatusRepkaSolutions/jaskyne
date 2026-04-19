@@ -1,53 +1,53 @@
 [
     {
         "file": "1.jpg",
-        "captionKey": "ochtinskaGalleryCaption1",
-        "authorKey": "ochtinskaGalleryAuthor1"
+        "captionKey": "cap1",
+        "authorKey": "aut1"
     },
     {
         "file": "2.jpg",
-        "captionKey": "ochtinskaGalleryCaption2",
-        "authorKey": "ochtinskaGalleryAuthor2"
+        "captionKey": "cap2",
+        "authorKey": "aut2"
     },
     {
         "file": "3.jpg",
-        "captionKey": "ochtinskaGalleryCaption3",
-        "authorKey": "ochtinskaGalleryAuthor3"
+        "captionKey": "cap3",
+        "authorKey": "aut3"
     },
     {
         "file": "4.jpg",
-        "captionKey": "ochtinskaGalleryCaption4",
-        "authorKey": "ochtinskaGalleryAuthor4"
+        "captionKey": "cap4",
+        "authorKey": "aut4"
     },
     {
         "file": "5.jpg",
-        "captionKey": "ochtinskaGalleryCaption5",
-        "authorKey": "ochtinskaGalleryAuthor5"
+        "captionKey": "cap5",
+        "authorKey": "aut5"
     },
     {
         "file": "6.jpg",
-        "captionKey": "ochtinskaGalleryCaption6",
-        "authorKey": "ochtinskaGalleryAuthor6"
+        "captionKey": "cap6",
+        "authorKey": "aut6"
     },
     {
         "file": "7.jpg",
-        "captionKey": "ochtinskaGalleryCaption7",
-        "authorKey": "ochtinskaGalleryAuthor7"
+        "captionKey": "cap7",
+        "authorKey": "aut7"
     },
     {
         "file": "8.jpg",
-        "captionKey": "ochtinskaGalleryCaption8",
-        "authorKey": "ochtinskaGalleryAuthor8"
+        "captionKey": "cap8",
+        "authorKey": "aut8"
     },
     {
         "file": "9.jpg",
-        "captionKey": "ochtinskaGalleryCaption9",
-        "authorKey": "ochtinskaGalleryAuthor9"
+        "captionKey": "cap9",
+        "authorKey": "aut9"
     },
     {
         "file": "10.jpg",
-        "captionKey": "ochtinskaGalleryCaption10",
-        "authorKey": "ochtinskaGalleryAuthor10"
+        "captionKey": "cap10",
+        "authorKey": "aut10"
     }
     
 ]
