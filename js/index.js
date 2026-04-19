@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const targetUrl = button.getAttribute("href");
             const selectedLanguage = button.dataset.setLang;
+            window.playClickSound();
 
             if (!targetUrl || !selectedLanguage || button.classList.contains("is-animating")) {
                 return;
