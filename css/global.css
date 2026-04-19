@@ -149,6 +149,24 @@ body{
     animation: buttonReveal 0.25s ease-out forwards;
 }
 
+.map-nav-btn,
+.global-nav-btn,
+.home-button,
+.cave-tab-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center center;
+    backface-visibility: hidden;
+}
+
+.map-nav-btn.button-anim-global-active,
+.global-nav-btn.button-anim-global-active,
+.cave-tab-btn.button-anim-global-active {
+    color: #4F4B45;
+    background-color: #D5AB68;
+}
+
 @keyframes buttonReveal{
     0%{
         opacity: 1;

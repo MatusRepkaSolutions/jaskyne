@@ -3,6 +3,22 @@ document.addEventListener("DOMContentLoaded", async () => {
     const defaultLanguage = "svk";
     const cookieName = "lang";
 
+    const clickSound = new Audio("data/drop.WAV");
+    clickSound.preload = "auto";
+
+    function playClickSound() {
+        try {
+            clickSound.pause();
+            clickSound.currentTime = 0;
+            clickSound.play().catch(() => {});
+        } catch (error) {
+            console.warn("Click sound failed:", error);
+        }
+    }
+
+    // accessible from other files like cave-page.js
+    window.playClickSound = playClickSound;
+
     function setCookie(name, value, days = 365) {
         const date = new Date();
         date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
@@ -76,6 +92,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             button.addEventListener("click", (event) => {
                 event.preventDefault();
 
+                playClickSound();
+
                 const selectedLanguage = button.dataset.langSwitch;
 
                 if (!supportedLanguages.includes(selectedLanguage)) {
@@ -99,29 +117,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     }
 
-    function activateButtonInGroup(button, selector) {
-        const group = button.closest(selector);
-
-        if (!group) return;
-
-        const allButtons = group.querySelectorAll(".button-anim-global-active, .cave-tab-btn");
-
-        allButtons.forEach((btn) => {
-            btn.classList.remove("button-anim-global-active", "active");
-        });
-
-        // force reflow so animation can replay
-        void button.offsetWidth;
-
-        if (button.classList.contains("cave-tab-btn")) {
-            button.classList.add("active");
-        }
-
-        button.classList.add("button-anim-global-active");
-    }
-
     function initRedirectButtons() {
-        const redirectButtons = document.querySelectorAll(".map-bottom-buttons .map-nav-btn");
+        const redirectButtons = document.querySelectorAll(
+            ".map-nav-btn, .global-nav-btn, .home-button"
+        );
 
         redirectButtons.forEach((button) => {
             button.addEventListener("click", (event) => {
@@ -130,20 +129,29 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                 event.preventDefault();
 
+                playClickSound();
+
                 redirectButtons.forEach((btn) => {
                     btn.classList.remove("button-anim-global-active");
                 });
 
-                requestAnimationFrame(() => {
-                    button.classList.add("button-anim-global-active");
+                // force browser reflow so animation reliably restarts
+                void document.body.offsetHeight;
+                void button.offsetWidth;
 
-                    setTimeout(() => {
-                        window.location.href = targetUrl;
-                    }, 900);
+                requestAnimationFrame(() => {
+                    requestAnimationFrame(() => {
+                        button.classList.add("button-anim-global-active");
+
+                        setTimeout(() => {
+                            window.location.href = targetUrl;
+                        }, 900);
+                    });
                 });
             });
         });
     }
+
     try {
         const translations = await loadTranslations();
         const currentLanguage = getCurrentLanguage();
