@@ -121,29 +121,29 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     function initRedirectButtons() {
-    const redirectButtons = document.querySelectorAll(".map-bottom-buttons .map-nav-btn");
+        const redirectButtons = document.querySelectorAll(".map-bottom-buttons .map-nav-btn");
 
-    redirectButtons.forEach((button) => {
-        button.addEventListener("click", (event) => {
-            const targetUrl = button.getAttribute("href");
-            if (!targetUrl) return;
+        redirectButtons.forEach((button) => {
+            button.addEventListener("click", (event) => {
+                const targetUrl = button.getAttribute("href");
+                if (!targetUrl) return;
 
-            event.preventDefault();
+                event.preventDefault();
 
-            redirectButtons.forEach((btn) => {
-                btn.classList.remove("button-anim-global-active");
+                redirectButtons.forEach((btn) => {
+                    btn.classList.remove("button-anim-global-active");
+                });
+
+                requestAnimationFrame(() => {
+                    button.classList.add("button-anim-global-active");
+
+                    setTimeout(() => {
+                        window.location.href = targetUrl;
+                    }, 900);
+                });
             });
-
-            void button.offsetWidth;
-            button.classList.add("button-anim-global-active");
-
-            setTimeout(() => {
-                window.location.href = targetUrl;
-            }, 900);
         });
-    });
-}
-
+    }
     try {
         const translations = await loadTranslations();
         const currentLanguage = getCurrentLanguage();
