@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     }
 
-    // accessible from other files like cave-page.js
     window.playClickSound = playClickSound;
 
     function setCookie(name, value, days = 365) {
@@ -51,14 +50,65 @@ document.addEventListener("DOMContentLoaded", async () => {
         return defaultLanguage;
     }
 
-    async function loadTranslations() {
-        const response = await fetch("translation.json", { cache: "no-cache" });
+    function mergeTranslations(...translationSets) {
+        const merged = {};
+
+        translationSets.forEach((set) => {
+            if (!set || typeof set !== "object") return;
+
+            Object.keys(set).forEach((key) => {
+                if (
+                    typeof set[key] === "object" &&
+                    set[key] !== null &&
+                    !Array.isArray(set[key])
+                ) {
+                    merged[key] = {
+                        ...(merged[key] || {}),
+                        ...set[key]
+                    };
+                } else {
+                    merged[key] = set[key];
+                }
+            });
+        });
+
+        return merged;
+    }
+
+    async function loadJsonFile(path) {
+        const response = await fetch(path, { cache: "no-cache" });
 
         if (!response.ok) {
-            throw new Error("Failed to load translation.json");
+            throw new Error(`Failed to load ${path}`);
         }
 
         return await response.json();
+    }
+
+    async function loadTranslations() {
+        const pageName = document.body.dataset.translationPage || "index";
+
+        const filesToLoad = [
+            "data/translations/global.json",
+            `data/translations/${pageName}.json`
+        ];
+
+        const loadedTranslations = [];
+
+        for (const file of filesToLoad) {
+            try {
+                const json = await loadJsonFile(file);
+                loadedTranslations.push(json);
+            } catch (error) {
+                console.warn(`Translation file skipped: ${file}`, error);
+            }
+        }
+
+        if (loadedTranslations.length === 0) {
+            throw new Error("No translation files could be loaded.");
+        }
+
+        return mergeTranslations(...loadedTranslations);
     }
 
     function applyTranslations(translations, lang) {

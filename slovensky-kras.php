@@ -10,7 +10,7 @@
     <script src="js/main.js" defer></script>
     <script src="js/kras-mapa.js" defer></script>
 </head>
-<body>
+<body style="background: url('../img/kras-mapa/background.png');">
 
 
     <!-- ######################## Upper controls ################## -->

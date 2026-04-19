@@ -1,5 +1,4 @@
 body{
-    background: url("../img/kras-mapa/background.png");
     color: #E0B46E;
 }
 
@@ -144,7 +143,36 @@ body{
 .pos6 {
     left: 1225.2px;
     top: 1337.4px;
-    max-width: fit-content;
+}
+
+.pos7 {
+    left: 523.2px;
+    top: 692.4px;
+}
+
+.pos8 {
+    left: 1163.4px;
+    top: 1746.8px;
+}
+
+.pos9 {
+    left: 882.2px;
+    top: 1246px;
+}
+
+.pos10 {
+    left: 2899.4px;
+    top: 615.6px;
+}
+
+.pos11 {
+    left: 1507.4px;
+    top: 947px;
+}
+
+.pos12 {
+    left: 1225.2px;
+    top: 1337.4px;
 }
 
 /* animations */
