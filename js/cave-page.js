@@ -9,6 +9,10 @@ function initCaveTabs() {
 
     tabButtons.forEach((button) => {
         button.addEventListener("click", () => {
+            if (typeof window.playClickSound === "function") {
+                window.playClickSound();
+            }
+
             const target = button.dataset.tabTarget;
 
             tabButtons.forEach((btn) => {
@@ -74,7 +78,7 @@ function initCaveGallery() {
         leftImg.src = `${basePath}/${prev + 1}.jpg`;
         rightImg.src = `${basePath}/${next + 1}.jpg`;
 
-        captions.forEach(c => c.classList.remove("active"));
+        captions.forEach((c) => c.classList.remove("active"));
         const active = root.querySelector(`.gallery-caption-item[data-index="${index}"]`);
         if (active) active.classList.add("active");
 
@@ -88,11 +92,19 @@ function initCaveGallery() {
     }
 
     function goNext() {
+        if (typeof window.playClickSound === "function") {
+            window.playClickSound();
+        }
+
         index = wrap(index + 1);
         update("next");
     }
 
     function goPrev() {
+        if (typeof window.playClickSound === "function") {
+            window.playClickSound();
+        }
+
         index = wrap(index - 1);
         update("prev");
     }
