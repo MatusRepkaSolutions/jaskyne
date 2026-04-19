@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         if (!group) return;
 
-        const allButtons = group.querySelectorAll(".button-anim-global, .cave-tab-btn");
+        const allButtons = group.querySelectorAll(".button-anim-global-active, .cave-tab-btn");
 
         allButtons.forEach((btn) => {
             btn.classList.remove("button-anim-global-active", "active");
