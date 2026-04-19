@@ -145,6 +145,7 @@ body{
 .button-anim-global-active{
     color: #4F4B45;
     background-color: #D5AB68;
+    transform-origin: center center;
     animation: buttonReveal 0.9s ease-out forwards;
 }
 
