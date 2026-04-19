@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     const supportedLanguages = ["svk", "hun", "eng"];
     const defaultLanguage = "svk";
     const cookieName = "lang";
-    const anim_buttons = document.querySelectorAll(".button-anim-global");
 
     function setCookie(name, value, days = 365) {
         const date = new Date();
@@ -100,6 +99,50 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     }
 
+    function activateButtonInGroup(button, selector) {
+        const group = button.closest(selector);
+
+        if (!group) return;
+
+        const allButtons = group.querySelectorAll(".button-anim-global, .cave-tab-btn");
+
+        allButtons.forEach((btn) => {
+            btn.classList.remove("button-anim-global-active", "active");
+        });
+
+        // force reflow so animation can replay
+        void button.offsetWidth;
+
+        if (button.classList.contains("cave-tab-btn")) {
+            button.classList.add("active");
+        }
+
+        button.classList.add("button-anim-global-active");
+    }
+
+    function bindRedirectButtons() {
+        const redirectButtons = document.querySelectorAll(".map-bottom-buttons .button-anim-global");
+
+        redirectButtons.forEach((button) => {
+            button.addEventListener("click", (event) => {
+                const targetUrl = button.getAttribute("href");
+
+                if (!targetUrl || button.classList.contains("is-animating")) {
+                    return;
+                }
+
+                event.preventDefault();
+                button.classList.add("is-animating");
+
+                activateButtonInGroup(button, ".map-bottom-buttons");
+
+                setTimeout(() => {
+                    window.location.href = targetUrl;
+                }, 900); // same as animation duration
+            });
+        });
+    }
+
     try {
         const translations = await loadTranslations();
         const currentLanguage = getCurrentLanguage();
@@ -117,6 +160,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.error("Translation initialization failed:", error);
     }
 
+    bindRedirectButtons();
     initCustomScrollbars();
 });
 
@@ -192,33 +236,4 @@ function initCustomScrollbars() {
         updateThumb();
         window.addEventListener("resize", updateThumb);
     });
-
-    buttons.forEach((button) => {
-        button.addEventListener("click", (event) => {
-            event.preventDefault();
-
-            const targetUrl = button.getAttribute("href");
-            const selectedLanguage = button.dataset.setLang;
-
-            if (!targetUrl || !selectedLanguage || button.classList.contains("is-animating")) {
-                return;
-            }
-
-            button.classList.add("is-animating");
-            button.classList.add("is-ready");
-            button.classList.add("is-pressed");
-
-            setCookie(cookieName, selectedLanguage);
-
-            setTimeout(() => {
-                button.classList.remove("is-pressed");
-            }, 120);
-
-            setTimeout(() => {
-                window.location.href = targetUrl;
-            }, 220);
-        });
-    });
-
-
 }

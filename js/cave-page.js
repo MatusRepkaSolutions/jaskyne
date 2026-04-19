@@ -11,10 +11,20 @@ function initCaveTabs() {
         button.addEventListener("click", () => {
             const target = button.dataset.tabTarget;
 
-            tabButtons.forEach((btn) => btn.classList.remove("active"));
-            tabPanels.forEach((panel) => panel.classList.remove("active"));
+            tabButtons.forEach((btn) => {
+                btn.classList.remove("active", "button-anim-global-active");
+            });
+
+            tabPanels.forEach((panel) => {
+                panel.classList.remove("active");
+            });
 
             button.classList.add("active");
+
+            // force reflow so animation can replay on repeated clicks
+            void button.offsetWidth;
+
+            button.classList.add("button-anim-global-active");
 
             const targetPanel = document.getElementById(`tab-${target}`);
             if (targetPanel) {
@@ -64,12 +74,10 @@ function initCaveGallery() {
         leftImg.src = `${basePath}/${prev + 1}.jpg`;
         rightImg.src = `${basePath}/${next + 1}.jpg`;
 
-        // captions
         captions.forEach(c => c.classList.remove("active"));
         const active = root.querySelector(`.gallery-caption-item[data-index="${index}"]`);
         if (active) active.classList.add("active");
 
-        // animation
         root.classList.remove("gallery-anim-next", "gallery-anim-prev");
 
         if (direction === "next") {
