@@ -167,14 +167,14 @@ body {
     animation-delay: 1.40s;
 }
 
-.map-bottom-buttons .map-nav-btn {
+.map-bottom-buttons .map-nav-btn-reveal {
     opacity: 0;
     transform: translateY(43.2px);
     animation: mapButtonsReveal 0.8s ease-out forwards;
     animation-delay: 1.3s;
 }
 
-.map-bottom-buttons .map-nav-btn:nth-child(2) {
+.map-bottom-buttons .map-nav-btn-reveal:nth-child(2) {
     animation-delay: 1.45s;
 }
 

@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     function initRedirectButtons() {
         const redirectButtons = document.querySelectorAll(
-            ".map-nav-btn, .global-nav-btn, .home-button"
+            ".map-nav-btn, .global-nav-btn, .home-button, .map2-button"
         );
 
         redirectButtons.forEach((button) => {
@@ -133,6 +133,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                 redirectButtons.forEach((btn) => {
                     btn.classList.remove("button-anim-global-active");
                 });
+
+                button.classList.remove("map-nav-btn-reveal");
 
                 void button.offsetWidth;
 
