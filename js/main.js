@@ -3,6 +3,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     const defaultLanguage = "svk";
     const cookieName = "lang";
 
+    const inactivityLimit = 5 * 60 * 1000;
+    let inactivityTimer = null;
+
     const clickSound = new Audio("data/drop.WAV");
     clickSound.preload = "auto";
 
@@ -37,6 +40,56 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
 
         return null;
+    }
+
+    function deleteCookie(name) {
+        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; SameSite=Lax`;
+    }
+
+    function clearVisitedCookies() {
+        const cookies = document.cookie.split(";");
+
+        cookies.forEach((cookie) => {
+            const trimmedCookie = cookie.trim();
+            const equalIndex = trimmedCookie.indexOf("=");
+            const name = equalIndex > -1
+                ? trimmedCookie.substring(0, equalIndex)
+                : trimmedCookie;
+
+            if (name.startsWith("visited_")) {
+                deleteCookie(name);
+            }
+        });
+
+        document.querySelectorAll(".map2-button.visited").forEach((button) => {
+            button.classList.remove("visited");
+        });
+    }
+
+    function resetInactivityTimer() {
+        clearTimeout(inactivityTimer);
+
+        inactivityTimer = setTimeout(() => {
+            clearVisitedCookies();
+            window.location.href = "index.php";
+        }, inactivityLimit);
+    }
+
+    function initInactivityReset() {
+        const activityEvents = [
+            "mousemove",
+            "mousedown",
+            "click",
+            "scroll",
+            "keydown",
+            "touchstart"
+        ];
+
+        activityEvents.forEach((eventName) => {
+            document.addEventListener(eventName, resetInactivityTimer, { passive: true });
+        });
+
+        resetInactivityTimer();
     }
 
     function getCurrentLanguage() {
@@ -180,6 +233,10 @@ document.addEventListener("DOMContentLoaded", async () => {
                 event.preventDefault();
                 playClickSound();
 
+                if (button.classList.contains("home-button")) {
+                    clearVisitedCookies();
+                }
+
                 redirectButtons.forEach((btn) => {
                     btn.classList.remove("button-anim-global-active");
                 });
@@ -216,6 +273,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     initRedirectButtons();
     initCustomScrollbars();
+    initInactivityReset();
 });
 
 function initCustomScrollbars() {
