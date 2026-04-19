@@ -11,7 +11,7 @@
     <script src="js/main.js" defer></script>
     <script src="js/cave-page.js" defer></script>
 </head>
-<body>
+<body data-translation-page="ochtinska">
 
 <div class="cave-page" style="background: url('img/cavebg/ochtinska.png');">
 
@@ -40,27 +40,27 @@
     <div class="cave-tab-panel active" id="tab-text">
         <div class="cave-side-info">
             <div class="cave-info-item">
-                <div class="cave-info-label" data-txt="ochtinskaInfoLengthLabel">Celková dĺžka jaskyne</div>
+                <div class="cave-info-label" data-txt="InfoLengthLabel">Celková dĺžka jaskyne</div>
                 <div class="cave-info-value" data-txt="ochtinskaInfoLengthValue">300 m</div>
             </div>
 
             <div class="cave-info-item">
-                <div class="cave-info-label" data-txt="ochtinskaInfoTempLabel">Teplota vzduchu</div>
+                <div class="cave-info-label" data-txt="InfoTempLabel">Teplota vzduchu</div>
                 <div class="cave-info-value" data-txt="ochtinskaInfoTempValue">7,2 – 7,8 °C</div>
             </div>
 
             <div class="cave-info-item">
-                <div class="cave-info-label" data-txt="ochtinskaInfoDepthLabel">Hĺbka (vertikálne rozpätie)</div>
+                <div class="cave-info-label" data-txt="InfoDepthLabel">Hĺbka (vertikálne rozpätie)</div>
                 <div class="cave-info-value" data-txt="ochtinskaInfoDepthValue">30 m</div>
             </div>
 
             <div class="cave-info-item">
-                <div class="cave-info-label" data-txt="ochtinskaInfoAgeLabel">Vek najstaršieho aragonitu</div>
+                <div class="cave-info-label" data-txt="InfoAgeLabel">Vek najstaršieho aragonitu</div>
                 <div class="cave-info-value" data-txt="ochtinskaInfoAgeValue">121 000 – 138 000 rokov</div>
             </div>
 
             <div class="cave-info-item">
-                <div class="cave-info-label" data-txt="ochtinskaInfoCountLabel">Počet sprístupnených aragonitových jaskýň na svete</div>
+                <div class="cave-info-label" data-txt="InfoCountLabel">Počet sprístupnených aragonitových jaskýň na svete</div>
                 <div class="cave-info-value" data-txt="ochtinskaInfoCountValue">16</div>
             </div>
         </div>
@@ -110,51 +110,49 @@
 
                     <div class="gallery-captions">
                         <div class="gallery-caption-item" data-index="0">
-                            <div class="gallery-caption-text">Caption 1</div>
-                            <div class="gallery-caption-author">Author 1</div>
+                            <div class="gallery-caption-text" data-txt="cap1">Caption 1</div>
+                            <div class="gallery-caption-author" data-txt="aut1">Author 1</div>
                         </div>
 
                         <div class="gallery-caption-item" data-index="1">
-                            <div class="gallery-caption-text">Caption 2</div>
-                            <div class="gallery-caption-author">Author 2</div>
+                            <div class="gallery-caption-text" data-txt="cap2">Caption 2</div>
+                            <div class="gallery-caption-author" data-txt="aut2">Author 2</div>
                         </div>
 
                         <div class="gallery-caption-item" data-index="2">
-                            <div class="gallery-caption-text">Caption 3</div>
-                            <div class="gallery-caption-author">Author 3</div>
+                            <div class="gallery-caption-text" data-txt="cap3">Caption 3</div>
+                            <div class="gallery-caption-author" data-txt="aut3">Author 3</div>
                         </div>
 
                         <div class="gallery-caption-item" data-index="3">
-                            <div class="gallery-caption-text">Caption 4</div>
-                            <div class="gallery-caption-author">Author 4</div>
+                            <div class="gallery-caption-text" data-txt="cap4">Caption 4</div>
+                            <div class="gallery-caption-author" data-txt="aut4">Author 4</div>
                         </div>
 
                         <div class="gallery-caption-item" data-index="4">
-                            <div class="gallery-caption-text">Caption 5</div>
-                            <div class="gallery-caption-author">Author 5</div>
+                            <div class="gallery-caption-text" data-txt="cap5">Caption 5</div>
+                            <div class="gallery-caption-author" data-txt="aut5">Author 5</div>
                         </div>
 
                         <div class="gallery-caption-item" data-index="5">
-                            <div class="gallery-caption-text">Caption 6</div>
-                            <div class="gallery-caption-author">Author 6</div>
+                            <div class="gallery-caption-text" data-txt="cap6">Caption 6</div>
+                            <div class="gallery-caption-author" data-txt="aut6">Author 6</div>
                         </div>
 
                         <div class="gallery-caption-item" data-index="6">
-                            <div class="gallery-caption-text">Caption 7</div>
-                            <div class="gallery-caption-author">Author 7</div>
+                            <div class="gallery-caption-text" data-txt="cap7">Caption 7</div>
+                            <div class="gallery-caption-author" data-txt="aut7">Author 7</div>
                         </div>
 
                         <div class="gallery-caption-item" data-index="7">
-                            <div class="gallery-caption-text">Caption 8</div>
-                            <div class="gallery-caption-author">Author 8</div>
+                            <div class="gallery-caption-text" data-txt="cap8">Caption 8</div>
+                            <div class="gallery-caption-author" data-txt="aut8">Author 8</div>
                         </div>
 
                         <div class="gallery-caption-item" data-index="8">
-                            <div class="gallery-caption-text">Caption 9</div>
-                            <div class="gallery-caption-author">Author 9</div>
+                            <div class="gallery-caption-text" data-txt="cap9">Caption 9</div>
+                            <div class="gallery-caption-author" data-txt="aut9">Author 9</div>
                         </div>
-
-
                     </div>
 
                 </div>

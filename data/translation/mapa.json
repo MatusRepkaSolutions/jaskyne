@@ -1,0 +1,117 @@
+{
+    "slovensko": {
+    "svk": "Slovensko",
+    "hun": "Szlovákia",
+    "eng": "Slovakia"
+  },
+  "madarsko": {
+    "svk": "Maďarsko",
+    "hun": "Magyarország",
+    "eng": "Hungary"
+  },
+  "SlovenskyKras": {
+    "svk": "Slovenský kras",
+    "hun": "",
+    "eng": ""
+  },
+  "AggteleckyKras": {
+    "svk": "Aggtelecký kras",
+    "hun": "",
+    "eng": ""
+  },
+  "map1": {
+    "svk": "Slovenský kras je jedinečným príkladom dobre vyvinutého planinového krasu, ktorý v regióne strednej Európe nemá obdoby. Vo vápencoch a dolomitoch územia sa vyskytujú všetky druhy krasových javov, nájdeme tu početné škrapy, závrty, slepé doliny, tiesňavy, kaňony a viac ako 1400 jaskýň.",
+    "hun": "IDE MADARSKY PREKLAD 1",
+    "eng": "The Slovak Karst is a unique example of a well-developed plateau karst, unmatched in the Central European region. In the limestones and dolomites of the area, all kinds of karst phenomena occur, including numerous karren fields, sinkholes, blind valleys, gorges, canyons, and more than 1,400 caves."
+  },
+  "map2": {
+    "svk": "Ich mimoriadna rozmanitosť, veľká koncentrácia javov na malom priestore a unikátnosť je ojedinelá aj v celosvetovom meradle.",
+    "hun": "IDE MADARSKY PREKLAD 2",
+    "eng": "Their extraordinary diversity, high concentration of features in a small area, and uniqueness are exceptional even on a global scale."
+  },
+  "map3": {
+    "svk": "Medzinárodné ocenenie jaskýň Slovenského a Aggteleckého krasu nás preto zaväzuje zachovávať, prezentovať a odovzdávať tieto jedinečné prírodné hodnoty ďalším generáciám.",
+    "hun": "IDE MADARSKY PREKLAD 3",
+    "eng": "The international recognition of the caves of the Slovak and Aggtelek Karst therefore obliges us to preserve, present, and pass on these unique natural values to future generations."
+  },
+  "ochotnicka": {
+    "svk": "Ochtinská aragonitová jaskyňa",
+    "hun": "Ochtinai aragonitbarlang",
+    "eng": "Ochtinská Aragonite Cave"
+  },
+  "domica": {
+    "svk": "Domica",
+    "hun": "Domica-barlang",
+    "eng": "Domica Cave"
+  },
+  "gombasecka": {
+    "svk": "Gombasecká jaskyňa",
+    "hun": "Gombaszögi-barlang",
+    "eng": "Gombasek Cave"
+  },
+  "jasovska": {
+    "svk": "Jasovská jaskyňa",
+    "hun": "Jászói-barlang",
+    "eng": "Jasov Cave"
+  },
+  "krasnohorska": {
+    "svk": "Krásnohorská jaskyňa",
+    "hun": "Krásnohorská-barlang",
+    "eng": "Krásnohorská Cave"
+  },
+  "silicka": {
+    "svk": "Silická ľadnica",
+    "hun": "Szilicsei-jégbarlang",
+    "eng": "Silica Ice Cave"
+  },
+  "VyberSiJaskynu": {
+    "svk": "Vyber si jaskyňu",
+    "hun": "",
+    "eng": ""
+  },
+  "baradla": {
+    "svk": "Jaskyňa Baradla",
+    "hun": "",
+    "eng": ""
+  },
+  "imreho": {
+    "svk": "Jaskyňa Imreho Vassa",
+    "hun": "",
+    "eng": ""
+  },
+  "beke": {
+    "svk": "Jaskyňa Béke",
+    "hun": "",
+    "eng": ""
+  },
+  "kossuthova": {
+    "svk": "Kossuthova jaskyňa",
+    "hun": "",
+    "eng": ""
+  },
+  "meteor": {
+    "svk": "Jaskyňa Meteor",
+    "hun": "",
+    "eng": ""
+  },
+  "rakocziho": {
+    "svk": "Rákócziho jaskyňa",
+    "hun": "",
+    "eng": ""
+  },
+  "mapPageTitle": {
+    "svk": "Jaskyne Slovenského a Aggteleckého krasu",
+    "hun": "A Szlovák és Aggteleki-karszt barlangjai",
+    "eng": "Caves of the Slovak and Aggtelek Karst"
+  },
+  "mapTitle2": {
+    "svk": "Jaskyne Aggteleckého krasu",
+    "hun": "",
+    "eng": ""
+  },
+  "mapTitle": {
+    "svk": "Jaskyne Slovenského krasu",
+    "hun": "",
+    "eng": ""
+  }
+}

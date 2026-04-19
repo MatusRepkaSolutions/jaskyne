@@ -13,7 +13,7 @@
     <script src="js/index.js" defer></script>
 
 </head>
-<body>
+<body data-translation-page="index">
 
 <div class="index-text-wrapper">
     <div class="index-bold-text">

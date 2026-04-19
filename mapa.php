@@ -9,7 +9,7 @@
 
     <script src="js/main.js" defer></script>
 </head>
-<body>
+<body data-translation-page="mapa">
 
 <div class="map-page">
 

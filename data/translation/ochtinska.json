@@ -1,0 +1,137 @@
+{
+    "ochtinskaPageTitle": {
+        "svk": "Ochtinská aragonitová jaskyňa",
+        "hun": "Ochtinai aragonitbarlang",
+        "eng": "Ochtinská Aragonite Cave"
+    },
+    "ochtinskaInfoLengthValue": {
+        "svk": "300 m",
+        "hun": "300 m",
+        "eng": "300 m"
+    },
+    "ochtinskaInfoTempValue": {
+        "svk": "7,2 – 7,8 °C",
+        "hun": "7,2 – 7,8 °C",
+        "eng": "7.2 – 7.8 °C"
+    },
+    "ochtinskaInfoDepthValue": {
+        "svk": "30 m",
+        "hun": "30 m",
+        "eng": "30 m"
+    },
+    "ochtinskaInfoAgeValue": {
+        "svk": "121 000 – 138 000 rokov",
+        "hun": "121 000 – 138 000 év",
+        "eng": "121,000 – 138,000 years"
+    },
+    "ochtinskaInfoCountValue": {
+        "svk": "16",
+        "hun": "16",
+        "eng": "16"
+    },
+    "ochtinskaParagraph1": {
+        "svk": "Najvýznamnejšia z jaskýň Revúckej vrchoviny zaujme mimoriadne rozmanitou a bohatou výzdobou tvorenou aragonitom. Nachádza sa v severnom svahu vrchu Hrádok medzi Štítnikom a Jelšavou. Jaskyňa vznikla v šošovke kryštalických vápencov a ankeritov z obdobia prvohôr koróznou činnosťou podzemnej vody.",
+        "hun": "A Revúcka-felföld legjelentősebb barlangja rendkívül változatos és gazdag aragonitképződményeivel tűnik ki. A Hrádok-hegy északi lejtőjén található, Csetnek és Jolsva között. A barlang az ősidőkből származó kristályos mészkő és ankerit lencséjében alakult ki a felszín alatti vizek korróziós tevékenysége révén.",
+        "eng": "The most important cave of the Revúca Highlands is notable for its extraordinarily diverse and rich aragonite decoration. It is located on the northern slope of Hrádok Hill between Štítnik and Jelšava. The cave was formed in a lens of crystalline limestones and ankerites from the Paleozoic era by the corrosive activity of underground water."
+    },
+    "ochtinskaParagraph2": {
+        "svk": "Objavili ju koncom roka 1954 náhodne baníci počas razenia štôlne pri geologickom prieskume ložísk železnej rudy v lokalite Horný Hrádok. Pre verejnosť bola otvorená v roku 1972. Prehliadková trasa s dĺžkou 230 m je prístupná umelo vyrazenou štôlňou.",
+        "hun": "1954 végén véletlenül fedezték fel bányászok egy táró hajtása közben, a Horný Hrádok térségében végzett vasérclelőhely-kutatás során. A nyilvánosság számára 1972-ben nyitották meg. A 230 m hosszú látogatói útvonal egy mesterségesen kialakított tárón keresztül érhető el.",
+        "eng": "It was discovered by chance at the end of 1954 by miners while driving an adit during geological exploration of iron ore deposits in the Horný Hrádok area. It was opened to the public in 1972. The 230 m long tour route is accessible through an artificially excavated adit."
+    },
+    "ochtinskaParagraph3": {
+        "svk": "Výzdoba pozostáva z troch generácií aragonitu, najstaršie obličkovité útvary majú vek približne 140-tisíc rokov, najpočetnejšia a vizuálne najatraktívnejšia je druhá generácia datovaná na 14-tisíc rokov, najmladšia sa stále tvorí. Snehobiele aragonitové trsy a kríčky vynikajú na modrosivom mramorovom podklade. Špecifická výzdoba je pravdepodobne výsledkom jedinečnými podmienok v uzavretých podzemných priestoroch jaskyne.",
+        "hun": "A díszítés három aragonitgenerációból áll: a legrégebbi veseszerű képződmények körülbelül 140 ezer évesek, a leggyakoribb és vizuálisan leglátványosabb a második, mintegy 14 ezer éves generáció, míg a legfiatalabb ma is képződik. A hófehér aragonitcsomók és bokorszerű alakzatok különösen jól érvényesülnek a kékesszürke márványos alapkőzeten. Ez a sajátos díszítés valószínűleg a barlang zárt föld alatti tereiben uralkodó egyedi feltételek eredménye.",
+        "eng": "The decoration consists of three generations of aragonite. The oldest kidney-shaped formations are about 140 thousand years old, the most abundant and visually most attractive is the second generation dated to 14 thousand years, and the youngest is still forming. Snow-white aragonite clusters and bush-like forms stand out against the blue-grey marble background. This specific decoration is probably the result of unique conditions in the cave’s enclosed underground spaces."
+    },
+    "cap1": {
+        "svk": "Caption 1",
+        "hun": "Caption 1",
+        "eng": "Caption 1"
+    },
+    "aut1": {
+        "svk": "Author 1",
+        "hun": "Author 1",
+        "eng": "Author 1"
+    },
+    "cap2": {
+        "svk": "Caption 2",
+        "hun": "Caption 2",
+        "eng": "Caption 2"
+    },
+    "aut2": {
+        "svk": "Author 2",
+        "hun": "Author 2",
+        "eng": "Author 2"
+    },
+    "cap3": {
+        "svk": "Caption 3",
+        "hun": "Caption 3",
+        "eng": "Caption 3"
+    },
+    "aut3": {
+        "svk": "Author 3",
+        "hun": "Author 3",
+        "eng": "Author 3"
+    },
+    "cap4": {
+        "svk": "Caption 4",
+        "hun": "Caption 4",
+        "eng": "Caption 4"
+    },
+    "aut4": {
+        "svk": "Author 4",
+        "hun": "Author 4",
+        "eng": "Author 4"
+    },
+    "cap5": {
+        "svk": "Caption 5",
+        "hun": "Caption 5",
+        "eng": "Caption 5"
+    },
+    "aut5": {
+        "svk": "Author 5",
+        "hun": "Author 5",
+        "eng": "Author 5"
+    },
+    "cap6": {
+        "svk": "Caption 6",
+        "hun": "Caption 6",
+        "eng": "Caption 6"
+    },
+    "aut6": {
+        "svk": "Author 6",
+        "hun": "Author 6",
+        "eng": "Author 6"
+    },
+    "cap7": {
+        "svk": "Caption 7",
+        "hun": "Caption 7",
+        "eng": "Caption 7"
+    },
+    "aut7": {
+        "svk": "Author 7",
+        "hun": "Author 7",
+        "eng": "Author 7"
+    },
+    "cap8": {
+        "svk": "Caption 8",
+        "hun": "Caption 8",
+        "eng": "Caption 8"
+    },
+    "aut8": {
+        "svk": "Author 8",
+        "hun": "Author 8",
+        "eng": "Author 8"
+    },
+    "cap9": {
+        "svk": "Caption 9",
+        "hun": "Caption 9",
+        "eng": "Caption 9"
+    },
+    "aut9": {
+        "svk": "Author 9",
+        "hun": "Author 9",
+        "eng": "Author 9"
+    }
+}
