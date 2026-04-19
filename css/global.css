@@ -142,13 +142,6 @@ body{
     cursor: pointer;
 }
 
-.button-anim-global-active{
-    color: #4F4B45;
-    background-color: #D5AB68;
-    transform-origin: center center;
-    animation: buttonReveal 0.25s ease-out forwards;
-}
-
 .map-nav-btn,
 .global-nav-btn,
 .home-button,
@@ -161,28 +154,32 @@ body{
     will-change: transform, opacity;
 }
 
+.button-anim-global-active {
+    transform-origin: center center;
+}
+
 .map-nav-btn.button-anim-global-active,
 .global-nav-btn.button-anim-global-active,
 .cave-tab-btn.button-anim-global-active {
     color: #4F4B45;
     background-color: #D5AB68;
-    animation: buttonReveal 0.25s ease-out;
+    animation: buttonReveal 0.25s ease-out forwards;
 }
 
 .home-button.button-anim-global-active {
-    animation: buttonReveal 0.25s ease-out;
+    animation: buttonReveal 0.25s ease-out forwards;
 }
 
-@keyframes buttonReveal{
-    0%{
+@keyframes buttonReveal {
+    0% {
         opacity: 1;
         transform: scale(1);
     }
-    70%{
+    70% {
         opacity: 1;
         transform: scale(0.9);
     }
-    100%{
+    100% {
         opacity: 1;
         transform: scale(1);
     }
