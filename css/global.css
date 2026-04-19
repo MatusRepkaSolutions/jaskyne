@@ -166,11 +166,11 @@ body{
 .cave-tab-btn.button-anim-global-active {
     color: #4F4B45;
     background-color: #D5AB68;
-    animation: buttonReveal 0.9s ease-out;
+    animation: buttonReveal 0.25s ease-out;
 }
 
 .home-button.button-anim-global-active {
-    animation: buttonReveal 0.9s ease-out;
+    animation: buttonReveal 0.25s ease-out;
 }
 
 @keyframes buttonReveal{
