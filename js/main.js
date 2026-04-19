@@ -128,26 +128,24 @@ document.addEventListener("DOMContentLoaded", async () => {
                 if (!targetUrl) return;
 
                 event.preventDefault();
-
                 playClickSound();
 
                 redirectButtons.forEach((btn) => {
                     btn.classList.remove("button-anim-global-active");
+                    btn.style.animation = "none";
                 });
 
-                // force browser reflow so animation reliably restarts
-                void document.body.offsetHeight;
-                void button.offsetWidth;
+                button.classList.remove("button-anim-global-active");
+                button.style.animation = "none";
 
-                requestAnimationFrame(() => {
-                    requestAnimationFrame(() => {
-                        button.classList.add("button-anim-global-active");
+                void button.offsetHeight;
 
-                        setTimeout(() => {
-                            window.location.href = targetUrl;
-                        }, 900);
-                    });
-                });
+                button.style.animation = "";
+                button.classList.add("button-anim-global-active");
+
+                setTimeout(() => {
+                    window.location.href = targetUrl;
+                }, 900);
             });
         });
     }
