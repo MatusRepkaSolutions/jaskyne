@@ -145,7 +145,8 @@ body{
 .map-nav-btn,
 .global-nav-btn,
 .home-button,
-.cave-tab-btn {
+.cave-tab-btn,
+.map2-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -166,7 +167,8 @@ body{
     animation: buttonReveal 0.25s ease-out forwards;
 }
 
-.home-button.button-anim-global-active {
+.home-button.button-anim-global-active,
+.map2-button.button-anim-global-active {
     animation: buttonReveal 0.25s ease-out forwards;
 }
 
