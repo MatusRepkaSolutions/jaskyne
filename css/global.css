@@ -146,7 +146,7 @@ body{
     color: #4F4B45;
     background-color: #D5AB68;
     transform-origin: center center;
-    animation: buttonReveal 0.3s ease-out forwards;
+    animation: buttonReveal 0.25s ease-out forwards;
 }
 
 @keyframes buttonReveal{
@@ -156,7 +156,7 @@ body{
     }
     70%{
         opacity: 1;
-        transform: scale(0.85);
+        transform: scale(0.9);
     }
     100%{
         opacity: 1;
