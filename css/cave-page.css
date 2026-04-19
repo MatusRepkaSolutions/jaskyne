@@ -131,10 +131,14 @@ body{
    BUTTONS
 ========================= */
 
-.cave-button-wrappers{
-    width: fit-content;
+.cave-button-wrappers {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
     height: 107.52px;
     margin: auto;
+    gap: 73px;
 }
 
 .cave-tab-btn{
