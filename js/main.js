@@ -132,15 +132,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                 redirectButtons.forEach((btn) => {
                     btn.classList.remove("button-anim-global-active");
-                    btn.style.animation = "none";
                 });
 
-                button.classList.remove("button-anim-global-active");
-                button.style.animation = "none";
+                void button.offsetWidth;
 
-                void button.offsetHeight;
-
-                button.style.animation = "";
                 button.classList.add("button-anim-global-active");
 
                 setTimeout(() => {
