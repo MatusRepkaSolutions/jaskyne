@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const supportedLanguages = ["svk", "hun", "eng"];
     const defaultLanguage = "svk";
     const cookieName = "lang";
+    const anim_buttons = document.querySelectorAll(".button-anim-global");
 
     function setCookie(name, value, days = 365) {
         const date = new Date();
@@ -191,4 +192,33 @@ function initCustomScrollbars() {
         updateThumb();
         window.addEventListener("resize", updateThumb);
     });
+
+    buttons.forEach((button) => {
+        button.addEventListener("click", (event) => {
+            event.preventDefault();
+
+            const targetUrl = button.getAttribute("href");
+            const selectedLanguage = button.dataset.setLang;
+
+            if (!targetUrl || !selectedLanguage || button.classList.contains("is-animating")) {
+                return;
+            }
+
+            button.classList.add("is-animating");
+            button.classList.add("is-ready");
+            button.classList.add("is-pressed");
+
+            setCookie(cookieName, selectedLanguage);
+
+            setTimeout(() => {
+                button.classList.remove("is-pressed");
+            }, 120);
+
+            setTimeout(() => {
+                window.location.href = targetUrl;
+            }, 220);
+        });
+    });
+
+
 }

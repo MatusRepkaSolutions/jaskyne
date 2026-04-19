@@ -60,11 +60,11 @@
     </div>
 
     <div class="map-bottom-buttons">
-        <a href="slovensky-kras.php" class="map-nav-btn" data-txt="btnSlovakKarst">
+        <a href="slovensky-kras.php" class="map-nav-btn button-anim-global" data-txt="btnSlovakKarst">
             Jaskyne Slovenského krasu
         </a>
 
-        <a href="aggtelek-kras.php" class="map-nav-btn" data-txt="btnAggtelekKarst">
+        <a href="aggtelek-kras.php" class="map-nav-btn button-anim-global" data-txt="btnAggtelekKarst">
             Jaskyne Aggteleckého krasu
         </a>
     </div>

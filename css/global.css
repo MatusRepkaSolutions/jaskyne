@@ -141,3 +141,24 @@ body{
     border-radius: 50%;
     cursor: pointer;
 }
+
+.button-anim-global-active{
+    color: #4F4B45;
+    background-color: #D5AB68;
+    animation: buttonReveal 0.9s ease-out forwards;
+}
+
+@keyframes buttonReveal{
+    0%{
+        opacity: 0;
+        transform: translateX(-80px) scale(0.8);
+    }
+    70%{
+        opacity: 1;
+        transform: translateX(0) scale(1.1);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
