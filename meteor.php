@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>beke</title>
+    <title>kossuthova</title>
 
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/cave-page.css">
@@ -11,9 +11,9 @@
     <script src="js/main.js" defer></script>
     <script src="js/cave-page.js" defer></script>
 </head>
-<body data-translation-page="beke">
+<body data-translation-page="kossuthova">
 
-<div class="cave-page" style="background: url('img/cavebg/beke.png');">
+<div class="cave-page" style="background: url('img/cavebg/kossuthova.png');">
 
     <div class="global-control-buttons">
         <a class="home-button" href="mapa.php">
@@ -33,7 +33,7 @@
 
     <div class="cave-page-overlay"></div>
 
-    <h1 class="cave-title" data-txt="bekePageTitle">Ochtinská aragonitová jaskyňa</h1>
+    <h1 class="cave-title" data-txt="kossuthovaPageTitle">Ochtinská aragonitová jaskyňa</h1>
 
     <div class="cave-page-content">
 
@@ -41,14 +41,14 @@
 
         <div class="cave-main-2 custom-scroll" id="scroll-1">
             <div class="cave-text-content">
-                <p data-txt="bekeParagraph1">
+                <p data-txt="kossuthovaParagraph1">
                     Najvýznamnejšia z jaskýň Revúckej vrchoviny zaujme mimoriadne rozmanitou a bohatou výzdobou
                     tvorenou aragonitom. Nachádza sa v severnom svahu vrchu Hrádok medzi Štítnikom a Jelšavou.
                     Jaskyňa vznikla v šošovke kryštalických vápencov a ankeritov z obdobia prvohôr koróznou činnosťou
                     podzemnej vody.
                 </p>
 
-                <p data-txt="bekeParagraph2">
+                <p data-txt="kossuthovaParagraph2">
                     Objavili ju koncom roka 1954 náhodne baníci počas razenia štôlne pri geologickom prieskume ložísk
                     železnej rudy v lokalite Horný Hrádok. Pre verejnosť bola otvorená v roku 1972. Prehliadková trasa
                     s dĺžkou 230 m je prístupná umelo vyrazenou štôlňou.
@@ -61,8 +61,8 @@
     <div 
         class="cave-tab-panel cave-gallery-panel" 
         id="tab-gallery"
-        data-gallery-path="img/gallery/beke"
-        data-gallery-count="3"
+        data-gallery-path="img/gallery/kossuthova"
+        data-gallery-count="5"
     >
         <div class="gallery-shell">
 
@@ -89,6 +89,16 @@
                         <div class="gallery-caption-item" data-index="2">
                             <div class="gallery-caption-text" data-txt="cap3">Caption 3</div>
                             <div class="gallery-caption-author" data-txt="aut3">Author 3</div>
+                        </div>
+
+                        <div class="gallery-caption-item" data-index="3">
+                            <div class="gallery-caption-text" data-txt="cap4">Caption 4</div>
+                            <div class="gallery-caption-author" data-txt="aut4">Author 4</div>
+                        </div>
+
+                        <div class="gallery-caption-item" data-index="4">
+                            <div class="gallery-caption-text" data-txt="cap5">Caption 5</div>
+                            <div class="gallery-caption-author" data-txt="aut5">Author 5</div>
                         </div>
 
                     </div>

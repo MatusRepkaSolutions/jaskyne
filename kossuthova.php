@@ -62,7 +62,7 @@
         class="cave-tab-panel cave-gallery-panel" 
         id="tab-gallery"
         data-gallery-path="img/gallery/kossuthova"
-        data-gallery-count="10"
+        data-gallery-count="4"
     >
         <div class="gallery-shell">
 

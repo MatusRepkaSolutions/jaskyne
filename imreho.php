@@ -62,7 +62,7 @@
         class="cave-tab-panel cave-gallery-panel" 
         id="tab-gallery"
         data-gallery-path="img/gallery/imrehovassa"
-        data-gallery-count="10"
+        data-gallery-count="3"
     >
         <div class="gallery-shell">
 

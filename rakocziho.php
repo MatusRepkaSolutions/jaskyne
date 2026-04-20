@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bradla</title>
+    <title>rakocziho</title>
 
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/cave-page.css">
@@ -11,9 +11,9 @@
     <script src="js/main.js" defer></script>
     <script src="js/cave-page.js" defer></script>
 </head>
-<body data-translation-page="bradla">
+<body data-translation-page="rakocziho">
 
-<div class="cave-page" style="background: url('img/cavebg/bradla.png');">
+<div class="cave-page" style="background: url('img/cavebg/rakocziho.png');">
 
     <div class="global-control-buttons">
         <a class="home-button" href="mapa.php">
@@ -33,7 +33,7 @@
 
     <div class="cave-page-overlay"></div>
 
-    <h1 class="cave-title" data-txt="bradlaPageTitle">Ochtinská aragonitová jaskyňa</h1>
+    <h1 class="cave-title" data-txt="rakoczihoPageTitle">Ochtinská aragonitová jaskyňa</h1>
 
     <div class="cave-page-content">
 
@@ -41,14 +41,14 @@
 
         <div class="cave-main-2 custom-scroll" id="scroll-1">
             <div class="cave-text-content">
-                <p data-txt="bradlaParagraph1">
+                <p data-txt="rakoczihoParagraph1">
                     Najvýznamnejšia z jaskýň Revúckej vrchoviny zaujme mimoriadne rozmanitou a bohatou výzdobou
                     tvorenou aragonitom. Nachádza sa v severnom svahu vrchu Hrádok medzi Štítnikom a Jelšavou.
                     Jaskyňa vznikla v šošovke kryštalických vápencov a ankeritov z obdobia prvohôr koróznou činnosťou
                     podzemnej vody.
                 </p>
 
-                <p data-txt="bradlaParagraph2">
+                <p data-txt="rakoczihoParagraph2">
                     Objavili ju koncom roka 1954 náhodne baníci počas razenia štôlne pri geologickom prieskume ložísk
                     železnej rudy v lokalite Horný Hrádok. Pre verejnosť bola otvorená v roku 1972. Prehliadková trasa
                     s dĺžkou 230 m je prístupná umelo vyrazenou štôlňou.
@@ -61,8 +61,8 @@
     <div 
         class="cave-tab-panel cave-gallery-panel" 
         id="tab-gallery"
-        data-gallery-path="img/gallery/bradla"
-        data-gallery-count="10"
+        data-gallery-path="img/gallery/rakocziho"
+        data-gallery-count="3"
     >
         <div class="gallery-shell">
 
@@ -91,40 +91,6 @@
                             <div class="gallery-caption-author" data-txt="aut3">Author 3</div>
                         </div>
 
-                        <div class="gallery-caption-item" data-index="3">
-                            <div class="gallery-caption-text" data-txt="cap4">Caption 4</div>
-                            <div class="gallery-caption-author" data-txt="aut4">Author 4</div>
-                        </div>
-
-                        <div class="gallery-caption-item" data-index="4">
-                            <div class="gallery-caption-text" data-txt="cap5">Caption 5</div>
-                            <div class="gallery-caption-author" data-txt="aut5">Author 5</div>
-                        </div>
-
-                        <div class="gallery-caption-item" data-index="5">
-                            <div class="gallery-caption-text" data-txt="cap6">Caption 6</div>
-                            <div class="gallery-caption-author" data-txt="aut6">Author 6</div>
-                        </div>
-
-                        <div class="gallery-caption-item" data-index="6">
-                            <div class="gallery-caption-text" data-txt="cap7">Caption 7</div>
-                            <div class="gallery-caption-author" data-txt="aut7">Author 7</div>
-                        </div>
-
-                        <div class="gallery-caption-item" data-index="7">
-                            <div class="gallery-caption-text" data-txt="cap8">Caption 8</div>
-                            <div class="gallery-caption-author" data-txt="aut8">Author 8</div>
-                        </div>
-
-                        <div class="gallery-caption-item" data-index="8">
-                            <div class="gallery-caption-text" data-txt="cap9">Caption 9</div>
-                            <div class="gallery-caption-author" data-txt="aut9">Author 9</div>
-                        </div>
-
-                        <div class="gallery-caption-item" data-index="9">
-                            <div class="gallery-caption-text" data-txt="cap10">Caption 10</div>
-                            <div class="gallery-caption-author" data-txt="aut10">Author 10</div>
-                        </div>
                     </div>
 
                 </div>

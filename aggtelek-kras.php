@@ -32,7 +32,7 @@
         Jaskyne Aggteleckého krasu
     </div>
 
-    <a href="bradla.php" class="map2-button pos7" style="--i:0;" data-cave="baradla">
+    <a href="baradla.php" class="map2-button pos7" style="--i:0;" data-cave="baradla">
         <div class="map2-button-marker"></div>
         <div class="map2-button-text" data-txt="baradla">Jaskyňa Baradla</div>
     </a>
