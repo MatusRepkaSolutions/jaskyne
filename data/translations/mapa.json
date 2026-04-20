@@ -20,19 +20,34 @@
     "eng": ""
   },
   "map1": {
-    "svk": "Slovenský kras je jedinečným príkladom dobre vyvinutého planinového krasu, ktorý v regióne strednej Európe nemá obdoby. Vo vápencoch a dolomitoch územia sa vyskytujú všetky druhy krasových javov, nájdeme tu početné škrapy, závrty, slepé doliny, tiesňavy, kaňony a viac ako 1400 jaskýň.",
-    "hun": "IDE MADARSKY PREKLAD 1",
-    "eng": "The Slovak Karst is a unique example of a well-developed plateau karst, unmatched in the Central European region. In the limestones and dolomites of the area, all kinds of karst phenomena occur, including numerous karren fields, sinkholes, blind valleys, gorges, canyons, and more than 1,400 caves."
+    "svk": "Najvýraznejšie sú riečne jaskyne vytvorené vodnými tokmi, napríklad jaskynný systém Domica–Baradla, Gombasecká jaskyňa a Krásnohorská jaskyňa. Hlboké korózne priepasti, ako Veľká Žomboj, Zvonivá priepasť či Obrovská priepasť, vznikli rozpúšťaním vápenca presakujúcou vodou v miestach tektonických zlomov. Svetovým unikátom je Ochtinská aragonitová jaskyňa, ktorá vznikla v ankeritoch.",
+    "hun": "Najvýraznejšie sú riečne jaskyne vytvorené vodnými tokmi, napríklad jaskynný systém Domica–Baradla, Gombasecká jaskyňa a Krásnohorská jaskyňa. Hlboké korózne priepasti, ako Veľká Žomboj, Zvonivá priepasť či Obrovská priepasť, vznikli rozpúšťaním vápenca presakujúcou vodou v miestach tektonických zlomov. Svetovým unikátom je Ochtinská aragonitová jaskyňa, ktorá vznikla v ankeritoch.",
+    "eng": "The most prominent are river caves formed by flowing water, such as the Domica–Baradla cave system, Gombasek Cave, and Krásnohorská Cave. Deep corrosion shafts—such as Veľká Žomboj, Zvonivá Chasm, and Obrovská Chasm—were formed by the dissolution of limestone by percolating water along tectonic faults. A global rarity is the Ochtinská Aragonite Cave, formed in ankerite."
   },
   "map2": {
-    "svk": "Ich mimoriadna rozmanitosť, veľká koncentrácia javov na malom priestore a unikátnosť je ojedinelá aj v celosvetovom meradle.",
-    "hun": "IDE MADARSKY PREKLAD 2",
-    "eng": "Their extraordinary diversity, high concentration of features in a small area, and uniqueness are exceptional even on a global scale."
+    "svk": "Mimoriadne bohatá je aj kvapľová výzdoba. Typické sú brčká v Gombaseckej jaskyni, sintrové štíty a bubny v jaskyni Domica či aragonitové kryštály v Ochtinskej aragonitovej jaskyni. V jaskyniach sa vyskytujú stalaktity, stalagmity, stĺpy, sintrové záclony, náteky, excentrické útvary a sintrové kaskády. Osobitným javom sú jaskyne s celoročnou ľadovou výplňou – Dobšinská ľadová jaskyňa a Silická ľadnica.",
+    "hun": "Rendkívül gazdag a cseppkődíszítés is. Jellegzetesek a Gombaszögi-barlangban található szalmacseppkövek, a Domica-barlangban található cseppkőpajzsok és -dobok, valamint az Ochtinai-aragonit-barlang aragonitkristályai. A barlangokban függőcseppkövek, cseppkőoszlopok, cseppkőfüggönyök, cseppkőfolyások, excentrikus képződmények és cseppkőkaszkádok is előfordulnak. Különleges jelenséget képviselnek az egész évben jéggel teli barlangok – a Dobsinai-jégbarlang és a Szilicei-jégbarlang.",
+    "eng": "The caves are also exceptionally rich in speleothems. Typical features include soda straws in Gombasek Cave, flowstone shields and drums in Domica Cave, and aragonite crystals in the Ochtinská Aragonite Cave. Stalactites, stalagmites, columns, draperies, flowstone coatings, helictites, and sinter cascades are also common. A special phenomenon is represented by caves with year-round ice formations, such as the Dobšinská Ice Cave and Silica Ice Cave."
   },
   "map3": {
-    "svk": "Medzinárodné ocenenie jaskýň Slovenského a Aggteleckého krasu nás preto zaväzuje zachovávať, prezentovať a odovzdávať tieto jedinečné prírodné hodnoty ďalším generáciám.",
-    "hun": "IDE MADARSKY PREKLAD 3",
-    "eng": "The international recognition of the caves of the Slovak and Aggtelek Karst therefore obliges us to preserve, present, and pass on these unique natural values to future generations."
+    "svk": "Jaskynné biotopy sú domovom viac než 500 druhov pravých i nepravých jaskynných živočíchov. Vyskytujú sa tu druhy endemických bezstavovcov, ktoré sú známe len z tohto územia. Vzácnou skupinou jaskynných živočíchov sú aj netopiere. Dôležitými zimoviskami sú najmä Domica, Jasovská jaskyňa a Dobšinská ľadová jaskyňa.",
+    "hun": "Jaskynné biotopy sú domovom viac než 500 druhov pravých i nepravých jaskynných živočíchov. Vyskytujú sa tu druhy endemických bezstavovcov, ktoré sú známe len z tohto územia. Vzácnou skupinou jaskynných živočíchov sú aj netopiere. Dôležitými zimoviskami sú najmä Domica, Jasovská jaskyňa a Dobšinská ľadová jaskyňa.",
+    "eng": "Cave habitats are home to more than 500 species of true and facultative cave-dwelling animals. The area hosts endemic invertebrates found nowhere else. Bats represent another important group of cave fauna, with key hibernation sites in Domica Cave, Jasovská Cave, and the Dobšinská Ice Cave."
+  },
+  "map4": {
+    "svk": "V Slovenskom krase sa nachádzajú jaskyne s pamiatkami dokumentujúcimi vývoj viacerých kultúr pravekého človeka. Mimoriadny význam majú najmä stopy po osídlení roľníkov z mladšej doby kamennej – ľudu bukovohorskej kultúry, doložené v jaskyni Domica, Ardovskej jaskyni a Silickej ľadnici. V mnohých ďalších jaskyniach boli objavené početné nálezy z neskorej doby bronzovej, doby železnej, halštatskej doby aj zo stredoveku. Charakteristickým prvkom sú jaskynné obetiská ľudu kyjatickej kultúry.",
+    "hun": "V Slovenskom krase sa nachádzajú jaskyne s pamiatkami dokumentujúcimi vývoj viacerých kultúr pravekého človeka. Mimoriadny význam majú najmä stopy po osídlení roľníkov z mladšej doby kamennej – ľudu bukovohorskej kultúry, doložené v jaskyni Domica, Ardovskej jaskyni a Silickej ľadnici. V mnohých ďalších jaskyniach boli objavené početné nálezy z neskorej doby bronzovej, doby železnej, halštatskej doby aj zo stredoveku. Charakteristickým prvkom sú jaskynné obetiská ľudu kyjatickej kultúry.",
+    "eng": "The Slovak Karst contains caves with archaeological evidence documenting the development of several prehistoric cultures. Particularly significant are traces of Neolithic farmers of the Bükk culture, identified in Domica Cave, Ardovská Cave, and Silica Ice Cave.Numerous finds from the Late Bronze Age, the Iron Age, the Hallstatt period, and the Middle Ages have also been discovered in many other caves. A characteristic feature is the presence of cave sanctuaries associated with the Kyjatice culture."
+  },
+  "map5": {
+    "svk": "Jaskyne Slovenského krasu majú významné postavenie aj z hľadiska archeológie. Doklady osídlenia siahajú až do mladšej doby kamennej – napríklad bukovohorská kultúra je doložená v jaskyni Domica, Ardovskej jaskyni a Silickej ľadnici.",
+    "hun": "A Szlovák-karszt barlangjai régészeti szempontból is jelentős szerepet töltenek be. A településnyomok egészen a késő kőkorszakig nyúlnak vissza – például a bükki kultúra jelenlétét a Domica-barlangban, az Ardói-barlangban és a Szilicei-jégbarlangban is igazolták.",
+    "eng": "The caves of the Slovak Karst are also of great importance from an archaeological perspective. Evidence of human settlement dates back to the Neolithic period—for example, the Bükk culture is documented in Domica Cave, Ardovská Cave, and Silica Ice Cave."
+  },
+  "map6": {
+    "svk": "Z ďalších období pochádzajú nálezy z doby bronzovej, železnej aj zo stredoveku, vrátane jaskynných obetísk kyjatickej kultúry.",
+    "hun": "A későbbi korszakokból származó leletek között találhatóak a bronzkori, a vaskori és a középkori leletek, beleértve a kiétei kultúra barlangi áldozati helyeit is.",
+    "eng": "Finds from other periods include the Bronze Age, the Iron Age, and the Middle Ages, including cave sanctuaries of the Kyjatice culture."
   },
   "ochotnicka": {
     "svk": "Ochtinská aragonitová jaskyňa",
