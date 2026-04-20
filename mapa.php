@@ -55,6 +55,18 @@
                 <span class="map-paragraph map-animate-text" data-txt="map3">
                     Medzinárodné ocenenie jaskýň Slovenského a Aggteleckého krasu nás preto zaväzuje zachovávať, prezentovať a odovzdávať tieto jedinečné prírodné hodnoty ďalším generáciám.
                 </span>
+
+                <span class="map-paragraph map-animate-text" data-txt="map4">
+                    odstavec
+                </span>
+
+                <span class="map-paragraph map-animate-text" data-txt="map5">
+                    odstavec
+                </span>
+
+                <span class="map-paragraph map-animate-text" data-txt="map6">
+                    odstavec
+                </span>
         </div>
 
     </div>
