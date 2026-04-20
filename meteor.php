@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kossuthova</title>
+    <title>meteor</title>
 
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/cave-page.css">
@@ -11,9 +11,9 @@
     <script src="js/main.js" defer></script>
     <script src="js/cave-page.js" defer></script>
 </head>
-<body data-translation-page="kossuthova">
+<body data-translation-page="meteor">
 
-<div class="cave-page" style="background: url('img/cavebg/kossuthova.png');">
+<div class="cave-page" style="background: url('img/cavebg/meteor.png');">
 
     <div class="global-control-buttons">
         <a class="home-button" href="mapa.php">
@@ -33,7 +33,7 @@
 
     <div class="cave-page-overlay"></div>
 
-    <h1 class="cave-title" data-txt="kossuthovaPageTitle">Ochtinská aragonitová jaskyňa</h1>
+    <h1 class="cave-title" data-txt="meteorPageTitle">Ochtinská aragonitová jaskyňa</h1>
 
     <div class="cave-page-content">
 
@@ -41,14 +41,14 @@
 
         <div class="cave-main-2 custom-scroll" id="scroll-1">
             <div class="cave-text-content">
-                <p data-txt="kossuthovaParagraph1">
+                <p data-txt="meteorParagraph1">
                     Najvýznamnejšia z jaskýň Revúckej vrchoviny zaujme mimoriadne rozmanitou a bohatou výzdobou
                     tvorenou aragonitom. Nachádza sa v severnom svahu vrchu Hrádok medzi Štítnikom a Jelšavou.
                     Jaskyňa vznikla v šošovke kryštalických vápencov a ankeritov z obdobia prvohôr koróznou činnosťou
                     podzemnej vody.
                 </p>
 
-                <p data-txt="kossuthovaParagraph2">
+                <p data-txt="meteorParagraph2">
                     Objavili ju koncom roka 1954 náhodne baníci počas razenia štôlne pri geologickom prieskume ložísk
                     železnej rudy v lokalite Horný Hrádok. Pre verejnosť bola otvorená v roku 1972. Prehliadková trasa
                     s dĺžkou 230 m je prístupná umelo vyrazenou štôlňou.
@@ -61,7 +61,7 @@
     <div 
         class="cave-tab-panel cave-gallery-panel" 
         id="tab-gallery"
-        data-gallery-path="img/gallery/kossuthova"
+        data-gallery-path="img/gallery/meteor"
         data-gallery-count="5"
     >
         <div class="gallery-shell">
