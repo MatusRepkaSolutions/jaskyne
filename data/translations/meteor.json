@@ -14,52 +14,52 @@
         "hun": "A barlang egyik legkülönlegesebb része a Titánok terme, amely alapterületét tekintve Magyarország legnagyobb barlangi terme. Gazdag és változatos cseppkődíszítésével rendelkezik, amely cseppkőoszlopokból, cseppkőfüggönyökből, heliktitekből és különféle formájú függőcseppkövekből áll.",
         "eng": "An outstanding part of the cave is the Hall of Titans, the largest cave chamber in Hungary by floor area.\nIt impresses with its rich and diverse speleothem decoration, including columns, draperies, helictites, and various forms of stalagmites."
     },
-    "meteorCap1": {
+    "cap1": {
         "svk": "Sieň titanov, najväčší priestor jaskyne",
         "hun": "Titánok terme, a barlang legnagyobb terme",
         "eng": "Hall of Titans, the largest space of the cave"
     },
-    "meteorAut1": {
+    "aut1": {
         "svk": "Egri Csaba",
         "hun": "Egri Csaba",
         "eng": "Egri Csaba"
     },
-    "meteorCap2": {
+    "cap2": {
         "svk": "Kvapľový stĺp v Sieni titanov",
         "hun": "Cseppkőoszlop a Titánok termében",
         "eng": "Stalactite column in the Hall of Titans"
     },
-    "meteorAut2": {
+    "aut2": {
         "svk": "Egri Csaba",
         "hun": "Egri Csaba",
         "eng": "Egri Csaba"
     },
-    "meteorCap3": {
+    "cap3": {
         "svk": "Sieň titanov",
         "hun": "Titánok terme",
         "eng": "Hall of Titans"
     },
-    "meteorAut3": {
+    "aut3": {
         "svk": "Egri Csaba",
         "hun": "Egri Csaba",
         "eng": "Egri Csaba"
     },
-    "meteorCap4": {
+    "cap4": {
         "svk": "Sintrová záclona v Sieni titanov",
         "hun": "Cseppkőfüggöny a Titánok termében",
         "eng": "Flowstone drapery in the Hall of Titans"
     },
-    "meteorAut4": {
+    "aut4": {
         "svk": "Egri Csaba",
         "hun": "Egri Csaba",
         "eng": "Egri Csaba"
     },
-    "meteorCap5": {
+    "cap5": {
         "svk": "Excentricky rastúca výzdoba",
         "hun": "A díszítés excentrikus formái",
         "eng": "Eccentrically growing decoration"
     },
-    "meteorAut5": {
+    "aut5": {
         "svk": "Egri Csaba",
         "hun": "Egri Csaba",
         "eng": "Egri Csaba"

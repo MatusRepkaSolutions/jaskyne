@@ -14,32 +14,32 @@
         "hun": "A legalacsonyabb szinten található az aktív folyómeder, a leggazdagabb, sajnos helyenként megrongált díszítés a barlang középső szintjén található. A nehezebben megközelíthető felső szinten szinte érintetlenül maradt a díszítés.",
         "eng": "The lowest level contains an active river channel. The richest—though in places damaged—decoration is found in the middle level of the cave.\nAlmost untouched formations have been preserved in the less accessible upper level."
     },
-    "vassimrehoCap1": {
+    "cap1": {
         "svk": "Verejnosti prístupná časť hlavného riečiska jaskyne",
         "hun": "A barlang fő folyosójának a nyilvánosság számára hozzáférhető része",
         "eng": "Section of the main riverbed of the cave accessible to the public"
     },
-    "vassimrehoAut1": {
+    "aut1": {
         "svk": "Egri Csaba",
         "hun": "Egri Csaba",
         "eng": "Egri Csaba"
     },
-    "vassimrehoCap2": {
+    "cap2": {
         "svk": "Kvapľová výzdoba",
         "hun": "Cseppkődíszítés",
         "eng": "Speleothem decoration"
     },
-    "vassimrehoAut2": {
+    "aut2": {
         "svk": "Egri Csaba",
         "hun": "Egri Csaba",
         "eng": "Egri Csaba"
     },
-    "vassimrehoCap3": {
+    "cap3": {
         "svk": "Pomarančový vodopád",
         "hun": "Narancs vízesés",
         "eng": "Orange Waterfall"
     },
-    "vassimrehoAut3": {
+    "aut3": {
         "svk": "Egri Csaba",
         "hun": "Egri Csaba",
         "eng": "Egri Csaba"

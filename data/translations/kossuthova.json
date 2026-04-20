@@ -14,42 +14,42 @@
         "hun": "A barlang turisztikai formával látogatható, az aktív folyómedren való átkeléshez védőruha és sisak viselése kötelező.",
         "eng": "The cave is open to visitors in an adventurous tour format, involving passage through the active river channel in protective suits and helmets."
     },
-    "kossuthovaCap1": {
+    "cap1": {
         "svk": "Chodba s lanovým traverzom",
         "hun": "Barlangfolyosó kötélpályával",
         "eng": "Passage with a rope traverse"
     },
-    "kossuthovaAut1": {
+    "aut1": {
         "svk": "Egri Csaba",
         "hun": "Egri Csaba",
         "eng": "Egri Csaba"
     },
-    "kossuthovaCap2": {
+    "cap2": {
         "svk": "Lanový traverz cez Veľké jazero",
         "hun": "Kötélpálya a Nagy-tó felett",
         "eng": "Rope traverse across the Great Lake"
     },
-    "kossuthovaAut2": {
+    "aut2": {
         "svk": "Egri Csaba",
         "hun": "Egri Csaba",
         "eng": "Egri Csaba"
     },
-    "kossuthovaCap3": {
+    "cap3": {
         "svk": "Prechod podzemným tokom",
         "hun": "Átkelés a föld alatti folyón",
         "eng": "Passage through the underground stream"
     },
-    "kossuthovaAut3": {
+    "aut3": {
         "svk": "Egri Csaba",
         "hun": "Egri Csaba",
         "eng": "Egri Csaba"
     },
-    "kossuthovaCap4": {
+    "cap4": {
         "svk": "Sieň otcov, dostupná len pre speleopotápačov",
         "hun": "Az Apáink terme, amely csak barlangi búvárok számára elérhető",
         "eng": "Hall of Fathers, accessible only to cave divers"
     },
-    "kossuthovaAut4": {
+    "aut4": {
         "svk": "Gergely Balázs",
         "hun": "Gergely Balázs",
         "eng": "Gergely Balázs"
