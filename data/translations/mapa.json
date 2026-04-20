@@ -1,5 +1,5 @@
 {
-    "slovensko": {
+  "slovensko": {
     "svk": "Slovensko",
     "hun": "Szlovákia",
     "eng": "Slovakia"
@@ -11,13 +11,13 @@
   },
   "SlovenskyKras": {
     "svk": "Slovenský kras",
-    "hun": "",
-    "eng": ""
+    "hun": "Szlovák-karszt",
+    "eng": "Slovak Karst"
   },
   "AggteleckyKras": {
     "svk": "Aggtelecký kras",
-    "hun": "",
-    "eng": ""
+    "hun": "Aggteleki-karszt",
+    "eng": "Aggtelek Karst"
   },
   "map1": {
     "svk": "Najvýraznejšie sú riečne jaskyne vytvorené vodnými tokmi, napríklad jaskynný systém Domica–Baradla, Gombasecká jaskyňa a Krásnohorská jaskyňa. Hlboké korózne priepasti, ako Veľká Žomboj, Zvonivá priepasť či Obrovská priepasť, vznikli rozpúšťaním vápenca presakujúcou vodou v miestach tektonických zlomov. Svetovým unikátom je Ochtinská aragonitová jaskyňa, ktorá vznikla v ankeritoch.",
@@ -81,38 +81,38 @@
   },
   "VyberSiJaskynu": {
     "svk": "Vyber si jaskyňu",
-    "hun": "",
-    "eng": ""
+    "hun": "Válassz barlangot",
+    "eng": "Choose a cave"
   },
   "baradla": {
     "svk": "Jaskyňa Baradla",
-    "hun": "",
-    "eng": ""
+    "hun": "Baradla-barlang",
+    "eng": "Baradla Cave"
   },
   "imreho": {
     "svk": "Jaskyňa Imreho Vassa",
-    "hun": "",
-    "eng": ""
+    "hun": "Vass Imre-barlang",
+    "eng": "Vass Imre Cave"
   },
   "beke": {
     "svk": "Jaskyňa Béke",
-    "hun": "",
-    "eng": ""
+    "hun": "Béke-barlang",
+    "eng": "Béke Cave"
   },
   "kossuthova": {
     "svk": "Kossuthova jaskyňa",
-    "hun": "",
-    "eng": ""
+    "hun": "Kossuth-barlang",
+    "eng": "Kossuth Cave"
   },
   "meteor": {
     "svk": "Jaskyňa Meteor",
-    "hun": "",
-    "eng": ""
+    "hun": "Meteor-barlang",
+    "eng": "Meteor Cave"
   },
   "rakocziho": {
     "svk": "Rákócziho jaskyňa",
-    "hun": "",
-    "eng": ""
+    "hun": "Rákóczi-barlang",
+    "eng": "Rákóczi Cave"
   },
   "mapPageTitle": {
     "svk": "Jaskyne Slovenského a Aggteleckého krasu",
@@ -121,12 +121,12 @@
   },
   "mapTitle2": {
     "svk": "Jaskyne Aggteleckého krasu",
-    "hun": "",
-    "eng": ""
+    "hun": "Az Aggteleki-karszt barlangjai",
+    "eng": "Caves of the Aggtelek Karst"
   },
   "mapTitle": {
     "svk": "Jaskyne Slovenského krasu",
-    "hun": "",
-    "eng": ""
+    "hun": "A Szlovák-karszt barlangjai",
+    "eng": "Caves of the Slovak Karst"
   }
 }
