@@ -60,7 +60,7 @@
             </div>
 
             <div class="cave-info-item">
-                <div class="cave-info-label" data-txt="InfoCountLabel">Počet sprístupnených aragonitových jaskýň na svete</div>
+                <div class="cave-info-label" data-txt="ochtinskaInfoCountLabel">Počet sprístupnených aragonitových jaskýň na svete</div>
                 <div class="cave-info-value" data-txt="ochtinskaInfoCountValue">16</div>
             </div>
         </div>
