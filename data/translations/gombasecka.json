@@ -1,0 +1,162 @@
+{
+    "gombaseckaPageTitle": {
+        "svk": "Gombasecká jaskyňa",
+        "hun": "Gombaszögi-barlang",
+        "eng": "Gombasecká Cave"
+    },
+    "gombaseckaParagraph1": {
+        "svk": "Nachádza sa v západnej časti Silickej planiny približne 2 km južne od obce Slavec. Vznikla činnosťou Čierneho potoka v druhohorných vápencoch Silickej planiny. Spolu s blízkou Silickou ľadnicou je súčasťou rozsiahleho silicko-gombaseckého podzemného hydrologického systému, ktorého väčšia časť je zatiaľ neznáma.",
+        "hun": "A Szilicei-fennsík nyugati részén, Szalóctól körülbelül 2 km-re délre található. A fennsík középidői mészköveiben a Fekete-patak eróziós hatásának eredményeként alakult ki. A közeli Szilicei-jégbarlanggal együtt a kiterjedt Szilicei–Gombaszögi földalatti hidrológiai rendszer részét képezi, amelynek nagy része egyelőre ismeretlen.",
+        "eng": "It is located in the western part of the Silica Plateau, approximately 2 km south of the village of Slavec. The cave was formed by the activity of the Čierny Potok stream in Mesozoic limestones of the Silica Plateau.\nTogether with the nearby Silica Ice Cave, it forms part of the extensive Silica–Gombasek underground hydrological system, most of which remains unexplored."
+    },
+    "gombaseckaParagraph2": {
+        "svk": "Gombasecká jaskyňa bola prvým významným objavom skupiny dobrovoľných jaskyniarov z Rožňavy a v tom čase aj najväčšou úlohou Slovenskej speleologickej spoločnosti. Objavitelia pod vedením Viliama Rozložníka, Ladislava Herényiho st. a Štefana Rodu prehĺbili riečisko Čiernej vyvieračky a po znížení hladiny vody sa 21. novembra 1951 dostali do podzemných priestorov s bohatou výzdobou. Pre návštevníkov je sprístupnená od mája 1955. V lete 2016 došlo k objavu nových priestorov, z celkovej dĺžky je sprístupnených 285 m.",
+        "hun": "A Gombaszögi-barlang volt a rozsnyói önkéntes barlangász csoportj első jelentős felfedezése és akkoriban a Szlovák Speleológiai Társaság legnagyobb feladata is. A felfedezők Viliam Rozložník, id. Herényi László és Roda István vezetésével elmélyítették a Fekete-forrás folyómedrét, és a vízszint csökkenése után 1951. november 21-én jutottak be a gazdagon díszített földalatti termekbe. 1955 májusa óta látogatható. 2016 nyarán új részeket fedeztek fel, a barlang teljes hosszából 285 m látogatható.",
+        "eng": "Gombasek Cave was the first major discovery of a group of volunteer speleologists from Rožňava and, at the time, one of the key projects of the Slovak Speleological Society.\nUnder the leadership of Viliam Rozložník, Ladislav Herényi Sr., and Štefan Roda, the explorers deepened the channel of the Čierna Vyvieračka spring, and after lowering the water level, they entered richly decorated underground spaces on 21 November 1951.\nThe cave has been open to the public since May 1955. In the summer of 2016, new passages were discovered; today, 285 metres of the cave are accessible to visitors."
+    },
+    "gombaseckaParagraph3": {
+        "svk": "Vyniká mimoriadnou farebnosťou výzdoby, jedinečné sú tenké biele sintrové brčká, ktoré dosahujú dĺžku až 3 m pri hrúbke len 2 – 3 mm. Unikátom je prítomnosť jaskynného živočícha – mnohonôžky rodu Typhloiulus sp., ktorá je najväčším pravým jaskynným živočíchom žijúcim v slovenských jaskyniach.",
+        "hun": "Kiemelkedő színességű díszítésével tűnik ki, egyedülállóak a vékony, fehér szalmacseppkővek, amelyek hossza eléri a 3 métert, vastagságuk pedig mindössze 2–3 mm. Egyedülálló a barlangi állat, a Typhloiulus sp. nemzetségbe tartozó százlábú jelenléte, amely a legnagyobb igazi barlangi állat a szlovák barlangokban.",
+        "eng": "The cave stands out for the remarkable colouration of its decoration; particularly notable are the slender white soda straws, which can reach up to 3 metres in length while measuring only 2–3 mm in diameter.\nA unique feature is the presence of the cave-dwelling millipede Typhloiulus sp., the largest true cave animal found in Slovak caves."
+    },
+    "gombaseckaParagraph4": {
+        "svk": "Vďaka priaznivým účinkom jaskynnej klímy bola od roku 1968 ako prvá jaskyňa na území Slovenska využívaná na liečbu chorôb dýchacích ciest. Pri jaskyni fungovalo aj speleolaboratórium.",
+        "hun": "A barlangi éghajlat jótékony hatásainak köszönhetően 1968-tól ez volt az első barlang Szlovákia területén, amelyet légúti betegségek kezelésére használtak. A barlang mellett egy barlangászati kutatóállomás is működött.",
+        "eng": "Thanks to the beneficial effects of its cave climate, it became the first cave in Slovakia to be used for the treatment of respiratory diseases in 1968; During this period, there was also a cave research laboratory operating near the cave."
+    },
+    "gombaseckaInfoLengthValue": {
+        "svk": "3 027 m",
+        "hun": "3 027 m",
+        "eng": "3,027 m"
+    },
+    "gombaseckaInfoTempValue": {
+        "svk": "9 – 9,4 °C",
+        "hun": "9 – 9,4 °C",
+        "eng": "9 – 9.4 °C"
+    },
+    "gombaseckaInfoSodaStrawLengthLabel": {
+        "svk": "Dĺžka sintrových brčiek",
+        "hun": "A szalmacseppkövek hossza",
+        "eng": "Length of soda straws"
+    },
+    "gombaseckaInfoSodaStrawLengthValue": {
+        "svk": "až 3 m",
+        "hun": "akár 3 m",
+        "eng": "up to 3 m"
+    },
+    "gombaseckaInfoOpenSinceLabel": {
+        "svk": "Sprístupnená od roku",
+        "hun": "Látogatható",
+        "eng": "Open to the public since"
+    },
+    "gombaseckaInfoOpenSinceValue": {
+        "svk": "1955",
+        "hun": "1955 óta",
+        "eng": 1955.0
+    },
+    "gombaseckaInfoDepthValue": {
+        "svk": "15 m",
+        "hun": "15 m",
+        "eng": "15 m"
+    },
+    "gombaseckaCap1": {
+        "svk": "Detail výzdoby – sintrové brčká",
+        "hun": "A díszítés részlete - szalmacseppkövek",
+        "eng": "Detail of decoration – soda straws"
+    },
+    "gombaseckaAut1": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "gombaseckaCap2": {
+        "svk": "Sintrové brčká v Sieni víl",
+        "hun": "Szalmacseppkövek a Tündérek termében",
+        "eng": "Soda straws in the Hall of Fairies"
+    },
+    "gombaseckaAut2": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "gombaseckaCap3": {
+        "svk": "Mramorová sieň",
+        "hun": "Márványterem",
+        "eng": "Marble Hall"
+    },
+    "gombaseckaAut3": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "gombaseckaCap4": {
+        "svk": "Mramorová sieň",
+        "hun": "Márványterem",
+        "eng": "Marble Hall"
+    },
+    "gombaseckaAut4": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "gombaseckaCap5": {
+        "svk": "Sintrové brčká v Sieni Viliama Rozložníka (Sieň múdrosti)",
+        "hun": "Szalmacseppkövek Viliam Rozložník termében (Bölcsesség terme)",
+        "eng": "Soda straws in the Hall of Viliam Rozložník (Hall of Wisdom)"
+    },
+    "gombaseckaAut5": {
+        "svk": "Miroslav Hujdič",
+        "hun": "Miroslav Hujdič",
+        "eng": "Miroslav Hujdič"
+    },
+    "gombaseckaCap6": {
+        "svk": "Znižovanie hladiny koryta Čiernej vyvieračky - november 1951",
+        "hun": "A Fekete forrás medrének vízszintje csökkentése – 1951. november",
+        "eng": "Lowering of the water level in the Čierna Vyvieračka channel – November 1951"
+    },
+    "gombaseckaAut6": {
+        "svk": "Viliam Rozložník",
+        "hun": "Viliam Rozložník",
+        "eng": "Viliam Rozložník"
+    },
+    "gombaseckaCap7": {
+        "svk": "Objavný prieskum 21. 11. 1951 – objavitelia pri raňajkách v jaskyni",
+        "hun": "Felfedező expedíció, 1951. november 21. – a felfedezők reggeliznek a barlangban",
+        "eng": "Exploration on 21 November 1951 – discoverers having breakfast in the cave"
+    },
+    "gombaseckaAut7": {
+        "svk": "Viliam Rozložník",
+        "hun": "Viliam Rozložník",
+        "eng": "Viliam Rozložník"
+    },
+    "gombaseckaCap8": {
+        "svk": "Objavitelia pri slávnostnom otvorení jaskyne 15. 5. 1955",
+        "hun": "A barlang felfedezői az 1955. május 15-i ünnepélyes megnyitón",
+        "eng": "Discoverers at the ceremonial opening of the cave on 15 May 1955"
+    },
+    "gombaseckaAut8": {
+        "svk": null,
+        "hun": null,
+        "eng": null
+    },
+    "gombaseckaCap9": {
+        "svk": "Interiér speleolaboratória, za stolom Štefan Roda",
+        "hun": "A barlangászati kutatóállomás, az asztal mögött Roda István",
+        "eng": "Interior of the speleotherapy laboratory, Štefan Roda seated at the table"
+    },
+    "gombaseckaAut9": {
+        "svk": "Miroslav Hujdič",
+        "hun": "Miroslav Hujdič",
+        "eng": "Miroslav Hujdič"
+    },
+    "gombaseckaCap10": {
+        "svk": "Mnohonôžka z rodu Typhloiulus (až 147 párov nôh, dĺžka tela 2,6 cm)",
+        "hun": "A Typhloiulus nemzetségbe tartozó százlábú (147 lábpár, testhossza 2,6 cm)",
+        "eng": "Millipede of the genus Typhloiulus (up to 147 pairs of legs, body length 2.6 cm)"
+    },
+    "gombaseckaAut10": {
+        "svk": "Ľubomír Kováč",
+        "hun": "Ľubomír Kováč",
+        "eng": "Ľubomír Kováč"
+    }
+}

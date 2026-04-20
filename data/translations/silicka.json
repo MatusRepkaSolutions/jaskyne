@@ -1,0 +1,157 @@
+{
+    "silickaPageTitle": {
+        "svk": "Silická ľadnica",
+        "hun": "Szilicei-jégbarlang",
+        "eng": "Silická Ice Cave"
+    },
+    "silickaParagraph1": {
+        "svk": "Najnižšie položená ľadová jaskyňa v miernom klimatickom pásme sa nachádza v centrálnej časti Silickej planiny, približne 1 km západne od obce Silica. Tvorí súčasť rozsiahleho silicko-gombaseckého jaskynného systému, ktorého väčšia časť je doposiaľ neznáma.",
+        "hun": "A mérsékelt éghajlati övezetben található legalacsonyabban fekvő jégbarlang a Szilicei-fennsík középső részében, Szilicetől körülbelül 1 km-re nyugatra helyezkedik el. A kiterjedt Szilice–gombaszögi barlangrendszer részét képezi, amelynek nagy része a mai napig ismeretlen.",
+        "eng": "The lowest-altitude ice cave in the temperate climate zone is located in the central part of the Silica Plateau, approximately 1 km west of the village of Silica.\nIt forms part of the extensive Silica–Gombasek cave system, most of which remains unexplored."
+    },
+    "silickaParagraph2": {
+        "svk": "Mohutná vstupná časť, ktorá vznikla prepadnutím stropu, je známa oddávna, jej prvé opisy a náčrty pochádzajú z 18. storočia. Ľahko prístupný zaľadnený priestor lákal návštevníkov a slúžil ako prirodzená zásobáreň ľadu. Spodná nezaľadnená časť jaskyne bola objavená po prekopaní závalu na dne Jánom Majkom v roku 1931. Prvá sieň bohatá na archeologické nálezy, Archeologický dóm, je významným náleziskom doby kamennej a bronzovej, osídlenie pochádza z doby pred zaľadnením. Niektoré z nájdených predmetov sú prezentované aj v tejto expozícii. Prieskum ďalších priestorov realizovali speleopotápači náročným prekonávaním sifónov podzemného toku.",
+        "hun": "A mennyezet beomlásával kialakult hatalmas bejárati rész már régóta ismert, első leírásai és vázlatai a 18. századból származnak. A könnyen megközelíthető, jéggel borított tér vonzotta a látogatókat, és természetes jégtárolóként szolgált. A barlang alsó, jégmentes részét 1931-ben fedezte fel Ján Majko, miután átásta a fenéken lévő omladékot. Az első, régészeti leletekben gazdag terem, az Archeológiai terem a kőkorszak és a bronzkorszak jelentős lelőhelye, a település a jégkorszak előtti időből származik. A leletek közül néhányat a tárlatban is bemutatunk. A további részek feltárását barlang búvárok végezték, akik a földalatti folyó szifonjait nagy nehézségek árán győzték le.",
+        "eng": "The large entrance chamber, formed by the collapse of the cave ceiling, has been known since ancient times; the first descriptions and sketches date back to the 18th century.\nThe easily accessible ice-filled space attracted visitors and served as a natural source of ice.\nThe lower, non-glaciated part of the cave was discovered in 1931 by Ján Majko after clearing a collapse at the bottom.\nThe first chamber rich in archaeological finds—the Archaeological Dome—is an important site from the Stone Age and the Bronze Age, with evidence of settlement predating the glaciation. Some of the discovered artefacts are also presented in this exhibition.\nFurther exploration of the cave was carried out by cave divers, who overcame the siphons of the underground stream under demanding conditions."
+    },
+    "silickaParagraph3": {
+        "svk": "Následkom zaľadnenia je inverzia fauny a flóry a s ňou súvisiaca prítomnosť chladnomilných druhov. Podzemné priestory Silickej ľadnice nie sú prístupné pre verejnosť, do vstupnej časti s ľadovou výzdobou je možné nahliadnuť z vyhliadkovej terasy.",
+        "hun": "A jégképződés következtében a növény- és állatvilág összetétele megváltozott, és ezzel együtt hidegkedvelő fajok jelentek meg. A barlang földalatti részeit a nyilvánosság nem látogathatja, a jégdíszítéssel ellátott bejárati része azonban a kilátóteraszról megtekinthető.",
+        "eng": "Glaciation has led to an inversion of fauna and flora, resulting in the presence of cold-adapted species.\nThe underground spaces of the Silica Ice Cave are not accessible to the public; however, the ice-decorated entrance section can be viewed from an observation terrace."
+    },
+    "silickaInfoLengthValue": {
+        "svk": "2 300 m",
+        "hun": "2 300 m",
+        "eng": "2,300 m"
+    },
+    "silickaInfoDepthValue": {
+        "svk": "110 m",
+        "hun": "110 m",
+        "eng": "110 m"
+    },
+    "silickaInfoLowestAltitudeIceCaveWorldLabel": {
+        "svk": "Najnižšie položená ľadová jaskyňa na svete",
+        "hun": "A mérsékelt éghajlat legalacsonyabb fekvésű jégbarlagja",
+        "eng": "Lowest-altitude ice cave in the world"
+    },
+    "silickaInfoLowestAltitudeIceCaveWorldValue": {
+        "svk": "503 m n. m.",
+        "hun": "503 m n. m.",
+        "eng": "503 m above sea level"
+    },
+    "silickaInfoTempValue": {
+        "svk": "viac ako 30 °C",
+        "hun": "több mint 30 °C",
+        "eng": "more than 30 °C"
+    },
+    "silickaInfoFormationByCollapseDomeCeilingLabel": {
+        "svk": "Vznik prepadnutím stropu dómu",
+        "hun": "A kupola mennyezetének beomlásával keletkezett",
+        "eng": "Formation by collapse of the dome ceiling"
+    },
+    "silickaInfoFormationByCollapseDomeCeilingValue": {
+        "svk": "pred cca 2 000 rokmi",
+        "hun": "kb. 2 000 éve",
+        "eng": "approximately 2,000 years ago"
+    },
+    "silickaCap1": {
+        "svk": "Ľadopád",
+        "hun": "Jégzuhatag",
+        "eng": "Icefall"
+    },
+    "silickaAut1": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "silickaCap2": {
+        "svk": "Ľadopád",
+        "hun": "Jégzuhatag",
+        "eng": "Icefall"
+    },
+    "silickaAut2": {
+        "svk": "Jaroslav Stankovič",
+        "hun": "Jaroslav Stankovič",
+        "eng": "Jaroslav Stankovič"
+    },
+    "silickaCap3": {
+        "svk": "Vstupný otvor",
+        "hun": "Bejárati nyílás",
+        "eng": "Entrance opening"
+    },
+    "silickaAut3": {
+        "svk": "Jaroslav Stankovič",
+        "hun": "Jaroslav Stankovič",
+        "eng": "Jaroslav Stankovič"
+    },
+    "silickaCap4": {
+        "svk": "Ľadová výzdoba vstupného otvoru",
+        "hun": "A bejárati nyílás jégdíszítése",
+        "eng": "Ice decoration of the entrance opening"
+    },
+    "silickaAut4": {
+        "svk": "Jaroslav Stankovič",
+        "hun": "Jaroslav Stankovič",
+        "eng": "Jaroslav Stankovič"
+    },
+    "silickaCap5": {
+        "svk": "Ľadový stalagnát",
+        "hun": "Jég cseppkőoszlop",
+        "eng": "Ice stalagnate"
+    },
+    "silickaAut5": {
+        "svk": "Miroslav Hujdič",
+        "hun": "Miroslav Hujdič",
+        "eng": "Miroslav Hujdič"
+    },
+    "silickaCap6": {
+        "svk": "Archeologický dóm",
+        "hun": "Archeológiai terem",
+        "eng": "Archaeological Dome"
+    },
+    "silickaAut6": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "silickaCap7": {
+        "svk": "Kvapľová výzdoba v Dóme kazatelna",
+        "hun": "A Kazatelna terem cseppkődíszítése",
+        "eng": "Speleothem decoration in the Pulpit Dome"
+    },
+    "silickaAut7": {
+        "svk": "Jaroslav Stankovič",
+        "hun": "Jaroslav Stankovič",
+        "eng": "Jaroslav Stankovič"
+    },
+    "silickaCap8": {
+        "svk": "Detail heliktitovej výzdoby",
+        "hun": "A heliktit díszítés részlete",
+        "eng": "Detail of helictite decoration"
+    },
+    "silickaAut8": {
+        "svk": "Jaroslav Stankovič",
+        "hun": "Jaroslav Stankovič",
+        "eng": "Jaroslav Stankovič"
+    },
+    "silickaCap9": {
+        "svk": "Vstupný otvor",
+        "hun": "Bejárati nyílás",
+        "eng": "Entrance opening"
+    },
+    "silickaAut9": {
+        "svk": "Miroslav Hujdič",
+        "hun": "Miroslav Hujdič",
+        "eng": "Miroslav Hujdič"
+    },
+    "silickaCap10": {
+        "svk": "Ľadová výplň vo vstupnom otvore",
+        "hun": "A bejárati nyílás jégdíszítése",
+        "eng": "Ice fill in the entrance opening"
+    },
+    "silickaAut10": {
+        "svk": "Miroslav Hujdič",
+        "hun": "Miroslav Hujdič",
+        "eng": "Miroslav Hujdič"
+    }
+}

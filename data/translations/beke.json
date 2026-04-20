@@ -1,0 +1,47 @@
+{
+    "bekePageTitle": {
+        "svk": "Jaskyňa Béke",
+        "hun": "Béke-barlang",
+        "eng": "Béke Cave"
+    },
+    "bekeParagraph1": {
+        "svk": "Rozsiahla aktívna riečna jaskyňa s dĺžkou 7 183 m, druhá najdlhšia v Aggteleckom krase. Nachádza sa južne od obce Jósvafő a patrí do malej skupiny jaskýň, ktoré sú známe v celej dĺžke od ponoru až po vyvieračku. V roku 1952 ju objavila skupina jaskyniarov pod vedením Lászla Jakucsa na základe vedeckých výskumov.",
+        "hun": "Aktív patakbarlang, hossza 7 183 m. Az Aggteleki-karszt második leghosszabb barlangja, Jósvafőtől délre található. Azon kevés barlangok közé tartozik, amelyek teljes hosszában, a nyelőzónától a forrásig ismertek. 1952-ben fedezte fel egy barlangászcsoport Jakucs László vezetésével tudományos kutatások alapján.",
+        "eng": "An extensive active river cave with a total length of 7,183 metres, the second longest in the Aggtelek Karst.\nIt is located south of the village of Jósvafő and belongs to a small group of caves known along their entire length, from sink to spring.\nIt was discovered in 1952 by a group of speleologists led by László Jakucs, based on scientific research."
+    },
+    "bekeParagraph2": {
+        "svk": "Vyniká bohatou a zachovalou sintrovou výzdobou. Vďaka priaznivým účinkom jaskynnej klímy bola ako prvá jaskyňa na území Maďarska využívaná pri liečbe chorôb dýchacích ciest.",
+        "hun": "Gazdag és jól megőrzött cseppkődíszítésével tűnik ki. A barlangi éghajlat jótékony hatásának köszönhetően az első barlang Magyarország területén, amelyet légúti betegségek kezelésére használtak.",
+        "eng": "The cave is distinguished by its rich and well-preserved speleothem decoration.\nThanks to the beneficial effects of its cave climate, it became the first cave in Hungary to be used for the treatment of respiratory diseases."
+    },
+    "bekeCap1": {
+        "svk": "Stalaktity",
+        "hun": "Függőcseppkövek",
+        "eng": "Stalactites"
+    },
+    "bekeAut1": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "bekeCap2": {
+        "svk": "Riečna chodba s výzdobou",
+        "hun": "Folyómeder a cseppkődíszítéssel",
+        "eng": "River passage with decoration"
+    },
+    "bekeAut2": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "bekeCap3": {
+        "svk": "Chodby s výzdobou tvorenou mohutnými stalaktitmi",
+        "hun": "Hatalmas cseppkövekkel díszített folyosók",
+        "eng": "Passages with decoration formed by massive stalactites"
+    },
+    "bekeAut3": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    }
+}

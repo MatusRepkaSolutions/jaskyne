@@ -1,0 +1,162 @@
+{
+    "krasnohorskaPageTitle": {
+        "svk": "Krásnohorská jaskyňa",
+        "hun": "Buzgó-barlang",
+        "eng": "Krásnohorská Cave"
+    },
+    "krasnohorskaParagraph1": {
+        "svk": "Aktívna riečna jaskyňa, vytvorená podzemným tokom Buzgó a jeho prítokmi, ktoré odvodňujú severnú časť najrozsiahlejšej planiny Slovenského krasu. Vznikla na mieste výraznej tektonickej poruchy v gutensteinských dolomitoch, sčasti aj v svetlosivých steinalmských vápencoch, na severnom úpätí Silickej planiny v blízkosti obce Krásnohorská Dlhá Lúka.",
+        "hun": "Aktív folyami barlang, amelyet a Buzgó földalatti folyó és mellékfolyói alakítottak ki. A Szlovák-Karszt legkiterjedtebb fennsíkának északi részéről vezeti el a vizet. A barlang a gutensteini dolomitokban, részben pedig a világosszürke steinalmi mészkövekben, jelentős tektonikai törésvonalán alakult ki. A Szilicei-fennsík északi lábánál található, Várhosszúrét községtől keletre helyezkedik el.",
+        "eng": "An active river cave formed by the underground Buzgó stream and its tributaries, which drain the northern part of the largest plateau of the Slovak Karst.\nIt developed along a major tectonic fault in Gutenstein dolomites and partly in light grey Steinalm limestones, at the northern foothills of the Silica Plateau near the village of Krásnohorská Dlhá Lúka."
+    },
+    "krasnohorskaParagraph2": {
+        "svk": "Jej objav bol ďalším významným úspechom skupiny jaskyniarov z Rožňavy a okolia, ktorí vstúpili do jej priestorov v júni 1964 po znížení hladiny vody vo vyvieračke Buzgó a rozšírení vstupnej pukliny. Aj keď bola kvôli uľahčeniu prístupu vyrazená umelá štôlňa, k plánovanému sprístupneniu jaskyne došlo až v roku 2004, a to turistickou formou. V porovnaní s ostatnými sprístupnenými jaskyňami tu návštevníci značnú časť prehliadkovej trasy s dĺžkou 450 m prekonávajú pri svetle čeloviek nad podzemným tokom po drevených chodníkoch, rebríkoch a lanovom traverze.",
+        "hun": "A felfedezése a rozsnyói csoport barlangászainak újabb jelentős sikere, akik 1964 júniusában léptek be először a barlangba. Ezt a sikert a töbhónapos nehéz munka után a Buzgó-forrás vízszintjének csökkentésével és a bejárati hasadék kiszélesísével lehetett elérni. Bár a könnyebb megközelítés érdekében mesterséges járatot is vájtak, a barlang tervezett megnyitására csak 2004-ben került sor. A többi látogatható barlanghoz képest itt a látogatók a 450 méter hosszú túraútvonal jelentős részét fejlámpák fényénél, a föld alatti patak felett, fa járdákon, létrákon és kötélhídon haladva teszik meg.",
+        "eng": "Its discovery was another major achievement of a group of speleologists from Rožňava and the surrounding area, who entered the cave in June 1964 after lowering the water level at the Buzgó spring and widening the entrance fissure.\nAlthough an artificial adit was later excavated to facilitate access, the cave was not opened to visitors until 2004, and even then in a more adventurous, non-standard form.\nCompared to other show caves, visitors cover a significant part of the 450-metre tour route by headlamp, moving above the underground stream along wooden walkways, ladders, and a rope traverse."
+    },
+    "krasnohorskaParagraph3": {
+        "svk": "Po úvodnom úseku bez výraznejšej výzdoby, tvoreného dlhou puklinovou chodbou s názvom Veľký kaňon, nasleduje sústava ôsmich mohutných dómov. Tieto priestory majú hodnotnú výzdobu; jedinečné sú rozmanité excentrické heliktity a koralovité útvary s mangánovým povlakom. Dominantou jaskyne je Sieň obrov s 34 m vysokým Kvapľom rožňavských jaskyniarov, ktorý patrí medzi najväčšie sintrové útvary v Európe.",
+        "hun": "A Nagy Kanyon nevű hosszú hasadékfolyosóból álló, díszítés szempontjából kevésbé érdekes bevezető szakasz után nyolc hatalmas terem következik. Ezek a termek értékes díszítéssel rendelkeznek, egyedülállóak a változatos, excentrikus heliktitek és a mangánbevonatú korallszerű képződmények. A barlang domináns része az Óriások terme a 34 méter magas Rozsnyói barlangászok cseppkőjével, amely Európa legnagyobb cseppkő-képződményei közé tartozik.",
+        "eng": "After an initial section with little decoration, formed by a long fissure passage known as the Great Canyon, the cave opens into a system of eight massive domes.\nThese spaces feature valuable decoration, including unique eccentric helictites and coral-like formations coated with manganese.\nThe dominant feature of the cave is the Hall of Giants, home to the 34-metre-high Stalagmite of the Rožňava Speleologists, one of the largest speleothem formations in Europe."
+    },
+    "krasnohorskaInfoLengthValue": {
+        "svk": "1 556 m",
+        "hun": "1 556 m",
+        "eng": "1,556 m"
+    },
+    "krasnohorskaInfoTempValue": {
+        "svk": "9 °C",
+        "hun": "9 °C",
+        "eng": "9 °C"
+    },
+    "krasnohorskaInfoStalagmiteHeightLabel": {
+        "svk": "Výška kvapľa (najväčší v miernom pásme)",
+        "hun": "A cseppkő magassága (a mérsékelt éghajlati övezet legmagasabb cseppköve)",
+        "eng": "Height of the stalagmite (largest in the temperate zone)"
+    },
+    "krasnohorskaInfoStalagmiteHeightValue": {
+        "svk": "34 m",
+        "hun": "34 m",
+        "eng": "34 m"
+    },
+    "krasnohorskaInfoDomeHeightLabel": {
+        "svk": "Výška dómov v jaskyni",
+        "hun": "A termek magassága a barlangban",
+        "eng": "Height of the cave domes"
+    },
+    "krasnohorskaInfoDomeHeightValue": {
+        "svk": "až 45 m",
+        "hun": "akár 45 m",
+        "eng": "up to 45 m"
+    },
+    "krasnohorskaInfoOpenSinceLabel": {
+        "svk": "Sprístupnená od roku",
+        "hun": "Látogatható",
+        "eng": "Open to the public since"
+    },
+    "krasnohorskaInfoOpenSinceValue": {
+        "svk": "2004",
+        "hun": "2004 óta",
+        "eng": 2004.0
+    },
+    "krasnohorskaCap1": {
+        "svk": "Kvapeľ rožňavských jaskyniarov v Sieni obrov",
+        "hun": "A rozsnyói barlangászok cseppköve az Óriások termében",
+        "eng": "Stalagmite of the Rožňava Speleologists in the Hall of Giants"
+    },
+    "krasnohorskaAut1": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "krasnohorskaCap2": {
+        "svk": "Marikino jazero",
+        "hun": "Marika tó",
+        "eng": "Marika’s Lake"
+    },
+    "krasnohorskaAut2": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "krasnohorskaCap3": {
+        "svk": "Kvapľová výzdoba v Abonyiho dóme",
+        "hun": "Cseppkődíszítés az Abonyi teremben",
+        "eng": "Speleothem decoration in the Abonyi Dome"
+    },
+    "krasnohorskaAut3": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "krasnohorskaCap4": {
+        "svk": "Veľký kaňon",
+        "hun": "Nagy kanyon",
+        "eng": "Great Canyon"
+    },
+    "krasnohorskaAut4": {
+        "svk": "Jaroslav Stankovič",
+        "hun": "Jaroslav Stankovič",
+        "eng": "Jaroslav Stankovič"
+    },
+    "krasnohorskaCap5": {
+        "svk": "Heliktitový dom",
+        "hun": "Heliktit terem",
+        "eng": "Helictite Hall"
+    },
+    "krasnohorskaAut5": {
+        "svk": "Jaroslav Stankovič",
+        "hun": "Jaroslav Stankovič",
+        "eng": "Jaroslav Stankovič"
+    },
+    "krasnohorskaCap6": {
+        "svk": "Detail heliktitovej výzdoby",
+        "hun": "A heliktit képződmények részlete",
+        "eng": "Detail of helictite decoration"
+    },
+    "krasnohorskaAut6": {
+        "svk": "Jaroslav Stankovič",
+        "hun": "Jaroslav Stankovič",
+        "eng": "Jaroslav Stankovič"
+    },
+    "krasnohorskaCap7": {
+        "svk": "Chodba perál",
+        "hun": "Gyöngy folyosó",
+        "eng": "Pearl Corridor"
+    },
+    "krasnohorskaAut7": {
+        "svk": "Jaroslav Stankovič",
+        "hun": "Jaroslav Stankovič",
+        "eng": "Jaroslav Stankovič"
+    },
+    "krasnohorskaCap8": {
+        "svk": "Objavitelia Krásnohorskej jaskyne, júl 1965",
+        "hun": "A Buzgó-barlang felfedezői, 1965",
+        "eng": "Discoverers of Krásnohorská Cave, July 1965"
+    },
+    "krasnohorskaAut8": {
+        "svk": "Vojtech Zabari",
+        "hun": "Vojtech Zabari",
+        "eng": "Vojtech Zabari"
+    },
+    "krasnohorskaCap9": {
+        "svk": "Objavitelia v Sieni obrov pri kvapli nazvanom Večná túžba, 1965",
+        "hun": "A barlang felfedezői az Óriások termében, az Örök vágy nevű cseppkőnél, 1965",
+        "eng": "Discoverers in the Hall of Giants by the formation called Eternal Desire, 1965"
+    },
+    "krasnohorskaAut9": {
+        "svk": "Vojtech Zabari",
+        "hun": "Vojtech Zabari",
+        "eng": "Vojtech Zabari"
+    },
+    "krasnohorskaCap10": {
+        "svk": "Náčrt prvého pokusu o objav jaskyne po znížení hladiny vody, 1956",
+        "hun": "Náčrt prvého pokusu o objav jaskyne po znížení hladiny vody, 1956",
+        "eng": "Sketch of the first attempt to discover the cave after lowering the water level, 1956"
+    },
+    "krasnohorskaAut10": {
+        "svk": "Viliam Rozložník",
+        "hun": "Viliam Rozložník",
+        "eng": "Viliam Rozložník"
+    }
+}

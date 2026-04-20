@@ -1,0 +1,57 @@
+{
+    "kossuthovaPageTitle": {
+        "svk": "Kossuthova jaskyňa",
+        "hun": "Kossuth-barlang",
+        "eng": "Kossuth Cave"
+    },
+    "kossuthovaParagraph1": {
+        "svk": "Aktívna riečna jaskyňa za druhou najväčšou krasovou vyvieračkou Aggteleckého krasu Nagy-Tohonya, ktorá sa nachádza severne od obce Jósvafő. Po takmer trojročnom hĺbení štôlne sa v roku 1956 skupina jaskyniarov pod vedením Huberta Kesslera prekopala do podzemných priestorov. Pravdepodobne je súčasťou rozsiahlejšieho jaskynného systému, ktorého pokračovanie doteraz nebolo objavené.",
+        "hun": "Aktív patak barlang, az Aggteleki-karst második legnagyobb karsztforrása, a Nagy-Tohonya mögött, Jósvafőtől északra található. Közel három évig tartó táróásás után 1956-ban egy Hubert Kessler vezette barlangászcsoport bejutott a föld alatti termekbe. Valószínűleg egy kiterjedtebb barlangrendszer része, amelynek folytatását eddig nem sikerült feltárni.",
+        "eng": "An active river cave located behind the second largest karst spring of the Aggtelek Karst, Nagy-Tohonya, north of the village of Jósvafő.\nAfter nearly three years of excavating an adit, a group of speleologists led by Hubert Kessler broke through into the underground spaces in 1956.\nIt is likely part of a more extensive cave system, the continuation of which has not yet been discovered."
+    },
+    "kossuthovaParagraph2": {
+        "svk": "Jaskyňa je sprístupnená turistickou formou, s prechodom aktívnym riečiskom v kombinézach a prilbách.",
+        "hun": "A barlang turisztikai formával látogatható, az aktív folyómedren való átkeléshez védőruha és sisak viselése kötelező.",
+        "eng": "The cave is open to visitors in an adventurous tour format, involving passage through the active river channel in protective suits and helmets."
+    },
+    "kossuthovaCap1": {
+        "svk": "Chodba s lanovým traverzom",
+        "hun": "Barlangfolyosó kötélpályával",
+        "eng": "Passage with a rope traverse"
+    },
+    "kossuthovaAut1": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "kossuthovaCap2": {
+        "svk": "Lanový traverz cez Veľké jazero",
+        "hun": "Kötélpálya a Nagy-tó felett",
+        "eng": "Rope traverse across the Great Lake"
+    },
+    "kossuthovaAut2": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "kossuthovaCap3": {
+        "svk": "Prechod podzemným tokom",
+        "hun": "Átkelés a föld alatti folyón",
+        "eng": "Passage through the underground stream"
+    },
+    "kossuthovaAut3": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "kossuthovaCap4": {
+        "svk": "Sieň otcov, dostupná len pre speleopotápačov",
+        "hun": "Az Apáink terme, amely csak barlangi búvárok számára elérhető",
+        "eng": "Hall of Fathers, accessible only to cave divers"
+    },
+    "kossuthovaAut4": {
+        "svk": "Gergely Balázs",
+        "hun": "Gergely Balázs",
+        "eng": "Gergely Balázs"
+    }
+}

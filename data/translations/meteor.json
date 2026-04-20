@@ -1,0 +1,67 @@
+{
+    "meteorPageTitle": {
+        "svk": "Jaskyňa Meteor",
+        "hun": "Meteor-barlang",
+        "eng": "Meteor Cave"
+    },
+    "meteorParagraph1": {
+        "svk": "Najvýznamnejšia ponorová jaskyňa planiny Dolný vrch sa nachádza približne 2 km severozápadne od obce Bódvaszilas. Objavená bola v lete 1961 skupinou jaskyniarov z Budapešti pod vedením Györgya Dénesa.",
+        "hun": "Az Alsó-hegy fennsík legjelentősebb víznyelő barlangja Bódvaszilastól kb. 2 km-re északnyugatra található. 1961 nyarán fedezte fel egy budapesti barlangászcsoport Dénes György vezetésével.",
+        "eng": "The most important ponor cave of the Dolný vrch Plateau is located approximately 2 km northwest of the village of Bódvaszilas.\nIt was discovered in the summer of 1961 by a group of speleologists from Budapest led by György Dénes."
+    },
+    "meteorParagraph2": {
+        "svk": "Výnimočnou časťou jaskyne je Sieň titanov, ktorá je pôdorysne najväčšou jaskynnou sieňou na území Maďarska. Zaujme bohatou a rôznorodou kvapľovou výzdobou, tvorenou kvapľovými stĺpmi, sintrovými záclonami, heliktitmi a rôznymi formami stalagmitov.",
+        "hun": "A barlang egyik legkülönlegesebb része a Titánok terme, amely alapterületét tekintve Magyarország legnagyobb barlangi terme. Gazdag és változatos cseppkődíszítésével rendelkezik, amely cseppkőoszlopokból, cseppkőfüggönyökből, heliktitekből és különféle formájú függőcseppkövekből áll.",
+        "eng": "An outstanding part of the cave is the Hall of Titans, the largest cave chamber in Hungary by floor area.\nIt impresses with its rich and diverse speleothem decoration, including columns, draperies, helictites, and various forms of stalagmites."
+    },
+    "meteorCap1": {
+        "svk": "Sieň titanov, najväčší priestor jaskyne",
+        "hun": "Titánok terme, a barlang legnagyobb terme",
+        "eng": "Hall of Titans, the largest space of the cave"
+    },
+    "meteorAut1": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "meteorCap2": {
+        "svk": "Kvapľový stĺp v Sieni titanov",
+        "hun": "Cseppkőoszlop a Titánok termében",
+        "eng": "Stalactite column in the Hall of Titans"
+    },
+    "meteorAut2": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "meteorCap3": {
+        "svk": "Sieň titanov",
+        "hun": "Titánok terme",
+        "eng": "Hall of Titans"
+    },
+    "meteorAut3": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "meteorCap4": {
+        "svk": "Sintrová záclona v Sieni titanov",
+        "hun": "Cseppkőfüggöny a Titánok termében",
+        "eng": "Flowstone drapery in the Hall of Titans"
+    },
+    "meteorAut4": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "meteorCap5": {
+        "svk": "Excentricky rastúca výzdoba",
+        "hun": "A díszítés excentrikus formái",
+        "eng": "Eccentrically growing decoration"
+    },
+    "meteorAut5": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    }
+}

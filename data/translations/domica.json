@@ -1,0 +1,162 @@
+{
+    "domicaPageTitle": {
+        "svk": "Domica",
+        "hun": "Domica-barlang",
+        "eng": "Domica Cave"
+    },
+    "domicaParagraph1": {
+        "svk": "Domica je súčasťou viac než 30 km dlhého jaskynného systému Domica – Baradla, ktorý zasahuje do územia dvoch štátov a prechádza ním štátna hranica. Vytvorená bola v svetlých wettersteinských vápencoch v juhozápadnej časti Silickej planiny eróznou činnosťou podzemného toku Styx a Domického potoka.",
+        "hun": "A Domica-barlang a több mint 30 km hosszú Domica–Baradla barlangrendszer része, amely két ország területére terjed ki, és amelyen keresztülhalad az államhatár. A barlang a Szilicei-fennsík délnyugati részén, világos Wettersteini mészkőben alakult ki a Styx földalatti folyó és a Domica-patak eróziós hatásának eredményeként.",
+        "eng": "Domica Cave is part of the more than 30 km long Domica–Baradla cave system, which extends across two countries and is intersected by the state border.\nIt was formed in light Wetterstein limestones in the southwestern part of the Silica Plateau by the erosive activity of the underground Styx River and the Domica Stream."
+    },
+    "domicaParagraph2": {
+        "svk": "Jaskyňu Domica objavil Ján Majko v roku 1926, verejnosti je sprístupnená od roku 1932. Mimoriadnu kultúrnu hodnotu tejto jaskyne predstavujú početné archeologické nálezy a nástenné maľby, najmä z mladšej doby kamennej, ktoré ostali po zavalení vstupného vchodu zakonzervované až do objavenia jaskyne. Ide o najbohatšie nálezisko predmetov z obdobia bukovohorskej kultúry na území Slovenska.",
+        "hun": "A Domica-barlangot Ján Majko fedezte fel 1926-ban, a nyilvánosság számára 1932 nyitották meg. A barlang rendkívüli kulturális értékét a számos őskori régészeti lelet és falfestmény adja, amelyek a bejárat beomlása után a barlang felfedezéséig érintetlenül megmaradtak. A Domica-barlang a bükki kultúra leggazdagabb lelőhelye Szlovákia területén.",
+        "eng": "Domica Cave was discovered by Ján Majko in 1926 and has been open to the public since 1932. Its exceptional cultural value lies in numerous archaeological finds and wall paintings, mainly from the Neolithic period, which were preserved after the original entrance became blocked and remained intact until the cave’s discovery.\nIt represents the richest site of Bükk culture artefacts in Slovakia."
+    },
+    "domicaParagraph3": {
+        "svk": "Charakteristická je bohatou výzdobou s jedinečnými sintrovými kaskádami, štítmi a bubnami, veľkou početnosťou endemických druhov živočíchov a zároveň je dôležitým zimoviskom 16 druhov netopierov. Ako jediná z jaskýň svetového dedičstva je zároveň Ramsarskou lokalitou – podzemnou mokraďou medzinárodného významu. Pre návštevníkov je raritou možnosť plavby v člnoch podzemným tokom Styx v čase priaznivej hydrologickej situácie.",
+        "hun": "Jellegzetessége a gazdag cseppkődíszítés, amely egyedülálló cseppkő-kaskádokkal, cseppkőpajzsokkal és cseppkődobokkal büszkélkedhet, valamint az endemikus állatfajok nagy száma, emellett 16 denevérfaj fontos telelőhelye. A világörökséghez tartozó barlangok közül egyedüliként Ramsari terület is – nemzetközi jelentőségű földalatti vizes élőhely. A látogatók számára ritka élményt jelent a Styx földalatti patakon való csónakázás.",
+        "eng": "It is distinguished by its rich decoration, featuring unique flowstone cascades, shields, and drums, as well as a high diversity of endemic animal species. The cave also serves as an important hibernation site for 16 species of bats.\nAs the only cave within the World Heritage site, it is also designated as a Ramsar site—a wetland of international importance.\nA rare visitor experience is the opportunity to take a boat trip along the underground Styx River, when hydrological conditions allow."
+    },
+    "domicaInfoLengthValue": {
+        "svk": "vyše 10 km",
+        "hun": "több mint 10 km",
+        "eng": "over 10 km"
+    },
+    "domicaInfoTempValue": {
+        "svk": "10,2 – 11,4 °C",
+        "hun": "10,2 – 11,4 °C",
+        "eng": "10.2 – 11.4 °C"
+    },
+    "domicaInfoBoatRideLengthLabel": {
+        "svk": "Dĺžka plavby po riečke Styx",
+        "hun": "A Styx-folyón való hajózás hossza",
+        "eng": "Length of the boat trip on the Styx River"
+    },
+    "domicaInfoBoatRideLengthValue": {
+        "svk": "150 m",
+        "hun": "150 m",
+        "eng": "150 m"
+    },
+    "domicaInfoPrehistoricSettlementLabel": {
+        "svk": "Osídlenie pravekým človekom",
+        "hun": "Az őskori ember lakta",
+        "eng": "Prehistoric human settlement"
+    },
+    "domicaInfoPrehistoricSettlementValue": {
+        "svk": "pred 5 000 – 6 000 rokmi",
+        "hun": "5 000 – 6 000 éve",
+        "eng": "5,000 – 6,000 years ago"
+    },
+    "domicaInfoBatSpeciesCountLabel": {
+        "svk": "Počet druhov netopierov",
+        "hun": "A denevérfajok száma",
+        "eng": "Number of bat species"
+    },
+    "domicaInfoBatSpeciesCountValue": {
+        "svk": "16 druhov",
+        "hun": "16 faj",
+        "eng": "16 species"
+    },
+    "domicaCap1": {
+        "svk": "Sintrová hrádza Rímske kúpele v Majkovom dóme",
+        "hun": "A Római Fürdő cseppkőkaszkád a Majko teremben",
+        "eng": "Flowstone dam – Roman Baths in Majko Dome"
+    },
+    "domicaAut1": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "domicaCap2": {
+        "svk": "Pagodovité stalagmity v Dóme indických pagod",
+        "hun": "Pagoda alakú cseppkövek az indiai pagodák terme",
+        "eng": "Pagoda-like stalagmites in the Dome of Indian Pagodas"
+    },
+    "domicaAut2": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "domicaCap3": {
+        "svk": "Druhá plavba podzemným tokom Styx",
+        "hun": "Csónakázás a Styx földalatti patakon",
+        "eng": "Second boat trip along the underground Styx River"
+    },
+    "domicaAut3": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "domicaCap4": {
+        "svk": "Kvapľové stĺpy, červené a hnedé sfarbenie je spôsobené oxidmi železa",
+        "hun": "Cseppkőoszlopok, a vörös és a barna szín a vas-oxidoknak köszönhető",
+        "eng": "Stalactite columns; the red and brown coloration is caused by iron oxides"
+    },
+    "domicaAut4": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "domicaCap5": {
+        "svk": "Plavba v člnoch podzemným tokom Styx",
+        "hun": "Csónakázás a Styx földalatti patakon",
+        "eng": "Boat trip along the underground Styx River"
+    },
+    "domicaAut5": {
+        "svk": "Michal Rengevic",
+        "hun": "Michal Rengevic",
+        "eng": "Michal Rengevic"
+    },
+    "domicaCap6": {
+        "svk": "Zasintrovaná nádoba bukovohorskej kultúry v Sieni odvahy",
+        "hun": "A Bükki-kultúra kőedénye a Bátorság termében",
+        "eng": "Calcite-encrusted vessel of the Bükk culture in the Chamber of Courage"
+    },
+    "domicaAut6": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "domicaCap7": {
+        "svk": "Objaviteľ jaskyne Domica Ján Majko v Starej Domici, 1932",
+        "hun": "A Domica-barlang felfedezője, Ján Majko az Öreg Domicában, 1932",
+        "eng": "Discoverer of Domica Cave, Ján Majko, in Old Domica, 1932"
+    },
+    "domicaAut7": {
+        "svk": "Vojtech Benický",
+        "hun": "Vojtech Benický",
+        "eng": "Vojtech Benický"
+    },
+    "domicaCap8": {
+        "svk": "Oslavy 10. výročia objavenia v areáli jaskyne, vzadu chata Domica, 1936",
+        "hun": "A barlang felfedezésének 10. évfordulója, háttérben a Domica-ház, 1936",
+        "eng": "Celebration of the 10th anniversary of the discovery in the cave area, Domica lodge in the background, 1936"
+    },
+    "domicaAut8": {
+        "svk": "Vojtech Benický",
+        "hun": "Vojtech Benický",
+        "eng": "Vojtech Benický"
+    },
+    "domicaCap9": {
+        "svk": "Automobil v jaskyni, prvé rozhlasové vysielanie v Domici, 1938",
+        "hun": "Autó a barlangban, az első rádióadás Domicában, 1938",
+        "eng": "Car in the cave, first radio broadcast in Domica, 1938"
+    },
+    "domicaAut9": {
+        "svk": "Vojtech Benický",
+        "hun": "Vojtech Benický",
+        "eng": "Vojtech Benický"
+    },
+    "domicaCap10": {
+        "svk": "Banský merač Eduard Paloncy so spolupracovníkom pri zameriavaní jaskyne, 1933",
+        "hun": "Eduard Paloncy bányamérnök és munkatársa a barlang felmérése közben, 1933",
+        "eng": "Mine surveyor Eduard Paloncy with a colleague surveying the cave, 1933"
+    },
+    "domicaAut10": {
+        "svk": "Vojtech Benický",
+        "hun": "Vojtech Benický",
+        "eng": "Vojtech Benický"
+    }
+}

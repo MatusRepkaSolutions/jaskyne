@@ -1,0 +1,162 @@
+{
+    "dobsinskaPageTitle": {
+        "svk": "Dobšinská ľadová jaskyňa",
+        "hun": "Dobsinai-jégbarlang",
+        "eng": "Dobšinská Ice Cave"
+    },
+    "dobsinskaParagraph1": {
+        "svk": "S viac ako 110 000 m³ ľadu patrí k jaskyniam s najväčším objemom ľadu na svete. Tvorí súčasť rozsiahlejšieho systému Stratenskej jaskyne. Vytvorená bola v strednotriasových steinalmských a wettersteinských vápencoch podzemnými tokmi rieky Hnilec v juhozápadnej časti Národného parku Slovenský raj.",
+        "hun": "Több mint 110 000 m³ jégtömegével a világ legnagyobb jégtömegű barlangjai közé tartozik. A Sztracenai-barlang kiterjedt rendszerének része. A Hnilec folyó földalatti vízfolyásai alakították ki a középső triász korszakbeli steinalmi és wettersteini mészkövekben, a Szlovák Paradicsom Nemzeti Park délnyugati részében.",
+        "eng": "With more than 110,000 m³ of ice, it ranks among the caves with the largest ice volume in the world. It forms part of the extensive Stratenská Cave system.\nThe cave was formed in Middle Triassic Steinalm and Wetterstein limestones by underground streams of the Hnilec River, in the southwestern part of the Slovak Paradise National Park."
+    },
+    "dobsinskaParagraph2": {
+        "svk": "Jaskyňu objavila v roku 1870 skupina z Dobšinej pod vedením Eugena Ruffinyiho. Už o rok neskôr sa ju podarilo sprístupniť a koncom 19. storočia bola jednou z prvých elektricky osvetlených jaskýň na svete. V tomto období bola častým cieľom návštevníkov, vrátane viacerých významných svetových osobností a organizovali sa v nej letné korčuľovania. Súčasťou Svetového prírodného dedičstva sa stala v roku 2000 po rozšírení pôvodnej nominácie. Pre návštevníkov je sprístupnených 475 m.",
+        "hun": "A barlangot 1870-ben fedezte fel egy Dobsinából érkezett, Ruffinyi Jenő által vezetett csoport. Már egy évvel később sikerült látogathatóvá tenni, és a 19. század végén a világ egyik első villanyvilágítású barlangja volt. Ebben az időszakban gyakori célpontja volt a látogatóknak, köztük számos korabeli jelentős személyiség is meglátogatta és nyári korcsolyázásokat is szerveztek benne. 2000-ben, az eredeti jelölés kiterjesztése után vált a világörökség részévé. A barlang teljes hosszából 475 m látogatható.",
+        "eng": "The cave was discovered in 1870 by a group from Dobšiná led by Eugen Ruffinyi. Just a year later, it was opened to the public, and by the end of the 19th century it had become one of the first electrically lit caves in the world.\nAt that time, it was a popular destination for visitors, including notable figures from across the world, and even hosted summer ice skating events.\nIt became part of the UNESCO World Natural Heritage in 2000, following an extension of the original inscription. Today, 475 metres of the cave are accessible to visitors."
+    },
+    "dobsinskaParagraph3": {
+        "svk": "Mohutná dutina, vzniknutá preborením stropov jaskyne, bola v období štvrtohôr zaľadnená zamŕzaním presakujúcich zrážkových vôd. Vznikla tak rozsiahla výplň vo forme podlahového ľadu, ľadopádov a ľadových stalagmitov. Ide o významné zimovisko vzácnych druhov netopierov, zistená bola prítomnosť až 12 druhov.",
+        "hun": "A barlang mennyezetének beomlásával keletkezett hatalmas üreg a kvartér időszakban a beszivárgó csapadékvíz befagyásával jégtakaróval borult be. Így jött létre egy kiterjedt kitöltés padlójég, jégcsapok és jégcsapok formájában. Ez egy jelentős telelőhely ritka denevérfajok számára, akár 12 faj jelenlétét is megállapították.",
+        "eng": "A large chamber, formed by the collapse of cave ceilings, became glaciated during the Quaternary period as percolating precipitation water froze. This process created an extensive ice fill in the form of floor ice, icefalls, and ice stalagmites.\nThe cave also serves as an important hibernation site for rare bat species, with up to 12 species recorded."
+    },
+    "dobsinskaInfoLengthValue": {
+        "svk": "1 491 m",
+        "hun": "1 491 m",
+        "eng": "1 491 m"
+    },
+    "dobsinskaInfoTempValue": {
+        "svk": "−3,9 až 0,2 °C ",
+        "hun": "-3,9 – 0,2 °C",
+        "eng": "−3,9 – 0,2 °C"
+    },
+    "dobsinskaInfoIceVolumeLabel": {
+        "svk": "Objem ľadu v jaskyni",
+        "hun": "A jég mennyisége a barlangban",
+        "eng": "Maximum ice thickness"
+    },
+    "dobsinskaInfoIceVolumeValue": {
+        "svk": "110 100 m³",
+        "hun": "110 100 m³",
+        "eng": "110 100 m³"
+    },
+    "dobsinskaInfoMaxIceThicknessLabel": {
+        "svk": "Maximálna hrúbka ľadu",
+        "hun": "A jég maximális vastagsága",
+        "eng": "Maximum ice thickness"
+    },
+    "dobsinskaInfoMaxIceThicknessValue": {
+        "svk": "26,5 m",
+        "hun": "26,5 m",
+        "eng": "26,5 m"
+    },
+    "dobsinskaInfoFirstElectricLitCaveInEuropeLabel": {
+        "svk": "Prvá elektricky osvetlená jaskyňa v Európe",
+        "hun": "Európa első villanyvilágítású barlangja",
+        "eng": "First electrically lit cave in Europe"
+    },
+    "dobsinskaInfoFirstElectricLitCaveInEuropeValue": {
+        "svk": "od roku 1887",
+        "hun": "1887 óta",
+        "eng": "since 1887"
+    },
+    "dobsinskaCap1": {
+        "svk": "Ľadová výzdoba vo Veľkej sieni",
+        "hun": "Jégdíszítés a Nagy teremben",
+        "eng": "Ice formations in the Great Hall"
+    },
+    "dobsinskaAut1": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "dobsinskaCap2": {
+        "svk": "Ľadová výzdoba",
+        "hun": "Jégdíszítés",
+        "eng": "Ice formations"
+    },
+    "dobsinskaAut2": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "dobsinskaCap3": {
+        "svk": "Detail ľadovej výzdoby vo Veľkej sieni",
+        "hun": "Részlet a Nagy terem jégdíszítéséből",
+        "eng": "Detail of ice formations in the Great Hall"
+    },
+    "dobsinskaAut3": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "dobsinskaCap4": {
+        "svk": "Ľadová výzdoba vo Veľkej sieni",
+        "hun": "Jégdíszítés a Nagy teremben",
+        "eng": "Ice formations in the Great Hall"
+    },
+    "dobsinskaAut4": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "dobsinskaCap5": {
+        "svk": "Pohľadnica – Studňa a Oltár vo Veľkej sieni",
+        "hun": "Képeslap - Kút és Oltár a Nagy teremben",
+        "eng": "Postcard – The Well and the Altar in the Great Hall"
+    },
+    "dobsinskaAut5": {
+        "svk": "Endre Fejér",
+        "hun": "Fejér Endre",
+        "eng": "Endre Fejér"
+    },
+    "dobsinskaCap6": {
+        "svk": "Pohľadnica – ľadové slávnosti s korčuľovaním",
+        "hun": "Képeslap - nyári ünnepség korcsolyázással",
+        "eng": "Postcard – ice festivities with skating"
+    },
+    "dobsinskaAut6": {
+        "svk": "Endre Fejér",
+        "hun": "Fejér Endre",
+        "eng": "Endre Fejér"
+    },
+    "dobsinskaCap7": {
+        "svk": "Plán Dobšinskej ľadovej jaskyne dokumentujúci jej stav po objavení, 1871",
+        "hun": "A Dobsinai-jégbarlang térképe, a felfedezés utáni állapotot ábrázolja, 1871",
+        "eng": "Plan of the Dobšinská Ice Cave documenting its state after discovery, 1871"
+    },
+    "dobsinskaAut7": {
+        "svk": "Eugen Ruffinyi",
+        "hun": "Ruffinyi Jenő",
+        "eng": "Eugen Ruffinyi"
+    },
+    "dobsinskaCap8": {
+        "svk": "Tretí z plánov Dobšinskej ľadovej jaskyne dokumentujúci stav po sprístupnení, 1877",
+        "hun": "A Dobsinai-jégbarlang harmadik térképe, a megnyitás utáni állapotot ábrázolja, 1877",
+        "eng": "Third plan of the Dobšinská Ice Cave documenting its state after opening to the public, 1877"
+    },
+    "dobsinskaAut8": {
+        "svk": "Eugen Ruffinyi",
+        "hun": "Ruffinyi Jenő",
+        "eng": "Eugen Ruffinyi"
+    },
+    "dobsinskaCap9": {
+        "svk": "Portrét objaviteľa jaskyne, banského inžiniera Eugena Ruffinyiho",
+        "hun": "A barlang felfedezője, Ruffinyi Jenő bányamérnök portréja",
+        "eng": "Portrait of the cave’s discoverer, mining engineer Eugen Ruffinyi"
+    },
+    "dobsinskaAut9": {
+        "svk": "Emil Reif",
+        "hun": "Reif Emil",
+        "eng": "Emil Reif"
+    },
+    "dobsinskaCap10": {
+        "svk": "Plagát Dobšinská ľadová jaskyňa, 40. roky 20. storočia",
+        "hun": "Dobsinai-jégbarlang plakátja, 20. század 40-es évei",
+        "eng": "Poster: Dobšinská Ice Cave, 1940s"
+    },
+    "dobsinskaAut10": {
+        "svk": null,
+        "hun": null,
+        "eng": null
+    }
+}

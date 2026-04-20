@@ -1,0 +1,117 @@
+{
+    "baradlaPageTitle": {
+        "svk": "Jaskyňa Baradla",
+        "hun": "Baradla-barlang",
+        "eng": "Baradla Cave"
+    },
+    "baradlaParagraph1": {
+        "svk": "Najrozsiahlejšia a najnavštevovanejšia jaskyňa Aggteleckého národného parku. Spolu s jaskyňou Domica tvorí rozsiahly jaskynný systém s viacerými bočnými prítokovými vetvami s celkovou dĺžkou viac ako 30 km. Vstupná časť pri Aggteleku bola známa a navštevovaná po stáročia, jej pokračovanie objavil v roku 1825 Imre Vass, ktorý ju ako prvú jaskyňu na svete odborne opísal a zmapoval. Začiatkom 19. storočia bola prvou sprístupnenou jaskyňou na území Maďarska. Neskôr vznikli umelo vybudované vchody pri Červenom jazere a pri Jósvafő, vďaka ktorým si môžu návštevníci vybrať trasy rôznej náročnosti.",
+        "hun": "Az Aggteleki Nemzeti Park legkiterjedtebb és leglátogatottabb barlangja. A Domica-barlanggal együtt egy kiterjedt barlangrendszert alkot, amelynek számos mellékágával együtt teljes hossza meghaladja a 30 km-t. Az Aggtelek melletti bejárati rész évszázadok óta ismert és látogatott volt, folytatását 1825-ben Vass Imre fedezte fel, aki a világon elsőként írt róla tudományos leírást és készített róla térképet. A 19. század elején ez volt az első barlang, amelyet Magyarországon látogathatóvá tettek. Később mesterséges bejáratokat alakítottak ki a Vörös-tó és Jósvafő közelében, amelyeknek köszönhetően a látogatók különböző nehézségű útvonalak közül választhatnak.",
+        "eng": "The largest and most visited cave of Aggtelek National Park.\nTogether with Domica Cave, it forms an extensive cave system with numerous side branches, with a total length of more than 30 km.\nThe entrance section near Aggtelek has been known and visited for centuries; its continuation was discovered in 1825 by Imre Vass, who was the first in the world to scientifically describe and map a cave.\nIn the early 19th century, it became the first cave in Hungary to be opened to the public.\nLater, additional artificial entrances were created at the Red Lake and at Jósvafő, allowing visitors to choose routes of varying difficulty."
+    },
+    "baradlaParagraph2": {
+        "svk": "Výnimočná je z viacerých dôvodov, okrem mimoriadne bohatej kvapľovej výzdoby patrí medzi najvýznamnejšie archeologické lokality v Maďarsku. Zároveň je aj biotopom početných druhov živočíchov, zaznamenaných tu bolo viac ako 500 druhov bezstavovcov. Od roku 2001 je Ramsarskou lokalitou.",
+        "hun": "Több szempontból is kivételes hely: a rendkívül gazdag cseppkődíszítés mellett Magyarország egyik legjelentősebb régészeti lelőhelye. Ugyanakkor számos állatfaj élőhelye is, több mint 500 gerinctelen faj jelenléte ismert. 2001 óta Ramsari terület.",
+        "eng": "The cave is exceptional for several reasons. In addition to its remarkably rich speleothem decoration, it ranks among the most important archaeological sites in Hungary.\nIt also serves as a habitat for numerous animal species, with more than 500 invertebrate species recorded.\nSince 2001, it has been designated as a Ramsar site."
+    },
+    "baradlaCap1": {
+        "svk": "Svokrin jazyk v bočnej vetve Retek-ág, jeden z najväčších stalaktitov jaskýň svetového dedičstva",
+        "hun": "Az Anyós-nyelv a Retek mellékágban, a világörökséghez tartozó barlangok egyik legnagyobb függőcseppköve",
+        "eng": "Mother-in-law’s Tongue in the Retek-ág side branch, one of the largest stalactite of World Heritage caves"
+    },
+    "baradlaAut1": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "baradlaCap2": {
+        "svk": "Čerňanská vetva, jedna z najkrajších bočných chodieb jaskynného systému",
+        "hun": "Csernai oldalág, a barlangrendszer egyik legszebb oldalága",
+        "eng": "Csernai branch, one of the most beautiful side passages of the cave system"
+    },
+    "baradlaAut2": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "baradlaCap3": {
+        "svk": "Zložený stalagmit nazvaný Minervina prilba, symbol jaskyne Baradla",
+        "hun": "A Minerva sisakja nevű összetett állócseppkő, a Baradla-barlang szimbóluma",
+        "eng": "Composite stalagmite called Minerva’s Helmet, symbol of Baradla Cave"
+    },
+    "baradlaAut3": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "baradlaCap4": {
+        "svk": "Sieň obrov, najväčší priestor jaskyne (dĺžka 100 m, šírka 45-50 m, výška 30 m)",
+        "hun": "Óriások terme, a barlang legnagyobb rész (hossza 100 m, szélessége 45-50 m, magassága 30 m)",
+        "eng": "Hall of Giants, the largest space of the cave (length 100 m, width 45–50 m, height 30 m)"
+    },
+    "baradlaAut4": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "baradlaCap5": {
+        "svk": "Kvapľový stĺp Harfa",
+        "hun": "Hárfa cseppkőoszlop",
+        "eng": "Stalactite column Harp"
+    },
+    "baradlaAut5": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "baradlaCap6": {
+        "svk": "Sieň stĺpov",
+        "hun": "Oszlopok csarnoka",
+        "eng": "Hall of Columns"
+    },
+    "baradlaAut6": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "baradlaCap7": {
+        "svk": "Hlavné riečisko v časti Budai-Nagy-Alagút",
+        "hun": "A barlang főmedre a Budai-Nagy-Alagút szakaszon",
+        "eng": "Main riverbed in the section \"Budai-Nagy-Alagút\""
+    },
+    "baradlaAut7": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "baradlaCap8": {
+        "svk": "Koncertná sieň",
+        "hun": "Hangverseny terem",
+        "eng": "Concert Hall"
+    },
+    "baradlaAut8": {
+        "svk": "Egri Csaba",
+        "hun": "Egri Csaba",
+        "eng": "Egri Csaba"
+    },
+    "baradlaCap9": {
+        "svk": "Mapa jaskyne Baradla z roku 1829",
+        "hun": "A Baradla-barlang térképe, 1829",
+        "eng": "Map of Baradla Cave from 1829"
+    },
+    "baradlaAut9": {
+        "svk": "Vass Imre",
+        "hun": "Vass Imre",
+        "eng": "Vass Imre"
+    },
+    "baradlaCap10": {
+        "svk": "Pohľadnica - kvapľová výzdoba",
+        "hun": "Képeslap - cseppkődíszítés",
+        "eng": "Postcard – speleothem decoration"
+    },
+    "baradlaAut10": {
+        "svk": "Kessler Hubert",
+        "hun": "Kessler Hubert",
+        "eng": "Kessler Hubert"
+    }
+}

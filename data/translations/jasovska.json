@@ -1,0 +1,162 @@
+{
+    "jasovskaPageTitle": {
+        "svk": "Jasovská jaskyňa",
+        "hun": "Jászói-barlang",
+        "eng": "Jasovská Cave"
+    },
+    "jasovskaParagraph1": {
+        "svk": "Labyrint siení, dómov a chodieb s dĺžkou takmer 4 km v Jasovskej skale s bohatou kvapľovou výzdobou, vytvorený v strednotriasových gutensteinských dolomitoch a svetlých steinalmských vápencoch a dolomitoch. Nachádza sa na okraji obce Jasov v severovýchodnej časti Národného parku Slovenský kras.",
+        "hun": "A Jászói sziklában található, csaknem 4 km hosszú, gazdag cseppkődíszítéssel rendelkező folyosók, termek és járatok labirintusa, amely a középső triász kori gutensteini dolomitokban, valamint a világos színű steinalmi mészkövekben és dolomitokban alakult ki. Jászó település szélén, a Szlovák-karszt Nemzeti Park északkeleti részén található.",
+        "eng": "A labyrinth of halls, domes, and passages with a total length of 3,924 metres, located in the Jasov Rock and richly decorated with speleothems.\nThe cave was formed in Middle Triassic Gutenstein dolomites and light Steinalm limestones and dolomites, on the edge of the village of Jasov in the northeastern part of the Slovak Karst National Park."
+    },
+    "jasovskaParagraph2": {
+        "svk": "Početné archeologické nálezy dokazujú jej praveké osídlenie. V jaskyni sa okrem pozostatkov bukovohorskej kultúry našli aj predmety z halštatskej a rímskej doby. V stredoveku a novoveku, počas období vojen a povstaní, viackrát poslúžila okolitým obyvateľom ako úkryt. O dlhodobej prítomnosti človeka svedčí množstvo historických nápisov a kresieb; najstarší datovaný nápis pochádza z roku 1452.",
+        "hun": "Számos régészeti lelet bizonyítja, hogy a barlangot már az őskorban lakták. A barlangban a bükki kultúra maradványai mellett a hallstatti és a római korszakból származó tárgyakat is találtak. A középkorban és az újkorban, a háborúk és felkelések idején többször is menedékként szolgált a környék lakói számára. Az ember hosszú távú jelenlétét számos történelmi felirat és rajz tanúsítja, a legrégebbi felirat 1452-ből származik.",
+        "eng": "Numerous archaeological finds attest to prehistoric settlement of the cave. In addition to remains of the Bükk culture, artefacts from the Hallstatt period and the Roman era have also been discovered.\nDuring the Middle Ages and the early modern period, particularly in times of wars and uprisings, the cave repeatedly served as a refuge for local inhabitants.\nThe long-term human presence is evidenced by numerous historical inscriptions and drawings; the oldest dated inscription comes from 1452."
+    },
+    "jasovskaParagraph3": {
+        "svk": "Prvýkrát bola sprístupnená v roku 1846 jasovskými premonštrátmi. Opätovné sprístupnenie, podrobnejší výskum a vybudovanie elektrického osvetlenia jaskyne boli realizované v medzivojnovom období. Z celkovej známej dĺžky je v súčasnosti sprístupnených 550 m.",
+        "hun": "Már 1846-ban lett először megnyitva a látogatók számára a jászói premonstrei rend által. A barlang újbóli megnyitását, a részletesebb kutatásokat és a villanyvilágítás kiépítését a két világháború közötti időszakban hajtották végre. A barlang ismert hosszából jelenleg 550 méter látogatható.",
+        "eng": "The cave was first opened to the public in 1846 by the Premonstratensian monks of Jasov. It was later reopened, further explored, and equipped with electric lighting during the interwar period.\nOf the total known length 550 metres are currently accessible to visitors."
+    },
+    "jasovskaParagraph4": {
+        "svk": "Významné zimovisko netopierov, zistená bola prítomnosť 19 druhov. V jaskyni boli objavené kostrové pozostatky jaskynného medveďa a jaskynnej hyeny. Okrem turistického využitia je využívaná aj na speleoterapiu.",
+        "hun": "A denevérek fontos telelőhelye, 19 faj jelenlétét igazolták. A barlangban barlangi medve és barlangi hiéna csontvázmaradványokat találták, tturisztikai célok mellett speleoterápiára is használják.",
+        "eng": "The cave is an important hibernation site for bats, with 19 species recorded. Skeletal remains of the cave bear and cave hyena have also been found here.\nIn addition to tourism, the cave is also used for speleotherapy."
+    },
+    "jasovskaInfoLengthValue": {
+        "svk": "3 924 m",
+        "hun": "3 924 m",
+        "eng": "3,924 m"
+    },
+    "jasovskaInfoTempValue": {
+        "svk": "8,8 – 9,4 °C",
+        "hun": "8,8 – 9,4 °C",
+        "eng": "8.8 – 9.4 °C"
+    },
+    "jasovskaInfoDepthValue": {
+        "svk": "55 m",
+        "hun": "55 m",
+        "eng": "55 m"
+    },
+    "jasovskaInfoOldestInscriptionLabel": {
+        "svk": "Najstarší nápis v jaskyniach SR",
+        "hun": "A legrégebbi felirat a szlovák barlangokban",
+        "eng": "Oldest inscription in caves of Slovakia"
+    },
+    "jasovskaInfoOldestInscriptionValue": {
+        "svk": "z roku 1452",
+        "hun": "1452-ből",
+        "eng": "from 1452"
+    },
+    "jasovskaInfoBatSpeciesCountLabel": {
+        "svk": "Počet druhov netopierov",
+        "hun": "A denevérfajok száma",
+        "eng": "Number of bat species"
+    },
+    "jasovskaInfoBatSpeciesCountValue": {
+        "svk": "19 druhov",
+        "hun": "19 faj",
+        "eng": "19 species"
+    },
+    "jasovskaCap1": {
+        "svk": "Baldachýn – kvapľové stĺpy v Starom dóme",
+        "hun": "Baldachin - cseppkőoszlopok az Öreg teremben",
+        "eng": "Canopy – stalactite columns in the Old Dome"
+    },
+    "jasovskaAut1": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "jasovskaCap2": {
+        "svk": "Kvapľová výzdoba",
+        "hun": "Cseppkődíszítés",
+        "eng": "Speleothem decoration"
+    },
+    "jasovskaAut2": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "jasovskaCap3": {
+        "svk": "Historický nápis z roku 1452 o víťazstve vojsk Jána Jiskru nad Jánom Hunyadim",
+        "hun": "1452-ből származó történelmi felirat Jiskra János seregeinek Hunyadi János felett aratott győzelméről",
+        "eng": "Historical inscription from 1452 commemorating the victory of Ján Jiskra’s troops over Ján Hunyadi"
+    },
+    "jasovskaAut3": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "jasovskaCap4": {
+        "svk": "Detail stalaktitov vo Veľkom dóme s visiacim netopierom",
+        "hun": "Részlet a Nagy terem cseppköveiről, lógó denevérrel",
+        "eng": "Detail of stalactites in the Great Dome with a hanging bat"
+    },
+    "jasovskaAut4": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "jasovskaCap5": {
+        "svk": "Kvapľová výzdoba",
+        "hun": "Cseppkődíszítés",
+        "eng": "Speleothem decoration"
+    },
+    "jasovskaAut5": {
+        "svk": "Pavol Staník",
+        "hun": "Pavol Staník",
+        "eng": "Pavol Staník"
+    },
+    "jasovskaCap6": {
+        "svk": "Kostrové pozostatky jaskynné medveďe a jaskynnej hyeny",
+        "hun": "Barlangi medve és barlangi hiéna csontvázmaradványai",
+        "eng": "Skeletal remains of the cave bear and cave hyena"
+    },
+    "jasovskaAut6": {
+        "svk": "Veronika Hersteková",
+        "hun": "Veronika Hersteková",
+        "eng": "Veronika Hersteková"
+    },
+    "jasovskaCap7": {
+        "svk": "Kvapľová výzdoba v Bielom dóme, 1923",
+        "hun": "Cseppkődíszítés a Fehér teremben, 1923",
+        "eng": "Speleothem decoration in the White Dome, 1923"
+    },
+    "jasovskaAut7": {
+        "svk": null,
+        "hun": null,
+        "eng": null
+    },
+    "jasovskaCap8": {
+        "svk": "Pri stalagmitovom lesíku, 1924",
+        "hun": "Az állócsepkő erdőnél, 1924",
+        "eng": "At the stalagmite grove, 1924"
+    },
+    "jasovskaAut8": {
+        "svk": "Foit",
+        "hun": "Foit",
+        "eng": "Foit"
+    },
+    "jasovskaCap9": {
+        "svk": "Stará partia – schody s plesňou",
+        "hun": "Régi rész – penészszel belepett lépcső",
+        "eng": "Old section – mould-covered steps"
+    },
+    "jasovskaAut9": {
+        "svk": "Mrázek",
+        "hun": "Mrázek",
+        "eng": "Mrázek"
+    },
+    "jasovskaCap10": {
+        "svk": "Pohľadnica – časť Medvedej chodby",
+        "hun": "Képeslap - a Medve járat része",
+        "eng": "Postcard – part of the Bear Corridor"
+    },
+    "jasovskaAut10": {
+        "svk": null,
+        "hun": null,
+        "eng": null
+    }
+}
