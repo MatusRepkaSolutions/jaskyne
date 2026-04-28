@@ -21,6 +21,39 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     window.playClickSound = playClickSound;
 
+    function initInvisibleFullscreenButton() {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.setAttribute("aria-label", "Fullscreen");
+
+        button.style.position = "fixed";
+        button.style.left = "0";
+        button.style.bottom = "0";
+        button.style.width = "80px";
+        button.style.height = "80px";
+        button.style.opacity = "0";
+        button.style.background = "transparent";
+        button.style.border = "0";
+        button.style.padding = "0";
+        button.style.margin = "0";
+        button.style.cursor = "default";
+        button.style.zIndex = "999999";
+
+        button.addEventListener("click", async () => {
+            try {
+                if (!document.fullscreenElement) {
+                    await document.documentElement.requestFullscreen();
+                } else {
+                    await document.exitFullscreen();
+                }
+            } catch (error) {
+                console.warn("Fullscreen failed:", error);
+            }
+        });
+
+        document.body.appendChild(button);
+    }
+
     function setCookie(name, value, days = 365) {
         const date = new Date();
         date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
@@ -273,6 +306,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     initRedirectButtons();
     initCustomScrollbars();
+    initInvisibleFullscreenButton();
     initInactivityReset();
 });
 
