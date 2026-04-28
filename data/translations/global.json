@@ -1,57 +1,57 @@
 {
     "btnSlovakKarst": {
-    "svk": "Jaskyne Slovenského krasu",
-    "hun": "Szlovák-karszt barlangjai",
-    "eng": "Caves of the Slovak Karst"
-  },
-  "btnAggtelekKarst": {
-    "svk": "Jaskyne Aggteleckého krasu",
-    "hun": "Aggteleki-karszt barlangjai",
-    "eng": "Caves of the Aggtelek Karst"
-  },
-  "tabText": {
-    "svk": "Text",
-    "hun": "Szöveg",
-    "eng": "Text"
-  },
-  "tabGallery": {
-    "svk": "Galéria",
-    "hun": "Galéria",
-    "eng": "Gallery"
-  },
-  "tabVideo": {
-    "svk": "Video",
-    "hun": "Videó",
-    "eng": "Video"
-  },
-  "videoPlaceholder": {
-    "svk": "Video bude doplnené.",
-    "hun": "A videó hamarosan elérhető lesz.",
-    "eng": "Video will be added soon."
-  },
-  "InfoLengthLabel": {
-    "svk": "Celková dĺžka jaskyne",
-    "hun": "A barlang teljes hossza",
-    "eng": "Total cave length"
-  },
-  "InfoTempLabel": {
-    "svk": "Teplota vzduchu",
-    "hun": "A levegő hőmérséklete",
-    "eng": "Air temperature"
-  },
-  "InfoDepthLabel": {
-    "svk": "Hĺbka (vertikálne rozpätie)",
-    "hun": "Mélység (függőleges kiterjedés)",
-    "eng": "Depth (vertical range)"
-  },
-  "InfoAgeLabel": {
-    "svk": "Vek najstaršieho aragonitu",
-    "hun": "A legrégebbi aragonit kora",
-    "eng": "Age of the oldest aragonite"
-  },
-  "InfoCountLabel": {
-    "svk": "Počet sprístupnených aragonitových jaskýň na svete",
-    "hun": "A világon látogatható aragonitbarlangok száma",
-    "eng": "Number of accessible aragonite caves in the world"
-  }
+        "svk": "Jaskyne Slovenského krasu",
+        "hun": "Szlovák-karszt barlangjai",
+        "eng": "Caves of the Slovak Karst"
+    },
+    "btnAggtelekKarst": {
+        "svk": "Jaskyne Aggteleckého krasu",
+        "hun": "Aggteleki-karszt barlangjai",
+        "eng": "Caves of the Aggtelek Karst"
+    },
+    "tabText": {
+        "svk": "Text",
+        "hun": "Szöveg",
+        "eng": "Text"
+    },
+    "tabGallery": {
+        "svk": "Galéria",
+        "hun": "Galéria",
+        "eng": "Gallery"
+    },
+    "tabVideo": {
+        "svk": "Video",
+        "hun": "Videó",
+        "eng": "Video"
+    },
+    "videoPlaceholder": {
+        "svk": "Video bude doplnené.",
+        "hun": "A videó hamarosan elérhető lesz.",
+        "eng": "Video will be added soon."
+    },
+    "InfoLengthLabel": {
+        "svk": "Celková dĺžka jaskyne",
+        "hun": "Barlang teljes hossza",
+        "eng": "Total length of the cave"
+    },
+    "InfoTempLabel": {
+        "svk": "Teplota vzduchu",
+        "hun": "A levegő hőmérséglete",
+        "eng": "Air temperature"
+    },
+    "InfoDepthLabel": {
+        "svk": "Hĺbka (vertikálne rozpätie)",
+        "hun": "Mélység (függőleges távolság)",
+        "eng": "Depth (vertical range)"
+    },
+    "InfoAgeLabel": {
+        "svk": "Vek najstaršieho aragonitu",
+        "hun": "A legrégebbi aragonit kora",
+        "eng": "Age of the oldest aragonite"
+    },
+    "InfoCountLabel": {
+        "svk": "Počet aragonitových jaskýň na svete (sprístupnených)",
+        "hun": "A világon található (látogatható) aragonitbarlangok száma",
+        "eng": "Number of aragonite caves in the world (open to the public)"
+    }
 }

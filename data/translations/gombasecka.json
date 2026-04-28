@@ -2,12 +2,12 @@
     "gombaseckaPageTitle": {
         "svk": "Gombasecká jaskyňa",
         "hun": "Gombaszögi-barlang",
-        "eng": "Gombasecká Cave"
+        "eng": "Gombasecká jaskyňa"
     },
     "gombaseckaParagraph1": {
         "svk": "Nachádza sa v západnej časti Silickej planiny približne 2 km južne od obce Slavec. Vznikla činnosťou Čierneho potoka v druhohorných vápencoch Silickej planiny. Spolu s blízkou Silickou ľadnicou je súčasťou rozsiahleho silicko-gombaseckého podzemného hydrologického systému, ktorého väčšia časť je zatiaľ neznáma.",
         "hun": "A Szilicei-fennsík nyugati részén, Szalóctól körülbelül 2 km-re délre található. A fennsík középidői mészköveiben a Fekete-patak eróziós hatásának eredményeként alakult ki. A közeli Szilicei-jégbarlanggal együtt a kiterjedt Szilicei–Gombaszögi földalatti hidrológiai rendszer részét képezi, amelynek nagy része egyelőre ismeretlen.",
-        "eng": "It is located in the western part of the Silica Plateau, approximately 2 km south of the village of Slavec. The cave was formed by the activity of the Čierny Potok stream in Mesozoic limestones of the Silica Plateau.\nTogether with the nearby Silica Ice Cave, it forms part of the extensive Silica–Gombasek underground hydrological system, most of which remains unexplored."
+        "eng": "It is located in the western part of the Silica Plateau, approximately 2 km south of the village of Slavec. The cave was formed by the activity of the Čierny Potok stream in Mesozoic limestones of the Silická Plateau.\nTogether with the nearby Silica Ice Cave, it forms part of the extensive Silica–Gombasek underground hydrological system, most of which remains unexplored."
     },
     "gombaseckaParagraph2": {
         "svk": "Gombasecká jaskyňa bola prvým významným objavom skupiny dobrovoľných jaskyniarov z Rožňavy a v tom čase aj najväčšou úlohou Slovenskej speleologickej spoločnosti. Objavitelia pod vedením Viliama Rozložníka, Ladislava Herényiho st. a Štefana Rodu prehĺbili riečisko Čiernej vyvieračky a po znížení hladiny vody sa 21. novembra 1951 dostali do podzemných priestorov s bohatou výzdobou. Pre návštevníkov je sprístupnená od mája 1955. V lete 2016 došlo k objavu nových priestorov, z celkovej dĺžky je sprístupnených 285 m.",
@@ -52,7 +52,7 @@
     "gombaseckaInfoOpenSinceValue": {
         "svk": "1955",
         "hun": "1955 óta",
-        "eng": "1955.0"
+        "eng": "1955"
     },
     "gombaseckaInfoDepthValue": {
         "svk": "15 m",

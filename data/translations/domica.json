@@ -2,12 +2,12 @@
     "domicaPageTitle": {
         "svk": "Domica",
         "hun": "Domica-barlang",
-        "eng": "Domica Cave"
+        "eng": "Domica"
     },
     "domicaParagraph1": {
         "svk": "Domica je súčasťou viac než 30 km dlhého jaskynného systému Domica – Baradla, ktorý zasahuje do územia dvoch štátov a prechádza ním štátna hranica. Vytvorená bola v svetlých wettersteinských vápencoch v juhozápadnej časti Silickej planiny eróznou činnosťou podzemného toku Styx a Domického potoka.",
         "hun": "A Domica-barlang a több mint 30 km hosszú Domica–Baradla barlangrendszer része, amely két ország területére terjed ki, és amelyen keresztülhalad az államhatár. A barlang a Szilicei-fennsík délnyugati részén, világos Wettersteini mészkőben alakult ki a Styx földalatti folyó és a Domica-patak eróziós hatásának eredményeként.",
-        "eng": "Domica Cave is part of the more than 30 km long Domica–Baradla cave system, which extends across two countries and is intersected by the state border.\nIt was formed in light Wetterstein limestones in the southwestern part of the Silica Plateau by the erosive activity of the underground Styx River and the Domica Stream."
+        "eng": "Domica Cave is part of the more than 30 km long Domica–Baradla cave system, which extends across two countries and is intersected by the state border.\nIt was formed in light Wetterstein limestones in the southwestern part of the Silica Plateau by the erosive activity of the underground Styx and Domický Brook."
     },
     "domicaParagraph2": {
         "svk": "Jaskyňu Domica objavil Ján Majko v roku 1926, verejnosti je sprístupnená od roku 1932. Mimoriadnu kultúrnu hodnotu tejto jaskyne predstavujú početné archeologické nálezy a nástenné maľby, najmä z mladšej doby kamennej, ktoré ostali po zavalení vstupného vchodu zakonzervované až do objavenia jaskyne. Ide o najbohatšie nálezisko predmetov z obdobia bukovohorskej kultúry na území Slovenska.",
@@ -122,7 +122,7 @@
     "cap7": {
         "svk": "Objaviteľ jaskyne Domica Ján Majko v Starej Domici, 1932",
         "hun": "A Domica-barlang felfedezője, Ján Majko az Öreg Domicában, 1932",
-        "eng": "Discoverer of Domica Cave, Ján Majko, in Old Domica, 1932"
+        "eng": "Discoverer of Domica Cave, Ján Majko in Old Domica, 1932"
     },
     "aut7": {
         "svk": "Vojtech Benický",

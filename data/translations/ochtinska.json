@@ -1,8 +1,8 @@
 {
     "ochtinskaPageTitle": {
-        "svk": "Ochtinská aragonitová jaskyňa",
-        "hun": "Ochtinai aragonitbarlang",
-        "eng": "Ochtinská Aragonite Cave"
+        "svk": "Ochtinská aragonitová jaskyňa",
+        "hun": "Ochtinai-aragonit-barlang",
+        "eng": "Ochtinská aragonitová jaskyňa"
     },
     "ochtinskaInfoLengthValue": {
         "svk": "585 m",
@@ -21,7 +21,7 @@
     },
     "ochtinskaInfoAgeValue": {
         "svk": "121 000 – 138 000 rokov",
-        "hun": "121 000 – 138 000 év",
+        "hun": "121 000 – 138 000 rokov",
         "eng": "121,000 – 138,000 years"
     },
     "ochtinskaInfoCountLabel": {
@@ -37,17 +37,17 @@
     "ochtinskaParagraph1": {
         "svk": "Najvýznamnejšia z jaskýň Revúckej vrchoviny zaujme mimoriadne rozmanitou a bohatou výzdobou, tvorenou aragonitom. Nachádza sa na severnom svahu vrchu Hrádok medzi Štítnikom a Jelšavou. Jaskyňa vznikla v šošovke kryštalických vápencov a ankeritov z obdobia prvohôr koróznou činnosťou presakujúcich vôd s občasne stabilnou podzemnou hladinou.",
         "hun": "A Rőcei-hegység legjelentősebb barlangja rendkívül változatos és gazdag, aragonit díszítésével vonzza a látogatókat. A barlang a Hrádek-hegy északi lejtőjén, Csetnek és Jolsva között található. A barlang a paleozoikum korszakból származó kristályos mészkövek és ankeritok lencséjében keletkezett, az időnként stabil felszín alatti vízszintű beszivárgó vizek korrozív hatásának eredményeként.",
-        "eng": "The most important cave of the Revúca Highlands impresses with its exceptionally diverse and rich decoration formed by aragonite. It is located on the northern slope of Hrádok Hill, between Štítnik and Jelšava. The cave developed within a lens of crystalline limestones and ankerites of Paleozoic age, formed by the corrosive action of percolating waters with a periodically stable underground water level."
+        "eng": "The most important cave of the Revúca Highlands impresses with its exceptionally diverse and rich decoration formed by aragonite.\nIt is located on the northern slope of Hrádok Hill, between Štítnik and Jelšava.\nThe cave developed within a lens of crystalline limestones and ankerites of Paleozoic age, formed by the corrosive action of percolating waters with a periodically stable underground water level."
     },
     "ochtinskaParagraph2": {
         "svk": "Objavili ju koncom roka 1954 náhodne baníci počas razenia štôlne pri geologickom prieskume ložísk železnej rudy v lokalite Horný Hrádok. Pre verejnosť bola sprístupnená v roku 1972. Prehliadková trasa s dĺžkou 230 m je prístupná umelo vyrazenou štôlňou.",
         "hun": "A Felső Hrádek környékén vasérc-telepek geológiai kutatása során, 1954 végén fedezték fel véletlenül a bányászok. 1972-ben nyitották meg a nyilvánosság számára. A 230 méter hosszú látogatói útvonal egy mesterségesen kialakított járaton keresztül érhető el.",
-        "eng": "The cave was discovered by chance at the end of 1954 by miners during the excavation of an adit as part of geological exploration for iron ore deposits at the Horný Hrádok site. It was opened to the public in 1972. The 230-metre-long tour route is accessed via an artificially excavated adit."
+        "eng": "The cave was discovered at the end of 1954 by miners during the excavation of an adit as part of geological exploration for iron ore deposits at the Horný Hrádok.\nIt was opened to the public in 1972.\nThe 230-metre-long tour route is accessed via an artificially excavated adit."
     },
     "ochtinskaParagraph3": {
         "svk": "Výzdoba pozostáva z troch generácií aragonitu. Najstaršie obličkovité útvary majú vek takmer 140 tisíc rokov, najpočetnejšia a vizuálne najatraktívnejšia je druhá generácia datovaná na 14 tisíc rokov, najmladšia sa stále tvorí. Snehobiele aragonitové trsy a kríčky vynikajú na modrosivom mramorovom podklade. Špecifická výzdoba je pravdepodobne výsledkom jedinečných podmienok v uzavretých podzemných priestoroch jaskyne.",
         "hun": "A díszítést az aragonit három generációja alkotja. A legrégebbi vese alakú képződmények körülbelül 140 ezer évesek, a leggazdagabb és vizuálisan legvonzóbb a 14 ezer évre datált második generáció, a legfiatalabb pedig még mindig kialakulóban van. A hófehér aragonitcsomók és bokor formájú képződmények kiemelkednek a kékes-szürke márvány alapon. A jellegzetes díszítés valószínűleg a barlang zárt földalatti tereinek egyedülálló körülményeinek eredménye.",
-        "eng": "The decoration consists of three generations of aragonite. The oldest, kidney-shaped formations are about 140,000 years old; the most abundant and visually striking second generation dates to around 14,000 years, while the youngest is still forming today. Snow-white clusters and bush-like formations of aragonite stand out against a blue-grey marble background. This distinctive decoration is likely the result of unique conditions within the cave’s enclosed underground environment."
+        "eng": "The decoration consists of three generations of aragonite. The oldest, kidney-shaped formations are about 140,000 years old; the most abundant and visually striking second generation dates to around 14,000 years, while the youngest is still forming today.\nSnow-white clusters and bush-like formations of aragonite stand out against a blue-grey marble background.\nThis distinctive decoration is likely the result of unique conditions within the cave’s enclosed underground environment."
     },
     "cap1": {
         "svk": "Kontrast bielych aragonitových kryštálov s tmavosivým mramorom jaskyne",
@@ -57,7 +57,7 @@
     "aut1": {
         "svk": "Pavol Staník",
         "hun": "Pavol Staník",
-        "eng": "Pavol Staník"
+        "eng": "Pavol Staník"
     },
     "cap2": {
         "svk": "Excentricky rastúca aragonitová výzdoba",
@@ -67,7 +67,7 @@
     "aut2": {
         "svk": "Pavol Staník",
         "hun": "Pavol Staník",
-        "eng": "Pavol Staník"
+        "eng": "Pavol Staník"
     },
     "cap3": {
         "svk": "Aragonitová výzdoba v Sieni mliečnej cesty",
@@ -77,7 +77,7 @@
     "aut3": {
         "svk": "Pavol Staník",
         "hun": "Pavol Staník",
-        "eng": "Pavol Staník"
+        "eng": "Pavol Staník"
     },
     "cap4": {
         "svk": "Detail aragonitovej výzdoby",
@@ -87,7 +87,7 @@
     "aut4": {
         "svk": "Pavol Staník",
         "hun": "Pavol Staník",
-        "eng": "Pavol Staník"
+        "eng": "Pavol Staník"
     },
     "cap5": {
         "svk": "Kvapľový stalaktit Srdce Hrádku – symbol jaskyne",
@@ -97,7 +97,7 @@
     "aut5": {
         "svk": "Pavol Staník",
         "hun": "Pavol Staník",
-        "eng": "Pavol Staník"
+        "eng": "Pavol Staník"
     },
     "cap6": {
         "svk": "Detail aragonitovej výzdoby",

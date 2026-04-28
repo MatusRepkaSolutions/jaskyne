@@ -2,12 +2,12 @@
     "krasnohorskaPageTitle": {
         "svk": "Krásnohorská jaskyňa",
         "hun": "Buzgó-barlang",
-        "eng": "Krásnohorská Cave"
+        "eng": "Krásnohorská jaskyňa"
     },
     "krasnohorskaParagraph1": {
         "svk": "Aktívna riečna jaskyňa, vytvorená podzemným tokom Buzgó a jeho prítokmi, ktoré odvodňujú severnú časť najrozsiahlejšej planiny Slovenského krasu. Vznikla na mieste výraznej tektonickej poruchy v gutensteinských dolomitoch, sčasti aj v svetlosivých steinalmských vápencoch, na severnom úpätí Silickej planiny v blízkosti obce Krásnohorská Dlhá Lúka.",
-        "hun": "Aktív folyami barlang, amelyet a Buzgó földalatti folyó és mellékfolyói alakítottak ki. A Szlovák-Karszt legkiterjedtebb fennsíkának északi részéről vezeti el a vizet. A barlang a gutensteini dolomitokban, részben pedig a világosszürke steinalmi mészkövekben, jelentős tektonikai törésvonalán alakult ki. A Szilicei-fennsík északi lábánál található, Várhosszúrét községtől keletre helyezkedik el.",
-        "eng": "An active river cave formed by the underground Buzgó stream and its tributaries, which drain the northern part of the largest plateau of the Slovak Karst.\nIt developed along a major tectonic fault in Gutenstein dolomites and partly in light grey Steinalm limestones, at the northern foothills of the Silica Plateau near the village of Krásnohorská Dlhá Lúka."
+        "hun": "Aktív folyami barlang, amelyet a Buzgó földalatti folyó és mellékfolyói alakítottak ki. A Szlovák-Karszt legkiterjedtebb fennsíkának északi részéről vezeti el a vizet. A barlang a Gutensteini dolomitokban, részben pedig a világosszürke Steinalmi mészkövekben, jelentős tektonikai törésvonalán alakult ki. A Szilicei-fennsík északi lábánál található, Várhosszúrét községtől keletre helyezkedik el.",
+        "eng": "An active river cave formed by the underground Buzgó stream and its tributaries, which drain the northern part of the largest plateau of the Slovak Karst.\nIt was developed along a major tectonic fault in Gutenstein dolomites and partly in light grey Steinalm limestones, at the northern foothills of the Silica Plateau near Krásnohorská Dlhá Lúka village."
     },
     "krasnohorskaParagraph2": {
         "svk": "Jej objav bol ďalším významným úspechom skupiny jaskyniarov z Rožňavy a okolia, ktorí vstúpili do jej priestorov v júni 1964 po znížení hladiny vody vo vyvieračke Buzgó a rozšírení vstupnej pukliny. Aj keď bola kvôli uľahčeniu prístupu vyrazená umelá štôlňa, k plánovanému sprístupneniu jaskyne došlo až v roku 2004, a to turistickou formou. V porovnaní s ostatnými sprístupnenými jaskyňami tu návštevníci značnú časť prehliadkovej trasy s dĺžkou 450 m prekonávajú pri svetle čeloviek nad podzemným tokom po drevených chodníkoch, rebríkoch a lanovom traverze.",
@@ -17,7 +17,7 @@
     "krasnohorskaParagraph3": {
         "svk": "Po úvodnom úseku bez výraznejšej výzdoby, tvoreného dlhou puklinovou chodbou s názvom Veľký kaňon, nasleduje sústava ôsmich mohutných dómov. Tieto priestory majú hodnotnú výzdobu; jedinečné sú rozmanité excentrické heliktity a koralovité útvary s mangánovým povlakom. Dominantou jaskyne je Sieň obrov s 34 m vysokým Kvapľom rožňavských jaskyniarov, ktorý patrí medzi najväčšie sintrové útvary v Európe.",
         "hun": "A Nagy Kanyon nevű hosszú hasadékfolyosóból álló, díszítés szempontjából kevésbé érdekes bevezető szakasz után nyolc hatalmas terem következik. Ezek a termek értékes díszítéssel rendelkeznek, egyedülállóak a változatos, excentrikus heliktitek és a mangánbevonatú korallszerű képződmények. A barlang domináns része az Óriások terme a 34 méter magas Rozsnyói barlangászok cseppkőjével, amely Európa legnagyobb cseppkő-képződményei közé tartozik.",
-        "eng": "After an initial section with little decoration, formed by a long fissure passage known as the Great Canyon, the cave opens into a system of eight massive domes.\nThese spaces feature valuable decoration, including unique eccentric helictites and coral-like formations coated with manganese.\nThe dominant feature of the cave is the Hall of Giants, home to the 34-metre-high Stalagmite of the Rožňava Speleologists, one of the largest speleothem formations in Europe."
+        "eng": "After an initial section with little decoration, formed by a long fissure passage known as the Great Canyon, the cave opens into a system of eight massive domes.\nThese spaces feature valuable decoration, including unique eccentric helictites and coral-like formations coated with manganese.\nThe dominant feature of the cave is the Hall of Giants, home to the 34-metre-high Dripstone of Rožňava Cavers, one of the largest speleothem formations in Europe."
     },
     "krasnohorskaInfoLengthValue": {
         "svk": "1 556 m",
@@ -32,7 +32,7 @@
     "krasnohorskaInfoStalagmiteHeightLabel": {
         "svk": "Výška kvapľa (najväčší v miernom pásme)",
         "hun": "A cseppkő magassága (a mérsékelt éghajlati övezet legmagasabb cseppköve)",
-        "eng": "Height of the stalagmite (largest in the temperate zone)"
+        "eng": "Height of the stalagnate (largest in the temperate zone)"
     },
     "krasnohorskaInfoStalagmiteHeightValue": {
         "svk": "34 m",
@@ -57,12 +57,12 @@
     "krasnohorskaInfoOpenSinceValue": {
         "svk": "2004",
         "hun": "2004 óta",
-        "eng": "2004.0"
+        "eng": "2004"
     },
     "cap1": {
         "svk": "Kvapeľ rožňavských jaskyniarov v Sieni obrov",
         "hun": "A rozsnyói barlangászok cseppköve az Óriások termében",
-        "eng": "Stalagmite of the Rožňava Speleologists in the Hall of Giants"
+        "eng": "Dripstone of Rožňava Cavers in the Hall of Giants"
     },
     "aut1": {
         "svk": "Pavol Staník",

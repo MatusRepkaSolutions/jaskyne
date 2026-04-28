@@ -2,12 +2,12 @@
     "silickaPageTitle": {
         "svk": "Silická ľadnica",
         "hun": "Szilicei-jégbarlang",
-        "eng": "Silická Ice Cave"
+        "eng": "Silická ľadnica"
     },
     "silickaParagraph1": {
         "svk": "Najnižšie položená ľadová jaskyňa v miernom klimatickom pásme sa nachádza v centrálnej časti Silickej planiny, približne 1 km západne od obce Silica. Tvorí súčasť rozsiahleho silicko-gombaseckého jaskynného systému, ktorého väčšia časť je doposiaľ neznáma.",
         "hun": "A mérsékelt éghajlati övezetben található legalacsonyabban fekvő jégbarlang a Szilicei-fennsík középső részében, Szilicetől körülbelül 1 km-re nyugatra helyezkedik el. A kiterjedt Szilice–gombaszögi barlangrendszer részét képezi, amelynek nagy része a mai napig ismeretlen.",
-        "eng": "The lowest-altitude ice cave in the temperate climate zone is located in the central part of the Silica Plateau, approximately 1 km west of the village of Silica.\nIt forms part of the extensive Silica–Gombasek cave system, most of which remains unexplored."
+        "eng": "The lowest lying ice-filled cave in the temperate climate zone is located in the central part of the Silická Plateau, approximately 1 km west of the village of Silica.\nIt forms part of the extensive Silica–Gombasek cave system, most of which remains unexplored."
     },
     "silickaParagraph2": {
         "svk": "Mohutná vstupná časť, ktorá vznikla prepadnutím stropu, je známa oddávna, jej prvé opisy a náčrty pochádzajú z 18. storočia. Ľahko prístupný zaľadnený priestor lákal návštevníkov a slúžil ako prirodzená zásobáreň ľadu. Spodná nezaľadnená časť jaskyne bola objavená po prekopaní závalu na dne Jánom Majkom v roku 1931. Prvá sieň bohatá na archeologické nálezy, Archeologický dóm, je významným náleziskom doby kamennej a bronzovej, osídlenie pochádza z doby pred zaľadnením. Niektoré z nájdených predmetov sú prezentované aj v tejto expozícii. Prieskum ďalších priestorov realizovali speleopotápači náročným prekonávaním sifónov podzemného toku.",
@@ -32,7 +32,7 @@
     "silickaInfoLowestAltitudeIceCaveWorldLabel": {
         "svk": "Najnižšie položená ľadová jaskyňa na svete",
         "hun": "A mérsékelt éghajlat legalacsonyabb fekvésű jégbarlagja",
-        "eng": "Lowest-altitude ice cave in the world"
+        "eng": "The temperate zone`s lowest situated ice-filled cave"
     },
     "silickaInfoLowestAltitudeIceCaveWorldValue": {
         "svk": "503 m n. m.",
