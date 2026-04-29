@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         inactivityTimer = setTimeout(() => {
             clearVisitedCookies();
-            window.location.href = "index.php";
+            window.location.href = "index.html";
         }, inactivityLimit);
     }
 
