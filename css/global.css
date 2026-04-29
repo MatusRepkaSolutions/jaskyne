@@ -1,35 +1,36 @@
 @font-face {
-  font-family: "Inter";
-  src: url("../fonts/Inter.woff2") format("woff2");
+  font-family: 'Inter';
+  src: url('../fonts/inter-v18-latin-ext.woff2') format('woff2');
   font-weight: 100 900;
 }
 
 @font-face {
-  font-family: "Coiny";
-  src: url("../fonts/Coiny.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "PT Sans";
-  src: url("../fonts/PT-Sans-Regular.woff2") format("woff2");
+  font-family: 'Coiny';
+  src: url('../fonts/coiny-v17-latin-ext-regular.woff2') format('woff2');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "PT Sans";
-  src: url("../fonts/PT-Sans-Bold.woff2") format("woff2");
+  font-family: 'PT Sans';
+  src: url('../fonts/pt-sans-v17-latin-ext-regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('../fonts/pt-sans-v17-latin-ext-700.woff2') format('woff2');
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "PT Serif";
-  src: url("../fonts/PT-Serif-Regular.woff2") format("woff2");
+  font-family: 'PT Serif';
+  src: url('../fonts/pt-serif-v18-latin-ext-regular.woff2') format('woff2');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "PT Serif";
-  src: url("../fonts/PT-Serif-Bold.woff2") format("woff2");
+  font-family: 'PT Serif';
+  src: url('../fonts/pt-serif-v18-latin-ext-700.woff2') format('woff2');
   font-weight: 700;
 }
 body{
