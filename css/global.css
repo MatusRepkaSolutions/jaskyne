@@ -1,6 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Coiny&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter.woff2") format("woff2");
+  font-weight: 100 900;
+}
 
+@font-face {
+  font-family: "Coiny";
+  src: url("../fonts/Coiny.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PT-Sans-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PT-Sans-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url("../fonts/PT-Serif-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url("../fonts/PT-Serif-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
 body{
     font-family: "Inter", sans-serif;
     font-size: 14px;
