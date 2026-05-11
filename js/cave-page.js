@@ -24,7 +24,6 @@ function initCaveTabs() {
             });
 
             button.classList.add("active");
-
             void button.offsetWidth;
             button.classList.add("button-anim-global-active");
 
@@ -49,10 +48,10 @@ function initCaveGallery() {
 
     const basePath = root.dataset.galleryPath;
     const count = parseInt(root.dataset.galleryCount || "0", 10);
-
     if (!basePath || !count) return;
 
     const stage = root.querySelector(".gallery-stage");
+    const center = root.querySelector(".gallery-center");
     const mainImg = root.querySelector(".gallery-main-img");
 
     const leftSide = root.querySelector(".gallery-side-left");
@@ -62,7 +61,25 @@ function initCaveGallery() {
 
     const captions = root.querySelectorAll(".gallery-caption-item");
 
-    if (!stage || !mainImg || !leftSide || !rightSide || !leftImg || !rightImg) return;
+    if (!stage || !center || !mainImg || !leftSide || !rightSide || !leftImg || !rightImg) return;
+
+    center.classList.add("gallery-slide");
+    leftSide.classList.add("gallery-slide");
+    rightSide.classList.add("gallery-slide");
+
+    const farLeft = document.createElement("div");
+    farLeft.className = "gallery-slide gallery-side gallery-side-far-left";
+    farLeft.innerHTML = `<img class="gallery-side-img" src="">`;
+
+    const farRight = document.createElement("div");
+    farRight.className = "gallery-slide gallery-side gallery-side-far-right";
+    farRight.innerHTML = `<img class="gallery-side-img" src="">`;
+
+    stage.insertBefore(farLeft, leftSide);
+    stage.appendChild(farRight);
+
+    const farLeftImg = farLeft.querySelector("img");
+    const farRightImg = farRight.querySelector("img");
 
     let index = 0;
     let startX = 0;
@@ -70,32 +87,31 @@ function initCaveGallery() {
     let isDragging = false;
     let hasDragged = false;
     let pointerId = null;
-    let autoCompleted = false;
+    let completed = false;
 
     const sideX = 1160;
-    const swipeThreshold = 180;
     const maxDrag = sideX;
+    const swipeThreshold = 180;
 
-    const sideScaleEnd = 2.08;
     const centerScaleEnd = 0.48;
+    const sideScaleEnd = 2.08;
 
     function wrap(i) {
-        if (i < 0) return count - 1;
-        if (i >= count) return 0;
+        while (i < 0) i += count;
+        while (i >= count) i -= count;
         return i;
     }
 
     function imgSrc(i) {
-        return `${basePath}/${i + 1}.jpg`;
+        return `${basePath}/${wrap(i) + 1}.jpg`;
     }
 
     function setImages() {
-        const prev = wrap(index - 1);
-        const next = wrap(index + 1);
-
+        farLeftImg.src = imgSrc(index - 2);
+        leftImg.src = imgSrc(index - 1);
         mainImg.src = imgSrc(index);
-        leftImg.src = imgSrc(prev);
-        rightImg.src = imgSrc(next);
+        rightImg.src = imgSrc(index + 1);
+        farRightImg.src = imgSrc(index + 2);
 
         captions.forEach((c) => c.classList.remove("active"));
 
@@ -109,22 +125,37 @@ function initCaveGallery() {
         });
     }
 
-    function resetTransforms() {
+    function setDefaultPosition() {
         setVars({
+            "--gallery-far-left-x": `${-sideX * 2}px`,
+            "--gallery-left-x": `${-sideX}px`,
             "--gallery-center-x": "0px",
-            "--gallery-left-x": `-${sideX}px`,
             "--gallery-right-x": `${sideX}px`,
+            "--gallery-far-right-x": `${sideX * 2}px`,
 
-            "--gallery-center-scale": "1",
+            "--gallery-far-left-scale": "1",
             "--gallery-left-scale": "1",
+            "--gallery-center-scale": "1",
             "--gallery-right-scale": "1",
+            "--gallery-far-right-scale": "1",
 
-            "--gallery-center-opacity": "1",
+            "--gallery-far-left-opacity": "0",
             "--gallery-left-opacity": "0.28",
-            "--gallery-right-opacity": "0.28"
+            "--gallery-center-opacity": "1",
+            "--gallery-right-opacity": "0.28",
+            "--gallery-far-right-opacity": "0"
         });
+    }
 
-        root.classList.remove("is-dragging", "is-snapping");
+    function resetHard() {
+        root.classList.add("is-dragging");
+        root.classList.remove("is-snapping", "drag-next", "drag-prev");
+
+        setDefaultPosition();
+
+        requestAnimationFrame(() => {
+            root.classList.remove("is-dragging");
+        });
     }
 
     function applyDrag(x) {
@@ -136,49 +167,70 @@ function initCaveGallery() {
 
         const centerOpacity = 1 - (0.45 * progress);
         const activeSideOpacity = 0.28 + (0.72 * progress);
-        const passiveSideOpacity = 0.28 - (0.16 * progress);
+        const normalSideOpacity = 0.28;
+        const hiddenOpacity = 0.28 * progress;
 
         if (limited < 0) {
+            root.classList.add("drag-next");
+            root.classList.remove("drag-prev");
+
             setVars({
+                "--gallery-far-left-x": `${-sideX * 2}px`,
+                "--gallery-left-x": `${-sideX - (sideX * progress)}px`,
                 "--gallery-center-x": `${-sideX * progress}px`,
                 "--gallery-right-x": `${sideX * (1 - progress)}px`,
-                "--gallery-left-x": `${-sideX - (sideX * 0.35 * progress)}px`,
+                "--gallery-far-right-x": `${sideX * (2 - progress)}px`,
 
+                "--gallery-far-left-scale": "1",
+                "--gallery-left-scale": "1",
                 "--gallery-center-scale": centerScale.toString(),
                 "--gallery-right-scale": sideScale.toString(),
-                "--gallery-left-scale": "1",
+                "--gallery-far-right-scale": "1",
 
+                "--gallery-far-left-opacity": "0",
+                "--gallery-left-opacity": `${normalSideOpacity * (1 - progress)}`,
                 "--gallery-center-opacity": centerOpacity.toString(),
                 "--gallery-right-opacity": activeSideOpacity.toString(),
-                "--gallery-left-opacity": passiveSideOpacity.toString()
+                "--gallery-far-right-opacity": hiddenOpacity.toString()
             });
 
-            if (progress >= 1 && !autoCompleted) {
-                autoComplete("next");
+            if (progress >= 1 && !completed) {
+                completeMove("next");
             }
-        } else if (limited > 0) {
+        }
+
+        if (limited > 0) {
+            root.classList.add("drag-prev");
+            root.classList.remove("drag-next");
+
             setVars({
-                "--gallery-center-x": `${sideX * progress}px`,
+                "--gallery-far-left-x": `${-sideX * (2 - progress)}px`,
                 "--gallery-left-x": `${-sideX * (1 - progress)}px`,
-                "--gallery-right-x": `${sideX + (sideX * 0.35 * progress)}px`,
+                "--gallery-center-x": `${sideX * progress}px`,
+                "--gallery-right-x": `${sideX + (sideX * progress)}px`,
+                "--gallery-far-right-x": `${sideX * 2}px`,
 
-                "--gallery-center-scale": centerScale.toString(),
+                "--gallery-far-left-scale": "1",
                 "--gallery-left-scale": sideScale.toString(),
+                "--gallery-center-scale": centerScale.toString(),
                 "--gallery-right-scale": "1",
+                "--gallery-far-right-scale": "1",
 
-                "--gallery-center-opacity": centerOpacity.toString(),
+                "--gallery-far-left-opacity": hiddenOpacity.toString(),
                 "--gallery-left-opacity": activeSideOpacity.toString(),
-                "--gallery-right-opacity": passiveSideOpacity.toString()
+                "--gallery-center-opacity": centerOpacity.toString(),
+                "--gallery-right-opacity": `${normalSideOpacity * (1 - progress)}`,
+                "--gallery-far-right-opacity": "0"
             });
 
-            if (progress >= 1 && !autoCompleted) {
-                autoComplete("prev");
+            if (progress >= 1 && !completed) {
+                completeMove("prev");
             }
         }
     }
 
-    function autoComplete(direction) {
-        autoCompleted = true;
+    function completeMove(direction) {
+        completed = true;
         isDragging = false;
 
         if (typeof window.playClickSound === "function") {
@@ -191,73 +243,56 @@ function initCaveGallery() {
             index = wrap(index - 1);
         }
 
+        setImages();
+        resetHard();
+    }
+
+    function animateToComplete(direction) {
+        completed = true;
+
+        if (typeof window.playClickSound === "function") {
+            window.playClickSound();
+        }
+
+        root.classList.remove("is-dragging");
         root.classList.add("is-snapping");
 
-        window.setTimeout(() => {
-            setImages();
-            resetTransforms();
-        }, 120);
+        if (direction === "next") {
+            applyDrag(-maxDrag);
+
+            setTimeout(() => {
+                index = wrap(index + 1);
+                setImages();
+                resetHard();
+            }, 220);
+        } else {
+            applyDrag(maxDrag);
+
+            setTimeout(() => {
+                index = wrap(index - 1);
+                setImages();
+                resetHard();
+            }, 220);
+        }
     }
 
     function snapBack() {
+        root.classList.remove("is-dragging", "drag-next", "drag-prev");
         root.classList.add("is-snapping");
-        resetTransforms();
+
+        setDefaultPosition();
+
+        setTimeout(() => {
+            root.classList.remove("is-snapping");
+        }, 220);
     }
 
     function goNext() {
-        if (typeof window.playClickSound === "function") {
-            window.playClickSound();
-        }
-
-        root.classList.add("is-snapping");
-
-        setVars({
-            "--gallery-center-x": `-${sideX}px`,
-            "--gallery-right-x": "0px",
-            "--gallery-left-x": `${-sideX * 1.35}px`,
-
-            "--gallery-center-scale": centerScaleEnd.toString(),
-            "--gallery-right-scale": sideScaleEnd.toString(),
-            "--gallery-left-scale": "1",
-
-            "--gallery-center-opacity": "0.55",
-            "--gallery-right-opacity": "1",
-            "--gallery-left-opacity": "0.12"
-        });
-
-        window.setTimeout(() => {
-            index = wrap(index + 1);
-            setImages();
-            resetTransforms();
-        }, 220);
+        animateToComplete("next");
     }
 
     function goPrev() {
-        if (typeof window.playClickSound === "function") {
-            window.playClickSound();
-        }
-
-        root.classList.add("is-snapping");
-
-        setVars({
-            "--gallery-center-x": `${sideX}px`,
-            "--gallery-left-x": "0px",
-            "--gallery-right-x": `${sideX * 1.35}px`,
-
-            "--gallery-center-scale": centerScaleEnd.toString(),
-            "--gallery-left-scale": sideScaleEnd.toString(),
-            "--gallery-right-scale": "1",
-
-            "--gallery-center-opacity": "0.55",
-            "--gallery-left-opacity": "1",
-            "--gallery-right-opacity": "0.12"
-        });
-
-        window.setTimeout(() => {
-            index = wrap(index - 1);
-            setImages();
-            resetTransforms();
-        }, 220);
+        animateToComplete("prev");
     }
 
     function onPointerDown(e) {
@@ -265,20 +300,20 @@ function initCaveGallery() {
 
         isDragging = true;
         hasDragged = false;
-        autoCompleted = false;
+        completed = false;
         pointerId = e.pointerId;
 
         startX = e.clientX;
         deltaX = 0;
 
-        root.classList.remove("is-snapping");
+        root.classList.remove("is-snapping", "drag-next", "drag-prev");
         root.classList.add("is-dragging");
 
         stage.setPointerCapture(pointerId);
     }
 
     function onPointerMove(e) {
-        if (!isDragging || autoCompleted) return;
+        if (!isDragging || completed) return;
 
         deltaX = e.clientX - startX;
 
@@ -290,7 +325,7 @@ function initCaveGallery() {
     }
 
     function onPointerUp() {
-        if (!isDragging || autoCompleted) return;
+        if (!isDragging || completed) return;
 
         isDragging = false;
 
@@ -303,14 +338,14 @@ function initCaveGallery() {
         pointerId = null;
 
         if (deltaX <= -swipeThreshold) {
-            goNext();
+            animateToComplete("next");
         } else if (deltaX >= swipeThreshold) {
-            goPrev();
+            animateToComplete("prev");
         } else {
             snapBack();
         }
 
-        window.setTimeout(() => {
+        setTimeout(() => {
             hasDragged = false;
         }, 80);
     }
@@ -339,5 +374,5 @@ function initCaveGallery() {
     stage.addEventListener("pointercancel", onPointerUp);
 
     setImages();
-    resetTransforms();
+    resetHard();
 }
