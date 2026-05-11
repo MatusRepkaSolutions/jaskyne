@@ -56,12 +56,21 @@ function initCaveGallery() {
 
     if (!stage) return;
 
-    stage.innerHTML = "";
+    const oldSlides = stage.querySelectorAll(
+        ".gallery-center, .gallery-side"
+    );
 
-    const track = document.createElement("div");
-    track.className = "gallery-track";
+    oldSlides.forEach((el) => el.remove());
 
-    stage.appendChild(track);
+    let track = stage.querySelector(".gallery-track");
+
+    if (!track) {
+        track = document.createElement("div");
+        track.className = "gallery-track";
+        stage.prepend(track);
+    } else {
+        track.innerHTML = "";
+    }
 
     const slides = [];
     const imageSources = [];
