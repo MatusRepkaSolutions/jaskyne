@@ -53,7 +53,6 @@ function initCaveGallery() {
     if (!basePath || !count) return;
 
     const stage = root.querySelector(".gallery-stage");
-    const center = root.querySelector(".gallery-center");
     const mainImg = root.querySelector(".gallery-main-img");
 
     const leftSide = root.querySelector(".gallery-side-left");
@@ -63,18 +62,22 @@ function initCaveGallery() {
 
     const captions = root.querySelectorAll(".gallery-caption-item");
 
-    if (!stage || !center || !mainImg || !leftSide || !rightSide || !leftImg || !rightImg) return;
+    if (!stage || !mainImg || !leftSide || !rightSide || !leftImg || !rightImg) return;
 
     let index = 0;
     let startX = 0;
-    let currentX = 0;
     let deltaX = 0;
     let isDragging = false;
     let hasDragged = false;
     let pointerId = null;
+    let autoCompleted = false;
 
-    const swipeThreshold = 120;
-    const maxDrag = 520;
+    const sideX = 1160;
+    const swipeThreshold = 180;
+    const maxDrag = sideX;
+
+    const sideScaleEnd = 2.08;
+    const centerScaleEnd = 0.48;
 
     function wrap(i) {
         if (i < 0) return count - 1;
@@ -100,133 +103,161 @@ function initCaveGallery() {
         if (active) active.classList.add("active");
     }
 
+    function setVars(values) {
+        Object.entries(values).forEach(([key, value]) => {
+            root.style.setProperty(key, value);
+        });
+    }
+
     function resetTransforms() {
-        root.style.setProperty("--gallery-center-x", "0px");
-        root.style.setProperty("--gallery-left-x", "-1160px");
-        root.style.setProperty("--gallery-right-x", "1160px");
+        setVars({
+            "--gallery-center-x": "0px",
+            "--gallery-left-x": `-${sideX}px`,
+            "--gallery-right-x": `${sideX}px`,
 
-        root.style.setProperty("--gallery-center-scale", "1");
-        root.style.setProperty("--gallery-left-scale", "1");
-        root.style.setProperty("--gallery-right-scale", "1");
+            "--gallery-center-scale": "1",
+            "--gallery-left-scale": "1",
+            "--gallery-right-scale": "1",
 
-        root.style.setProperty("--gallery-center-opacity", "1");
-        root.style.setProperty("--gallery-side-opacity", "0.28");
+            "--gallery-center-opacity": "1",
+            "--gallery-left-opacity": "0.28",
+            "--gallery-right-opacity": "0.28"
+        });
 
-        root.classList.remove("is-dragging");
+        root.classList.remove("is-dragging", "is-snapping");
     }
 
     function applyDrag(x) {
         const limited = Math.max(-maxDrag, Math.min(maxDrag, x));
         const progress = Math.min(Math.abs(limited) / maxDrag, 1);
 
-        const sideX = 1160;
+        const centerScale = 1 - ((1 - centerScaleEnd) * progress);
+        const sideScale = 1 + ((sideScaleEnd - 1) * progress);
 
-        let centerX = limited;
-        let leftX = -sideX;
-        let rightX = sideX;
-
-        let centerScale = 1 - progress * 0.22;
-        let leftScale = 1;
-        let rightScale = 1;
-
-        let centerOpacity = 1 - progress * 0.35;
-        let sideOpacity = 0.28 + progress * 0.72;
+        const centerOpacity = 1 - (0.45 * progress);
+        const activeSideOpacity = 0.28 + (0.72 * progress);
+        const passiveSideOpacity = 0.28 - (0.16 * progress);
 
         if (limited < 0) {
-            // dragging right image into center
-            rightX = sideX + limited;
-            leftX = -sideX + limited * 0.35;
-            rightScale = 1 + progress * 0.55;
+            setVars({
+                "--gallery-center-x": `${-sideX * progress}px`,
+                "--gallery-right-x": `${sideX * (1 - progress)}px`,
+                "--gallery-left-x": `${-sideX - (sideX * 0.35 * progress)}px`,
+
+                "--gallery-center-scale": centerScale.toString(),
+                "--gallery-right-scale": sideScale.toString(),
+                "--gallery-left-scale": "1",
+
+                "--gallery-center-opacity": centerOpacity.toString(),
+                "--gallery-right-opacity": activeSideOpacity.toString(),
+                "--gallery-left-opacity": passiveSideOpacity.toString()
+            });
+
+            if (progress >= 1 && !autoCompleted) {
+                autoComplete("next");
+            }
         } else if (limited > 0) {
-            // dragging left image into center
-            leftX = -sideX + limited;
-            rightX = sideX + limited * 0.35;
-            leftScale = 1 + progress * 0.55;
+            setVars({
+                "--gallery-center-x": `${sideX * progress}px`,
+                "--gallery-left-x": `${-sideX * (1 - progress)}px`,
+                "--gallery-right-x": `${sideX + (sideX * 0.35 * progress)}px`,
+
+                "--gallery-center-scale": centerScale.toString(),
+                "--gallery-left-scale": sideScale.toString(),
+                "--gallery-right-scale": "1",
+
+                "--gallery-center-opacity": centerOpacity.toString(),
+                "--gallery-left-opacity": activeSideOpacity.toString(),
+                "--gallery-right-opacity": passiveSideOpacity.toString()
+            });
+
+            if (progress >= 1 && !autoCompleted) {
+                autoComplete("prev");
+            }
+        }
+    }
+
+    function autoComplete(direction) {
+        autoCompleted = true;
+        isDragging = false;
+
+        if (typeof window.playClickSound === "function") {
+            window.playClickSound();
         }
 
-        root.style.setProperty("--gallery-center-x", `${centerX}px`);
-        root.style.setProperty("--gallery-left-x", `${leftX}px`);
-        root.style.setProperty("--gallery-right-x", `${rightX}px`);
+        if (direction === "next") {
+            index = wrap(index + 1);
+        } else {
+            index = wrap(index - 1);
+        }
 
-        root.style.setProperty("--gallery-center-scale", centerScale.toString());
-        root.style.setProperty("--gallery-left-scale", leftScale.toString());
-        root.style.setProperty("--gallery-right-scale", rightScale.toString());
+        root.classList.add("is-snapping");
 
-        root.style.setProperty("--gallery-center-opacity", centerOpacity.toString());
-        root.style.setProperty("--gallery-side-opacity", sideOpacity.toString());
+        window.setTimeout(() => {
+            setImages();
+            resetTransforms();
+        }, 120);
     }
 
     function snapBack() {
         root.classList.add("is-snapping");
         resetTransforms();
-
-        window.setTimeout(() => {
-            root.classList.remove("is-snapping");
-        }, 360);
     }
 
-    function goNext(fromSwipe = false) {
-        if (!fromSwipe && typeof window.playClickSound === "function") {
-            window.playClickSound();
-        }
-
-        root.classList.remove("gallery-anim-prev", "gallery-anim-next");
-        void root.offsetWidth;
-
-        index = wrap(index + 1);
-        setImages();
-
-        root.classList.add("gallery-anim-next");
-
-        window.setTimeout(() => {
-            root.classList.remove("gallery-anim-next");
-        }, 520);
-    }
-
-    function goPrev(fromSwipe = false) {
-        if (!fromSwipe && typeof window.playClickSound === "function") {
-            window.playClickSound();
-        }
-
-        root.classList.remove("gallery-anim-prev", "gallery-anim-next");
-        void root.offsetWidth;
-
-        index = wrap(index - 1);
-        setImages();
-
-        root.classList.add("gallery-anim-prev");
-
-        window.setTimeout(() => {
-            root.classList.remove("gallery-anim-prev");
-        }, 520);
-    }
-
-    function finishSwipe(direction) {
+    function goNext() {
         if (typeof window.playClickSound === "function") {
             window.playClickSound();
         }
 
         root.classList.add("is-snapping");
 
-        if (direction === "next") {
-            root.style.setProperty("--gallery-drag", `-${maxDrag}px`);
-            root.style.setProperty("--gallery-progress", "1");
-        } else {
-            root.style.setProperty("--gallery-drag", `${maxDrag}px`);
-            root.style.setProperty("--gallery-progress", "1");
-        }
+        setVars({
+            "--gallery-center-x": `-${sideX}px`,
+            "--gallery-right-x": "0px",
+            "--gallery-left-x": `${-sideX * 1.35}px`,
+
+            "--gallery-center-scale": centerScaleEnd.toString(),
+            "--gallery-right-scale": sideScaleEnd.toString(),
+            "--gallery-left-scale": "1",
+
+            "--gallery-center-opacity": "0.55",
+            "--gallery-right-opacity": "1",
+            "--gallery-left-opacity": "0.12"
+        });
 
         window.setTimeout(() => {
-            if (direction === "next") {
-                index = wrap(index + 1);
-            } else {
-                index = wrap(index - 1);
-            }
-
+            index = wrap(index + 1);
             setImages();
             resetTransforms();
-            root.classList.remove("is-snapping");
-        }, 260);
+        }, 220);
+    }
+
+    function goPrev() {
+        if (typeof window.playClickSound === "function") {
+            window.playClickSound();
+        }
+
+        root.classList.add("is-snapping");
+
+        setVars({
+            "--gallery-center-x": `${sideX}px`,
+            "--gallery-left-x": "0px",
+            "--gallery-right-x": `${sideX * 1.35}px`,
+
+            "--gallery-center-scale": centerScaleEnd.toString(),
+            "--gallery-left-scale": sideScaleEnd.toString(),
+            "--gallery-right-scale": "1",
+
+            "--gallery-center-opacity": "0.55",
+            "--gallery-left-opacity": "1",
+            "--gallery-right-opacity": "0.12"
+        });
+
+        window.setTimeout(() => {
+            index = wrap(index - 1);
+            setImages();
+            resetTransforms();
+        }, 220);
     }
 
     function onPointerDown(e) {
@@ -234,23 +265,22 @@ function initCaveGallery() {
 
         isDragging = true;
         hasDragged = false;
+        autoCompleted = false;
         pointerId = e.pointerId;
 
         startX = e.clientX;
-        currentX = e.clientX;
         deltaX = 0;
 
-        root.classList.remove("is-snapping", "gallery-anim-next", "gallery-anim-prev");
+        root.classList.remove("is-snapping");
         root.classList.add("is-dragging");
 
         stage.setPointerCapture(pointerId);
     }
 
     function onPointerMove(e) {
-        if (!isDragging) return;
+        if (!isDragging || autoCompleted) return;
 
-        currentX = e.clientX;
-        deltaX = currentX - startX;
+        deltaX = e.clientX - startX;
 
         if (Math.abs(deltaX) > 8) {
             hasDragged = true;
@@ -259,8 +289,8 @@ function initCaveGallery() {
         applyDrag(deltaX);
     }
 
-    function onPointerUp(e) {
-        if (!isDragging) return;
+    function onPointerUp() {
+        if (!isDragging || autoCompleted) return;
 
         isDragging = false;
 
@@ -273,9 +303,9 @@ function initCaveGallery() {
         pointerId = null;
 
         if (deltaX <= -swipeThreshold) {
-            finishSwipe("next");
+            goNext();
         } else if (deltaX >= swipeThreshold) {
-            finishSwipe("prev");
+            goPrev();
         } else {
             snapBack();
         }
@@ -291,7 +321,7 @@ function initCaveGallery() {
             return;
         }
 
-        goPrev(false);
+        goPrev();
     });
 
     rightSide.addEventListener("click", (e) => {
@@ -300,16 +330,13 @@ function initCaveGallery() {
             return;
         }
 
-        goNext(false);
+        goNext();
     });
 
     stage.addEventListener("pointerdown", onPointerDown);
     stage.addEventListener("pointermove", onPointerMove);
     stage.addEventListener("pointerup", onPointerUp);
     stage.addEventListener("pointercancel", onPointerUp);
-    stage.addEventListener("pointerleave", () => {
-        if (isDragging) onPointerUp({});
-    });
 
     setImages();
     resetTransforms();
