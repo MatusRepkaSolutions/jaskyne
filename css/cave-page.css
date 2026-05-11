@@ -40,9 +40,9 @@ body{
     position: relative;
     z-index: 2;
     width: 100%;
-    min-height: 1511.8px;
+    min-height: 1381.8px;
     margin: 0 auto;
-    padding: 86.4px 153.6px 108px 153.6px;
+    padding: 86.4px 153.6px 0px 153.6px;
     box-sizing: border-box;
 }
 
@@ -181,8 +181,6 @@ body{
 
 .global-control-buttons{
     position: absolute;
-    top: 47.52px;
-    left: 46.08px;
     z-index: 5;
     display: flex;
     align-items: center;
