@@ -48,40 +48,22 @@ function initCaveGallery() {
 
     const basePath = root.dataset.galleryPath;
     const count = parseInt(root.dataset.galleryCount || "0", 10);
+
     if (!basePath || !count) return;
 
     const stage = root.querySelector(".gallery-stage");
-    const center = root.querySelector(".gallery-center");
-    const mainImg = root.querySelector(".gallery-main-img");
-
-    const leftSide = root.querySelector(".gallery-side-left");
-    const rightSide = root.querySelector(".gallery-side-right");
-    const leftImg = root.querySelector(".gallery-side-left img");
-    const rightImg = root.querySelector(".gallery-side-right img");
-
     const captions = root.querySelectorAll(".gallery-caption-item");
 
-    if (!stage || !center || !mainImg || !leftSide || !rightSide || !leftImg || !rightImg) return;
+    if (!stage) return;
 
-    center.classList.add("gallery-slide");
-    leftSide.classList.add("gallery-slide");
-    rightSide.classList.add("gallery-slide");
+    stage.innerHTML = "";
 
-    const farLeft = document.createElement("div");
-    farLeft.className = "gallery-slide gallery-side gallery-side-far-left";
-    farLeft.innerHTML = `<img class="gallery-side-img" src="">`;
+    const track = document.createElement("div");
+    track.className = "gallery-track";
 
-    const farRight = document.createElement("div");
-    farRight.className = "gallery-slide gallery-side gallery-side-far-right";
-    farRight.innerHTML = `<img class="gallery-side-img" src="">`;
+    stage.appendChild(track);
 
-    stage.insertBefore(farLeft, leftSide);
-    stage.appendChild(farRight);
-
-    const farLeftImg = farLeft.querySelector("img");
-    const farRightImg = farRight.querySelector("img");
-
-    let index = 0;
+    const slides = [];
     const imageSources = [];
 
     for (let i = 0; i < count; i++) {
@@ -90,20 +72,31 @@ function initCaveGallery() {
 
         const preload = new Image();
         preload.src = src;
+
+        const slide = document.createElement("div");
+        slide.className = "gallery-slide";
+        slide.dataset.index = i;
+
+        const img = document.createElement("img");
+        img.className = "gallery-slide-img";
+        img.src = src;
+        img.alt = "";
+
+        slide.appendChild(img);
+        track.appendChild(slide);
+        slides.push(slide);
     }
-    let startX = 0;
-    let deltaX = 0;
+
+    let index = 0;
+    let currentTranslate = 0;
+    let dragStartX = 0;
+    let dragStartTranslate = 0;
     let isDragging = false;
-    let hasDragged = false;
+    let didDrag = false;
     let pointerId = null;
-    let completed = false;
 
-    const sideX = 1160;
-    const maxDrag = sideX;
-    const swipeThreshold = 180;
-
-    const centerScaleEnd = 0.48;
-    const sideScaleEnd = 2.08;
+    const slideGap = 1160;
+    const dragThreshold = 90;
 
     function wrap(i) {
         while (i < 0) i += count;
@@ -111,230 +104,117 @@ function initCaveGallery() {
         return i;
     }
 
-    function imgSrc(i) {
-        return imageSources[wrap(i)];
+    function shortestOffset(slideIndex, activeIndex) {
+        let offset = slideIndex - activeIndex;
+
+        if (offset > count / 2) offset -= count;
+        if (offset < -count / 2) offset += count;
+
+        return offset;
     }
 
-    function setImages() {
-        farLeftImg.src = imgSrc(index - 2);
-        leftImg.src = imgSrc(index - 1);
-        mainImg.src = imgSrc(index);
-        rightImg.src = imgSrc(index + 1);
-        farRightImg.src = imgSrc(index + 2);
+    function getNearestIndex(translate) {
+        const raw = -translate / slideGap;
+        return wrap(Math.round(raw));
+    }
 
+    function updateCaptions() {
         captions.forEach((c) => c.classList.remove("active"));
 
-        const active = root.querySelector(`.gallery-caption-item[data-index="${index}"]`);
-        if (active) active.classList.add("active");
+        const activeCaption = root.querySelector(`.gallery-caption-item[data-index="${index}"]`);
+        if (activeCaption) activeCaption.classList.add("active");
     }
 
-    function setVars(values) {
-        Object.entries(values).forEach(([key, value]) => {
-            root.style.setProperty(key, value);
-        });
-    }
+    function render(translate = currentTranslate) {
+        currentTranslate = translate;
 
-    function setDefaultPosition() {
-        setVars({
-            "--gallery-far-left-x": `${-sideX * 2}px`,
-            "--gallery-left-x": `${-sideX}px`,
-            "--gallery-center-x": "0px",
-            "--gallery-right-x": `${sideX}px`,
-            "--gallery-far-right-x": `${sideX * 2}px`,
+        const virtualCenter = -translate / slideGap;
 
-            "--gallery-far-left-scale": "1",
-            "--gallery-left-scale": "1",
-            "--gallery-center-scale": "1",
-            "--gallery-right-scale": "1",
-            "--gallery-far-right-scale": "1",
+        slides.forEach((slide, i) => {
+            let offset = i - virtualCenter;
 
-            "--gallery-far-left-opacity": "0",
-            "--gallery-left-opacity": "0.28",
-            "--gallery-center-opacity": "1",
-            "--gallery-right-opacity": "0.28",
-            "--gallery-far-right-opacity": "0"
-        });
-    }
+            if (offset > count / 2) offset -= count;
+            if (offset < -count / 2) offset += count;
 
-    function resetHard() {
-        root.classList.add("is-dragging");
-        root.classList.remove("is-snapping", "drag-next", "drag-prev");
+            const abs = Math.abs(offset);
 
-        setDefaultPosition();
+            let x = offset * slideGap;
+            let scale = 1;
+            let opacity = 1;
+            let zIndex = 10;
 
-        requestAnimationFrame(() => {
-            root.classList.remove("is-dragging");
-        });
-    }
-
-    function applyDrag(x) {
-        const limited = Math.max(-maxDrag, Math.min(maxDrag, x));
-        const progress = Math.min(Math.abs(limited) / maxDrag, 1);
-
-        const centerScale = 1 - ((1 - centerScaleEnd) * progress);
-        const sideScale = 1 + ((sideScaleEnd - 1) * progress);
-
-        const centerOpacity = 1 - (0.45 * progress);
-        const activeSideOpacity = 0.28 + (0.72 * progress);
-        const normalSideOpacity = 0.28;
-        const hiddenOpacity = 0.28 * progress;
-
-        if (limited < 0) {
-            root.classList.add("drag-next");
-            root.classList.remove("drag-prev");
-
-            setVars({
-                "--gallery-far-left-x": `${-sideX * 2}px`,
-                "--gallery-left-x": `${-sideX - (sideX * progress)}px`,
-                "--gallery-center-x": `${-sideX * progress}px`,
-                "--gallery-right-x": `${sideX * (1 - progress)}px`,
-                "--gallery-far-right-x": `${sideX * (2 - progress)}px`,
-
-                "--gallery-far-left-scale": "1",
-                "--gallery-left-scale": "1",
-                "--gallery-center-scale": centerScale.toString(),
-                "--gallery-right-scale": sideScale.toString(),
-                "--gallery-far-right-scale": "1",
-
-                "--gallery-far-left-opacity": "0",
-                "--gallery-left-opacity": `${normalSideOpacity * (1 - progress)}`,
-                "--gallery-center-opacity": centerOpacity.toString(),
-                "--gallery-right-opacity": activeSideOpacity.toString(),
-                "--gallery-far-right-opacity": hiddenOpacity.toString()
-            });
-
-            if (progress >= 1 && !completed) {
-                completeMove("next");
+            if (abs < 1) {
+                scale = 1 - abs * 0.52;
+                opacity = 1 - abs * 0.72;
+                zIndex = 100 - Math.round(abs * 10);
+            } else if (abs < 2) {
+                scale = 0.48;
+                opacity = 0.28 * (2 - abs);
+                zIndex = 50 - Math.round(abs * 10);
+            } else {
+                scale = 0.48;
+                opacity = 0;
+                zIndex = 1;
             }
-        }
 
-        if (limited > 0) {
-            root.classList.add("drag-prev");
-            root.classList.remove("drag-next");
+            slide.style.transform = `translate(-50%, -50%) translateX(${x}px) scale(${scale})`;
+            slide.style.opacity = opacity.toString();
+            slide.style.zIndex = zIndex.toString();
 
-            setVars({
-                "--gallery-far-left-x": `${-sideX * (2 - progress)}px`,
-                "--gallery-left-x": `${-sideX * (1 - progress)}px`,
-                "--gallery-center-x": `${sideX * progress}px`,
-                "--gallery-right-x": `${sideX + (sideX * progress)}px`,
-                "--gallery-far-right-x": `${sideX * 2}px`,
-
-                "--gallery-far-left-scale": "1",
-                "--gallery-left-scale": sideScale.toString(),
-                "--gallery-center-scale": centerScale.toString(),
-                "--gallery-right-scale": "1",
-                "--gallery-far-right-scale": "1",
-
-                "--gallery-far-left-opacity": hiddenOpacity.toString(),
-                "--gallery-left-opacity": activeSideOpacity.toString(),
-                "--gallery-center-opacity": centerOpacity.toString(),
-                "--gallery-right-opacity": `${normalSideOpacity * (1 - progress)}`,
-                "--gallery-far-right-opacity": "0"
-            });
-
-            if (progress >= 1 && !completed) {
-                completeMove("prev");
-            }
-        }
+            slide.classList.toggle("is-center", abs < 0.5);
+            slide.classList.toggle("is-side", abs >= 0.5 && abs < 1.5);
+        });
     }
 
-    function completeMove(direction) {
-        completed = true;
-        isDragging = false;
+    function snapTo(newIndex, withSound = true) {
+        index = wrap(newIndex);
 
-        if (typeof window.playClickSound === "function") {
-            window.playClickSound();
-        }
-
-        if (direction === "next") {
-            index = wrap(index + 1);
-        } else {
-            index = wrap(index - 1);
-        }
-
-        setImages();
-        resetHard();
-    }
-
-    function animateToComplete(direction) {
-        completed = true;
-
-        if (typeof window.playClickSound === "function") {
+        if (withSound && typeof window.playClickSound === "function") {
             window.playClickSound();
         }
 
         root.classList.remove("is-dragging");
         root.classList.add("is-snapping");
 
-        if (direction === "next") {
-            applyDrag(-maxDrag);
+        currentTranslate = -index * slideGap;
+        render(currentTranslate);
+        updateCaptions();
 
-            setTimeout(() => {
-                index = wrap(index + 1);
-                setImages();
-                resetHard();
-            }, 220);
-        } else {
-            applyDrag(maxDrag);
-
-            setTimeout(() => {
-                index = wrap(index - 1);
-                setImages();
-                resetHard();
-            }, 220);
-        }
-    }
-
-    function snapBack() {
-        root.classList.remove("is-dragging", "drag-next", "drag-prev");
-        root.classList.add("is-snapping");
-
-        setDefaultPosition();
-
-        setTimeout(() => {
+        window.setTimeout(() => {
             root.classList.remove("is-snapping");
-        }, 220);
-    }
-
-    function goNext() {
-        animateToComplete("next");
-    }
-
-    function goPrev() {
-        animateToComplete("prev");
+        }, 320);
     }
 
     function onPointerDown(e) {
         if (e.button !== undefined && e.button !== 0) return;
 
         isDragging = true;
-        hasDragged = false;
-        completed = false;
+        didDrag = false;
         pointerId = e.pointerId;
 
-        startX = e.clientX;
-        deltaX = 0;
+        dragStartX = e.clientX;
+        dragStartTranslate = currentTranslate;
 
-        root.classList.remove("is-snapping", "drag-next", "drag-prev");
+        root.classList.remove("is-snapping");
         root.classList.add("is-dragging");
 
         stage.setPointerCapture(pointerId);
     }
 
     function onPointerMove(e) {
-        if (!isDragging || completed) return;
+        if (!isDragging) return;
 
-        deltaX = e.clientX - startX;
+        const dx = e.clientX - dragStartX;
 
-        if (Math.abs(deltaX) > 8) {
-            hasDragged = true;
+        if (Math.abs(dx) > 8) {
+            didDrag = true;
         }
 
-        applyDrag(deltaX);
+        render(dragStartTranslate + dx);
     }
 
     function onPointerUp() {
-        if (!isDragging || completed) return;
+        if (!isDragging) return;
 
         isDragging = false;
 
@@ -346,42 +226,50 @@ function initCaveGallery() {
 
         pointerId = null;
 
-        if (deltaX <= -swipeThreshold) {
-            animateToComplete("next");
-        } else if (deltaX >= swipeThreshold) {
-            animateToComplete("prev");
-        } else {
-            snapBack();
+        const moved = currentTranslate - dragStartTranslate;
+        let targetIndex = getNearestIndex(currentTranslate);
+
+        if (Math.abs(moved) > dragThreshold) {
+            if (moved < 0) {
+                targetIndex = wrap(index + 1);
+            } else {
+                targetIndex = wrap(index - 1);
+            }
         }
 
-        setTimeout(() => {
-            hasDragged = false;
-        }, 80);
+        snapTo(targetIndex, didDrag);
+
+        window.setTimeout(() => {
+            didDrag = false;
+        }, 120);
     }
-
-    leftSide.addEventListener("click", (e) => {
-        if (hasDragged) {
-            e.preventDefault();
-            return;
-        }
-
-        goPrev();
-    });
-
-    rightSide.addEventListener("click", (e) => {
-        if (hasDragged) {
-            e.preventDefault();
-            return;
-        }
-
-        goNext();
-    });
 
     stage.addEventListener("pointerdown", onPointerDown);
     stage.addEventListener("pointermove", onPointerMove);
     stage.addEventListener("pointerup", onPointerUp);
     stage.addEventListener("pointercancel", onPointerUp);
 
-    setImages();
-    resetHard();
+    stage.addEventListener("click", (e) => {
+        if (didDrag) {
+            e.preventDefault();
+            return;
+        }
+
+        const slide = e.target.closest(".gallery-slide");
+        if (!slide) return;
+
+        const clickedIndex = parseInt(slide.dataset.index || "0", 10);
+        const offset = shortestOffset(clickedIndex, index);
+
+        if (offset === 0) return;
+
+        if (offset > 0) {
+            snapTo(index + 1);
+        } else {
+            snapTo(index - 1);
+        }
+    });
+
+    updateCaptions();
+    snapTo(0, false);
 }
