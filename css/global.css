@@ -67,7 +67,7 @@ img, a {
 
 .global-control-buttons{
     position: absolute;
-    top: 62px;
+    bottom: 62px;
     left: 115.2px;
     display: flex;
     gap: 38.4px;
@@ -109,7 +109,7 @@ img, a {
 
 .map-lang-switches{
     position: absolute;
-    top: 62px;
+    bottom: 62px;
     right: 115.2px;
     display: flex;
     gap: 38.4px;
