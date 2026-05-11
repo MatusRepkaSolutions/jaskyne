@@ -101,8 +101,17 @@ function initCaveGallery() {
     }
 
     function resetTransforms() {
-        root.style.setProperty("--gallery-drag", "0px");
-        root.style.setProperty("--gallery-progress", "0");
+        root.style.setProperty("--gallery-center-x", "0px");
+        root.style.setProperty("--gallery-left-x", "-1160px");
+        root.style.setProperty("--gallery-right-x", "1160px");
+
+        root.style.setProperty("--gallery-center-scale", "1");
+        root.style.setProperty("--gallery-left-scale", "1");
+        root.style.setProperty("--gallery-right-scale", "1");
+
+        root.style.setProperty("--gallery-center-opacity", "1");
+        root.style.setProperty("--gallery-side-opacity", "0.28");
+
         root.classList.remove("is-dragging");
     }
 
@@ -110,8 +119,41 @@ function initCaveGallery() {
         const limited = Math.max(-maxDrag, Math.min(maxDrag, x));
         const progress = Math.min(Math.abs(limited) / maxDrag, 1);
 
-        root.style.setProperty("--gallery-drag", `${limited}px`);
-        root.style.setProperty("--gallery-progress", progress.toString());
+        const sideX = 1160;
+
+        let centerX = limited;
+        let leftX = -sideX;
+        let rightX = sideX;
+
+        let centerScale = 1 - progress * 0.22;
+        let leftScale = 1;
+        let rightScale = 1;
+
+        let centerOpacity = 1 - progress * 0.35;
+        let sideOpacity = 0.28 + progress * 0.72;
+
+        if (limited < 0) {
+            // dragging right image into center
+            rightX = sideX + limited;
+            leftX = -sideX + limited * 0.35;
+            rightScale = 1 + progress * 0.55;
+        } else if (limited > 0) {
+            // dragging left image into center
+            leftX = -sideX + limited;
+            rightX = sideX + limited * 0.35;
+            leftScale = 1 + progress * 0.55;
+        }
+
+        root.style.setProperty("--gallery-center-x", `${centerX}px`);
+        root.style.setProperty("--gallery-left-x", `${leftX}px`);
+        root.style.setProperty("--gallery-right-x", `${rightX}px`);
+
+        root.style.setProperty("--gallery-center-scale", centerScale.toString());
+        root.style.setProperty("--gallery-left-scale", leftScale.toString());
+        root.style.setProperty("--gallery-right-scale", rightScale.toString());
+
+        root.style.setProperty("--gallery-center-opacity", centerOpacity.toString());
+        root.style.setProperty("--gallery-side-opacity", sideOpacity.toString());
     }
 
     function snapBack() {
