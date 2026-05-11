@@ -52,25 +52,20 @@ function initCaveGallery() {
     if (!basePath || !count) return;
 
     const stage = root.querySelector(".gallery-stage");
-    const captions = root.querySelectorAll(".gallery-caption-item");
+    const captionItems = Array.from(
+        root.querySelectorAll(".gallery-caption-item")
+    );
 
     if (!stage) return;
 
-    const oldSlides = stage.querySelectorAll(
-        ".gallery-center, .gallery-side"
-    );
+    // remove old structure
+    stage.innerHTML = "";
 
-    oldSlides.forEach((el) => el.remove());
+    // create track
+    const track = document.createElement("div");
+    track.className = "gallery-track";
 
-    let track = stage.querySelector(".gallery-track");
-
-    if (!track) {
-        track = document.createElement("div");
-        track.className = "gallery-track";
-        stage.prepend(track);
-    } else {
-        track.innerHTML = "";
-    }
+    stage.appendChild(track);
 
     const slides = [];
     const imageSources = [];
@@ -92,8 +87,26 @@ function initCaveGallery() {
         img.alt = "";
 
         slide.appendChild(img);
+
+        // move matching caption into slide
+        const caption = captionItems.find(
+            (c) => parseInt(c.dataset.index || "0", 10) === i
+        );
+
+        if (caption) {
+            const captionClone = caption.cloneNode(true);
+            captionClone.classList.add("gallery-slide-caption");
+            slide.appendChild(captionClone);
+        }
+
         track.appendChild(slide);
         slides.push(slide);
+    }
+
+    // remove original captions container
+    const oldCaptions = root.querySelector(".gallery-captions");
+    if (oldCaptions) {
+        oldCaptions.remove();
     }
 
     let index = 0;
@@ -125,13 +138,6 @@ function initCaveGallery() {
     function getNearestIndex(translate) {
         const raw = -translate / slideGap;
         return wrap(Math.round(raw));
-    }
-
-    function updateCaptions() {
-        captions.forEach((c) => c.classList.remove("active"));
-
-        const activeCaption = root.querySelector(`.gallery-caption-item[data-index="${index}"]`);
-        if (activeCaption) activeCaption.classList.add("active");
     }
 
     function render(translate = currentTranslate) {
@@ -166,7 +172,9 @@ function initCaveGallery() {
                 zIndex = 1;
             }
 
-            slide.style.transform = `translate(-50%, -50%) translateX(${x}px) scale(${scale})`;
+            slide.style.transform =
+                `translate(-50%, -50%) translateX(${x}px) scale(${scale})`;
+
             slide.style.opacity = opacity.toString();
             slide.style.zIndex = zIndex.toString();
 
@@ -186,8 +194,8 @@ function initCaveGallery() {
         root.classList.add("is-snapping");
 
         currentTranslate = -index * slideGap;
+
         render(currentTranslate);
-        updateCaptions();
 
         window.setTimeout(() => {
             root.classList.remove("is-snapping");
@@ -279,6 +287,5 @@ function initCaveGallery() {
         }
     });
 
-    updateCaptions();
     snapTo(0, false);
 }
