@@ -82,6 +82,15 @@ function initCaveGallery() {
     const farRightImg = farRight.querySelector("img");
 
     let index = 0;
+    const imageSources = [];
+
+    for (let i = 0; i < count; i++) {
+        const src = `${basePath}/${i + 1}.jpg`;
+        imageSources.push(src);
+
+        const preload = new Image();
+        preload.src = src;
+    }
     let startX = 0;
     let deltaX = 0;
     let isDragging = false;
@@ -103,7 +112,7 @@ function initCaveGallery() {
     }
 
     function imgSrc(i) {
-        return `${basePath}/${wrap(i) + 1}.jpg`;
+        return imageSources[wrap(i)];
     }
 
     function setImages() {
