@@ -82,7 +82,6 @@ body{
 }
 
 .map2-button-text {
-    font-size: 48px;
     color: #EDE3D3;
     font-weight: 700;
     line-height: 1;
@@ -94,6 +93,7 @@ body{
 }
 
 .map2-bottom-text {
+    font-size: 48px;
     position: absolute;
     bottom: 200px;
     left: 50%;
