@@ -94,7 +94,6 @@ body{
 }
 
 .map2-bottom-text {
-    font-size: 48px;
     position: absolute;
     bottom: 200px;
     left: 50%;
@@ -153,32 +152,38 @@ body{
 .pos7 {
     left: 917.2px;
     top: 1491px;
+    font-size: 48px;
 }
 
 .pos8 {
     left: 1157.4px;
     top: 1319.8px;
+    font-size: 48px;
 }
 
 .pos9 {
     left: 1243.2px;
     width: min-content;
     top: 1535px;
+    font-size: 48px;
 }
 
 .pos10 {
     left: 1293.4px;
     top: 1104.6px;
+    font-size: 48px;
 }
 
 .pos11 {
     left: 2222.4px;
     top: 639px;
+    font-size: 48px;
 }
 
 .pos12 {
     left: 2462.2px;
     top: 910.4px;
+    font-size: 48px;
 }
 
 .pos13 {
