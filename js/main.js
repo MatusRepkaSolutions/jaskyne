@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", async () => {
+document.addEventListener("DOMContentLoaded", () => {
     const supportedLanguages = ["svk", "hun", "eng"];
     const defaultLanguage = "svk";
     const cookieName = "lang";
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const cookies = document.cookie.split(";");
 
         for (let i = 0; i < cookies.length; i++) {
-            let cookie = cookies[i].trim();
+            const cookie = cookies[i].trim();
 
             if (cookie.indexOf(nameEQ) === 0) {
                 return cookie.substring(nameEQ.length);
@@ -162,7 +162,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     async function loadJsonFile(path) {
-        const response = await fetch(path, { cache: "no-cache" });
+        const version = "2026-05-18";
+        const separator = path.includes("?") ? "&" : "?";
+        const url = `${path}${separator}v=${version}`;
+
+        const response = await fetch(url, { cache: "no-store" });
 
         if (!response.ok) {
             throw new Error(`Failed to load ${path}`);
@@ -209,15 +213,16 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     }
 
+    window.applyAppTranslations = function () {
+        if (!window.appTranslations || !window.appLanguage) return;
+        applyTranslations(window.appTranslations, window.appLanguage);
+    };
+
     function updateLanguageButtons(lang) {
         const buttons = document.querySelectorAll("[data-lang-switch]");
 
         buttons.forEach((button) => {
-            if (button.dataset.langSwitch === lang) {
-                button.classList.add("is-active");
-            } else {
-                button.classList.remove("is-active");
-            }
+            button.classList.toggle("is-active", button.dataset.langSwitch === lang);
         });
     }
 
@@ -237,18 +242,26 @@ document.addEventListener("DOMContentLoaded", async () => {
                 }
 
                 setCookie(cookieName, selectedLanguage);
+
+                window.appLanguage = selectedLanguage;
+                window.appTranslations = translations;
+
                 applyTranslations(translations, selectedLanguage);
                 updateLanguageButtons(selectedLanguage);
 
                 document.documentElement.setAttribute("lang", selectedLanguage);
                 document.body.setAttribute("data-current-lang", selectedLanguage);
 
-                window.appLanguage = selectedLanguage;
-                window.appTranslations = translations;
-
                 if (typeof window.refreshGalleryTranslations === "function") {
                     window.refreshGalleryTranslations();
                 }
+
+                document.dispatchEvent(new CustomEvent("languageChanged", {
+                    detail: {
+                        translations,
+                        lang: selectedLanguage
+                    }
+                }));
             });
         });
     }
@@ -287,22 +300,39 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     }
 
-    try {
-        const translations = await loadTranslations();
-        const currentLanguage = getCurrentLanguage();
+    window.translationsReady = (async () => {
+        try {
+            const translations = await loadTranslations();
+            const currentLanguage = getCurrentLanguage();
 
-        applyTranslations(translations, currentLanguage);
-        updateLanguageButtons(currentLanguage);
-        bindLanguageSwitching(translations);
+            window.appLanguage = currentLanguage;
+            window.appTranslations = translations;
 
-        document.documentElement.setAttribute("lang", currentLanguage);
-        document.body.setAttribute("data-current-lang", currentLanguage);
+            applyTranslations(translations, currentLanguage);
+            updateLanguageButtons(currentLanguage);
+            bindLanguageSwitching(translations);
 
-        window.appLanguage = currentLanguage;
-        window.appTranslations = translations;
-    } catch (error) {
-        console.error("Translation initialization failed:", error);
-    }
+            document.documentElement.setAttribute("lang", currentLanguage);
+            document.body.setAttribute("data-current-lang", currentLanguage);
+            document.body.classList.add("translations-loaded");
+
+            document.dispatchEvent(new CustomEvent("translationsReady", {
+                detail: {
+                    translations,
+                    lang: currentLanguage
+                }
+            }));
+
+            return {
+                translations,
+                lang: currentLanguage
+            };
+        } catch (error) {
+            console.error("Translation initialization failed:", error);
+            document.body.classList.add("translations-loaded");
+            return null;
+        }
+    })();
 
     initRedirectButtons();
     initCustomScrollbars();

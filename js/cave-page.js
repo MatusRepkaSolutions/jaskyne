@@ -1,6 +1,14 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
+    if (window.translationsReady) {
+        await window.translationsReady;
+    }
+
     initCaveTabs();
     initCaveGallery();
+
+    if (typeof window.applyAppTranslations === "function") {
+        window.applyAppTranslations();
+    }
 });
 
 function initCaveTabs() {
@@ -37,6 +45,10 @@ function initCaveTabs() {
                 if (galleryPanel) {
                     galleryPanel.classList.add("gallery-ready");
                 }
+
+                if (typeof window.applyAppTranslations === "function") {
+                    window.applyAppTranslations();
+                }
             }
         });
     });
@@ -58,10 +70,8 @@ function initCaveGallery() {
 
     if (!stage) return;
 
-    // remove old structure
     stage.innerHTML = "";
 
-    // create track
     const track = document.createElement("div");
     track.className = "gallery-track";
 
@@ -88,7 +98,6 @@ function initCaveGallery() {
 
         slide.appendChild(img);
 
-        // move matching caption into slide
         const caption = captionItems.find(
             (c) => parseInt(c.dataset.index || "0", 10) === i
         );
@@ -103,10 +112,19 @@ function initCaveGallery() {
         slides.push(slide);
     }
 
-    // remove original captions container
     const oldCaptions = root.querySelector(".gallery-captions");
     if (oldCaptions) {
         oldCaptions.remove();
+    }
+
+    window.refreshGalleryTranslations = function () {
+        if (typeof window.applyAppTranslations === "function") {
+            window.applyAppTranslations();
+        }
+    };
+
+    if (typeof window.applyAppTranslations === "function") {
+        window.applyAppTranslations();
     }
 
     let index = 0;
