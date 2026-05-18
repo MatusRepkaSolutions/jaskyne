@@ -266,7 +266,6 @@ body{
     height: 100%;
     object-fit: cover;
     display: block;
-    border: 10px solid rgba(236, 226, 205, 0.95);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
     pointer-events: none;
     box-sizing: border-box;
