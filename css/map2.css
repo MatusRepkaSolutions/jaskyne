@@ -111,38 +111,44 @@ body{
 
 /* positions */
 .pos1 {
-    left: 523.2px;
-    top: 692.4px;
+    left: 1005.2px;
+    top: 1076.4px;
+    font-size: 36px;
 }
 
 .pos2 {
-    left: 1163.4px;
-    top: 1746.8px;
+    left: 1405.4px;
+    top: 1714.8px;
+    font-size: 36px;
 }
 
 .pos3 {
-    left: 882.2px;
-    top: 1246px;
+    left: 1119.2px;
+    top: 1376px;
     flex-direction: row;
     gap: 40px;
     max-width: 499.2px;
     align-items: center;
+    font-size: 36px;
 }
 
 .pos4 {
-    left: 2899.4px;
-    top: 615.6px;
+    left: 2441.4px;
+    top: 1041.6px;
     max-width: fit-content;
+    font-size: 36px;
 }
 
 .pos5 {
-    left: 1507.4px;
-    top: 947px;
+    left: 1584.4px;
+    top: 1235px;
+    font-size: 36px;
 }
 
 .pos6 {
-    left: 1225.2px;
-    top: 1337.4px;
+    left: 1410.2px;
+    top: 1463.4px;
+    font-size: 36px;
 }
 
 .pos7 {
@@ -177,8 +183,9 @@ body{
 }
 
 .pos13 {
-    left: 2462.2px;
-    top: 910.4px;
+    left: 971.2px;
+    top: 393.4px;
+    font-size: 36px;
 }
 
 /* animations */
