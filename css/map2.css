@@ -79,7 +79,6 @@ body{
 /* clicked = no more pulse */
 .map2-button.visited .map2-button-marker::before {
     animation: none;
-    outline: 25px solid #C19E6A80;
 }
 
 .map2-button-text {
