@@ -628,5 +628,10 @@
         "svk": "Výborne! Našiel si všetky dvojice.",
         "eng": "Great! You found all pairs.",
         "hun": "Nagyszerű! Megtaláltad az összes párt."
+    },
+    "btnRestart": {
+        "svk": "Reštartovať hru",
+        "eng": "Restart Game",
+        "hun": "Játék újraindítása"
     }
 }
