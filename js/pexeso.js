@@ -188,11 +188,20 @@ function initPexeso() {
     }
 
     if (restartButton) {
-        restartButton.addEventListener("click", () => {
-            playClick();
+    restartButton.addEventListener("click", () => {
+        playClick();
+
+        restartButton.classList.remove("button-anim-global-active");
+
+        void restartButton.offsetWidth;
+
+        restartButton.classList.add("button-anim-global-active");
+
+        setTimeout(() => {
             renderBoard();
-        });
-    }
+        }, 250);
+    });
+}
 
     renderBoard();
 }
