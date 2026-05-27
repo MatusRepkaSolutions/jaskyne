@@ -307,3 +307,53 @@ function initCaveGallery() {
 
     snapTo(0, false);
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    initCaveVideo();
+});
+
+function initCaveVideo() {
+    const videoPanel = document.getElementById("tab-video");
+    const video = document.getElementById("caveVideo");
+
+    if (!videoPanel || !video) return;
+
+    const videoBase = videoPanel.dataset.videoBase;
+
+    const langToVideoSuffix = {
+        svk: "SK",
+        eng: "EN",
+        hun: "HU"
+    };
+
+    function getCurrentLanguage() {
+        return (
+            localStorage.getItem("selectedLanguage") ||
+            localStorage.getItem("language") ||
+            document.documentElement.lang ||
+            "svk"
+        );
+    }
+
+    function setVideoByLanguage() {
+        const lang = getCurrentLanguage();
+        const suffix = langToVideoSuffix[lang] || "SK";
+        const newSrc = `videos/${videoBase}-${suffix}.mp4`;
+
+        const currentSrc = video.getAttribute("src");
+
+        if (currentSrc === newSrc) return;
+
+        video.pause();
+        video.setAttribute("src", newSrc);
+        video.load();
+    }
+
+    setVideoByLanguage();
+
+    document.querySelectorAll("[data-lang-switch]").forEach((button) => {
+        button.addEventListener("click", () => {
+            setTimeout(setVideoByLanguage, 80);
+        });
+    });
+}
