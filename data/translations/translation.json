@@ -633,5 +633,25 @@
         "svk": "Reštartovať hru",
         "eng": "Restart Game",
         "hun": "Játék újraindítása"
+    },
+    "vystrojStatusDefault": {
+        "svk": "Priraď správnu výstroj, ktorú jaskyniar potrebuje do jaskyne.",
+        "eng": "Assign the correct equipment the caver needs for the cave.",
+        "hun": "Rendeld hozzá a megfelelő felszerelést, amelyre a barlangásznak szüksége van a barlangban."
+    },
+    "vystrojStatusCorrect": {
+        "svk": "Správne.",
+        "eng": "Correct.",
+        "hun": "Helyes."
+    },
+    "vystrojStatusWrong": {
+        "svk": "Skús iný predmet alebo iné miesto.",
+        "eng": "Try a different item or another place.",
+        "hun": "Próbálj másik tárgyat vagy másik helyet."
+    },
+    "vystrojStatusWin": {
+        "svk": "Výborne! Priradil si všetku správnu výstroj.",
+        "eng": "Great! You assigned all the correct equipment.",
+        "hun": "Nagyszerű! Minden megfelelő felszerelést hozzárendeltél."
     }
 }
