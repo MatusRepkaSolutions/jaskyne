@@ -48,9 +48,9 @@ function initVystrojJaskyniara() {
         { accepts: 1, x: 744, y: 370 },
         { accepts: 2, x: 1480, y: 370 },
         { accepts: 6, x: 795, y: 650 },
-        { accepts: 8, x: 1418, y: 690 },
-        { accepts: 5, x: 775, y: 990 },
-        { accepts: 3, x: 1465, y: 990 }
+        { accepts: 8, x: 1418, y: 650 },
+        { accepts: 5, x: 785, y: 925 },
+        { accepts: 3, x: 1441, y: 925 }
     ];
 
     let placedCount = 0;
