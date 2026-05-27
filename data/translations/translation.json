@@ -603,5 +603,30 @@
         "svk": "Výstroj Jaskyniara",
         "hun": "A barlangász felszerelése",
         "eng": "Caver Equipment"
+    },
+    "btnPexeso": {
+        "svk": "Pexeso",
+        "eng": "Memory Game",
+        "hun": "Memóriajáték"
+    },
+    "pexesoStatusDefault": {
+        "svk": "Nájdi dvojice.",
+        "eng": "Find the matching pairs.",
+        "hun": "Találd meg az egyforma párokat."
+    },
+    "pexesoStatusMatch": {
+        "svk": "Dvojica nájdená.",
+        "eng": "Pair found.",
+        "hun": "Pár megtalálva."
+    },
+    "pexesoStatusWrong": {
+        "svk": "Skús inú dvojicu.",
+        "eng": "Try another pair.",
+        "hun": "Próbálj másik párt."
+    },
+    "pexesoStatusWin": {
+        "svk": "Výborne! Našiel si všetky dvojice.",
+        "eng": "Great! You found all pairs.",
+        "hun": "Nagyszerű! Megtaláltad az összes párt."
     }
 }

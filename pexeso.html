@@ -2,18 +2,27 @@
 <html lang="sk">
 <head>
     <meta charset="UTF-8">
-    <title>Jaskyne</title>
+    <title>Pexeso</title>
 
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/map2.css">
+    <link rel="stylesheet" href="css/pexeso.css">
 
     <script src="js/main.js" defer></script>
-    <script src="js/kras-mapa.js" defer></script>
+    <script src="js/pexeso.js" defer></script>
 </head>
-<body data-translation-page="mapa" style="background: url('img/hry/Pozadie.png');">
 
+<body data-translation-page="mapa" style="background: url('img/hry/Pozadie.png'); background-size: cover; background-position: center;">
 
-    <!-- ######################## Upper controls ################## -->
+    <main class="pexeso-page">
+        <h1 class="pexeso-title" data-txt="btnPexeso">Pexeso</h1>
+
+        <section class="pexeso-board" id="pexesoBoard" aria-label="Pexeso hracia plocha"></section>
+
+        <div class="pexeso-status" id="pexesoStatus">
+            Nájdi dvojice.
+        </div>
+    </main>
 
     <div class="global-control-buttons">
         <a class="home-button" href="mapa.html">
@@ -35,6 +44,10 @@
         <a href="VystrojJaskyniara.html" class="hry-btn-hra" data-txt="btnVystrojJaskyniara">
             Výstroj Jaskyniara
         </a>
+
+        <button class="hry-btn-restart" id="pexesoRestart" type="button" data-txt="btnRestart">
+            Reštartovať hru
+        </button>
     </div>
 
 </body>
