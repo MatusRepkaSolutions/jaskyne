@@ -26,22 +26,22 @@
 .vystroj-game {
     position: absolute;
     top: 350px;
-    left: 450px;
-    width: 2940px;
-    height: 1335px;
+    left: 677px;
+    width: 2486px;
+    height: 1278px;
 }
 
 .vystroj-board {
     position: relative;
-    width: 2940px;
-    height: 1335px;
+    width: 2486px;
+    height: 1278px;
 }
 
 .vystroj-board-img {
     position: absolute;
     inset: 0;
-    width: 2940px;
-    height: 1335px;
+    width: 2486px;
+    height: 1278px;
     display: block;
     pointer-events: none;
     user-select: none;
@@ -49,8 +49,8 @@
 
 .vystroj-item {
     position: absolute;
-    width: 252px;
-    height: 252px;
+    width: 250px;
+    height: 250px;
     border: none;
     padding: 0;
     margin: 0;
@@ -59,7 +59,7 @@
     cursor: grab;
     touch-action: none;
     z-index: 5;
-    transition: transform 0.18s ease, opacity 0.18s ease;
+    transition: opacity 0.18s ease;
 }
 
 .vystroj-item img {
@@ -74,7 +74,6 @@
 .vystroj-item.dragging {
     cursor: grabbing;
     z-index: 50;
-    transform: scale(1.08);
     transition: none;
 }
 
@@ -85,21 +84,21 @@
 
 .vystroj-drop {
     position: absolute;
-    width: 286px;
-    height: 286px;
-    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+    border-radius: 28px;
     z-index: 3;
 }
 
 .vystroj-drop.active {
-    box-shadow: 0 0 35px rgba(213, 171, 104, 0.65);
+    box-shadow: 0 0 35px rgba(213, 171, 104, 0.75);
 }
 
 .vystroj-placed-img {
     position: absolute;
-    width: 252px;
-    height: 252px;
-    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+    border-radius: 28px;
     pointer-events: none;
     z-index: 4;
     animation: vystrojSnap 0.28s ease-out both;

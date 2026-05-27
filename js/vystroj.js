@@ -12,36 +12,45 @@ function initVystrojJaskyniara() {
     const basePath = "img/hry/vystroj/";
     const invertPath = "img/hry/vystroj/invert/";
 
-    const itemSize = 252;
-    const dropSize = 286;
+    const boardWidth = 2486;
+    const boardHeight = 1278;
+    const itemSize = 250;
+    const dropSize = 250;
+
+    const statusTexts = {
+        default: "Priraď správnu výstroj, ktorú jaskyniar potrebuje do jaskyne.",
+        correct: "Správne.",
+        wrong: "Skús iný predmet alebo iné miesto.",
+        win: "Výborne! Priradil si všetku správnu výstroj."
+    };
 
     const items = [
-        { id: 1, x: 58, y: 415 },
-        { id: 2, x: 414, y: 415 },
-        { id: 3, x: 58, y: 770 },
-        { id: 4, x: 414, y: 770 },
-        { id: 5, x: 58, y: 1126 },
-        { id: 6, x: 414, y: 1126 },
+        { id: 6, x: 50, y: 388 },
+        { id: 13, x: 351, y: 388 },
+        { id: 9, x: 50, y: 688 },
+        { id: 7, x: 351, y: 688 },
+        { id: 11, x: 50, y: 989 },
+        { id: 5, x: 351, y: 989 },
 
-        { id: 7, x: 2250, y: 58 },
-        { id: 8, x: 2606, y: 58 },
-        { id: 9, x: 2250, y: 415 },
-        { id: 10, x: 2606, y: 415 },
-        { id: 11, x: 2250, y: 770 },
-        { id: 12, x: 2606, y: 770 },
-        { id: 13, x: 2250, y: 1126 },
-        { id: 14, x: 2606, y: 1126 }
+        { id: 8, x: 1880, y: 50 },
+        { id: 3, x: 2180, y: 50 },
+        { id: 14, x: 1880, y: 350 },
+        { id: 2, x: 2180, y: 350 },
+        { id: 1, x: 1880, y: 650 },
+        { id: 4, x: 2180, y: 650 },
+        { id: 10, x: 1880, y: 950 },
+        { id: 12, x: 2180, y: 950 }
     ];
 
     const drops = [
-        { accepts: 4, x: 966, y: 86 },
-        { accepts: 12, x: 1598, y: 86 },
-        { accepts: 11, x: 870, y: 420 },
-        { accepts: 10, x: 1722, y: 420 },
-        { accepts: 1, x: 925, y: 745 },
-        { accepts: 7, x: 1660, y: 745 },
-        { accepts: 6, x: 925, y: 1085 },
-        { accepts: 8, x: 1660, y: 1085 }
+        { accepts: 7, x: 830, y: 85 },
+        { accepts: 4, x: 1368, y: 85 },
+        { accepts: 1, x: 760, y: 390 },
+        { accepts: 2, x: 1480, y: 390 },
+        { accepts: 6, x: 795, y: 690 },
+        { accepts: 8, x: 1445, y: 690 },
+        { accepts: 5, x: 775, y: 990 },
+        { accepts: 3, x: 1465, y: 990 }
     ];
 
     let placedCount = 0;
@@ -54,7 +63,9 @@ function initVystrojJaskyniara() {
     }
 
     function setStatus(text) {
-        if (status) status.textContent = text;
+        if (status) {
+            status.textContent = text;
+        }
     }
 
     function renderGame() {
@@ -65,7 +76,7 @@ function initVystrojJaskyniara() {
         placedCount = 0;
         activeDrag = null;
 
-        setStatus("Priraď správnu výstroj, ktorú jaskyniar potrebuje do jaskyne.");
+        setStatus(statusTexts.default);
 
         drops.forEach((drop, index) => {
             const dropEl = document.createElement("div");
@@ -89,7 +100,6 @@ function initVystrojJaskyniara() {
             itemEl.style.top = `${item.y}px`;
 
             itemEl.innerHTML = `<img src="${basePath}${item.id}.png" alt="">`;
-
             itemEl.addEventListener("pointerdown", startDrag);
 
             board.appendChild(itemEl);
@@ -125,8 +135,8 @@ function initVystrojJaskyniara() {
     function moveDrag(event) {
         if (!activeDrag) return;
 
-        const scaleX = 2940 / activeDrag.boardRect.width;
-        const scaleY = 1335 / activeDrag.boardRect.height;
+        const scaleX = boardWidth / activeDrag.boardRect.width;
+        const scaleY = boardHeight / activeDrag.boardRect.height;
 
         const x = (event.clientX - activeDrag.boardRect.left - activeDrag.offsetX) * scaleX;
         const y = (event.clientY - activeDrag.boardRect.top - activeDrag.offsetY) * scaleY;
@@ -145,7 +155,6 @@ function initVystrojJaskyniara() {
         const matchingDrop = getDropUnderItem(itemEl);
 
         clearDropHighlights();
-
         itemEl.classList.remove("dragging");
 
         if (matchingDrop && Number(matchingDrop.dataset.accepts) === itemId) {
@@ -224,17 +233,17 @@ function initVystrojJaskyniara() {
         placedImg.className = "vystroj-placed-img";
         placedImg.src = `${invertPath}${itemId}.png`;
         placedImg.alt = "";
-        placedImg.style.left = `${dropX + 17}px`;
-        placedImg.style.top = `${dropY + 17}px`;
+        placedImg.style.left = `${dropX}px`;
+        placedImg.style.top = `${dropY}px`;
 
         board.appendChild(placedImg);
 
         placedCount++;
 
         if (placedCount >= drops.length) {
-            setStatus("Výborne! Priradil si všetku správnu výstroj.");
+            setStatus(statusTexts.win);
         } else {
-            setStatus("Správne.");
+            setStatus(statusTexts.correct);
         }
     }
 
@@ -253,7 +262,7 @@ function initVystrojJaskyniara() {
             }
         );
 
-        setStatus("Skús iný predmet alebo iné miesto.");
+        setStatus(statusTexts.wrong);
     }
 
     if (restartButton) {
