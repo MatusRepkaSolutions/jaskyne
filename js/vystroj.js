@@ -43,12 +43,12 @@ function initVystrojJaskyniara() {
     ];
 
     const drops = [
-        { accepts: 7, x: 830, y: 85 },
-        { accepts: 4, x: 1368, y: 85 },
-        { accepts: 1, x: 760, y: 390 },
-        { accepts: 2, x: 1480, y: 390 },
-        { accepts: 6, x: 795, y: 690 },
-        { accepts: 8, x: 1445, y: 690 },
+        { accepts: 7, x: 833, y: 97 },
+        { accepts: 4, x: 1368, y: 97 },
+        { accepts: 1, x: 744, y: 370 },
+        { accepts: 2, x: 1480, y: 370 },
+        { accepts: 6, x: 795, y: 650 },
+        { accepts: 8, x: 1418, y: 690 },
         { accepts: 5, x: 775, y: 990 },
         { accepts: 3, x: 1465, y: 990 }
     ];
