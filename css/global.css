@@ -106,17 +106,19 @@ img, a {
     font-size: 46.08px;
 }
 
-.hry-btn{
+
+.hry-btn {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: 23.76px 69.12px;
+    padding: 26px 40px;
     border-radius: 999px;
     background-color: #96462F;
     color: #D5AB68;
     text-decoration: none;
     font-weight: 700;
-    font-size: 46.08px;
+    line-height: 100%;
+    font-size: 48px;
 }
 
 .hry-btn-hra{
