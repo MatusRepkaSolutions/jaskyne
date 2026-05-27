@@ -583,5 +583,70 @@
     "svk": "Následkom zaľadnenia je inverzia fauny a flóry a s ňou súvisiaca prítomnosť chladnomilných druhov. Podzemné priestory Silickej ľadnice nie sú prístupné pre verejnosť, do vstupnej časti s ľadovou výzdobou je možné nahliadnuť z vyhliadkovej terasy.",
     "hun": "Az eljegesedés következménye a fauna és a flóra inverziója, valamint az ehhez kapcsolódó hidegkedvelő fajok jelenléte. A Szilicsei-jégbarlang föld alatti terei nem látogathatók, az ice-díszítéses bejárati részre kilátóteraszról lehet betekinteni.",
     "eng": "A consequence of the icing is the inversion of fauna and flora and the related presence of cold-loving species. The underground spaces of Silica Ice Cave are not accessible to the public, but the entrance part with ice decoration can be viewed from an observation terrace."
-  }
+  },
+    "btnGames": { 
+    "svk": "Hry", 
+    "hun": "Játékok",
+    "eng": "Games"
+    },
+    "btnRastKvapla": {
+    "svk": "Rast kvapľa",
+    "hun": "Cseppkő növekedése",
+    "eng": "Stalactite Growth"
+    },
+    "btnVystrojJaskyniara": {
+        "svk": "Výstroj Jaskyniara",
+        "hun": "A barlangász felszerelése",
+        "eng": "Caver Equipment"
+    },
+    "btnPexeso": {
+        "svk": "Pexeso",
+        "eng": "Memory Game",
+        "hun": "Memóriajáték"
+    },
+    "pexesoStatusDefault": {
+        "svk": "Nájdi dvojice.",
+        "eng": "Find the matching pairs.",
+        "hun": "Találd meg az egyforma párokat."
+    },
+    "pexesoStatusMatch": {
+        "svk": "Dvojica nájdená.",
+        "eng": "Pair found.",
+        "hun": "Pár megtalálva."
+    },
+    "pexesoStatusWrong": {
+        "svk": "Skús inú dvojicu.",
+        "eng": "Try another pair.",
+        "hun": "Próbálj másik párt."
+    },
+    "pexesoStatusWin": {
+        "svk": "Výborne! Našiel si všetky dvojice.",
+        "eng": "Great! You found all pairs.",
+        "hun": "Nagyszerű! Megtaláltad az összes párt."
+    },
+    "btnRestart": {
+        "svk": "Reštartovať hru",
+        "eng": "Restart Game",
+        "hun": "Játék újraindítása"
+    },
+    "vystrojStatusDefault": {
+        "svk": "Priraď správnu výstroj, ktorú jaskyniar potrebuje do jaskyne.",
+        "eng": "Assign the correct equipment the caver needs for the cave.",
+        "hun": "Rendeld hozzá a megfelelő felszerelést, amelyre a barlangásznak szüksége van a barlangban."
+    },
+    "vystrojStatusCorrect": {
+        "svk": "Správne.",
+        "eng": "Correct.",
+        "hun": "Helyes."
+    },
+    "vystrojStatusWrong": {
+        "svk": "Skús iný predmet alebo iné miesto.",
+        "eng": "Try a different item or another place.",
+        "hun": "Próbálj másik tárgyat vagy másik helyet."
+    },
+    "vystrojStatusWin": {
+        "svk": "Výborne! Priradil si všetku správnu výstroj.",
+        "eng": "Great! You assigned all the correct equipment.",
+        "hun": "Nagyszerű! Minden megfelelő felszerelést hozzárendeltél."
+    }
 }
