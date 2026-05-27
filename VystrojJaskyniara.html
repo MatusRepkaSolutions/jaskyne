@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Výstroj jaskyniara</title>
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/map2.css">
+    <link rel="stylesheet" href="css/vystroj.css">
+
+    <script src="js/main.js" defer></script>
+    <script src="js/vystroj.js" defer></script>
+</head>
+
+<body data-translation-page="mapa" style="background: url('img/hry/Pozadie.png'); background-size: cover; background-position: center;">
+
+    <main class="vystroj-page">
+        <h1 class="vystroj-title" data-txt="btnVystrojJaskyniara">Výstroj jaskyniara</h1>
+
+        <section class="vystroj-game">
+            <div class="vystroj-board" id="vystrojBoard">
+                <img class="vystroj-board-img" src="img/hry/vystroj/game_board.png" alt="Výstroj jaskyniara">
+            </div>
+        </section>
+
+        <div class="vystroj-status" id="vystrojStatus">
+            Priraď správnu výstroj, ktorú jaskyniar potrebuje do jaskyne.
+        </div>
+    </main>
+
+    <div class="global-control-buttons">
+        <a class="home-button" href="mapa.html">
+            <img class="home-button-img" src="img/home-button.svg" alt="Domov">
+        </a>
+
+        <a href="Hry.html" class="hry-btn" data-txt="btnGames">Hry</a>
+
+        <a href="pexeso.html" class="hry-btn-hra" data-txt="btnPexeso">Pexeso</a>
+
+        <a href="RastKvapla.html" class="hry-btn-hra" data-txt="btnRastKvapla">Rast kvapľa</a>
+
+        <a href="VystrojJaskyniara.html" class="hry-btn-picked" data-txt="btnVystrojJaskyniara">
+            Výstroj Jaskyniara
+        </a>
+
+        <button class="hry-btn-restart" id="vystrojRestart" type="button" data-txt="btnRestart">
+            Reštartovať hru
+        </button>
+    </div>
+
+    <div class="map-lang-switches">
+        <a href="#" class="map-lang-btn" data-lang-switch="svk">
+            <img src="img/index/slovakia.jpg" alt="Slovak">
+        </a>
+
+        <a href="#" class="map-lang-btn" data-lang-switch="hun">
+            <img src="img/index/hungary.png" alt="Hungarian">
+        </a>
+
+        <a href="#" class="map-lang-btn" data-lang-switch="eng">
+            <img src="img/index/england.png" alt="English">
+        </a>
+    </div>
+
+</body>
+</html>

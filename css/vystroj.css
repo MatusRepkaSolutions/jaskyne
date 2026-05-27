@@ -1,0 +1,140 @@
+.vystroj-page {
+    position: fixed;
+    inset: 0;
+    width: 3840px;
+    height: 2160px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.vystroj-title {
+    position: absolute;
+    top: 80px;
+    left: 214px;
+    width: 3411px;
+    height: 155px;
+    margin: 0;
+
+    color: #d4aa6d;
+    font-family: Inter, sans-serif;
+    font-size: 128px;
+    font-weight: 900;
+    line-height: 100%;
+    text-align: center;
+}
+
+.vystroj-game {
+    position: absolute;
+    top: 350px;
+    left: 450px;
+    width: 2940px;
+    height: 1335px;
+}
+
+.vystroj-board {
+    position: relative;
+    width: 2940px;
+    height: 1335px;
+}
+
+.vystroj-board-img {
+    position: absolute;
+    inset: 0;
+    width: 2940px;
+    height: 1335px;
+    display: block;
+    pointer-events: none;
+    user-select: none;
+}
+
+.vystroj-item {
+    position: absolute;
+    width: 252px;
+    height: 252px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 34px;
+    background: transparent;
+    cursor: grab;
+    touch-action: none;
+    z-index: 5;
+    transition: transform 0.18s ease, opacity 0.18s ease;
+}
+
+.vystroj-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.vystroj-item.dragging {
+    cursor: grabbing;
+    z-index: 50;
+    transform: scale(1.08);
+    transition: none;
+}
+
+.vystroj-item.placed {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.vystroj-drop {
+    position: absolute;
+    width: 286px;
+    height: 286px;
+    border-radius: 30px;
+    z-index: 3;
+}
+
+.vystroj-drop.active {
+    box-shadow: 0 0 35px rgba(213, 171, 104, 0.65);
+}
+
+.vystroj-placed-img {
+    position: absolute;
+    width: 252px;
+    height: 252px;
+    border-radius: 30px;
+    pointer-events: none;
+    z-index: 4;
+    animation: vystrojSnap 0.28s ease-out both;
+}
+
+.vystroj-status {
+    position: absolute;
+    top: 1844px;
+    left: 214px;
+
+    width: 3411px;
+    height: 58px;
+    margin: 0;
+
+    color: #d4aa6d;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+}
+
+@keyframes vystrojSnap {
+    0% {
+        opacity: 0;
+        transform: scale(0.72);
+    }
+
+    70% {
+        opacity: 1;
+        transform: scale(1.08);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
