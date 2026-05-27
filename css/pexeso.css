@@ -61,6 +61,7 @@
 }
 
 .pexeso-card-inner {
+    display: block;
     width: 100%;
     height: 100%;
     position: relative;
@@ -112,19 +113,10 @@
     animation: pexesoMatchedPop 0.45s ease both;
 }
 
-.pexeso-card.matched .pexeso-card-face {
-    box-shadow:
-        0 0 35px rgba(212, 170, 109, 0.75),
-        0 14px 28px rgba(0, 0, 0, 0.42);
-}
-
 .pexeso-card.wrong .pexeso-card-inner {
     animation: pexesoWrong 0.35s ease;
 }
 
-.pexeso-card.hidden-after-match {
-    animation: pexesoFadeMatched 0.45s ease forwards;
-}
 
 .pexeso-status {
     position: absolute;
