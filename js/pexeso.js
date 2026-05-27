@@ -22,6 +22,13 @@ function initPexeso() {
         "img/hry/pexeso/p8.png"
     ];
 
+    const textKeys = {
+        default: "pexesoStatusDefault",
+        match: "pexesoStatusMatch",
+        wrong: "pexesoStatusWrong",
+        win: "pexesoStatusWin"
+    };
+
     let firstCard = null;
     let secondCard = null;
     let lockBoard = false;
@@ -31,6 +38,31 @@ function initPexeso() {
         if (typeof window.playClickSound === "function") {
             window.playClickSound();
         }
+    }
+
+    function getTranslatedText(key, fallback) {
+        const currentLang =
+            localStorage.getItem("selectedLanguage") ||
+            localStorage.getItem("language") ||
+            document.documentElement.lang ||
+            "svk";
+
+        if (
+            window.translations &&
+            window.translations[key] &&
+            window.translations[key][currentLang]
+        ) {
+            return window.translations[key][currentLang];
+        }
+
+        return fallback;
+    }
+
+    function setStatus(key, fallback) {
+        if (!status) return;
+
+        status.dataset.txt = key;
+        status.textContent = getTranslatedText(key, fallback);
     }
 
     function shuffle(array) {
@@ -55,14 +87,13 @@ function initPexeso() {
 
     function renderBoard() {
         board.innerHTML = "";
+
         firstCard = null;
         secondCard = null;
         lockBoard = false;
         matchedPairs = 0;
 
-        if (status) {
-            status.textContent = "Nájdi dvojice.";
-        }
+        setStatus(textKeys.default, "Nájdi dvojice.");
 
         const deck = createDeck();
 
@@ -119,15 +150,18 @@ function initPexeso() {
 
             matchedPairs++;
 
-            resetSelection();
+            setStatus(textKeys.match, "Dvojica nájdená.");
 
-            if (matchedPairs === cardImages.length) {
-                if (status) {
-                    status.textContent = "Výborne! Našiel si všetky dvojice.";
+            setTimeout(() => {
+                if (firstCard) firstCard.classList.add("hidden-after-match");
+                if (secondCard) secondCard.classList.add("hidden-after-match");
+
+                resetSelection();
+
+                if (matchedPairs === cardImages.length) {
+                    setStatus(textKeys.win, "Výborne! Našiel si všetky dvojice.");
                 }
-            } else if (status) {
-                status.textContent = "Dvojica nájdená.";
-            }
+            }, 450);
 
             return;
         }
@@ -135,9 +169,7 @@ function initPexeso() {
         firstCard.classList.add("wrong");
         secondCard.classList.add("wrong");
 
-        if (status) {
-            status.textContent = "Skús inú dvojicu.";
-        }
+        setStatus(textKeys.wrong, "Skús inú dvojicu.");
 
         setTimeout(() => {
             firstCard.classList.remove("flipped", "wrong");
@@ -145,10 +177,8 @@ function initPexeso() {
 
             resetSelection();
 
-            if (status) {
-                status.textContent = "Nájdi dvojice.";
-            }
-        }, 850);
+            setStatus(textKeys.default, "Nájdi dvojice.");
+        }, 950);
     }
 
     function resetSelection() {
