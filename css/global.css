@@ -234,7 +234,11 @@ img, a {
 .global-nav-btn,
 .home-button,
 .cave-tab-btn,
-.map2-button {
+.map2-button,
+.hry-btn,
+.hry-btn-hra,
+.hry-btn-picked,
+.hry-btn-restart {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -249,7 +253,11 @@ img, a {
 
 .map-nav-btn.button-anim-global-active,
 .global-nav-btn.button-anim-global-active,
-.cave-tab-btn.button-anim-global-active {
+.cave-tab-btn.button-anim-global-active,
+.hry-btn.button-anim-global-active,
+.hry-btn-hra.button-anim-global-active, 
+.hry-btn-picked.button-anim-global-active,
+.hry-btn-restart.button-anim-global-active   {
     color: #4F4B45;
     background-color: #D5AB68;
     animation: buttonReveal 0.25s ease-out forwards;
