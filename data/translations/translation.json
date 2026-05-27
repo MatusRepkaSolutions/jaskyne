@@ -588,5 +588,20 @@
         "svk": "Následkom zaľadnenia je inverzia fauny a flóry a s ňou súvisiaca prítomnosť chladnomilných druhov. Podzemné priestory Silickej ľadnice nie sú prístupné pre verejnosť, do vstupnej časti s ľadovou výzdobou je možné nahliadnuť z vyhliadkovej terasy.",
         "hun": "A jégképződés következtében a növény- és állatvilág összetétele megváltozott, és ezzel együtt hidegkedvelő fajok jelentek meg. A barlang földalatti részeit a nyilvánosság nem látogathatja, a jégdíszítéssel ellátott bejárati része azonban a kilátóteraszról megtekinthető.",
         "eng": "Glaciation has led to an inversion of fauna and flora, resulting in the presence of cold-adapted species.\nThe underground spaces of the Silica Ice Cave are not accessible to the public; however, the ice-decorated entrance section can be viewed from an observation terrace."
+    },
+    "btnGames": { 
+    "svk": "Hry", 
+    "hun": "Játékok",
+    "eng": "Games"
+    },
+    "btnRastKvapla": {
+    "svk": "Rast kvapľa",
+    "hun": "Cseppkő növekedése",
+    "eng": "Stalactite Growth"
+    },
+    "btnVystrojJaskyniara": {
+        "svk": "Výstroj Jaskyniara",
+        "hun": "A barlangász felszerelése",
+        "eng": "Caver Equipment"
     }
 }

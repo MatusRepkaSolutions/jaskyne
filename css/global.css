@@ -105,6 +105,48 @@ img, a {
     font-size: 46.08px;
 }
 
+.hry-btn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 186.6px;
+    padding: 23.76px 69.12px;
+    border-radius: 999px;
+    background-color: #96462F;
+    color: #D5AB68;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 46.08px;
+}
+
+.hry-btn-hra{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 186.6px;
+    padding: 23.76px 69.12px;
+    border-radius: 999px;
+    background-color: #4D352F;
+    color: #C19E6A;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 46.08px;
+}
+
+.hry-btn-picked{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 186.6px;
+    padding: 23.76px 69.12px;
+    border-radius: 999px;
+    background-color: #C19E6A;
+    color: #96462F;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 46.08px;
+}
+
 /* language switch buttons */
 
 .map-lang-switches{
