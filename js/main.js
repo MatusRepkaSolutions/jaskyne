@@ -268,7 +268,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function initRedirectButtons() {
         const redirectButtons = document.querySelectorAll(
-            ".map-nav-btn, .global-nav-btn, .home-button, .map2-button"
+            ".map-nav-btn, .global-nav-btn, .home-button, .map2-button, .hry-btn, .hry-btn-hra, .hry-btn-picked, .hry-btn-restart"
         );
 
         redirectButtons.forEach((button) => {
