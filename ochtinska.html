@@ -178,9 +178,21 @@
         </div>
     </div>
 
-    <div class="cave-tab-panel cave-video-panel" id="tab-video">
-        <div class="cave-placeholder" data-txt="videoPlaceholder">
-            Video bude doplnené.
+    <div 
+        class="cave-tab-panel cave-video-panel" 
+        id="tab-video"
+        data-video-base="Ochtinska"
+    >
+        <div class="cave-video-wrapper">
+            <video 
+                class="cave-video"
+                id="caveVideo"
+                preload="metadata"
+                playsinline
+                controls
+                controlsList="nodownload noplaybackrate"
+                disablePictureInPicture
+            ></video>
         </div>
     </div>
 
