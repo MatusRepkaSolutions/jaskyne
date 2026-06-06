@@ -262,9 +262,12 @@ body{
 }
 
 .gallery-slide-img {
-    width: auto;
+    width: 100%;
     height: 100%;
-    object-fit: cover;
+    max-width: 1500px;
+    max-height: 1080px;
+    object-fit: contain;
+    object-position: center center;
     margin: 0 auto;
     display: block;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
@@ -351,7 +354,8 @@ body{
 /* Video GUI update */
 .cave-video-wrapper { position: relative; border-radius: 18px; }
 .cave-video { pointer-events: none; }
-.cave-video-play {
+.cave-video-play,
+.cave-video-close {
     position: absolute;
     z-index: 8;
     border: 0;
@@ -373,38 +377,14 @@ body{
     font-size: 86px;
     padding-left: 14px;
 }
-.cave-video-stop {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 340px;
-    margin: 26px auto 0;
-    padding: 18px 44px;
-    border: 0;
-    border-radius: 999px;
-    cursor: pointer;
-    font-size: 28px;
-    font-weight: 800;
-    color: #f1d09a;
-    background: rgba(139,58,42,0.92);
-    box-shadow: 0 0 22px rgba(0,0,0,0.35);
+.cave-video-close {
+    right: 34px;
+    top: 34px;
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    font-size: 62px;
+    line-height: 1;
 }
 .cave-video-wrapper.is-playing .cave-video-play { opacity: 0; pointer-events: none; }
-.cave-video-wrapper:not(.is-playing) + .cave-video-stop { opacity: 0.65; }
-
-/* FIX: keep cave tab buttons in the same vertical position as the Slovak Karst pages,
-   even when the Video tab is removed from Aggtelek cave pages. */
-.cave-button-wrappers {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 300px;
-    z-index: 25;
-    margin: 0;
-    height: 107.52px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 73px;
-    pointer-events: auto;
-}
+.cave-video-wrapper:not(.is-playing) .cave-video-close { opacity: 0.55; }
