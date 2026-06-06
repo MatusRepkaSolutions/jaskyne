@@ -118,6 +118,7 @@ body{
     left: 1405.4px;
     top: 1714.8px;
     font-size: 36px;
+    width: 273px;
 }
 
 .pos3 {
@@ -128,18 +129,22 @@ body{
     max-width: 499.2px;
     align-items: center;
     font-size: 36px;
+    width: 320px;
 }
-
+.special-mark1{
+    margin: 0 0 0 auto;
+}
 .pos4 {
     left: 2441.4px;
     top: 1041.6px;
-    max-width: fit-content;
+    width: 305px;
     font-size: 36px;
 }
 
 .pos5 {
     left: 1584.4px;
     top: 1235px;
+    width: 252px;
     font-size: 36px;
 }
 
@@ -147,6 +152,7 @@ body{
     left: 1410.2px;
     top: 1463.4px;
     font-size: 36px;
+    width: 252px;
 }
 
 .pos7 {
