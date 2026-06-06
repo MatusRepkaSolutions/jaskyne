@@ -54,15 +54,15 @@
         "hun": "A világon található (látogatható) aragonitbarlangok száma",
         "eng": "Number of aragonite caves in the world (open to the public)"
     },
-    "btnGames": { 
-    "svk": "Hry", 
-    "hun": "Játékok",
-    "eng": "Games"
+    "btnGames": {
+        "svk": "Hry",
+        "hun": "Játékok",
+        "eng": "Games"
     },
     "btnRastKvapla": {
-    "svk": "Rast kvapľa",
-    "hun": "Cseppkő növekedése",
-    "eng": "Stalactite Growth"
+        "svk": "Rast kvapľa",
+        "hun": "Cseppkő növekedése",
+        "eng": "Stalactite Growth"
     },
     "btnVystrojJaskyniara": {
         "svk": "Výstroj Jaskyniara",
@@ -118,5 +118,20 @@
         "svk": "Výborne! Priradil si všetku správnu výstroj.",
         "eng": "Great! You assigned all the correct equipment.",
         "hun": "Nagyszerű! Minden megfelelő felszerelést hozzárendeltél."
+    },
+    "vystrojInstruction": {
+        "svk": "Vyber predmet a priraď ho na správne miesto na postave.",
+        "hun": "Válassz tárgyat, és helyezd a megfelelő helyre az alakon.",
+        "eng": "Choose an item and place it on the correct spot on the figure."
+    },
+    "rastInstruction": {
+        "svk": "Posúvaj časovú os a sleduj, ako kvapeľ rastie v čase.",
+        "hun": "Mozgasd az idővonalat, és figyeld, hogyan növekszik a cseppkő az idő múlásával.",
+        "eng": "Move the timeline and watch how the stalactite grows over time."
+    },
+    "rastFallback": {
+        "svk": "Sem vlož GIF alebo obrázky fáz rastu kvapľa.",
+        "hun": "Ide helyezd be a GIF-et vagy a cseppkő növekedési fázisainak képeit.",
+        "eng": "Place the GIF or images of the stalactite growth stages here."
     }
 }

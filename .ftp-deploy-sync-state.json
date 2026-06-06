@@ -1,0 +1,1689 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1780737951099,
+    "data": [
+        {
+            "type": "file",
+            "name": "Hry.html",
+            "size": 1644,
+            "hash": "935021f0559920c1751cb700db3949fb6d6356e83623f620ec45787b3aa889f1"
+        },
+        {
+            "type": "file",
+            "name": "RastKvapla.html",
+            "size": 1625,
+            "hash": "b11c3dff97529d9bf4b516d8f6234214d2c6b1df413d3bcdc4f70839d5fb0252"
+        },
+        {
+            "type": "file",
+            "name": "VystrojJaskyniara.html",
+            "size": 2312,
+            "hash": "88b6d63a49aa5fe2387f9c6681f400f6af7c2c811a68b2514bcd66979f374f89"
+        },
+        {
+            "type": "file",
+            "name": "aggtelek-kras.html",
+            "size": 3007,
+            "hash": "8e3115fc7585a8e2daf26b30b82b622a17d9a8457546bb0a532ff024de7b7b08"
+        },
+        {
+            "type": "file",
+            "name": "baradla.html",
+            "size": 7271,
+            "hash": "40b96a0f9da4dd4fcfc35529e3b8c72bfa49e1adbad93a51120e11ca11249970"
+        },
+        {
+            "type": "file",
+            "name": "beke.html",
+            "size": 5147,
+            "hash": "ebd54ca656fb3258bd7db08c9bbf219eced0f02b577499bbfcd5589c1c6e2b77"
+        },
+        {
+            "type": "folder",
+            "name": "css"
+        },
+        {
+            "type": "folder",
+            "name": "data"
+        },
+        {
+            "type": "file",
+            "name": "dobsinska.html",
+            "size": 9781,
+            "hash": "6440ed046cd353533d0315d360a917e866373b4122a68a04a65e62e415a08478"
+        },
+        {
+            "type": "file",
+            "name": "domica.html",
+            "size": 9682,
+            "hash": "341dcc256816a30f70a6e4e63e4dd95803bb6e658df68a77ce021c82ab83dc54"
+        },
+        {
+            "type": "folder",
+            "name": "fonts"
+        },
+        {
+            "type": "file",
+            "name": "gombasecka.html",
+            "size": 9393,
+            "hash": "0a114e6e6e808bada9e1ac8ea7fe8f94cf3198d5a6fd1b94edfa02d935335880"
+        },
+        {
+            "type": "folder",
+            "name": "img"
+        },
+        {
+            "type": "file",
+            "name": "index.html",
+            "size": 1352,
+            "hash": "3ad38c115ff756d143e9206b0c4b0cd86eeb73b8f5863fab270fc0ae8e6f07ad"
+        },
+        {
+            "type": "file",
+            "name": "imreho.html",
+            "size": 5191,
+            "hash": "cb71adf793f67d7de3586b6773999cf8a5874197018d388f6180bf7ba0cb5297"
+        },
+        {
+            "type": "file",
+            "name": "jasovska.html",
+            "size": 10322,
+            "hash": "b1b6fb63a60529ac85f3ba0898649c9ecf6343973fb2ccc9c58404df7af96b44"
+        },
+        {
+            "type": "folder",
+            "name": "js"
+        },
+        {
+            "type": "file",
+            "name": "kossuthova.html",
+            "size": 5489,
+            "hash": "38c86cfd0e0c338ccb58acad6453c30ae12a8861c4048fa798d23b8eb6199f08"
+        },
+        {
+            "type": "file",
+            "name": "krasnohorska.html",
+            "size": 9451,
+            "hash": "dace62ff861cb847308c91b50100c318d64ae6a4d281edae549a1ba44c0d45f8"
+        },
+        {
+            "type": "file",
+            "name": "mapa.html",
+            "size": 3281,
+            "hash": "06f2f8000ac260435686aeee8417e7131a4d268701209e0cff38b6585157c23d"
+        },
+        {
+            "type": "file",
+            "name": "ochtinska.html",
+            "size": 9359,
+            "hash": "fe5f0d68eabb141031dfa9dd5b5ea5ad93b82acb06552acb0225feb52990782a"
+        },
+        {
+            "type": "file",
+            "name": "meteor.html",
+            "size": 5761,
+            "hash": "7691d0a34b3c63237debee278714a92e31effc6581055512eecf54cc31f8c835"
+        },
+        {
+            "type": "file",
+            "name": "pexeso.html",
+            "size": 2150,
+            "hash": "c27868eaa4f2d6b3a91b3cd1cf99fae19d72d5f9822b85e3b3a5ee88c64634ac"
+        },
+        {
+            "type": "file",
+            "name": "rakocziho.html",
+            "size": 5182,
+            "hash": "ccd69a28286e8178a07547eab80c37c7cca50963ea2e6db7e85b839d0b608700"
+        },
+        {
+            "type": "file",
+            "name": "silicka.html",
+            "size": 9416,
+            "hash": "d9050f9638454bf621d66d668e061b7bc3e9141b62e2d024246e23bacf9568d0"
+        },
+        {
+            "type": "file",
+            "name": "slovensky-kras.html",
+            "size": 3307,
+            "hash": "8982d491155e26083b7794d16e08207cd385e1ea1e55946fc7c3115993a98625"
+        },
+        {
+            "type": "file",
+            "name": "translation.json",
+            "size": 44561,
+            "hash": "08b1ee640a2f47c904e344aa59b5eef161b77cdd80bf8e542f4cea2cef81cc87"
+        },
+        {
+            "type": "folder",
+            "name": "videos"
+        },
+        {
+            "type": "file",
+            "name": "css/cave-page.css",
+            "size": 6668,
+            "hash": "1f87eb1e8927de0b15059ffd40556bafb793659866e24f9374fd2b22954c22b2"
+        },
+        {
+            "type": "file",
+            "name": "css/global.css",
+            "size": 6123,
+            "hash": "528ec44064316b5de2788e299cefc54368cc99fbf8c37863db8991f169affb5f"
+        },
+        {
+            "type": "file",
+            "name": "css/index.css",
+            "size": 2642,
+            "hash": "0e97c113dc7b561ab96945275b77fe589762adb62166474591358389650bfcb0"
+        },
+        {
+            "type": "file",
+            "name": "css/map2.css",
+            "size": 4557,
+            "hash": "b1c9fb450491ecde2d7b63308e95d4d145ea66392d7eee586a7b667c8994e2e2"
+        },
+        {
+            "type": "file",
+            "name": "css/pexeso.css",
+            "size": 3302,
+            "hash": "af8558bedce47e0ab4c35c56ca72c07be9600395c21ba7816d58cf7566c32003"
+        },
+        {
+            "type": "file",
+            "name": "css/map.css",
+            "size": 4327,
+            "hash": "f2af508ebd56f7c06f3cd429bbf5e1ad1bbd6b587ec09c35b5ef9db5cf3cdb8d"
+        },
+        {
+            "type": "file",
+            "name": "css/vystroj.css",
+            "size": 2418,
+            "hash": "fe8c5bac4ca185ee99c99ceaff0404e2645e5b772013dec9d3d3a7290a719f90"
+        },
+        {
+            "type": "file",
+            "name": "data/drop.WAV",
+            "size": 69676,
+            "hash": "eef99f05815cb6c4de33de4c501228e46be20836d1aecbef5e3753466191ad2b"
+        },
+        {
+            "type": "folder",
+            "name": "data/gallery"
+        },
+        {
+            "type": "folder",
+            "name": "data/translations"
+        },
+        {
+            "type": "file",
+            "name": "fonts/coiny-v17-latin_latin-ext-regular.woff2",
+            "size": 25564,
+            "hash": "a3b63c7debe13434be9468b96bef0978c3d59e40767e840ab6ad1ccde2c59dc2"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-100.woff2",
+            "size": 49992,
+            "hash": "31bf45fb8d99024063b77a3ef075aacef86d7a4d9f59bdb4b750c493f8ee7146"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-100italic.woff2",
+            "size": 53252,
+            "hash": "118476f46ee63a314f13f6274f549e97175f7bbfaf3179d898cd0b513f75008f"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-200.woff2",
+            "size": 51600,
+            "hash": "9d84f430a42d8ca08f035550b81ca46af2617fcbc62bb95e8229b69f741da2e0"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-200italic.woff2",
+            "size": 54864,
+            "hash": "48b2f19d9ffdd21fbf35f7a586f28014de5b488f72c6fb1a8a7c3a2cc1bbb5ad"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-300.woff2",
+            "size": 51888,
+            "hash": "a705959c6d6f6f14ce823cc14cd0024bca191c76626549e5a3f5efc85a3e99e9"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-300italic.woff2",
+            "size": 55152,
+            "hash": "176eef2b517c92575f92ac6169e76d92fb4a9f2254048f2bd04f0b9082adad2f"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-500.woff2",
+            "size": 52304,
+            "hash": "7a2a4832506447653f01c6b5421babc0540dac1c35857a121bfa1336cedd6264"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-500italic.woff2",
+            "size": 56092,
+            "hash": "4e54a9d4a69bdffa0430f3606b5eac231a3ef4af18de25cb61b6a50629e5de92"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-600.woff2",
+            "size": 52452,
+            "hash": "5bd868c2ed6a9c2bb0e5df95273ab08a37c6cb1fae261bf835cf92ebf81efcfb"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-600italic.woff2",
+            "size": 56248,
+            "hash": "ee62e89739d8b25ce775a177c2388925b13cf4fbfc96ee9931b885431a2aac0f"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-700.woff2",
+            "size": 52584,
+            "hash": "995e0bd2f370dd31b874878f0664ae3bbdc4fea947ea6dc80fd988e171a18b12"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-700italic.woff2",
+            "size": 56256,
+            "hash": "e446dd05507d64380ef6a6ea272a5b2b6917d73f4f8fa6cf88a4ad2449b7868e"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-800.woff2",
+            "size": 52608,
+            "hash": "a8f15d3213a80013fdadfd5020f90ba15d55073b9558fbe89d7f775dbcbaec7b"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-800italic.woff2",
+            "size": 56248,
+            "hash": "366c61e2a788247a4081377e893eb11fff7e62f63d31746a58d08615b6ab7e1b"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-900.woff2",
+            "size": 51212,
+            "hash": "4bd6a6d5922803834d3383ae4e73d6aa1057d5e1da214615cc0e3f3787409bfd"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-900italic.woff2",
+            "size": 54808,
+            "hash": "6a02c841613187a277de32102c556094d3e11fdcee0dd93c498a2dcdfe6de431"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-italic.woff2",
+            "size": 54164,
+            "hash": "5b9ce1e71bf9df79f68e5b7be01ab1d11533740d92dcefc77db4697bfe845c9f"
+        },
+        {
+            "type": "file",
+            "name": "fonts/inter-v20-latin_latin-ext-regular.woff2",
+            "size": 50696,
+            "hash": "c5ef976fc27b16b9145b977611f41ca32b4838596c35f92615e46521140ccb11"
+        },
+        {
+            "type": "file",
+            "name": "fonts/pt-sans-v18-latin_latin-ext-700.woff2",
+            "size": 61552,
+            "hash": "45c277b68a39249adb5b800fa8175812a8ec2a9c94980ee709eed959576f02e1"
+        },
+        {
+            "type": "file",
+            "name": "fonts/pt-sans-v18-latin_latin-ext-700italic.woff2",
+            "size": 43328,
+            "hash": "5af3ab9a8afde8806789853d424945803ce2f40bef160e333d79f409b98c8994"
+        },
+        {
+            "type": "file",
+            "name": "fonts/pt-sans-v18-latin_latin-ext-italic.woff2",
+            "size": 54356,
+            "hash": "2386c4975732b7e3c05172e6fbe9bc05ebde186fdb48a436a53083820b2a1f17"
+        },
+        {
+            "type": "file",
+            "name": "fonts/pt-sans-v18-latin_latin-ext-regular.woff2",
+            "size": 58204,
+            "hash": "26c9450372f7bd64dbeec0bdbe9b4c2e78bf3e62be069f78fb2d0f2d34cddc86"
+        },
+        {
+            "type": "folder",
+            "name": "img/agg-mapa"
+        },
+        {
+            "type": "folder",
+            "name": "img/cavebg"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery"
+        },
+        {
+            "type": "file",
+            "name": "img/home-button.svg",
+            "size": 447,
+            "hash": "b6bf90b0aa44fe57d75b0ad3fd1a72fbe0b697e3ce808fce5b0d2083dc477ce0"
+        },
+        {
+            "type": "folder",
+            "name": "img/index"
+        },
+        {
+            "type": "folder",
+            "name": "img/hry"
+        },
+        {
+            "type": "folder",
+            "name": "img/kras-mapa"
+        },
+        {
+            "type": "folder",
+            "name": "img/mapa"
+        },
+        {
+            "type": "file",
+            "name": "img/subpage-bg.svg",
+            "size": 500377,
+            "hash": "6dcfd07d474709c7ad237718a1a2095722af2d0df8954cf5f8c3158d86d6d08f"
+        },
+        {
+            "type": "file",
+            "name": "js/cave-page.js",
+            "size": 9905,
+            "hash": "65fe934236abf4ccb50f1598e80a200d8cee73bdc2d8c6e3f2f638d44a07a466"
+        },
+        {
+            "type": "file",
+            "name": "js/index.js",
+            "size": 1295,
+            "hash": "9e914322bc0fd2c4cf45b35324b3f72529a076ebf335f2fff44dea896ca8266b"
+        },
+        {
+            "type": "file",
+            "name": "js/kras-mapa.js",
+            "size": 1325,
+            "hash": "6a51acba772d84b4939cc6d405a24ba0a94c218ae564810b3b9061f5b30aab28"
+        },
+        {
+            "type": "file",
+            "name": "js/main.js",
+            "size": 13291,
+            "hash": "184d30c25f4eaf7ce07a02dac735637eeabfb4c577c9551d8e1212b3dcc9caac"
+        },
+        {
+            "type": "file",
+            "name": "js/pexeso.js",
+            "size": 5585,
+            "hash": "fa201d132da887981fdc6761681e4cd585ccdf423d33fa43def3dff17ec4c48b"
+        },
+        {
+            "type": "file",
+            "name": "js/vystroj.js",
+            "size": 8653,
+            "hash": "f89dcf05dfd5d8afd10d1c86c5685c808faf01c47c4a79caf22c32115c5e38bb"
+        },
+        {
+            "type": "file",
+            "name": "videos/Dobsinska-EN.mp4",
+            "size": 69701527,
+            "hash": "fb1798514d46d16fc6b3a4dd8bcfe9b45913bf1470f24f8cef91533e94e11f77"
+        },
+        {
+            "type": "file",
+            "name": "videos/Dobsinska-HU.mp4",
+            "size": 69725046,
+            "hash": "27228da03e43a62ac3585ee1aa03c2efdbcbb6c752a6456a82c91aeee6bcacb2"
+        },
+        {
+            "type": "file",
+            "name": "videos/Dobsinska-SK.mp4",
+            "size": 61453135,
+            "hash": "f932992996db2b039afd82e3b6fb5530dc4dabcf2de208a7a2c50d605ee8c52d"
+        },
+        {
+            "type": "file",
+            "name": "videos/Domica-EN.mp4",
+            "size": 66813222,
+            "hash": "2a9ed08df56954847ee4b36cbf79b865612fc356bab3537c7f93c46dbc9a84ae"
+        },
+        {
+            "type": "file",
+            "name": "videos/Domica-HU.mp4",
+            "size": 69184439,
+            "hash": "e39a7e62a6dcf27be07b7b560b3d09a9d67be996b4c5a0d09f046b3dfdba52f7"
+        },
+        {
+            "type": "file",
+            "name": "videos/Domica-SK.mp4",
+            "size": 64555580,
+            "hash": "7b2db5689aa5b477fbe128680806f0b2e1ed1d15b6d58515d9b27a209af2abd0"
+        },
+        {
+            "type": "file",
+            "name": "videos/Jasovska-EN.mp4",
+            "size": 59606590,
+            "hash": "ebaab404679c7522acd9bdf48ce7679da2ac3d9db27ec2d9357f84bcbaa0dab0"
+        },
+        {
+            "type": "file",
+            "name": "videos/Jasovska-HU.mp4",
+            "size": 59626737,
+            "hash": "7cda95e62101a110e53fba62928dfb5740d7b2ac1a6f9d1cb583db61cb4ca0c7"
+        },
+        {
+            "type": "file",
+            "name": "videos/Jasovska-SK.mp4",
+            "size": 59580512,
+            "hash": "6a03d17dc0c6a8d73c54f47d191dc180eb20fa51e8c92997a36bd72629c18e97"
+        },
+        {
+            "type": "file",
+            "name": "videos/Ochtinska-EN.mp4",
+            "size": 68122090,
+            "hash": "3c435aa381e0c31dff758ea3b959070c612d0878eb2f88442249bb182717bdee"
+        },
+        {
+            "type": "file",
+            "name": "videos/Ochtinska-HU.mp4",
+            "size": 68098956,
+            "hash": "6930091c3bca734cca4462e660601c8504beb12b1c9ab35321ad8fff4f0c2e42"
+        },
+        {
+            "type": "file",
+            "name": "videos/Ochtinska-SK.mp4",
+            "size": 68072559,
+            "hash": "c0ac7657b7c38fec8d72c865c569f9869426b6bca27308ed5210bcf932453809"
+        },
+        {
+            "type": "file",
+            "name": "data/gallery/baradla.json",
+            "size": 1022,
+            "hash": "1e3bfe611e5d758ec876b2492c83aa9822973f7bac4b611a1607ee5ad79bb371"
+        },
+        {
+            "type": "file",
+            "name": "data/gallery/beke.json",
+            "size": 1022,
+            "hash": "1e3bfe611e5d758ec876b2492c83aa9822973f7bac4b611a1607ee5ad79bb371"
+        },
+        {
+            "type": "file",
+            "name": "data/gallery/dobsinska.json",
+            "size": 1022,
+            "hash": "1e3bfe611e5d758ec876b2492c83aa9822973f7bac4b611a1607ee5ad79bb371"
+        },
+        {
+            "type": "file",
+            "name": "data/gallery/domnica.json",
+            "size": 1022,
+            "hash": "1e3bfe611e5d758ec876b2492c83aa9822973f7bac4b611a1607ee5ad79bb371"
+        },
+        {
+            "type": "file",
+            "name": "data/gallery/gombasecka.json",
+            "size": 1022,
+            "hash": "1e3bfe611e5d758ec876b2492c83aa9822973f7bac4b611a1607ee5ad79bb371"
+        },
+        {
+            "type": "file",
+            "name": "data/gallery/imrehovassa.json",
+            "size": 1022,
+            "hash": "1e3bfe611e5d758ec876b2492c83aa9822973f7bac4b611a1607ee5ad79bb371"
+        },
+        {
+            "type": "file",
+            "name": "data/gallery/jasovska.json",
+            "size": 1022,
+            "hash": "1e3bfe611e5d758ec876b2492c83aa9822973f7bac4b611a1607ee5ad79bb371"
+        },
+        {
+            "type": "file",
+            "name": "data/gallery/kossuthova.json",
+            "size": 1022,
+            "hash": "1e3bfe611e5d758ec876b2492c83aa9822973f7bac4b611a1607ee5ad79bb371"
+        },
+        {
+            "type": "file",
+            "name": "data/gallery/krasnohorska.json",
+            "size": 1022,
+            "hash": "1e3bfe611e5d758ec876b2492c83aa9822973f7bac4b611a1607ee5ad79bb371"
+        },
+        {
+            "type": "file",
+            "name": "data/gallery/meteor.json",
+            "size": 1022,
+            "hash": "1e3bfe611e5d758ec876b2492c83aa9822973f7bac4b611a1607ee5ad79bb371"
+        },
+        {
+            "type": "file",
+            "name": "data/gallery/ochtinska.json",
+            "size": 1022,
+            "hash": "1e3bfe611e5d758ec876b2492c83aa9822973f7bac4b611a1607ee5ad79bb371"
+        },
+        {
+            "type": "file",
+            "name": "data/gallery/rakocziho.json",
+            "size": 1022,
+            "hash": "1e3bfe611e5d758ec876b2492c83aa9822973f7bac4b611a1607ee5ad79bb371"
+        },
+        {
+            "type": "file",
+            "name": "data/gallery/silicka.json",
+            "size": 1022,
+            "hash": "1e3bfe611e5d758ec876b2492c83aa9822973f7bac4b611a1607ee5ad79bb371"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/beke.json",
+            "size": 2802,
+            "hash": "c4e6d4f25cb6beca97654e112b222b5bf0f40dd01512e239bdf59b75a548efd8"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/baradla.json",
+            "size": 6612,
+            "hash": "19e0e785d9a979bebafd95726383dfbbc850b5b2d4dfbfd7f958551f760b1660"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/dobsinska.json",
+            "size": 8828,
+            "hash": "2963038f622fdf5dee9518852803517d22bf4345a1bc6eb1426b9a1891f2ef5a"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/domica.json",
+            "size": 9061,
+            "hash": "421a3b6343aa7eb1793acfef2b6ab2c4ab77933bc8ef5b5958ac88830072f448"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/global.json",
+            "size": 3851,
+            "hash": "2c561703ccc7393453ce7d5a0f3a4406df90e2e583111053939e790b721028aa"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/gombasecka.json",
+            "size": 9502,
+            "hash": "f380cd314a90eeb067c43b47d469259ceb841d0950a530495b156847979a8b36"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/imrehovassa.json",
+            "size": 3052,
+            "hash": "96d11c2390483835ac5abc731d51aa981b2bbfdae904e07fd10a291132864edc"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/index.json",
+            "size": 89,
+            "hash": "ac6bb0c15b2bd9cf4d1fb3f40975fc2bee1a598aad97d8fe13596f594a40fe71"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/jasovska.json",
+            "size": 8688,
+            "hash": "4f8721da513eacf6044519529cb7cd202bcaa7ceb87775d38216b0f295dee059"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/kossuthova.json",
+            "size": 3089,
+            "hash": "1e1e6d7d04ed0d246f3ae97e41a8a9178d51b535d11ebc557fc8362b2eb5de54"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/krasnohorska.json",
+            "size": 9276,
+            "hash": "5b576158379da5156ca528468f268241260a69ffe50aab140ecda54d1df1aed5"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/meteor.json",
+            "size": 3189,
+            "hash": "0bc2639c4eb816cf06eaa22169e3bbcfcb73c642a8aa29160781930ae7b5c662"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/mapa.json",
+            "size": 8582,
+            "hash": "e26402f22a69ca656a7e3958fce7d61bcbfa7a4ae486a89bfc89afb7310788f5"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/ochtinska.json",
+            "size": 7974,
+            "hash": "2975fbfc09b9a9f4eda382668092fa70e37a44793c9d6edf61b86fe12b589430"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/rakocziho.json",
+            "size": 3530,
+            "hash": "06ff21037f863dd9eddc0e35f87b9ef414ced0cd026ef5c899ea35d2ab5d0a82"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/silicka.json",
+            "size": 8339,
+            "hash": "8d7d6df57fe84263c115edf70f05fb296ff900a26cddc2a5eec7ea3dd5274abe"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/translation.json",
+            "size": 48555,
+            "hash": "5440ce6ba2a8129b6766762a3c580e41bf5b6828f19d37ca507b110813ecce2d"
+        },
+        {
+            "type": "file",
+            "name": "data/translations/updated_jsons_change_report.tsv",
+            "size": 88780,
+            "hash": "ee5eaa552294279bf4ef8ebe0c9c3b3168b891687d0571803575b03a7146a601"
+        },
+        {
+            "type": "file",
+            "name": "img/agg-mapa/background.png",
+            "size": 2442811,
+            "hash": "277c5bf1a2344d82ea37ad0affcc600e60432d7ebeb064ceb310d10b0d0b5ba3"
+        },
+        {
+            "type": "file",
+            "name": "img/cavebg/beke.png",
+            "size": 2162298,
+            "hash": "0891034a9bb7531b4b1a26236a611c4bf96369d2900e4ad8683cd2cbc64bfe4c"
+        },
+        {
+            "type": "file",
+            "name": "img/cavebg/bradla.png",
+            "size": 3345440,
+            "hash": "657585a3b8810ae3c75fc58bc176da2c7e972ebfc471be330a9cab5a6a2137fc"
+        },
+        {
+            "type": "file",
+            "name": "img/cavebg/dobsinska.png",
+            "size": 3978655,
+            "hash": "e2ac1e3ec2d88f8e9ebd3f258bc4867dd1d1cb147499f5b6a50f57c991c6e0d7"
+        },
+        {
+            "type": "file",
+            "name": "img/cavebg/domica.png",
+            "size": 2952356,
+            "hash": "03ae842fcb9a798ccc0c7df57fc2913f714df37b4519c17e4ff1eac41f21c13c"
+        },
+        {
+            "type": "file",
+            "name": "img/cavebg/gombasecka.png",
+            "size": 1365763,
+            "hash": "b9292bd2f6214e17d6227185980cf73c29b466c1ad898b46707a4f99782f08c1"
+        },
+        {
+            "type": "file",
+            "name": "img/cavebg/imrehovassa.png",
+            "size": 5120732,
+            "hash": "6b0870a1eaec05e82980f0123eb4eb2b05e0f85060d86569edcb6841b1ff2335"
+        },
+        {
+            "type": "file",
+            "name": "img/cavebg/jasovska.png",
+            "size": 2808443,
+            "hash": "5697fb4a4fb7cc37eef57f16ea90bfc6316d9557c554b2ad0924b69ad9dcde2b"
+        },
+        {
+            "type": "file",
+            "name": "img/cavebg/kossuthova.png",
+            "size": 4582254,
+            "hash": "1d6060723fc72538c0bc0130924c9734383aa4be2190f6b22a6f216b4de4f1b4"
+        },
+        {
+            "type": "file",
+            "name": "img/cavebg/krasnohorska.png",
+            "size": 2574229,
+            "hash": "85ca44300e25aa29281fb041b86362028a27c55e76c27a47d6063b3783453002"
+        },
+        {
+            "type": "file",
+            "name": "img/cavebg/meteor.png",
+            "size": 1563748,
+            "hash": "8f3dfad0f17b74d87474adc5093126b2dfbf65adefe23fc3cdb972d6bbeb6386"
+        },
+        {
+            "type": "file",
+            "name": "img/cavebg/ochtinska.png",
+            "size": 1801113,
+            "hash": "26df2aac1aa31e285ede1c989241c9dc35aa3ff63285722b0ff0743cb844e2fc"
+        },
+        {
+            "type": "file",
+            "name": "img/cavebg/rakocziho.png",
+            "size": 4895507,
+            "hash": "67277d9831dd4023cee3104ebaa75c0dff65f6f76146bf7ec03ceb80fc76e7df"
+        },
+        {
+            "type": "file",
+            "name": "img/cavebg/silicka.png",
+            "size": 3138817,
+            "hash": "201ec6ef186e65f55ff2d241b077c1f077b877728d7e928ec5185e286b8f4611"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery/baradla"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery/beke"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery/dobsinska"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery/domica"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery/gombasecka"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery/imrehovassa"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery/jasovska"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery/kossuthova"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery/krasnohorska"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery/meteor"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery/ochtinska"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery/rakocziho"
+        },
+        {
+            "type": "folder",
+            "name": "img/gallery/silicka"
+        },
+        {
+            "type": "file",
+            "name": "img/index/background.png",
+            "size": 3126753,
+            "hash": "62f43640ed3f84438e616aff727c7eeea935c2b96ae274ce49f3e66b1df62997"
+        },
+        {
+            "type": "file",
+            "name": "img/index/hungary.png",
+            "size": 7213,
+            "hash": "6ef84523fa4d2d32d145f3fb6b10741316ba9faa094fcc3e1f9d2aaeb0572c3e"
+        },
+        {
+            "type": "file",
+            "name": "img/index/england.png",
+            "size": 59720,
+            "hash": "10d59cebe81403308de01159784173d1181c7b2db8c914cff9951b54bc297551"
+        },
+        {
+            "type": "file",
+            "name": "img/index/slovakia.jpg",
+            "size": 22820,
+            "hash": "8db3efcd4e9d032280256411c9f57f83c4ec821c6efa604a2af94a71823080a1"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/Pozadie.png",
+            "size": 4524190,
+            "hash": "fa1b010de3f512403d0094490e0200cf8c52516d9808030aa59e4227c438840b"
+        },
+        {
+            "type": "folder",
+            "name": "img/hry/kvapel"
+        },
+        {
+            "type": "folder",
+            "name": "img/hry/pexeso"
+        },
+        {
+            "type": "folder",
+            "name": "img/hry/vystroj"
+        },
+        {
+            "type": "file",
+            "name": "img/kras-mapa/background.png",
+            "size": 4298070,
+            "hash": "4bd318dcaec78d8787df16f5d3e36e4c36095fa32abda8ef015802eaf3094520"
+        },
+        {
+            "type": "file",
+            "name": "img/mapa/background.png",
+            "size": 2206816,
+            "hash": "6a8b2d6d0edad401eed8a39cd41c4552674910c35d4e0fb0b44250f3debc5253"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/baradla/10.jpg",
+            "size": 1659035,
+            "hash": "ebb3f5bf31dd51e089514eec848370431c419d43260cdc16dbd55419abb750ab"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/baradla/1.jpg",
+            "size": 2728448,
+            "hash": "6f68ca653bd483db54559400b2402526f379f2cf0465727c12058d2f6a5dd12f"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/baradla/2.jpg",
+            "size": 2409804,
+            "hash": "ebcb733f3da4698459c74dbfbee9c432a117b3ec61596a7b8c738ea10c17b18f"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/baradla/3.jpg",
+            "size": 2368811,
+            "hash": "81063038b0f62361ca6cc55da15f30208435f9832d44ff68cb5cccec27a31963"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/baradla/4.jpg",
+            "size": 2746896,
+            "hash": "671c728f3bed51d5bcaedff696d2809bf5cf805160b8eb080d719961042f5c1f"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/baradla/5.jpg",
+            "size": 2499777,
+            "hash": "f6f1f3e29483730f88513eb3e78fd32489900fea059afe618abc52ae58b51ce6"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/baradla/6.jpg",
+            "size": 2384022,
+            "hash": "a61da9f5a2749616227ce15b4fd0645e35c8c68cb605a745a8d1ecb962204d92"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/baradla/7.jpg",
+            "size": 2937208,
+            "hash": "3c89e205d1016ce733d05b492297fc666676a7f27832f886f596bbc40cb1f0cc"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/baradla/8.jpg",
+            "size": 2694149,
+            "hash": "da24a9ae9f1e59fdeef16e3c0b96c2f4cedf03b9b20486aad3731cadd475b80c"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/baradla/9.jpg",
+            "size": 3184861,
+            "hash": "93477bf2cff0d0025cfed2eeea4d973227ecbf24fc8d6e65892a463b16c7e72f"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/beke/1.jpg",
+            "size": 2548310,
+            "hash": "bd764b7418a02097c0472658e4281365e5bbfaaba902e2cfe2fb69ed53abe39c"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/beke/3.jpg",
+            "size": 1862940,
+            "hash": "a177642ce8cb568d638c0d5e69b299ac529853a4a0cb9ef8dd8cb7b089315bd4"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/beke/2.jpg",
+            "size": 2521002,
+            "hash": "fd45ff5ef900dd5ca0eb7316194754f3ad9b370aebf240b22070431bdc60e0db"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/dobsinska/1.jpg",
+            "size": 2166836,
+            "hash": "3c12544b981eba1bc562a63eaa43a3e3af859c4a6ac9f3070de3dc320f4eec94"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/dobsinska/10.jpg",
+            "size": 970149,
+            "hash": "9247160a5534e204e9e0beca2f15793e7e0171b7b67a3e4dc173f04cd9aa9e3a"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/dobsinska/2.jpg",
+            "size": 2743717,
+            "hash": "1a3345a92b749d3d63a5b6f789e174299281a054962df0a6a43ad7439307f86e"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/dobsinska/3.jpg",
+            "size": 1118046,
+            "hash": "c952143c1f1df481da4c1906fcdde8558cfa314965c4fb316290b46e48ac2bef"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/dobsinska/4.jpg",
+            "size": 2606739,
+            "hash": "7bb5bb5d66d2ebfffc857dbd7ba04bccdc55dd2fc01d2091a00b97cbe81679c6"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/dobsinska/5.jpg",
+            "size": 3329391,
+            "hash": "615292e3b70571954ed59305e7b464524310862031b145b9703430a72ea195cb"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/dobsinska/6.jpg",
+            "size": 2401107,
+            "hash": "461b520eda8f347c05aaf6da640c4b25fbf2a1898cbbcbcfb3d8979396e45440"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/dobsinska/7.jpg",
+            "size": 712269,
+            "hash": "61161c101592af2a356eb782aa57eace4389e2859c26ee76068b966a58e36392"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/dobsinska/8.jpg",
+            "size": 1669938,
+            "hash": "75f2ffd2f1f1a02e349b0303052e5d7efd8251b0e42b7274abb2ef1a675bb165"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/dobsinska/9.jpg",
+            "size": 614928,
+            "hash": "9a8f63932cc0101e8f5f379d795a16f6d99fb034697a5e19042cd5a2b8e4eaa4"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/domica/1.jpg",
+            "size": 2806575,
+            "hash": "4ac2eac112f64dbd022b16e9f5fc8049efa2497a8b84180dd5139052cc6ae102"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/domica/10.jpg",
+            "size": 513629,
+            "hash": "4bd08c6f104dffd544a002887b08c4fa92b8bc74c1cadfd14138725ae46539cd"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/domica/2.jpg",
+            "size": 4379538,
+            "hash": "0ddc7c66e9eb075f7bc916229adf4542071a805fdf06f3a4bf40b593b6b9d3f0"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/domica/3.jpg",
+            "size": 2819400,
+            "hash": "9c4466b1900ea0115fe9886fdd8005587c8b85389c1ceb5e3c10bfd0cf0aa5cf"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/domica/4.jpg",
+            "size": 1289203,
+            "hash": "8fb1cd8276e67bffdbada73dc3a259f941d66b9f645bb81b9c00bf413f3106df"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/domica/5.jpg",
+            "size": 1118446,
+            "hash": "12ff6898624f1e4a7ec46ea49d6922dc767fa7d2cfaf776e4f2d22cf663f1636"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/domica/6.jpg",
+            "size": 1066472,
+            "hash": "3bb5bd79826cfd3e8a8ef676a175a268261ac314cc40f969c6fe4a76e25c81ac"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/domica/7.jpg",
+            "size": 627134,
+            "hash": "501c64f572c957eff82cfa22a17f95ab022ce0d5ad35368ce6384dd40d26d7a7"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/domica/8.jpg",
+            "size": 609487,
+            "hash": "a34d56db1abc77105d5301d89bb3601290fb4c6714416f59f70e1c4f28cae127"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/domica/9.jpg",
+            "size": 1198542,
+            "hash": "b8d7eff12af9aecf54e7991a048e02aed7004672394d5a3954f6c631637571d5"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/gombasecka/1.jpg",
+            "size": 1801670,
+            "hash": "b261bda6cddeeffb577a457ab64ebfa0ea4f83f0626128a3c80b921542d50c5a"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/gombasecka/10.jpg",
+            "size": 2075213,
+            "hash": "97fb565cd88fc629c822a8e1f8dc35fa5efd79607a061f2fc25faf0f9366c41b"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/gombasecka/2.jpg",
+            "size": 1132150,
+            "hash": "32bfedc07fcdaf28d332e60de9346bf9ec7935b9d1961092d2d3ec77ed7375a5"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/gombasecka/3.jpg",
+            "size": 1409003,
+            "hash": "e41f3d3149a83e93fddd5ec47b91cd0b838fd49bdef0881ceeb8c9126f5426c3"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/gombasecka/4.jpg",
+            "size": 1252010,
+            "hash": "8151441f55beda6bf44668a94311f2692dc8299bf32d89e69ad002615d59dd03"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/gombasecka/5.jpg",
+            "size": 1654637,
+            "hash": "8232c88730bd7edef19761ad2aa919cf452a3f11882fb6340d8d017b776f6d18"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/gombasecka/6.jpg",
+            "size": 888450,
+            "hash": "96503ac84dea5589098f69c1d4c495db157f048d14db942918899089c2d413d6"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/gombasecka/7.jpg",
+            "size": 1638839,
+            "hash": "22174a17aefc8732dffeb52250d8368ad881b87771acf1af6ba68bb4b98a37ad"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/gombasecka/8.jpg",
+            "size": 1133400,
+            "hash": "db3ac144e48d734d6371bbc2d1743c10455176706c24934053f740dcc0713384"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/gombasecka/9.jpg",
+            "size": 1392334,
+            "hash": "74b3a88c011eb70f1f860b279e6ced453e882723426643d1c7f5fc71dd48cad3"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/imrehovassa/1.jpg",
+            "size": 2274032,
+            "hash": "badbeff4e2f00852fd353358a13e937800d19abecc93f48d7631f1adf4aaa583"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/imrehovassa/2.jpg",
+            "size": 2471729,
+            "hash": "eb1328a9158794d2df9eb675f374cd49403308a809ea1e84883a1b44e1ca3680"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/imrehovassa/3.jpg",
+            "size": 2446369,
+            "hash": "036e190947b4d577eb612a1725f00f6ea2c535f3f5fd74c6394452d0d8d4379a"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/jasovska/1.jpg",
+            "size": 2451076,
+            "hash": "8bb65511f9e8158691d619b6c918419721763216c37cd4d48b6f3e13da77ecea"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/jasovska/10.jpg",
+            "size": 1901507,
+            "hash": "2a62cf4297d12c6674735ecd2d874dd62b66e3a3ae9ed39ce6d5ac14ca5a32de"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/jasovska/2.jpg",
+            "size": 1224239,
+            "hash": "01da50da485e78837d7071896cd8ccefecb7e004c6cac2bc06066c2a72e9e938"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/jasovska/3.jpg",
+            "size": 1038882,
+            "hash": "769896977aa96f1bc92e96da8ebe61083dc5f62b99909c6c3b0faf31682b5ef2"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/jasovska/5.jpg",
+            "size": 1292703,
+            "hash": "13f009f2a0a6ce4b2e19bcded8351c0d25bc9561d32950390a7449e7af6d6e65"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/jasovska/4.jpg",
+            "size": 2306511,
+            "hash": "c41f600bf76311cca8198ed2b96fb2921d397661b10829377aef3addae717bd8"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/jasovska/6.jpg",
+            "size": 2029941,
+            "hash": "11b8cd95211ede2618601ea18626be35b14194cc2631a426613a537224e97434"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/jasovska/8.jpg",
+            "size": 2093733,
+            "hash": "7a7571c8add64511e182896ee70f4d7fcb75e2fca0b094cae0d9862e5b929414"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/jasovska/9.jpg",
+            "size": 677318,
+            "hash": "5d5b184e00b774400bfe1a22c38002cb0e141f9ca3d388f30be9154524c630fb"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/jasovska/7.jpg",
+            "size": 678134,
+            "hash": "6090052bf86af7cd4c172b21607b085c4bd6605371c0370222dd93f148126370"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/kossuthova/1.jpg",
+            "size": 1096880,
+            "hash": "1232caa952f943a30bc2d0657c8358170194e09e700fb5c984cf1b76ceaf36ef"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/kossuthova/2.jpg",
+            "size": 2326368,
+            "hash": "63d2bfe252ac1fbf2c02b6d629236f66f0cfb0f28138870fb595820cf7d0e874"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/kossuthova/3.jpg",
+            "size": 1945215,
+            "hash": "bea488864631da63e9fcd6cb038b027b2b0290335e5b7eb1ce02645c3d650afb"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/kossuthova/4.jpg",
+            "size": 1970154,
+            "hash": "b9df4c701a1758e28592b59cf84b4b53da4ecca9208022e1ae50018c5606002c"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/kossuthova/6.jpg",
+            "size": 282584,
+            "hash": "fc46bee13a44534dceaff89d7135b5778a262ef1c7df27a268e247e6fd1008ff"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/krasnohorska/1.jpg",
+            "size": 1075749,
+            "hash": "82394cd21c8028ba9fadaa97c3d75a5290d14fd252427d86aad3de6e15c6b5c0"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/kossuthova/5.jpg",
+            "size": 191255,
+            "hash": "4fb054ce5ec57093ec0a48e1e4c375523ca00ea3c9bac6c6086da7d1ad74fce1"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/krasnohorska/10.jpg",
+            "size": 1510778,
+            "hash": "d149498f7d15ed719d6f27746f7932a92dafb0ef2945dd0569cd7158f2155e1d"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/krasnohorska/2.jpg",
+            "size": 3465361,
+            "hash": "fdbd5f83871aa3999bd1ebdd099025718f49b5fb1c3fe0fa6c1798a151a3eab2"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/krasnohorska/3.jpg",
+            "size": 2661089,
+            "hash": "d5b105f1a5fbde2ee1843dbd2e751f45f68723b554fe40ea9f6b611d20ebff5c"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/krasnohorska/4.jpg",
+            "size": 1378588,
+            "hash": "93d33af7d91b423061d39276604685ded727093c8bed8f4dfecd040297241fca"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/krasnohorska/6.jpg",
+            "size": 1000729,
+            "hash": "b549e79321d5860af111cf35fc80c1319ec01f43cb637cb401438ef69f40d6b5"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/krasnohorska/5.jpg",
+            "size": 1664151,
+            "hash": "f5a8235db95c28431f1d1fbbd263e6c3f22760942ad52dcfa65e38f4022ab8a4"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/krasnohorska/7.jpg",
+            "size": 842127,
+            "hash": "338a886ddfb6d16b5c663cece6e4ecd6f578658bc97c3ef4c901d734dbaaa05b"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/krasnohorska/8.jpg",
+            "size": 896359,
+            "hash": "3d0ecb92b117463014d44e24386801937b6a98aa79d4e7c0a489571e15b578cc"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/krasnohorska/9.jpg",
+            "size": 898543,
+            "hash": "c4799f6d79f2c409f083f5aa604d8fcf6688e0234206b18d57ca9f528677dae0"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/meteor/1.jpg",
+            "size": 1884603,
+            "hash": "ce3f7423fc8081f2e4f85d9f6aab2c0982433939d6cd9581a19bdd05427b634f"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/meteor/2.jpg",
+            "size": 1303777,
+            "hash": "19e4fe93d4c103234c8ad55875d060f749536556fb678615d61b69459239557f"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/meteor/3.jpg",
+            "size": 2020531,
+            "hash": "efa2c40df559d09581a3d1dc881d14a5054387d1713913227017bef7abca7a12"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/meteor/4.jpg",
+            "size": 1216321,
+            "hash": "989bbf7761199152d32eaccd4ddc2f45a4a0e685385e1f3061cc72f7aa3c1e13"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/meteor/5.jpg",
+            "size": 1863410,
+            "hash": "9e2e93bc4d699dafc67f28aafabcf8e1545e21a52c5551fef3afd3ee91c74974"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/meteor/6.jpg",
+            "size": 396114,
+            "hash": "320341440d2622867209a9668c1a2786ecc15952587a54b7c71fecbd42e31fd0"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/ochtinska/1.jpg",
+            "size": 2046480,
+            "hash": "743b1f6a08e44570d6fd134ba8f6a6ce68617b9b519a156f013480410946cfed"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/ochtinska/2.jpg",
+            "size": 1047428,
+            "hash": "2013b6a433d45248d6490c714dd2b6ebb525a55e439ea928eef9384acbcf42c8"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/ochtinska/3.jpg",
+            "size": 2653053,
+            "hash": "690e98f4867b8184417df8842af7ab73160d05170979dec4934081344d8c65d3"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/ochtinska/4.jpg",
+            "size": 659237,
+            "hash": "b822542a4bfed0b3c079d83c05c982f7376f874d129c7192037104b2b2f6c5cb"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/ochtinska/5.jpg",
+            "size": 843064,
+            "hash": "e1732ebe492f4fe75684c856ff64a98ebce1ce042cd9e518a1ef660ed1785358"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/ochtinska/6.jpg",
+            "size": 1365516,
+            "hash": "13c9fd4a171bfcd6c169b539f8272aa2cbdb2d55e86fb6ed20ce56631726e8e6"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/ochtinska/8.jpg",
+            "size": 3681891,
+            "hash": "363dc0a17c408a6ef886240dd937fdbe966866890089e9f6f728c38902d42193"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/ochtinska/7.jpg",
+            "size": 1790337,
+            "hash": "b500c99998113aa246d1fdebe4c398b638ebdc3c45bc1747a9385de97969fa7d"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/ochtinska/9.jpg",
+            "size": 1406377,
+            "hash": "ecda9312a9d4ed53136a3ba529e2b69b23c9445f01882db954a5d912f01b30b0"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/rakocziho/1.jpg",
+            "size": 2108842,
+            "hash": "305453aa1ad8fe79886649b6e9db9d5887836435582bf5554457e5560db556d9"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/rakocziho/3.jpg",
+            "size": 1219963,
+            "hash": "e92ed9ada9604d7ac8677eb14424ae8a70fd6b9377a036e268d0b984e8276615"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/rakocziho/4.jpg",
+            "size": 717216,
+            "hash": "52d94d4df39e7b2176b4c46e65541f209dc8dff968a8e3bc88ce1c27f2123e5a"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/rakocziho/2.jpg",
+            "size": 3138312,
+            "hash": "cb31109178eb0cce9509dc8956852b4a8ac14e317a4f28a5149d7230650b6b4a"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/silicka/1.jpg",
+            "size": 1976996,
+            "hash": "055f74c07a54d9fc1d12cb35655d13840b5c5d6857db87bfd364f01266d04da6"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/silicka/10.jpg",
+            "size": 917270,
+            "hash": "05417fa0dfe452efd20f4b56dbf44ccaf93a960da92f07a3fc7bf966023c3df2"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/silicka/2.jpg",
+            "size": 2262995,
+            "hash": "6a536cad843655e23fb0b1787723976643a93f527a71e748d716e10452ff7f4c"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/silicka/3.jpg",
+            "size": 1432405,
+            "hash": "fdcc609391ee09479a92dd1853d027f8e53c64e69a970ab6460dc581577c6e9d"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/silicka/4.jpg",
+            "size": 807137,
+            "hash": "c4fbd4ae4aaf0490bdf3921db5ea5a666a3d2e0e52e8e63bf2e15a912ac11482"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/silicka/5.jpg",
+            "size": 1048884,
+            "hash": "059af411542a1956528e325343cf22783473ac0b580904e8c5e46857303c4b43"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/silicka/6.jpg",
+            "size": 1951882,
+            "hash": "c08f9e92fae69276bb294f1e5064f54e861ba120e9db5f4bcf6195b1b96c44dc"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/silicka/7.jpg",
+            "size": 1025784,
+            "hash": "0fd4341083403e68e0bffe7c844b64e4ec3635a08e875084a6ffbb7dc4a9e71a"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/silicka/8.jpg",
+            "size": 864419,
+            "hash": "89a81564d1feccf9c8623d3afca21be76033ff0f6191303e7f33e99ad4b04dba"
+        },
+        {
+            "type": "file",
+            "name": "img/gallery/silicka/9.jpg",
+            "size": 1815738,
+            "hash": "3f6fd6af8128f285fffe2178b37a83ecf0f34cdd7f65a536818908db6a056c30"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/kvapel/bg.png",
+            "size": 17691,
+            "hash": "c9b88bc886a75d2a3255c74d0ba6ed263033cc7a42ceb23b67630dc4ccafec20"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/pexeso/p0.png",
+            "size": 56007,
+            "hash": "c60eff7c6e131744e0817ba7cd8d3d00afd5e37aee31ea8ce0de4298ec091590"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/pexeso/p1.png",
+            "size": 43995,
+            "hash": "d20781efad6b6a55def9340e1429737eba733e03ca6731197b64147301e819b1"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/pexeso/p2.png",
+            "size": 98898,
+            "hash": "a2aaf57fde8e18d37822acb6bd1772d40b19a80dbee80e8ed6943abd9f69dfc1"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/pexeso/p3.png",
+            "size": 46047,
+            "hash": "f5d36f29814b57793475514f665fbd4353af3ff85d184cec7796543749aaf144"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/pexeso/p4.png",
+            "size": 57424,
+            "hash": "6ca8d4594966cf880a3700d04add188d17c742aadf7b542b0e86fe7ef1aece5f"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/pexeso/p5.png",
+            "size": 29994,
+            "hash": "5f0f94acd33312a7786874486db02fe4f0f5a7939ee445e0d4c7e2bad2bd24fc"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/pexeso/p6.png",
+            "size": 64652,
+            "hash": "565dffb3d12e641cb87f3ecc574f025f6adfcf6dc232718a7aeea9fec3897e2a"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/pexeso/p7.png",
+            "size": 14497,
+            "hash": "38c4790e7745374c0205925a5f11c8775edcedcb7a61fc86eaad3cccff49b199"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/pexeso/p8.png",
+            "size": 213530,
+            "hash": "1b3c909b3d2da2aca2becbf60c269823794036828f0a4ed1b9c407850af7c146"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/1.png",
+            "size": 37757,
+            "hash": "ad1e8a8e5337c58f9567f10d7fdc398dbd4a7e8cb924aa72a797a5614b7c7a43"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/10.png",
+            "size": 35233,
+            "hash": "453c220f9aac715ea6ac7532241290b34f426ce6a793b61bbb27662cbf35002a"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/11.png",
+            "size": 29696,
+            "hash": "216381c10d66e4ed54cd40c58040a6f814bd8244c6939b6347896b27144aadf1"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/12.png",
+            "size": 30314,
+            "hash": "e2f0e6571d9e0f714cd6066a24ea03b5ff047d05a845f474ed0d0c7aad31eafb"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/13.png",
+            "size": 32410,
+            "hash": "f8954ac670ea19d07182b29e71d0b722e561b136e066f9d89f2d1c2406785de0"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/14.png",
+            "size": 21382,
+            "hash": "0f814f26be0298a41e4a7e28688d3d9b2f1275ba1d1ddb6da445bc6cdbdd9c20"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/2.png",
+            "size": 49105,
+            "hash": "af10dce454d0eb19b6e53b555325617eff25d5755a796b95b2ebdfce96643ef4"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/3.png",
+            "size": 49868,
+            "hash": "33515a2a760fc462a43603ea0fd1d3cb4a3bd76e40524758ff43c46ca02bfcf7"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/4.png",
+            "size": 25740,
+            "hash": "25119ea69a56f47a54804841db25ba5b43ce3f47e7e7e8872259623449fde297"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/5.png",
+            "size": 73680,
+            "hash": "e92af339ef691e530fb82636cf33077e06e251fada48741cb5108b881aaf67a0"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/6.png",
+            "size": 38344,
+            "hash": "9cc4c2ce360a5085ec4cebbcebe0b6ef303539e347650e7ab8beb69b2f2bfe43"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/8.png",
+            "size": 27778,
+            "hash": "8251a56a67ef1edce772a116d7ef30c99c359cd2218e967cff7291724e5f3006"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/9.png",
+            "size": 38613,
+            "hash": "cf909c955c1b5d5118f6363adfcf3c8fffca1a3fb086e2cf7e064560ee4ddd75"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/game_board.png",
+            "size": 837655,
+            "hash": "b97032abb2080738a0129c1bc1ea388c4b43b3210fb1e40a48066d3e1f1d62c0"
+        },
+        {
+            "type": "folder",
+            "name": "img/hry/vystroj/invert"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/7.png",
+            "size": 33923,
+            "hash": "60b81842591b8583d80d6dbd76d349a65cd6cde4ad083996b310251faea86408"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/invert/1.png",
+            "size": 40602,
+            "hash": "8d238c3e8adb99f11549e3b8fe3af8110a4091d4912365332ac3961a4db0b608"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/invert/2.png",
+            "size": 50768,
+            "hash": "4002fecba8e6ac03e13f848e458ae7cafedfd9206a8bd63276148e9063efe2c6"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/invert/3.png",
+            "size": 52681,
+            "hash": "82d9197ee13b273f731cf6ddbdf746d36b45927f683c06d4a2a4b29dba1df77c"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/invert/4.png",
+            "size": 28027,
+            "hash": "640c1fb77890ecf3d81c32aad08409d3856625e1fb08815d1f7c7c54711fb0a7"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/invert/5.png",
+            "size": 76350,
+            "hash": "f3d746b1bdc7cecb84c4c0d9f741eddd15c986b111b85623bf7a7c7e1c01ba26"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/invert/6.png",
+            "size": 41943,
+            "hash": "152688048d80cd160de96a7e0481bbf5cb7ebbab31b340d2e2a5e8039a7cd081"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/invert/7.png",
+            "size": 36605,
+            "hash": "3c584be84b23b7971d1d1d768759da67afe88de20b0e8a3c4e5ce050d4be961d"
+        },
+        {
+            "type": "file",
+            "name": "img/hry/vystroj/invert/8.png",
+            "size": 29633,
+            "hash": "5f31763bcc4fffef7a983ef8ab68e8e413884cda300d39547714fdf2fb28d6dc"
+        }
+    ]
+}

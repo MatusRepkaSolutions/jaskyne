@@ -347,3 +347,41 @@ body{
     background: #000;
     object-fit: contain;
 }
+
+/* Video GUI update */
+.cave-video-wrapper { position: relative; border-radius: 18px; }
+.cave-video { pointer-events: none; }
+.cave-video-play,
+.cave-video-close {
+    position: absolute;
+    z-index: 8;
+    border: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #f1d09a;
+    background: rgba(0,0,0,0.55);
+    box-shadow: 0 0 32px rgba(0,0,0,0.4);
+}
+.cave-video-play {
+    left: 50%;
+    top: 50%;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 86px;
+    padding-left: 14px;
+}
+.cave-video-close {
+    right: 34px;
+    top: 34px;
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    font-size: 62px;
+    line-height: 1;
+}
+.cave-video-wrapper.is-playing .cave-video-play { opacity: 0; pointer-events: none; }
+.cave-video-wrapper:not(.is-playing) .cave-video-close { opacity: 0.55; }

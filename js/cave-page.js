@@ -23,6 +23,10 @@ function initCaveTabs() {
 
             const target = button.dataset.tabTarget;
 
+            if (target !== "video" && typeof window.stopCaveVideo === "function") {
+                window.stopCaveVideo();
+            }
+
             tabButtons.forEach((btn) => {
                 btn.classList.remove("active", "button-anim-global-active");
             });
@@ -319,6 +323,28 @@ function initCaveVideo() {
     if (!videoPanel || !video) return;
 
     const videoBase = videoPanel.dataset.videoBase;
+    if (!videoBase) return;
+
+    const wrapper = video.closest(".cave-video-wrapper");
+    if (!wrapper) return;
+
+    video.removeAttribute("controls");
+    video.controls = false;
+
+    const playButton = document.createElement("button");
+    playButton.type = "button";
+    playButton.className = "cave-video-play";
+    playButton.setAttribute("aria-label", "Play video");
+    playButton.textContent = "▶";
+
+    const closeButton = document.createElement("button");
+    closeButton.type = "button";
+    closeButton.className = "cave-video-close";
+    closeButton.setAttribute("aria-label", "Close video");
+    closeButton.textContent = "×";
+
+    wrapper.appendChild(playButton);
+    wrapper.appendChild(closeButton);
 
     const langToVideoSuffix = {
         svk: "SK",
@@ -328,12 +354,21 @@ function initCaveVideo() {
 
     function getCurrentLanguage() {
         return (
+            window.appLanguage ||
             localStorage.getItem("selectedLanguage") ||
             localStorage.getItem("language") ||
             document.documentElement.lang ||
             "svk"
         );
     }
+
+    function stopVideo() {
+        video.pause();
+        try { video.currentTime = 0; } catch (_) {}
+        wrapper.classList.remove("is-playing");
+    }
+
+    window.stopCaveVideo = stopVideo;
 
     function setVideoByLanguage() {
         const lang = getCurrentLanguage();
@@ -344,16 +379,27 @@ function initCaveVideo() {
 
         if (currentSrc === newSrc) return;
 
-        video.pause();
+        stopVideo();
         video.setAttribute("src", newSrc);
         video.load();
     }
 
-    setVideoByLanguage();
-
-    document.querySelectorAll("[data-lang-switch]").forEach((button) => {
-        button.addEventListener("click", () => {
-            setTimeout(setVideoByLanguage, 80);
-        });
+    playButton.addEventListener("click", () => {
+        if (typeof window.playClickSound === "function") window.playClickSound();
+        video.play().then(() => wrapper.classList.add("is-playing")).catch(() => {});
     });
+
+    closeButton.addEventListener("click", () => {
+        if (typeof window.playClickSound === "function") window.playClickSound();
+        stopVideo();
+    });
+
+    video.addEventListener("ended", () => wrapper.classList.remove("is-playing"));
+    document.addEventListener("languageChanged", setVideoByLanguage);
+
+    document.querySelectorAll(".global-nav-btn, .home-button, .hry-btn, .hry-btn-hra, .hry-btn-picked").forEach((link) => {
+        link.addEventListener("click", stopVideo);
+    });
+
+    setVideoByLanguage();
 }

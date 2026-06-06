@@ -5,15 +5,26 @@
     <title>Rast kvapľa</title>
 
     <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/map2.css">
+    <link rel="stylesheet" href="css/rast-kvapla.css">
 
     <script src="js/main.js" defer></script>
+    <script src="js/rast-kvapla.js" defer></script>
 </head>
 
 <body data-translation-page="mapa" style="background: url('img/hry/Pozadie.png'); background-size: cover; background-position: center;">
 
-    <main class="page">
-        <h1 class="vystroj-title" data-txt="btnRastKvapla">Rast kvapľa</h1>
+    <main class="rast-page">
+        <h1 class="rast-title" data-txt="btnRastKvapla">Rast kvapľa</h1>
+
+        <section class="rast-stage">
+            <div class="rast-media-wrap">
+                <img class="rast-media" id="rastMedia" src="img/hry/rast-kvapla/rast-kvapla.gif" alt="Rast kvapľa">
+                <div class="rast-fallback" data-txt="rastFallback">Sem vlož GIF alebo obrázky fáz rastu kvapľa.</div>
+            </div>
+            <input class="rast-slider" id="rastSlider" type="range" min="0" max="9" step="1" value="0" aria-label="Rast kvapľa">
+        </section>
+
+        <p class="rast-status" data-txt="rastInstruction">Posúvaj časovú os a sleduj, ako kvapeľ rastie v čase.</p>
     </main>
 
     <div class="global-control-buttons">

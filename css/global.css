@@ -296,3 +296,26 @@ img, a {
         transform: scale(1);
     }
 }
+
+/* Consistent bottom navigation alignment */
+.global-control-buttons,
+.map-lang-switches { align-items: center; }
+.home-button,
+.global-nav-btn,
+.hry-btn,
+.hry-btn-hra,
+.hry-btn-picked,
+.hry-btn-restart,
+.map-lang-btn { flex: 0 0 auto; }
+.global-nav-btn,
+.hry-btn,
+.hry-btn-hra,
+.hry-btn-picked,
+.hry-btn-restart {
+    height: 100px;
+    min-height: 100px;
+    box-sizing: border-box;
+    line-height: 1;
+    white-space: nowrap;
+}
+.hry-btn-restart { border: 0; cursor: pointer; }
