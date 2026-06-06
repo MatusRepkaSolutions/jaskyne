@@ -270,7 +270,6 @@ body{
     object-position: center center;
     margin: 0 auto;
     display: block;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
     pointer-events: none;
     box-sizing: border-box;
 }
