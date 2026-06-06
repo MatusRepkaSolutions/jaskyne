@@ -115,15 +115,15 @@ body{
 }
 
 .pos2 {
-    left: 1405.4px;
-    top: 1714.8px;
+    left: 1363.4px;
+    top: 1718.8px;
     font-size: 36px;
     width: 273px;
 }
 
 .pos3 {
-    left: 1119.2px;
-    top: 1376px;
+    left: 1190.2px;
+    top: 1418px;
     flex-direction: row;
     gap: 40px;
     max-width: 499.2px;
@@ -135,7 +135,7 @@ body{
     margin: 0 0 0 auto;
 }
 .pos4 {
-    left: 2441.4px;
+    left: 2493.4px;
     top: 1041.6px;
     width: 305px;
     font-size: 36px;
@@ -149,41 +149,46 @@ body{
 }
 
 .pos6 {
-    left: 1410.2px;
-    top: 1463.4px;
+    left: 1459.2px;
+    top: 1466.4px;
     font-size: 36px;
     width: 252px;
 }
 
 .pos7 {
-    left: 917.2px;
-    top: 1491px;
+    left: 913.2px;
+    top: 1472px;
     font-size: 48px;
+    width: 296px;
 }
 
 .pos8 {
-    left: 1157.4px;
-    top: 1319.8px;
+    left: 1119.4px;
+    top: 1313.8px;
     font-size: 48px;
+    max-width: 500px;
+    width: 320px;
 }
 
 .pos9 {
-    left: 1243.2px;
-    width: min-content;
-    top: 1535px;
+    left: 1194.2px;
+    width: 190px;
+    top: 1551px;
     font-size: 48px;
 }
 
 .pos10 {
-    left: 1293.4px;
-    top: 1104.6px;
+    left: 1261.4px;
+    top: 1134.6px;
     font-size: 48px;
+    width: 273px;
 }
 
 .pos11 {
     left: 2222.4px;
     top: 639px;
     font-size: 48px;
+    width: 308px;
 }
 
 .pos12 {
