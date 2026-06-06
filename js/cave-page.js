@@ -339,12 +339,13 @@ function initCaveVideo() {
 
     const closeButton = document.createElement("button");
     closeButton.type = "button";
-    closeButton.className = "cave-video-close";
-    closeButton.setAttribute("aria-label", "Close video");
-    closeButton.textContent = "×";
+    closeButton.className = "cave-video-stop";
+    closeButton.setAttribute("aria-label", "Ukončiť video");
+    closeButton.setAttribute("data-txt", "videoStop");
+    closeButton.textContent = "Ukončiť video";
 
     wrapper.appendChild(playButton);
-    wrapper.appendChild(closeButton);
+    wrapper.insertAdjacentElement("afterend", closeButton);
 
     const langToVideoSuffix = {
         svk: "SK",

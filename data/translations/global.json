@@ -1,137 +1,142 @@
 {
-    "btnSlovakKarst": {
-        "svk": "Jaskyne Slovenského krasu",
-        "hun": "Szlovák-karszt barlangjai",
-        "eng": "Caves of the Slovak Karst"
-    },
-    "btnAggtelekKarst": {
-        "svk": "Jaskyne Aggteleckého krasu",
-        "hun": "Aggteleki-karszt barlangjai",
-        "eng": "Caves of the Aggtelek Karst"
-    },
-    "tabText": {
-        "svk": "Text",
-        "hun": "Szöveg",
-        "eng": "Text"
-    },
-    "tabGallery": {
-        "svk": "Galéria",
-        "hun": "Galéria",
-        "eng": "Gallery"
-    },
-    "tabVideo": {
-        "svk": "Video",
-        "hun": "Videó",
-        "eng": "Video"
-    },
-    "videoPlaceholder": {
-        "svk": "Video bude doplnené.",
-        "hun": "A videó hamarosan elérhető lesz.",
-        "eng": "Video will be added soon."
-    },
-    "InfoLengthLabel": {
-        "svk": "Celková dĺžka jaskyne",
-        "hun": "Barlang teljes hossza",
-        "eng": "Total length of the cave"
-    },
-    "InfoTempLabel": {
-        "svk": "Teplota vzduchu",
-        "hun": "A levegő hőmérséglete",
-        "eng": "Air temperature"
-    },
-    "InfoDepthLabel": {
-        "svk": "Hĺbka (vertikálne rozpätie)",
-        "hun": "Mélység (függőleges távolság)",
-        "eng": "Depth (vertical range)"
-    },
-    "InfoAgeLabel": {
-        "svk": "Vek najstaršieho aragonitu",
-        "hun": "A legrégebbi aragonit kora",
-        "eng": "Age of the oldest aragonite"
-    },
-    "InfoCountLabel": {
-        "svk": "Počet aragonitových jaskýň na svete (sprístupnených)",
-        "hun": "A világon található (látogatható) aragonitbarlangok száma",
-        "eng": "Number of aragonite caves in the world (open to the public)"
-    },
-    "btnGames": {
-        "svk": "Hry",
-        "hun": "Játékok",
-        "eng": "Games"
-    },
-    "btnRastKvapla": {
-        "svk": "Rast kvapľa",
-        "hun": "Cseppkő növekedése",
-        "eng": "Stalactite Growth"
-    },
-    "btnVystrojJaskyniara": {
-        "svk": "Výstroj Jaskyniara",
-        "hun": "A barlangász felszerelése",
-        "eng": "Caver Equipment"
-    },
-    "btnPexeso": {
-        "svk": "Pexeso",
-        "eng": "Memory Game",
-        "hun": "Memóriajáték"
-    },
-    "pexesoStatusDefault": {
-        "svk": "Nájdi dvojice.",
-        "eng": "Find the matching pairs.",
-        "hun": "Találd meg az egyforma párokat."
-    },
-    "pexesoStatusMatch": {
-        "svk": "Dvojica nájdená.",
-        "eng": "Pair found.",
-        "hun": "Pár megtalálva."
-    },
-    "pexesoStatusWrong": {
-        "svk": "Skús inú dvojicu.",
-        "eng": "Try another pair.",
-        "hun": "Próbálj másik párt."
-    },
-    "pexesoStatusWin": {
-        "svk": "Výborne! Našiel si všetky dvojice.",
-        "eng": "Great! You found all pairs.",
-        "hun": "Nagyszerű! Megtaláltad az összes párt."
-    },
-    "btnRestart": {
-        "svk": "Reštartovať hru",
-        "eng": "Restart Game",
-        "hun": "Játék újraindítása"
-    },
-    "vystrojStatusDefault": {
-        "svk": "Priraď správnu výstroj, ktorú jaskyniar potrebuje do jaskyne.",
-        "eng": "Assign the correct equipment the caver needs for the cave.",
-        "hun": "Rendeld hozzá a megfelelő felszerelést, amelyre a barlangásznak szüksége van a barlangban."
-    },
-    "vystrojStatusCorrect": {
-        "svk": "Správne.",
-        "eng": "Correct.",
-        "hun": "Helyes."
-    },
-    "vystrojStatusWrong": {
-        "svk": "Skús iný predmet alebo iné miesto.",
-        "eng": "Try a different item or another place.",
-        "hun": "Próbálj másik tárgyat vagy másik helyet."
-    },
-    "vystrojStatusWin": {
-        "svk": "Výborne! Priradil si všetku správnu výstroj.",
-        "eng": "Great! You assigned all the correct equipment.",
-        "hun": "Nagyszerű! Minden megfelelő felszerelést hozzárendeltél."
-    },
-    "vystrojInstruction": {
-        "svk": "Vyber predmet a priraď ho na správne miesto na postave.",
-        "hun": "Válassz tárgyat, és helyezd a megfelelő helyre az alakon.",
-        "eng": "Choose an item and place it on the correct spot on the figure."
-    },
-    "rastInstruction": {
-        "svk": "Posúvaj časovú os a sleduj, ako kvapeľ rastie v čase.",
-        "hun": "Mozgasd az idővonalat, és figyeld, hogyan növekszik a cseppkő az idő múlásával.",
-        "eng": "Move the timeline and watch how the stalactite grows over time."
-    },
-    "rastFallback": {
-        "svk": "Sem vlož GIF alebo obrázky fáz rastu kvapľa.",
-        "hun": "Ide helyezd be a GIF-et vagy a cseppkő növekedési fázisainak képeit.",
-        "eng": "Place the GIF or images of the stalactite growth stages here."
-    }
+  "btnSlovakKarst": {
+    "svk": "Jaskyne Slovenského krasu",
+    "hun": "Szlovák-karszt barlangjai",
+    "eng": "Caves of the Slovak Karst"
+  },
+  "btnAggtelekKarst": {
+    "svk": "Jaskyne Aggteleckého krasu",
+    "hun": "Aggteleki-karszt barlangjai",
+    "eng": "Caves of the Aggtelek Karst"
+  },
+  "tabText": {
+    "svk": "Text",
+    "hun": "Szöveg",
+    "eng": "Text"
+  },
+  "tabGallery": {
+    "svk": "Galéria",
+    "hun": "Galéria",
+    "eng": "Gallery"
+  },
+  "tabVideo": {
+    "svk": "Video",
+    "hun": "Videó",
+    "eng": "Video"
+  },
+  "videoPlaceholder": {
+    "svk": "Video bude doplnené.",
+    "hun": "A videó hamarosan elérhető lesz.",
+    "eng": "Video will be added soon."
+  },
+  "InfoLengthLabel": {
+    "svk": "Celková dĺžka jaskyne",
+    "hun": "Barlang teljes hossza",
+    "eng": "Total length of the cave"
+  },
+  "InfoTempLabel": {
+    "svk": "Teplota vzduchu",
+    "hun": "A levegő hőmérséglete",
+    "eng": "Air temperature"
+  },
+  "InfoDepthLabel": {
+    "svk": "Hĺbka (vertikálne rozpätie)",
+    "hun": "Mélység (függőleges távolság)",
+    "eng": "Depth (vertical range)"
+  },
+  "InfoAgeLabel": {
+    "svk": "Vek najstaršieho aragonitu",
+    "hun": "A legrégebbi aragonit kora",
+    "eng": "Age of the oldest aragonite"
+  },
+  "InfoCountLabel": {
+    "svk": "Počet aragonitových jaskýň na svete (sprístupnených)",
+    "hun": "A világon található (látogatható) aragonitbarlangok száma",
+    "eng": "Number of aragonite caves in the world (open to the public)"
+  },
+  "btnGames": {
+    "svk": "Hry",
+    "hun": "Játékok",
+    "eng": "Games"
+  },
+  "btnRastKvapla": {
+    "svk": "Rast kvapľa",
+    "hun": "Cseppkő növekedése",
+    "eng": "Stalactite Growth"
+  },
+  "btnVystrojJaskyniara": {
+    "svk": "Výstroj Jaskyniara",
+    "hun": "A barlangász felszerelése",
+    "eng": "Caver Equipment"
+  },
+  "btnPexeso": {
+    "svk": "Pexeso",
+    "eng": "Memory Game",
+    "hun": "Memóriajáték"
+  },
+  "pexesoStatusDefault": {
+    "svk": "Nájdi dvojice.",
+    "eng": "Find the matching pairs.",
+    "hun": "Találd meg az egyforma párokat."
+  },
+  "pexesoStatusMatch": {
+    "svk": "Dvojica nájdená.",
+    "eng": "Pair found.",
+    "hun": "Pár megtalálva."
+  },
+  "pexesoStatusWrong": {
+    "svk": "Skús inú dvojicu.",
+    "eng": "Try another pair.",
+    "hun": "Próbálj másik párt."
+  },
+  "pexesoStatusWin": {
+    "svk": "Výborne! Našiel si všetky dvojice.",
+    "eng": "Great! You found all pairs.",
+    "hun": "Nagyszerű! Megtaláltad az összes párt."
+  },
+  "btnRestart": {
+    "svk": "Reštartovať hru",
+    "eng": "Restart Game",
+    "hun": "Játék újraindítása"
+  },
+  "vystrojStatusDefault": {
+    "svk": "Priraď správnu výstroj, ktorú jaskyniar potrebuje do jaskyne.",
+    "eng": "Assign the correct equipment the caver needs for the cave.",
+    "hun": "Rendeld hozzá a megfelelő felszerelést, amelyre a barlangásznak szüksége van a barlangban."
+  },
+  "vystrojStatusCorrect": {
+    "svk": "Správne.",
+    "eng": "Correct.",
+    "hun": "Helyes."
+  },
+  "vystrojStatusWrong": {
+    "svk": "Skús iný predmet alebo iné miesto.",
+    "eng": "Try a different item or another place.",
+    "hun": "Próbálj másik tárgyat vagy másik helyet."
+  },
+  "vystrojStatusWin": {
+    "svk": "Výborne! Priradil si všetku správnu výstroj.",
+    "eng": "Great! You assigned all the correct equipment.",
+    "hun": "Nagyszerű! Minden megfelelő felszerelést hozzárendeltél."
+  },
+  "vystrojInstruction": {
+    "svk": "Vyber predmet a priraď ho na správne miesto na postave.",
+    "hun": "Válassz tárgyat, és helyezd a megfelelő helyre az alakon.",
+    "eng": "Choose an item and place it on the correct spot on the figure."
+  },
+  "rastInstruction": {
+    "svk": "Posúvaj časovú os a sleduj, ako kvapeľ rastie v čase.",
+    "hun": "Mozgasd az idővonalat, és figyeld, hogyan növekszik a cseppkő az idő múlásával.",
+    "eng": "Move the timeline and watch how the stalactite grows over time."
+  },
+  "rastFallback": {
+    "svk": "Sem vlož GIF alebo obrázky fáz rastu kvapľa.",
+    "hun": "Ide helyezd be a GIF-et vagy a cseppkő növekedési fázisainak képeit.",
+    "eng": "Place the GIF or images of the stalactite growth stages here."
+  },
+  "videoStop": {
+    "svk": "Ukončiť video",
+    "eng": "Stop video",
+    "hun": "Videó leállítása"
+  }
 }
