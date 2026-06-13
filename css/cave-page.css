@@ -354,7 +354,7 @@ body{
 .cave-video-wrapper { position: relative; border-radius: 18px; }
 .cave-video { pointer-events: none; }
 .cave-video-play,
-.cave-video-close {
+.cave-video-stop {
     position: absolute;
     z-index: 8;
     border: 0;
@@ -376,7 +376,7 @@ body{
     font-size: 86px;
     padding-left: 14px;
 }
-.cave-video-close {
+.cave-video-stop {
     right: 34px;
     top: 34px;
     width: 94px;
@@ -386,4 +386,48 @@ body{
     line-height: 1;
 }
 .cave-video-wrapper.is-playing .cave-video-play { opacity: 0; pointer-events: none; }
-.cave-video-wrapper:not(.is-playing) .cave-video-close { opacity: 0.55; }
+.cave-video-wrapper:not(.is-playing) .cave-video-stop { opacity: 0.55; }
+
+
+/* Fixed custom video stop button */
+.cave-video-stop{
+    position:absolute;
+    right:34px;
+    top:34px;
+    width:94px;
+    height:94px;
+    padding:0;
+    border:0;
+    border-radius:50%;
+    background:rgba(0,0,0,0.55);
+    color:#f1d09a;
+    font-size:0;
+    line-height:1;
+    cursor:pointer;
+    z-index:9;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 0 32px rgba(0,0,0,0.4);
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .2s ease, background-color .2s ease;
+}
+
+.cave-video-stop::before,
+.cave-video-stop::after{
+    content:"";
+    position:absolute;
+    width:48px;
+    height:7px;
+    border-radius:999px;
+    background:#f1d09a;
+}
+
+.cave-video-stop::before{ transform:rotate(45deg); }
+.cave-video-stop::after{ transform:rotate(-45deg); }
+.cave-video-wrapper.is-playing .cave-video-stop{
+    opacity:1;
+    pointer-events:auto;
+}
+.cave-video-stop:hover{ background:rgba(0,0,0,0.72); }

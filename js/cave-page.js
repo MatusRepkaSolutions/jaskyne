@@ -341,11 +341,11 @@ function initCaveVideo() {
     closeButton.type = "button";
     closeButton.className = "cave-video-stop";
     closeButton.setAttribute("aria-label", "Ukončiť video");
-    closeButton.setAttribute("data-txt", "videoStop");
+    closeButton.setAttribute("title", "Ukončiť video");
     closeButton.textContent = "Ukončiť video";
 
     wrapper.appendChild(playButton);
-    wrapper.insertAdjacentElement("afterend", closeButton);
+    wrapper.appendChild(closeButton);
 
     const langToVideoSuffix = {
         svk: "SK",
