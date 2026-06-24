@@ -21,7 +21,7 @@
     },
     "map1": {
         "svk": "Najvýraznejšie sú riečne jaskyne vytvorené vodnými tokmi, napríklad jaskynný systém Domica–Baradla, Gombasecká jaskyňa a Krásnohorská jaskyňa.\nHlboké korózne priepasti, ako Veľká Žomboj, Zvonivá priepasť či Obrovská priepasť, vznikli rozpúšťaním vápenca presakujúcou vodou v miestach tektonických zlomov.\nSvetovým unikátom je Ochtinská aragonitová jaskyňa, ktorá vznikla v ankeritoch.\n",
-        "hun": "A Szlovák karszt a jól kifejlett síksági karszt egyedülálló példája, amelyhez hasonló nem található Közép-Európában. A terület mészköveiben és dolomitjaiban az összes alapvető karsztjelenség előfordul, számos karrmező, víznyelő, vakvölgy, szoros, kanyon és több mint 1 400 barlang található itt.\n",
+        "hun": "A legjellegzetesebbek a vízfolyások által kialakított patak barlangok, például a Domica–Baradla barlangrendszer, a Gombaszögi-barlang és a Buzgó-barlang. A mély koroziós szakadékok, mint például a Nagy Zsomboly, a Csengő-lyuk vagy az Óriás-zsomboly, a tektonikus törésvonalak mentén a beszivárgó víz által feloldott mészkövekben keletkeztek. Világszerte egyedülálló az Ochtinai-aragonit-barlang, amely ankeritokban alakult ki.\n",
         "eng": "The most prominent are river caves formed by flowing water, such as the Domica–Baradla cave system, Gombasek Cave, and Krásnohorská Cave.\nDeep corrosion shafts—such as Veľká Žomboj, Zvonivá Chasm, and Obrovská Chasm—were formed by the dissolution of limestone by percolating water along tectonic faults.\nA global rarity is the Ochtinská Aragonite Cave, formed in ankerite.\n"
     },
     "map2": {
@@ -48,6 +48,11 @@
         "svk": "Slovenský kras je jedinečným príkladom dobre vyvinutého planinového krasu, ktorý v strednej Európe nemá obdobu. Na relatívne malom území sa tu sústreďujú všetky základné krasové javy – od škrapov a závr­tov až po tiesňavy, kaňony a viac ako 1 400 jaskýň.",
         "hun": "A Szlovák karszt a jól kifejlett síksági karszt egyedülálló példája, amelyhez hasonló nem található Közép-Európában. A terület mészköveiben és dolomitjaiban az összes alapvető karsztjelenség előfordul, számos karrmező, víznyelő, vakvölgy, szoros, kanyon és több mint 1 400 barlang található itt.",
         "eng": "The Slovak Karst is a unique example of a well-developed plateau karst, unparalleled in Central Europe. Within a relatively small area, it features a full range of karst phenomena—from karren and sinkholes to gorges, canyons, and more than 1,400 caves."
+    },
+    "map01": {
+        "svk": "Táto mimoriadna koncentrácia a rozmanitosť robí územie výnimočným aj v celosvetovom meradle. Jaskyne Slovenského a Aggteleckého krasu sú preto zapísané do zoznamu svetového dedičstva UNESCO a ich ochrana a prezentácia je záväzkom voči budúcim generáciám.",
+        "hun": "Ez a rendkívüli koncentráció és sokszínűség világszinten is kivételessé teszi a területet. A Szlovák- és Aggteleki-karszt barlangjai ezért felkerültek az UNESCO világörökség listájára, és védelmük, valamint bemutatásuk a jövő generációk iránti kötelezettségünk.",
+        "eng": "This remarkable concentration and diversity make the area exceptional on a global scale. The Caves of the Slovak and Aggtelek Karst are therefore inscribed on the UNESCO World Heritage List, and their protection and presentation represent a commitment to future generations."
     },
     "ochotnicka": {
         "svk": "Ochtinská aragonitová jaskyňa",
